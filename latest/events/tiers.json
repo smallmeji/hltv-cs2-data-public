@@ -1,17 +1,65 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-08T14:06:58.873Z",
+    "requested_at": "2026-05-09T14:17:05.646Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
-    "event_count": 101,
+    "event_count": 104,
     "warnings": []
   },
   "events": [
+    {
+      "event_name": "BC Game Masters Europe Season 2 Series 1",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 3,
+      "map_records": 5,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-09T22:13:53.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "IEM Atlanta 2026",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 7,
+      "map_records": 0,
+      "normalized_matches": 0,
+      "calendar_matches": 7,
+      "latest_at": "2026-05-11T23:00:00.000Z",
+      "sources": [
+        "match_calendar"
+      ]
+    },
+    {
+      "event_name": "NODWIN Clutch Series 8",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 1,
+      "map_records": 2,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-09T22:15:17.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
     {
       "event_name": "BLAST Bounty 2026 Season 1 Finals",
       "tier": "S",
@@ -163,13 +211,14 @@
       "manual_source": "manual",
       "notes": null,
       "manual_updated_at": "2026-05-04T18:30:13.000Z",
-      "display_count": 4,
-      "map_records": 0,
+      "display_count": 26,
+      "map_records": 52,
       "normalized_matches": 0,
-      "calendar_matches": 4,
-      "latest_at": "2026-05-09T14:00:00.000Z",
+      "calendar_matches": 2,
+      "latest_at": "2026-05-09T22:15:21.000Z",
       "sources": [
         "event_tiers",
+        "map_matches",
         "match_calendar"
       ]
     },
