@@ -1,51 +1,19 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-10T16:34:03.532Z",
+    "requested_at": "2026-05-11T19:50:47.384Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
-    "event_count": 104,
+    "event_count": 105,
     "warnings": []
   },
   "events": [
     {
-      "event_name": "BC Game Masters Europe Season 2 Series 1",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 3,
-      "map_records": 5,
-      "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-09T22:13:53.000Z",
-      "sources": [
-        "map_matches"
-      ]
-    },
-    {
-      "event_name": "IEM Atlanta 2026",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 7,
-      "map_records": 0,
-      "normalized_matches": 0,
-      "calendar_matches": 7,
-      "latest_at": "2026-05-11T23:00:00.000Z",
-      "sources": [
-        "match_calendar"
-      ]
-    },
-    {
-      "event_name": "NODWIN Clutch Series 8",
+      "event_name": "Hero Esports Asian Champions League 2026",
       "tier": null,
       "manual_tier": false,
       "manual_source": null,
@@ -55,7 +23,7 @@
       "map_records": 4,
       "normalized_matches": 0,
       "calendar_matches": 0,
-      "latest_at": "2026-05-11T00:03:55.000Z",
+      "latest_at": "2026-05-12T03:47:43.000Z",
       "sources": [
         "map_matches"
       ]
@@ -157,6 +125,23 @@
       ]
     },
     {
+      "event_name": "IEM Atlanta 2026",
+      "tier": "S",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 13,
+      "map_records": 26,
+      "normalized_matches": 0,
+      "calendar_matches": 5,
+      "latest_at": "2026-05-12T03:48:42.000Z",
+      "sources": [
+        "map_matches",
+        "match_calendar"
+      ]
+    },
+    {
       "event_name": "IEM Kraków 2026",
       "tier": "S",
       "manual_tier": false,
@@ -211,15 +196,14 @@
       "manual_source": "manual",
       "notes": null,
       "manual_updated_at": "2026-05-04T18:30:13.000Z",
-      "display_count": 55,
-      "map_records": 110,
+      "display_count": 83,
+      "map_records": 166,
       "normalized_matches": 0,
-      "calendar_matches": 7,
-      "latest_at": "2026-05-11T14:00:00.000Z",
+      "calendar_matches": 0,
+      "latest_at": "2026-05-12T03:49:10.000Z",
       "sources": [
         "event_tiers",
-        "map_matches",
-        "match_calendar"
+        "map_matches"
       ]
     },
     {
@@ -362,6 +346,22 @@
       "normalized_matches": 0,
       "calendar_matches": 0,
       "latest_at": "2026-04-21T15:33:21.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "BC Game Masters Europe Season 2 Series 1",
+      "tier": "B",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 3,
+      "map_records": 5,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-09T22:13:53.000Z",
       "sources": [
         "map_matches"
       ]
@@ -922,6 +922,22 @@
       "normalized_matches": 0,
       "calendar_matches": 0,
       "latest_at": "2026-04-28T17:36:07.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "NODWIN Clutch Series 8",
+      "tier": "B",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 2,
+      "map_records": 4,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-11T00:03:55.000Z",
       "sources": [
         "map_matches"
       ]
