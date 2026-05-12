@@ -1,16 +1,23 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-12T08:39:04.202Z",
+    "requested_at": "2026-05-12T10:14:28.686Z",
     "limit": 40,
     "source_policy": "api_with_legacy_fallback",
     "top_limit": 40,
     "requested_extra_team_ids": [
       12257,
-      11712
+      11712,
+      12878,
+      8474,
+      13592
     ],
-    "exported_extra_team_ids": [],
-    "exported_team_count": 40
+    "exported_extra_team_ids": [
+      12257,
+      12878,
+      8474
+    ],
+    "exported_team_count": 43
   },
   "teams": [
     {
@@ -212,78 +219,12 @@
       "list_type": "top"
     },
     {
-      "db_id": 9,
-      "hltv_id": 11861,
-      "name": "Aurora",
-      "name_zh": "Aurora",
-      "slug": "aurora",
-      "rank": 4,
-      "coverage": {
-        "overall_maps": 7,
-        "lan_maps": 7,
-        "overall_match_rows": 92,
-        "lan_match_rows": 77,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:48:51.000Z",
-        "latest_match_at": "2026-05-12T03:45:43.000Z",
-        "latest_player_at": "2026-05-12T13:49:18.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "PARIVISION",
-            "result": "16 - 14",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "10/05/26",
-            "opponent_name": "The Huns",
-            "result": "13 - 3",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "HEROIC",
-            "result": "11 - 13",
-            "won": 0,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "15/04/26",
-            "opponent_name": "Natus Vincere",
-            "result": "4 - 13",
-            "won": 0,
-            "event_name": "IEM Rio 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "14/04/26",
-            "opponent_name": "MOUZ",
-            "result": "8 - 13",
-            "won": 0,
-            "event_name": "IEM Rio 2026",
-            "event_tier": "S",
-            "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
       "db_id": 90001,
       "hltv_id": 11283,
       "name": "Falcons",
       "name_zh": "猎鹰",
       "slug": "falcons",
-      "rank": 5,
+      "rank": 4,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -349,7 +290,7 @@
       "name": "Team Spirit",
       "name_zh": "Spirit",
       "slug": "spirit",
-      "rank": 6,
+      "rank": 5,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -401,6 +342,72 @@
             "opponent_name": "Falcons",
             "result": "13 - 4",
             "won": 1,
+            "event_name": "IEM Rio 2026",
+            "event_tier": "S",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 9,
+      "hltv_id": 11861,
+      "name": "Aurora",
+      "name_zh": "Aurora",
+      "slug": "aurora",
+      "rank": 6,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 92,
+        "lan_match_rows": 77,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:48:51.000Z",
+        "latest_match_at": "2026-05-12T03:45:43.000Z",
+        "latest_player_at": "2026-05-12T13:49:18.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "PARIVISION",
+            "result": "16 - 14",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "10/05/26",
+            "opponent_name": "The Huns",
+            "result": "13 - 3",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "09/05/26",
+            "opponent_name": "HEROIC",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "15/04/26",
+            "opponent_name": "Natus Vincere",
+            "result": "4 - 13",
+            "won": 0,
+            "event_name": "IEM Rio 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "14/04/26",
+            "opponent_name": "MOUZ",
+            "result": "8 - 13",
+            "won": 0,
             "event_name": "IEM Rio 2026",
             "event_tier": "S",
             "map_name": "Mirage"
@@ -1004,12 +1011,78 @@
       "list_type": "top"
     },
     {
+      "db_id": 120011,
+      "hltv_id": 9996,
+      "name": "9z",
+      "name_zh": "9z",
+      "slug": "9z",
+      "rank": 16,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 132,
+        "lan_match_rows": 95,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:17.000Z",
+        "latest_match_at": "2026-05-12T03:47:09.000Z",
+        "latest_player_at": "2026-05-12T13:50:41.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "MOUZ",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "10/05/26",
+            "opponent_name": "Falcons",
+            "result": "13 - 1",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "09/05/26",
+            "opponent_name": "PARIVISION",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Legacy",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "BetBoom RUSH B Summit Season 3",
+            "event_tier": "C",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "25/04/26",
+            "opponent_name": "Vasco",
+            "result": "13 - 3",
+            "won": 1,
+            "event_name": "BetBoom RUSH B Summit Season 3",
+            "event_tier": "C",
+            "map_name": "Overpass"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 10,
       "hltv_id": 11241,
       "name": "B8",
       "name_zh": "B8",
       "slug": "b8",
-      "rank": 16,
+      "rank": 17,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 6,
@@ -1075,7 +1148,7 @@
       "name": "Legacy",
       "name_zh": "菊花队",
       "slug": "legacy",
-      "rank": 17,
+      "rank": 18,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -1130,72 +1203,6 @@
             "event_name": "IEM Rio 2026",
             "event_tier": "S",
             "map_name": "Ancient"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120011,
-      "hltv_id": 9996,
-      "name": "9z",
-      "name_zh": "9z",
-      "slug": "9z",
-      "rank": 18,
-      "coverage": {
-        "overall_maps": 7,
-        "lan_maps": 7,
-        "overall_match_rows": 132,
-        "lan_match_rows": 95,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:17.000Z",
-        "latest_match_at": "2026-05-12T03:47:09.000Z",
-        "latest_player_at": "2026-05-12T13:50:41.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "MOUZ",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "10/05/26",
-            "opponent_name": "Falcons",
-            "result": "13 - 1",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "PARIVISION",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Legacy",
-            "result": "11 - 13",
-            "won": 0,
-            "event_name": "BetBoom RUSH B Summit Season 3",
-            "event_tier": "C",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "25/04/26",
-            "opponent_name": "Vasco",
-            "result": "13 - 3",
-            "won": 1,
-            "event_name": "BetBoom RUSH B Summit Season 3",
-            "event_tier": "C",
-            "map_name": "Overpass"
           }
         ]
       },
@@ -1268,276 +1275,12 @@
       "list_type": "top"
     },
     {
-      "db_id": 210001,
-      "hltv_id": 12376,
-      "name": "M80",
-      "name_zh": "M80",
-      "slug": "m80",
-      "rank": 20,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 81,
-        "lan_match_rows": 48,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:21.000Z",
-        "latest_match_at": "2026-05-12T13:50:32.000Z",
-        "latest_player_at": "2026-05-12T13:50:44.000Z",
-        "recent_form": [
-          {
-            "match_date": "12/05/26",
-            "opponent_name": "Legacy",
-            "result": "7 - 13",
-            "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "04/05/26",
-            "opponent_name": "Wildcard",
-            "result": "13 - 10",
-            "won": 1,
-            "event_name": "Thunderpick World Championship 2026 North America",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Marsborne",
-            "result": "8 - 13",
-            "won": 0,
-            "event_name": "FRAG 20",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "02/04/26",
-            "opponent_name": "Monte",
-            "result": "13 - 10",
-            "won": 1,
-            "event_name": "Digital Crusade DraculaN Season 6",
-            "event_tier": "B",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "12/05/26",
-            "opponent_name": "Legacy",
-            "result": "5 - 13",
-            "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Inferno"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 240003,
-      "hltv_id": 12474,
-      "name": "Alliance",
-      "name_zh": "Alliance",
-      "slug": "alliance",
-      "rank": 21,
-      "coverage": {
-        "overall_maps": 7,
-        "lan_maps": 6,
-        "overall_match_rows": 114,
-        "lan_match_rows": 51,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:44.000Z",
-        "latest_match_at": "2026-05-09T22:13:53.000Z",
-        "latest_player_at": "2026-05-12T13:51:07.000Z",
-        "recent_form": [
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "Nuclear TigeRES",
-            "result": "7 - 13",
-            "won": 0,
-            "event_name": "BC Game Masters Europe Season 2 Series 1",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Nuclear TigeRES",
-            "result": "10 - 13",
-            "won": 0,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Oxuji",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "21/04/26",
-            "opponent_name": "KOLESIE",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "Tipsport Conquest of Prague 2026",
-            "event_tier": "C",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "15/04/26",
-            "opponent_name": "UNiTY",
-            "result": "13 - 0",
-            "won": 1,
-            "event_name": "Tipsport Conquest of Prague 2026",
-            "event_tier": "C",
-            "map_name": "Anubis"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 180001,
-      "hltv_id": 4863,
-      "name": "TYLOO",
-      "name_zh": "天禄",
-      "slug": "tyloo",
-      "rank": 22,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 64,
-        "lan_match_rows": 35,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:45.000Z",
-        "latest_match_at": "2026-05-12T13:50:57.000Z",
-        "latest_player_at": "2026-05-12T13:51:09.000Z",
-        "recent_form": [
-          {
-            "match_date": "12/05/26",
-            "opponent_name": "5star",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "Hero Esports Asian Champions League 2026",
-            "event_tier": null,
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "Ground Zero",
-            "result": "13 - 4",
-            "won": 1,
-            "event_name": "Hero Esports Asian Champions League 2026",
-            "event_tier": null,
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "03/05/26",
-            "opponent_name": "NEXVOID",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
-            "event_tier": "C",
-            "map_name": "Overpass"
-          },
-          {
-            "match_date": "02/05/26",
-            "opponent_name": "Chinggis Warriors",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
-            "event_tier": "C",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "01/05/26",
-            "opponent_name": "The Huns",
-            "result": "13 - 4",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
-            "event_tier": "C",
-            "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120009,
-      "hltv_id": 12394,
-      "name": "BetBoom",
-      "name_zh": "BetBoom",
-      "slug": "betboom",
-      "rank": 23,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 117,
-        "lan_match_rows": 69,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:46.000Z",
-        "latest_match_at": "2026-05-12T03:47:38.000Z",
-        "latest_player_at": "2026-05-12T13:51:08.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "B8",
-            "result": "13 - 5",
-            "won": 1,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Ursa",
-            "result": "9 - 13",
-            "won": 0,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "04/04/26",
-            "opponent_name": "G2",
-            "result": "9 - 13",
-            "won": 0,
-            "event_name": "Stake Ranked Episode 1",
-            "event_tier": "A",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "B8",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Nuke"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Ursa",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Nuke"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
       "db_id": 30003,
       "hltv_id": 7175,
       "name": "Heroic",
       "name_zh": "HEROIC",
       "slug": "heroic",
-      "rank": 24,
+      "rank": 20,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -1598,12 +1341,210 @@
       "list_type": "top"
     },
     {
+      "db_id": 210001,
+      "hltv_id": 12376,
+      "name": "M80",
+      "name_zh": "M80",
+      "slug": "m80",
+      "rank": 21,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 81,
+        "lan_match_rows": 48,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:21.000Z",
+        "latest_match_at": "2026-05-12T13:50:32.000Z",
+        "latest_player_at": "2026-05-12T13:50:44.000Z",
+        "recent_form": [
+          {
+            "match_date": "12/05/26",
+            "opponent_name": "Legacy",
+            "result": "7 - 13",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "04/05/26",
+            "opponent_name": "Wildcard",
+            "result": "13 - 10",
+            "won": 1,
+            "event_name": "Thunderpick World Championship 2026 North America",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Marsborne",
+            "result": "8 - 13",
+            "won": 0,
+            "event_name": "FRAG 20",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "02/04/26",
+            "opponent_name": "Monte",
+            "result": "13 - 10",
+            "won": 1,
+            "event_name": "Digital Crusade DraculaN Season 6",
+            "event_tier": "B",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "12/05/26",
+            "opponent_name": "Legacy",
+            "result": "5 - 13",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Inferno"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 120009,
+      "hltv_id": 12394,
+      "name": "BetBoom",
+      "name_zh": "BetBoom",
+      "slug": "betboom",
+      "rank": 22,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 117,
+        "lan_match_rows": 69,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:46.000Z",
+        "latest_match_at": "2026-05-12T03:47:38.000Z",
+        "latest_player_at": "2026-05-12T13:51:08.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "B8",
+            "result": "13 - 5",
+            "won": 1,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "24/04/26",
+            "opponent_name": "Ursa",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "NODWIN Clutch Series 7",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "04/04/26",
+            "opponent_name": "G2",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 1",
+            "event_tier": "A",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "B8",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "24/04/26",
+            "opponent_name": "Ursa",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "NODWIN Clutch Series 7",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 180001,
+      "hltv_id": 4863,
+      "name": "TYLOO",
+      "name_zh": "天禄",
+      "slug": "tyloo",
+      "rank": 23,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 64,
+        "lan_match_rows": 35,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:45.000Z",
+        "latest_match_at": "2026-05-12T13:50:57.000Z",
+        "latest_player_at": "2026-05-12T13:51:09.000Z",
+        "recent_form": [
+          {
+            "match_date": "12/05/26",
+            "opponent_name": "5star",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "Hero Esports Asian Champions League 2026",
+            "event_tier": null,
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "Ground Zero",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "Hero Esports Asian Champions League 2026",
+            "event_tier": null,
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "03/05/26",
+            "opponent_name": "NEXVOID",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
+            "event_tier": "C",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "02/05/26",
+            "opponent_name": "Chinggis Warriors",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
+            "event_tier": "C",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "01/05/26",
+            "opponent_name": "The Huns",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
+            "event_tier": "C",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 120001,
       "hltv_id": 5973,
       "name": "Liquid",
       "name_zh": "液体",
       "slug": "liquid",
-      "rank": 25,
+      "rank": 24,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -1664,66 +1605,66 @@
       "list_type": "top"
     },
     {
-      "db_id": 120005,
-      "hltv_id": 6673,
-      "name": "NRG",
-      "name_zh": "NRG",
-      "slug": "nrg",
-      "rank": 26,
+      "db_id": 240003,
+      "hltv_id": 12474,
+      "name": "Alliance",
+      "name_zh": "Alliance",
+      "slug": "alliance",
+      "rank": 25,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 6,
-        "overall_match_rows": 68,
-        "lan_match_rows": 54,
+        "overall_match_rows": 114,
+        "lan_match_rows": 51,
         "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:51:12.000Z",
-        "latest_match_at": "2026-05-12T13:51:23.000Z",
-        "latest_player_at": "2026-05-12T13:51:35.000Z",
+        "latest_map_stats_at": "2026-05-12T13:50:44.000Z",
+        "latest_match_at": "2026-05-09T22:13:53.000Z",
+        "latest_player_at": "2026-05-12T13:51:07.000Z",
         "recent_form": [
           {
-            "match_date": "11/05/26",
-            "opponent_name": "FUT",
-            "result": "9 - 13",
+            "match_date": "09/05/26",
+            "opponent_name": "Nuclear TigeRES",
+            "result": "7 - 13",
             "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Overpass"
-          },
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "FUT",
-            "result": "13 - 16",
-            "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
+            "event_name": "BC Game Masters Europe Season 2 Series 1",
+            "event_tier": "B",
+            "map_name": "Anubis"
           },
           {
             "match_date": "26/04/26",
-            "opponent_name": "Passion UA",
-            "result": "11 - 13",
+            "opponent_name": "Nuclear TigeRES",
+            "result": "10 - 13",
             "won": 0,
-            "event_name": "FRAG 20",
+            "event_name": "NODWIN Clutch Series 7",
             "event_tier": "B",
             "map_name": "Inferno"
           },
           {
-            "match_date": "07/04/26",
-            "opponent_name": "Legacy",
-            "result": "6 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Inferno"
+            "match_date": "24/04/26",
+            "opponent_name": "Oxuji",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "NODWIN Clutch Series 7",
+            "event_tier": "B",
+            "map_name": "Anubis"
           },
           {
-            "match_date": "26/04/26",
-            "opponent_name": "Passion UA",
+            "match_date": "21/04/26",
+            "opponent_name": "KOLESIE",
             "result": "13 - 9",
             "won": 1,
-            "event_name": "FRAG 20",
-            "event_tier": "B",
-            "map_name": "Mirage"
+            "event_name": "Tipsport Conquest of Prague 2026",
+            "event_tier": "C",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "15/04/26",
+            "opponent_name": "UNiTY",
+            "result": "13 - 0",
+            "won": 1,
+            "event_name": "Tipsport Conquest of Prague 2026",
+            "event_tier": "C",
+            "map_name": "Anubis"
           }
         ]
       },
@@ -1735,7 +1676,7 @@
       "name": "MIBR",
       "name_zh": "MIBR",
       "slug": "mibr",
-      "rank": 27,
+      "rank": 26,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -1796,12 +1737,144 @@
       "list_type": "top"
     },
     {
+      "db_id": 120005,
+      "hltv_id": 6673,
+      "name": "NRG",
+      "name_zh": "NRG",
+      "slug": "nrg",
+      "rank": 27,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 6,
+        "overall_match_rows": 68,
+        "lan_match_rows": 54,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:51:12.000Z",
+        "latest_match_at": "2026-05-12T13:51:23.000Z",
+        "latest_player_at": "2026-05-12T13:51:35.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "FUT",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "FUT",
+            "result": "13 - 16",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Passion UA",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "FRAG 20",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "07/04/26",
+            "opponent_name": "Legacy",
+            "result": "6 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Passion UA",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "FRAG 20",
+            "event_tier": "B",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 120003,
+      "hltv_id": 13404,
+      "name": "Gentle Mates",
+      "name_zh": "Gentle Mates",
+      "slug": "gentle-mates",
+      "rank": 28,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 84,
+        "lan_match_rows": 53,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:52:08.000Z",
+        "latest_match_at": "2026-05-12T03:49:04.000Z",
+        "latest_player_at": "2026-05-12T13:52:30.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "HEROIC",
+            "result": "13 - 6",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "10/05/26",
+            "opponent_name": "K27",
+            "result": "13 - 10",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "09/05/26",
+            "opponent_name": "MOUZ",
+            "result": "5 - 13",
+            "won": 0,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "03/05/26",
+            "opponent_name": "magic",
+            "result": "19 - 22",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "02/05/26",
+            "opponent_name": "FOKUS",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 300001,
       "hltv_id": 11737,
       "name": "EYEBALLERS",
       "name_zh": "EYEBALLERS",
       "slug": "eyeballers",
-      "rank": 28,
+      "rank": 29,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -1856,72 +1929,6 @@
             "event_name": "Tipsport Conquest of Prague 2026",
             "event_tier": "C",
             "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120008,
-      "hltv_id": 4411,
-      "name": "Ninjas in Pyjamas",
-      "name_zh": "NiP",
-      "slug": "ninjas-in-pyjamas",
-      "rank": 29,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 76,
-        "lan_match_rows": 51,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:51:14.000Z",
-        "latest_match_at": "2026-04-26T22:54:21.000Z",
-        "latest_player_at": "2026-05-12T13:51:37.000Z",
-        "recent_form": [
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Monte",
-            "result": "2 - 13",
-            "won": 0,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "25/04/26",
-            "opponent_name": "BIG",
-            "result": "13 - 5",
-            "won": 1,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "25/04/26",
-            "opponent_name": "100 Thieves",
-            "result": "13 - 11",
-            "won": 1,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Monte",
-            "result": "14 - 16",
-            "won": 0,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "23/04/26",
-            "opponent_name": "Sharks",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Nuke"
           }
         ]
       },
@@ -2192,12 +2199,78 @@
       "list_type": "top"
     },
     {
+      "db_id": 120008,
+      "hltv_id": 4411,
+      "name": "Ninjas in Pyjamas",
+      "name_zh": "NiP",
+      "slug": "ninjas-in-pyjamas",
+      "rank": 34,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 76,
+        "lan_match_rows": 51,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:51:14.000Z",
+        "latest_match_at": "2026-04-26T22:54:21.000Z",
+        "latest_player_at": "2026-05-12T13:51:37.000Z",
+        "recent_form": [
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Monte",
+            "result": "2 - 13",
+            "won": 0,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "25/04/26",
+            "opponent_name": "BIG",
+            "result": "13 - 5",
+            "won": 1,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "25/04/26",
+            "opponent_name": "100 Thieves",
+            "result": "13 - 11",
+            "won": 1,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "24/04/26",
+            "opponent_name": "Monte",
+            "result": "14 - 16",
+            "won": 0,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "23/04/26",
+            "opponent_name": "Sharks",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 120006,
       "hltv_id": 12426,
       "name": "Passion UA",
       "name_zh": "Passion UA",
       "slug": "passion-ua",
-      "rank": 34,
+      "rank": 35,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -2263,7 +2336,7 @@
       "name": "BESTIA",
       "name_zh": "BESTIA",
       "slug": "bestia",
-      "rank": 35,
+      "rank": 36,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -2318,72 +2391,6 @@
             "event_name": "Urban Riga Open Season 4",
             "event_tier": "C",
             "map_name": "Dust2"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120003,
-      "hltv_id": 13404,
-      "name": "Gentle Mates",
-      "name_zh": "Gentle Mates",
-      "slug": "gentle-mates",
-      "rank": 36,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 84,
-        "lan_match_rows": 53,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:52:08.000Z",
-        "latest_match_at": "2026-05-12T03:49:04.000Z",
-        "latest_player_at": "2026-05-12T13:52:30.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "HEROIC",
-            "result": "13 - 6",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "10/05/26",
-            "opponent_name": "K27",
-            "result": "13 - 10",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "MOUZ",
-            "result": "5 - 13",
-            "won": 0,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "03/05/26",
-            "opponent_name": "magic",
-            "result": "19 - 22",
-            "won": 0,
-            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "02/05/26",
-            "opponent_name": "FOKUS",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
-            "event_tier": "B",
-            "map_name": "Nuke"
           }
         ]
       },
@@ -2456,78 +2463,12 @@
       "list_type": "top"
     },
     {
-      "db_id": 300003,
-      "hltv_id": 13117,
-      "name": "Inner Circle",
-      "name_zh": "Inner Circle",
-      "slug": "inner-circle",
-      "rank": 38,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 87,
-        "lan_match_rows": 27,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:52:09.000Z",
-        "latest_match_at": "2026-04-14T15:26:48.000Z",
-        "latest_player_at": "2026-05-12T13:52:32.000Z",
-        "recent_form": [
-          {
-            "match_date": "07/04/26",
-            "opponent_name": "B8",
-            "result": "6 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "07/04/26",
-            "opponent_name": "B8",
-            "result": "11 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "06/04/26",
-            "opponent_name": "FaZe",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "06/04/26",
-            "opponent_name": "FaZe",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Nuke"
-          },
-          {
-            "match_date": "05/04/26",
-            "opponent_name": "Legacy",
-            "result": "9 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
       "db_id": 360002,
       "hltv_id": 11712,
       "name": "Sashi",
       "name_zh": "Sashi",
       "slug": "sashi",
-      "rank": 39,
+      "rank": 38,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -2588,24 +2529,120 @@
       "list_type": "top"
     },
     {
+      "db_id": 300003,
+      "hltv_id": 13117,
+      "name": "Inner Circle",
+      "name_zh": "Inner Circle",
+      "slug": "inner-circle",
+      "rank": 39,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 87,
+        "lan_match_rows": 27,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:52:09.000Z",
+        "latest_match_at": "2026-04-14T15:26:48.000Z",
+        "latest_player_at": "2026-05-12T13:52:32.000Z",
+        "recent_form": [
+          {
+            "match_date": "07/04/26",
+            "opponent_name": "B8",
+            "result": "6 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "07/04/26",
+            "opponent_name": "B8",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "06/04/26",
+            "opponent_name": "FaZe",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "06/04/26",
+            "opponent_name": "FaZe",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "05/04/26",
+            "opponent_name": "Legacy",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 390001,
+      "hltv_id": 13592,
+      "name": "magic",
+      "name_zh": null,
+      "slug": "magic",
+      "rank": 40,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 6,
+        "overall_match_rows": 0,
+        "lan_match_rows": 0,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T10:10:59.000Z",
+        "latest_match_at": null,
+        "latest_player_at": "2026-05-12T10:13:13.000Z",
+        "recent_form": []
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 360001,
       "hltv_id": 12257,
       "name": "Wildcard",
       "name_zh": "Wildcard",
       "slug": "wildcard",
-      "rank": 40,
+      "rank": null,
+      "list_type": "extra",
       "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
+        "overall_maps": 7,
+        "lan_maps": 7,
         "overall_match_rows": 87,
         "lan_match_rows": 37,
         "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:52:12.000Z",
-        "latest_match_at": "2026-05-04T15:38:41.000Z",
+        "latest_map_stats_at": "2026-05-12T06:07:18.000Z",
+        "latest_match_at": "2026-05-12T06:07:18.000Z",
         "latest_player_at": "2026-05-12T13:52:35.000Z",
         "recent_form": [
           {
-            "match_date": "04/05/26",
+            "match_date": "2026-05-04T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "12 - 16",
+            "won": 0,
+            "event_name": "ESL Challenger League Season 51 North America Cup 4",
+            "event_tier": "B",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "2026-05-04T00:00:00.000Z",
             "opponent_name": "M80",
             "result": "10 - 13",
             "won": 0,
@@ -2614,44 +2651,166 @@
             "map_name": "Inferno"
           },
           {
-            "match_date": "02/05/26",
-            "opponent_name": "Voca",
-            "result": "13 - 6",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 North America Cup 4",
-            "event_tier": "B",
-            "map_name": "Overpass"
-          },
-          {
-            "match_date": "30/04/26",
-            "opponent_name": "FarmVille",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 North America Cup 4",
-            "event_tier": "B",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Fisher College",
-            "result": "13 - 4",
-            "won": 1,
-            "event_name": "FRAG 20",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "04/05/26",
+            "match_date": "2026-05-04T00:00:00.000Z",
             "opponent_name": "M80",
             "result": "14 - 16",
             "won": 0,
             "event_name": "Thunderpick World Championship 2026 North America",
             "event_tier": "B",
             "map_name": "Dust2"
+          },
+          {
+            "match_date": "2026-05-04T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "8 - 13",
+            "won": 0,
+            "event_name": "ESL Challenger League Season 51 North America Cup 4",
+            "event_tier": "B",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "13 - 6",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 North America Cup 4",
+            "event_tier": "B",
+            "map_name": "Overpass"
           }
         ]
-      },
-      "list_type": "top"
+      }
+    },
+    {
+      "db_id": 120010,
+      "hltv_id": 12878,
+      "name": "BC.Game",
+      "name_zh": "BC.Game",
+      "slug": "bcgame",
+      "rank": null,
+      "list_type": "extra",
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 44,
+        "lan_match_rows": 35,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-08T11:45:46.000Z",
+        "latest_match_at": "2026-05-08T11:46:12.000Z",
+        "latest_player_at": "2026-05-08T14:04:18.000Z",
+        "recent_form": [
+          {
+            "match_date": "2026-04-07T00:00:00.000Z",
+            "opponent_name": "FOKUS",
+            "result": "10 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "2026-04-07T00:00:00.000Z",
+            "opponent_name": "FOKUS",
+            "result": "3 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "2026-04-06T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "2026-04-06T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "2026-04-06T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "10 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Dust2"
+          }
+        ]
+      }
+    },
+    {
+      "db_id": 210003,
+      "hltv_id": 8474,
+      "name": "100T",
+      "name_zh": "100T",
+      "slug": "100-thieves",
+      "rank": null,
+      "list_type": "extra",
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 68,
+        "lan_match_rows": 46,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-08T11:48:31.000Z",
+        "latest_match_at": "2026-05-08T11:49:02.000Z",
+        "latest_player_at": "2026-05-08T11:50:43.000Z",
+        "recent_form": [
+          {
+            "match_date": "2026-05-03T00:00:00.000Z",
+            "opponent_name": "Sharks",
+            "result": "7 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "2026-05-03T00:00:00.000Z",
+            "opponent_name": "Sharks",
+            "result": "4 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "illwill",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "illwill",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "illwill",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Mirage"
+          }
+        ]
+      }
     }
   ],
   "top_teams": [
@@ -2854,78 +3013,12 @@
       "list_type": "top"
     },
     {
-      "db_id": 9,
-      "hltv_id": 11861,
-      "name": "Aurora",
-      "name_zh": "Aurora",
-      "slug": "aurora",
-      "rank": 4,
-      "coverage": {
-        "overall_maps": 7,
-        "lan_maps": 7,
-        "overall_match_rows": 92,
-        "lan_match_rows": 77,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:48:51.000Z",
-        "latest_match_at": "2026-05-12T03:45:43.000Z",
-        "latest_player_at": "2026-05-12T13:49:18.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "PARIVISION",
-            "result": "16 - 14",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "10/05/26",
-            "opponent_name": "The Huns",
-            "result": "13 - 3",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "HEROIC",
-            "result": "11 - 13",
-            "won": 0,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "15/04/26",
-            "opponent_name": "Natus Vincere",
-            "result": "4 - 13",
-            "won": 0,
-            "event_name": "IEM Rio 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "14/04/26",
-            "opponent_name": "MOUZ",
-            "result": "8 - 13",
-            "won": 0,
-            "event_name": "IEM Rio 2026",
-            "event_tier": "S",
-            "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
       "db_id": 90001,
       "hltv_id": 11283,
       "name": "Falcons",
       "name_zh": "猎鹰",
       "slug": "falcons",
-      "rank": 5,
+      "rank": 4,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -2991,7 +3084,7 @@
       "name": "Team Spirit",
       "name_zh": "Spirit",
       "slug": "spirit",
-      "rank": 6,
+      "rank": 5,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -3043,6 +3136,72 @@
             "opponent_name": "Falcons",
             "result": "13 - 4",
             "won": 1,
+            "event_name": "IEM Rio 2026",
+            "event_tier": "S",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 9,
+      "hltv_id": 11861,
+      "name": "Aurora",
+      "name_zh": "Aurora",
+      "slug": "aurora",
+      "rank": 6,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 92,
+        "lan_match_rows": 77,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:48:51.000Z",
+        "latest_match_at": "2026-05-12T03:45:43.000Z",
+        "latest_player_at": "2026-05-12T13:49:18.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "PARIVISION",
+            "result": "16 - 14",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "10/05/26",
+            "opponent_name": "The Huns",
+            "result": "13 - 3",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "09/05/26",
+            "opponent_name": "HEROIC",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "15/04/26",
+            "opponent_name": "Natus Vincere",
+            "result": "4 - 13",
+            "won": 0,
+            "event_name": "IEM Rio 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "14/04/26",
+            "opponent_name": "MOUZ",
+            "result": "8 - 13",
+            "won": 0,
             "event_name": "IEM Rio 2026",
             "event_tier": "S",
             "map_name": "Mirage"
@@ -3646,12 +3805,78 @@
       "list_type": "top"
     },
     {
+      "db_id": 120011,
+      "hltv_id": 9996,
+      "name": "9z",
+      "name_zh": "9z",
+      "slug": "9z",
+      "rank": 16,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 132,
+        "lan_match_rows": 95,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:17.000Z",
+        "latest_match_at": "2026-05-12T03:47:09.000Z",
+        "latest_player_at": "2026-05-12T13:50:41.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "MOUZ",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "10/05/26",
+            "opponent_name": "Falcons",
+            "result": "13 - 1",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "09/05/26",
+            "opponent_name": "PARIVISION",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Legacy",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "BetBoom RUSH B Summit Season 3",
+            "event_tier": "C",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "25/04/26",
+            "opponent_name": "Vasco",
+            "result": "13 - 3",
+            "won": 1,
+            "event_name": "BetBoom RUSH B Summit Season 3",
+            "event_tier": "C",
+            "map_name": "Overpass"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 10,
       "hltv_id": 11241,
       "name": "B8",
       "name_zh": "B8",
       "slug": "b8",
-      "rank": 16,
+      "rank": 17,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 6,
@@ -3717,7 +3942,7 @@
       "name": "Legacy",
       "name_zh": "菊花队",
       "slug": "legacy",
-      "rank": 17,
+      "rank": 18,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -3772,72 +3997,6 @@
             "event_name": "IEM Rio 2026",
             "event_tier": "S",
             "map_name": "Ancient"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120011,
-      "hltv_id": 9996,
-      "name": "9z",
-      "name_zh": "9z",
-      "slug": "9z",
-      "rank": 18,
-      "coverage": {
-        "overall_maps": 7,
-        "lan_maps": 7,
-        "overall_match_rows": 132,
-        "lan_match_rows": 95,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:17.000Z",
-        "latest_match_at": "2026-05-12T03:47:09.000Z",
-        "latest_player_at": "2026-05-12T13:50:41.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "MOUZ",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "10/05/26",
-            "opponent_name": "Falcons",
-            "result": "13 - 1",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "PARIVISION",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Legacy",
-            "result": "11 - 13",
-            "won": 0,
-            "event_name": "BetBoom RUSH B Summit Season 3",
-            "event_tier": "C",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "25/04/26",
-            "opponent_name": "Vasco",
-            "result": "13 - 3",
-            "won": 1,
-            "event_name": "BetBoom RUSH B Summit Season 3",
-            "event_tier": "C",
-            "map_name": "Overpass"
           }
         ]
       },
@@ -3910,276 +4069,12 @@
       "list_type": "top"
     },
     {
-      "db_id": 210001,
-      "hltv_id": 12376,
-      "name": "M80",
-      "name_zh": "M80",
-      "slug": "m80",
-      "rank": 20,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 81,
-        "lan_match_rows": 48,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:21.000Z",
-        "latest_match_at": "2026-05-12T13:50:32.000Z",
-        "latest_player_at": "2026-05-12T13:50:44.000Z",
-        "recent_form": [
-          {
-            "match_date": "12/05/26",
-            "opponent_name": "Legacy",
-            "result": "7 - 13",
-            "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "04/05/26",
-            "opponent_name": "Wildcard",
-            "result": "13 - 10",
-            "won": 1,
-            "event_name": "Thunderpick World Championship 2026 North America",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Marsborne",
-            "result": "8 - 13",
-            "won": 0,
-            "event_name": "FRAG 20",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "02/04/26",
-            "opponent_name": "Monte",
-            "result": "13 - 10",
-            "won": 1,
-            "event_name": "Digital Crusade DraculaN Season 6",
-            "event_tier": "B",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "12/05/26",
-            "opponent_name": "Legacy",
-            "result": "5 - 13",
-            "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Inferno"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 240003,
-      "hltv_id": 12474,
-      "name": "Alliance",
-      "name_zh": "Alliance",
-      "slug": "alliance",
-      "rank": 21,
-      "coverage": {
-        "overall_maps": 7,
-        "lan_maps": 6,
-        "overall_match_rows": 114,
-        "lan_match_rows": 51,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:44.000Z",
-        "latest_match_at": "2026-05-09T22:13:53.000Z",
-        "latest_player_at": "2026-05-12T13:51:07.000Z",
-        "recent_form": [
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "Nuclear TigeRES",
-            "result": "7 - 13",
-            "won": 0,
-            "event_name": "BC Game Masters Europe Season 2 Series 1",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Nuclear TigeRES",
-            "result": "10 - 13",
-            "won": 0,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Oxuji",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "21/04/26",
-            "opponent_name": "KOLESIE",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "Tipsport Conquest of Prague 2026",
-            "event_tier": "C",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "15/04/26",
-            "opponent_name": "UNiTY",
-            "result": "13 - 0",
-            "won": 1,
-            "event_name": "Tipsport Conquest of Prague 2026",
-            "event_tier": "C",
-            "map_name": "Anubis"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 180001,
-      "hltv_id": 4863,
-      "name": "TYLOO",
-      "name_zh": "天禄",
-      "slug": "tyloo",
-      "rank": 22,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 64,
-        "lan_match_rows": 35,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:45.000Z",
-        "latest_match_at": "2026-05-12T13:50:57.000Z",
-        "latest_player_at": "2026-05-12T13:51:09.000Z",
-        "recent_form": [
-          {
-            "match_date": "12/05/26",
-            "opponent_name": "5star",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "Hero Esports Asian Champions League 2026",
-            "event_tier": null,
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "Ground Zero",
-            "result": "13 - 4",
-            "won": 1,
-            "event_name": "Hero Esports Asian Champions League 2026",
-            "event_tier": null,
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "03/05/26",
-            "opponent_name": "NEXVOID",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
-            "event_tier": "C",
-            "map_name": "Overpass"
-          },
-          {
-            "match_date": "02/05/26",
-            "opponent_name": "Chinggis Warriors",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
-            "event_tier": "C",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "01/05/26",
-            "opponent_name": "The Huns",
-            "result": "13 - 4",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
-            "event_tier": "C",
-            "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120009,
-      "hltv_id": 12394,
-      "name": "BetBoom",
-      "name_zh": "BetBoom",
-      "slug": "betboom",
-      "rank": 23,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 117,
-        "lan_match_rows": 69,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:50:46.000Z",
-        "latest_match_at": "2026-05-12T03:47:38.000Z",
-        "latest_player_at": "2026-05-12T13:51:08.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "B8",
-            "result": "13 - 5",
-            "won": 1,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Ursa",
-            "result": "9 - 13",
-            "won": 0,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "04/04/26",
-            "opponent_name": "G2",
-            "result": "9 - 13",
-            "won": 0,
-            "event_name": "Stake Ranked Episode 1",
-            "event_tier": "A",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "B8",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Nuke"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Ursa",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "NODWIN Clutch Series 7",
-            "event_tier": "B",
-            "map_name": "Nuke"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
       "db_id": 30003,
       "hltv_id": 7175,
       "name": "Heroic",
       "name_zh": "HEROIC",
       "slug": "heroic",
-      "rank": 24,
+      "rank": 20,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -4240,12 +4135,210 @@
       "list_type": "top"
     },
     {
+      "db_id": 210001,
+      "hltv_id": 12376,
+      "name": "M80",
+      "name_zh": "M80",
+      "slug": "m80",
+      "rank": 21,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 81,
+        "lan_match_rows": 48,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:21.000Z",
+        "latest_match_at": "2026-05-12T13:50:32.000Z",
+        "latest_player_at": "2026-05-12T13:50:44.000Z",
+        "recent_form": [
+          {
+            "match_date": "12/05/26",
+            "opponent_name": "Legacy",
+            "result": "7 - 13",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "04/05/26",
+            "opponent_name": "Wildcard",
+            "result": "13 - 10",
+            "won": 1,
+            "event_name": "Thunderpick World Championship 2026 North America",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Marsborne",
+            "result": "8 - 13",
+            "won": 0,
+            "event_name": "FRAG 20",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "02/04/26",
+            "opponent_name": "Monte",
+            "result": "13 - 10",
+            "won": 1,
+            "event_name": "Digital Crusade DraculaN Season 6",
+            "event_tier": "B",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "12/05/26",
+            "opponent_name": "Legacy",
+            "result": "5 - 13",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Inferno"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 120009,
+      "hltv_id": 12394,
+      "name": "BetBoom",
+      "name_zh": "BetBoom",
+      "slug": "betboom",
+      "rank": 22,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 117,
+        "lan_match_rows": 69,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:46.000Z",
+        "latest_match_at": "2026-05-12T03:47:38.000Z",
+        "latest_player_at": "2026-05-12T13:51:08.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "B8",
+            "result": "13 - 5",
+            "won": 1,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "24/04/26",
+            "opponent_name": "Ursa",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "NODWIN Clutch Series 7",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "04/04/26",
+            "opponent_name": "G2",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 1",
+            "event_tier": "A",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "B8",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "24/04/26",
+            "opponent_name": "Ursa",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "NODWIN Clutch Series 7",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 180001,
+      "hltv_id": 4863,
+      "name": "TYLOO",
+      "name_zh": "天禄",
+      "slug": "tyloo",
+      "rank": 23,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 64,
+        "lan_match_rows": 35,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:50:45.000Z",
+        "latest_match_at": "2026-05-12T13:50:57.000Z",
+        "latest_player_at": "2026-05-12T13:51:09.000Z",
+        "recent_form": [
+          {
+            "match_date": "12/05/26",
+            "opponent_name": "5star",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "Hero Esports Asian Champions League 2026",
+            "event_tier": null,
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "Ground Zero",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "Hero Esports Asian Champions League 2026",
+            "event_tier": null,
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "03/05/26",
+            "opponent_name": "NEXVOID",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
+            "event_tier": "C",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "02/05/26",
+            "opponent_name": "Chinggis Warriors",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
+            "event_tier": "C",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "01/05/26",
+            "opponent_name": "The Huns",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 Asia-Pacific Cup 4",
+            "event_tier": "C",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 120001,
       "hltv_id": 5973,
       "name": "Liquid",
       "name_zh": "液体",
       "slug": "liquid",
-      "rank": 25,
+      "rank": 24,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -4306,66 +4399,66 @@
       "list_type": "top"
     },
     {
-      "db_id": 120005,
-      "hltv_id": 6673,
-      "name": "NRG",
-      "name_zh": "NRG",
-      "slug": "nrg",
-      "rank": 26,
+      "db_id": 240003,
+      "hltv_id": 12474,
+      "name": "Alliance",
+      "name_zh": "Alliance",
+      "slug": "alliance",
+      "rank": 25,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 6,
-        "overall_match_rows": 68,
-        "lan_match_rows": 54,
+        "overall_match_rows": 114,
+        "lan_match_rows": 51,
         "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:51:12.000Z",
-        "latest_match_at": "2026-05-12T13:51:23.000Z",
-        "latest_player_at": "2026-05-12T13:51:35.000Z",
+        "latest_map_stats_at": "2026-05-12T13:50:44.000Z",
+        "latest_match_at": "2026-05-09T22:13:53.000Z",
+        "latest_player_at": "2026-05-12T13:51:07.000Z",
         "recent_form": [
           {
-            "match_date": "11/05/26",
-            "opponent_name": "FUT",
-            "result": "9 - 13",
+            "match_date": "09/05/26",
+            "opponent_name": "Nuclear TigeRES",
+            "result": "7 - 13",
             "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Overpass"
-          },
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "FUT",
-            "result": "13 - 16",
-            "won": 0,
-            "event_name": "IEM Atlanta 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
+            "event_name": "BC Game Masters Europe Season 2 Series 1",
+            "event_tier": "B",
+            "map_name": "Anubis"
           },
           {
             "match_date": "26/04/26",
-            "opponent_name": "Passion UA",
-            "result": "11 - 13",
+            "opponent_name": "Nuclear TigeRES",
+            "result": "10 - 13",
             "won": 0,
-            "event_name": "FRAG 20",
+            "event_name": "NODWIN Clutch Series 7",
             "event_tier": "B",
             "map_name": "Inferno"
           },
           {
-            "match_date": "07/04/26",
-            "opponent_name": "Legacy",
-            "result": "6 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Inferno"
+            "match_date": "24/04/26",
+            "opponent_name": "Oxuji",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "NODWIN Clutch Series 7",
+            "event_tier": "B",
+            "map_name": "Anubis"
           },
           {
-            "match_date": "26/04/26",
-            "opponent_name": "Passion UA",
+            "match_date": "21/04/26",
+            "opponent_name": "KOLESIE",
             "result": "13 - 9",
             "won": 1,
-            "event_name": "FRAG 20",
-            "event_tier": "B",
-            "map_name": "Mirage"
+            "event_name": "Tipsport Conquest of Prague 2026",
+            "event_tier": "C",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "15/04/26",
+            "opponent_name": "UNiTY",
+            "result": "13 - 0",
+            "won": 1,
+            "event_name": "Tipsport Conquest of Prague 2026",
+            "event_tier": "C",
+            "map_name": "Anubis"
           }
         ]
       },
@@ -4377,7 +4470,7 @@
       "name": "MIBR",
       "name_zh": "MIBR",
       "slug": "mibr",
-      "rank": 27,
+      "rank": 26,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -4438,12 +4531,144 @@
       "list_type": "top"
     },
     {
+      "db_id": 120005,
+      "hltv_id": 6673,
+      "name": "NRG",
+      "name_zh": "NRG",
+      "slug": "nrg",
+      "rank": 27,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 6,
+        "overall_match_rows": 68,
+        "lan_match_rows": 54,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:51:12.000Z",
+        "latest_match_at": "2026-05-12T13:51:23.000Z",
+        "latest_player_at": "2026-05-12T13:51:35.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "FUT",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "FUT",
+            "result": "13 - 16",
+            "won": 0,
+            "event_name": "IEM Atlanta 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Passion UA",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "FRAG 20",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "07/04/26",
+            "opponent_name": "Legacy",
+            "result": "6 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Passion UA",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "FRAG 20",
+            "event_tier": "B",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 120003,
+      "hltv_id": 13404,
+      "name": "Gentle Mates",
+      "name_zh": "Gentle Mates",
+      "slug": "gentle-mates",
+      "rank": 28,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 84,
+        "lan_match_rows": 53,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:52:08.000Z",
+        "latest_match_at": "2026-05-12T03:49:04.000Z",
+        "latest_player_at": "2026-05-12T13:52:30.000Z",
+        "recent_form": [
+          {
+            "match_date": "11/05/26",
+            "opponent_name": "HEROIC",
+            "result": "13 - 6",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "10/05/26",
+            "opponent_name": "K27",
+            "result": "13 - 10",
+            "won": 1,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "09/05/26",
+            "opponent_name": "MOUZ",
+            "result": "5 - 13",
+            "won": 0,
+            "event_name": "PGL Astana 2026",
+            "event_tier": "S",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "03/05/26",
+            "opponent_name": "magic",
+            "result": "19 - 22",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "02/05/26",
+            "opponent_name": "FOKUS",
+            "result": "13 - 8",
+            "won": 1,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 300001,
       "hltv_id": 11737,
       "name": "EYEBALLERS",
       "name_zh": "EYEBALLERS",
       "slug": "eyeballers",
-      "rank": 28,
+      "rank": 29,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -4498,72 +4723,6 @@
             "event_name": "Tipsport Conquest of Prague 2026",
             "event_tier": "C",
             "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120008,
-      "hltv_id": 4411,
-      "name": "Ninjas in Pyjamas",
-      "name_zh": "NiP",
-      "slug": "ninjas-in-pyjamas",
-      "rank": 29,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 76,
-        "lan_match_rows": 51,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:51:14.000Z",
-        "latest_match_at": "2026-04-26T22:54:21.000Z",
-        "latest_player_at": "2026-05-12T13:51:37.000Z",
-        "recent_form": [
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Monte",
-            "result": "2 - 13",
-            "won": 0,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "25/04/26",
-            "opponent_name": "BIG",
-            "result": "13 - 5",
-            "won": 1,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "25/04/26",
-            "opponent_name": "100 Thieves",
-            "result": "13 - 11",
-            "won": 1,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "24/04/26",
-            "opponent_name": "Monte",
-            "result": "14 - 16",
-            "won": 0,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Anubis"
-          },
-          {
-            "match_date": "23/04/26",
-            "opponent_name": "Sharks",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "CCT Global Finals 2026",
-            "event_tier": "B",
-            "map_name": "Nuke"
           }
         ]
       },
@@ -4834,12 +4993,78 @@
       "list_type": "top"
     },
     {
+      "db_id": 120008,
+      "hltv_id": 4411,
+      "name": "Ninjas in Pyjamas",
+      "name_zh": "NiP",
+      "slug": "ninjas-in-pyjamas",
+      "rank": 34,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 76,
+        "lan_match_rows": 51,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:51:14.000Z",
+        "latest_match_at": "2026-04-26T22:54:21.000Z",
+        "latest_player_at": "2026-05-12T13:51:37.000Z",
+        "recent_form": [
+          {
+            "match_date": "26/04/26",
+            "opponent_name": "Monte",
+            "result": "2 - 13",
+            "won": 0,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "25/04/26",
+            "opponent_name": "BIG",
+            "result": "13 - 5",
+            "won": 1,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "25/04/26",
+            "opponent_name": "100 Thieves",
+            "result": "13 - 11",
+            "won": 1,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "24/04/26",
+            "opponent_name": "Monte",
+            "result": "14 - 16",
+            "won": 0,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Anubis"
+          },
+          {
+            "match_date": "23/04/26",
+            "opponent_name": "Sharks",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "CCT Global Finals 2026",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
       "db_id": 120006,
       "hltv_id": 12426,
       "name": "Passion UA",
       "name_zh": "Passion UA",
       "slug": "passion-ua",
-      "rank": 34,
+      "rank": 35,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -4905,7 +5130,7 @@
       "name": "BESTIA",
       "name_zh": "BESTIA",
       "slug": "bestia",
-      "rank": 35,
+      "rank": 36,
       "coverage": {
         "overall_maps": 6,
         "lan_maps": 6,
@@ -4960,72 +5185,6 @@
             "event_name": "Urban Riga Open Season 4",
             "event_tier": "C",
             "map_name": "Dust2"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
-      "db_id": 120003,
-      "hltv_id": 13404,
-      "name": "Gentle Mates",
-      "name_zh": "Gentle Mates",
-      "slug": "gentle-mates",
-      "rank": 36,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 84,
-        "lan_match_rows": 53,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:52:08.000Z",
-        "latest_match_at": "2026-05-12T03:49:04.000Z",
-        "latest_player_at": "2026-05-12T13:52:30.000Z",
-        "recent_form": [
-          {
-            "match_date": "11/05/26",
-            "opponent_name": "HEROIC",
-            "result": "13 - 6",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "10/05/26",
-            "opponent_name": "K27",
-            "result": "13 - 10",
-            "won": 1,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "09/05/26",
-            "opponent_name": "MOUZ",
-            "result": "5 - 13",
-            "won": 0,
-            "event_name": "PGL Astana 2026",
-            "event_tier": "S",
-            "map_name": "Ancient"
-          },
-          {
-            "match_date": "03/05/26",
-            "opponent_name": "magic",
-            "result": "19 - 22",
-            "won": 0,
-            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "02/05/26",
-            "opponent_name": "FOKUS",
-            "result": "13 - 8",
-            "won": 1,
-            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
-            "event_tier": "B",
-            "map_name": "Nuke"
           }
         ]
       },
@@ -5098,78 +5257,12 @@
       "list_type": "top"
     },
     {
-      "db_id": 300003,
-      "hltv_id": 13117,
-      "name": "Inner Circle",
-      "name_zh": "Inner Circle",
-      "slug": "inner-circle",
-      "rank": 38,
-      "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
-        "overall_match_rows": 87,
-        "lan_match_rows": 27,
-        "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:52:09.000Z",
-        "latest_match_at": "2026-04-14T15:26:48.000Z",
-        "latest_player_at": "2026-05-12T13:52:32.000Z",
-        "recent_form": [
-          {
-            "match_date": "07/04/26",
-            "opponent_name": "B8",
-            "result": "6 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "07/04/26",
-            "opponent_name": "B8",
-            "result": "11 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Dust2"
-          },
-          {
-            "match_date": "06/04/26",
-            "opponent_name": "FaZe",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "06/04/26",
-            "opponent_name": "FaZe",
-            "result": "13 - 9",
-            "won": 1,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Nuke"
-          },
-          {
-            "match_date": "05/04/26",
-            "opponent_name": "Legacy",
-            "result": "9 - 13",
-            "won": 0,
-            "event_name": "PGL Bucharest 2026",
-            "event_tier": "A",
-            "map_name": "Mirage"
-          }
-        ]
-      },
-      "list_type": "top"
-    },
-    {
       "db_id": 360002,
       "hltv_id": 11712,
       "name": "Sashi",
       "name_zh": "Sashi",
       "slug": "sashi",
-      "rank": 39,
+      "rank": 38,
       "coverage": {
         "overall_maps": 7,
         "lan_maps": 7,
@@ -5230,24 +5323,122 @@
       "list_type": "top"
     },
     {
+      "db_id": 300003,
+      "hltv_id": 13117,
+      "name": "Inner Circle",
+      "name_zh": "Inner Circle",
+      "slug": "inner-circle",
+      "rank": 39,
+      "coverage": {
+        "overall_maps": 6,
+        "lan_maps": 6,
+        "overall_match_rows": 87,
+        "lan_match_rows": 27,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T13:52:09.000Z",
+        "latest_match_at": "2026-04-14T15:26:48.000Z",
+        "latest_player_at": "2026-05-12T13:52:32.000Z",
+        "recent_form": [
+          {
+            "match_date": "07/04/26",
+            "opponent_name": "B8",
+            "result": "6 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "07/04/26",
+            "opponent_name": "B8",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "06/04/26",
+            "opponent_name": "FaZe",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Mirage"
+          },
+          {
+            "match_date": "06/04/26",
+            "opponent_name": "FaZe",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "05/04/26",
+            "opponent_name": "Legacy",
+            "result": "9 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Mirage"
+          }
+        ]
+      },
+      "list_type": "top"
+    },
+    {
+      "db_id": 390001,
+      "hltv_id": 13592,
+      "name": "magic",
+      "name_zh": null,
+      "slug": "magic",
+      "rank": 40,
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 6,
+        "overall_match_rows": 0,
+        "lan_match_rows": 0,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-12T10:10:59.000Z",
+        "latest_match_at": null,
+        "latest_player_at": "2026-05-12T10:13:13.000Z",
+        "recent_form": []
+      },
+      "list_type": "top"
+    }
+  ],
+  "extra_teams": [
+    {
       "db_id": 360001,
       "hltv_id": 12257,
       "name": "Wildcard",
       "name_zh": "Wildcard",
       "slug": "wildcard",
-      "rank": 40,
+      "rank": null,
+      "list_type": "extra",
       "coverage": {
-        "overall_maps": 6,
-        "lan_maps": 6,
+        "overall_maps": 7,
+        "lan_maps": 7,
         "overall_match_rows": 87,
         "lan_match_rows": 37,
         "player_count": 5,
-        "latest_map_stats_at": "2026-05-12T13:52:12.000Z",
-        "latest_match_at": "2026-05-04T15:38:41.000Z",
+        "latest_map_stats_at": "2026-05-12T06:07:18.000Z",
+        "latest_match_at": "2026-05-12T06:07:18.000Z",
         "latest_player_at": "2026-05-12T13:52:35.000Z",
         "recent_form": [
           {
-            "match_date": "04/05/26",
+            "match_date": "2026-05-04T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "12 - 16",
+            "won": 0,
+            "event_name": "ESL Challenger League Season 51 North America Cup 4",
+            "event_tier": "B",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "2026-05-04T00:00:00.000Z",
             "opponent_name": "M80",
             "result": "10 - 13",
             "won": 0,
@@ -5256,45 +5447,166 @@
             "map_name": "Inferno"
           },
           {
-            "match_date": "02/05/26",
-            "opponent_name": "Voca",
-            "result": "13 - 6",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 North America Cup 4",
-            "event_tier": "B",
-            "map_name": "Overpass"
-          },
-          {
-            "match_date": "30/04/26",
-            "opponent_name": "FarmVille",
-            "result": "13 - 7",
-            "won": 1,
-            "event_name": "ESL Challenger League Season 51 North America Cup 4",
-            "event_tier": "B",
-            "map_name": "Mirage"
-          },
-          {
-            "match_date": "26/04/26",
-            "opponent_name": "Fisher College",
-            "result": "13 - 4",
-            "won": 1,
-            "event_name": "FRAG 20",
-            "event_tier": "B",
-            "map_name": "Inferno"
-          },
-          {
-            "match_date": "04/05/26",
+            "match_date": "2026-05-04T00:00:00.000Z",
             "opponent_name": "M80",
             "result": "14 - 16",
             "won": 0,
             "event_name": "Thunderpick World Championship 2026 North America",
             "event_tier": "B",
             "map_name": "Dust2"
+          },
+          {
+            "match_date": "2026-05-04T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "8 - 13",
+            "won": 0,
+            "event_name": "ESL Challenger League Season 51 North America Cup 4",
+            "event_tier": "B",
+            "map_name": "Dust2"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "13 - 6",
+            "won": 1,
+            "event_name": "ESL Challenger League Season 51 North America Cup 4",
+            "event_tier": "B",
+            "map_name": "Overpass"
           }
         ]
-      },
-      "list_type": "top"
+      }
+    },
+    {
+      "db_id": 120010,
+      "hltv_id": 12878,
+      "name": "BC.Game",
+      "name_zh": "BC.Game",
+      "slug": "bcgame",
+      "rank": null,
+      "list_type": "extra",
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 44,
+        "lan_match_rows": 35,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-08T11:45:46.000Z",
+        "latest_match_at": "2026-05-08T11:46:12.000Z",
+        "latest_player_at": "2026-05-08T14:04:18.000Z",
+        "recent_form": [
+          {
+            "match_date": "2026-04-07T00:00:00.000Z",
+            "opponent_name": "FOKUS",
+            "result": "10 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "2026-04-07T00:00:00.000Z",
+            "opponent_name": "FOKUS",
+            "result": "3 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "2026-04-06T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "13 - 9",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Overpass"
+          },
+          {
+            "match_date": "2026-04-06T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "2026-04-06T00:00:00.000Z",
+            "opponent_name": "Voca",
+            "result": "10 - 13",
+            "won": 0,
+            "event_name": "PGL Bucharest 2026",
+            "event_tier": "A",
+            "map_name": "Dust2"
+          }
+        ]
+      }
+    },
+    {
+      "db_id": 210003,
+      "hltv_id": 8474,
+      "name": "100T",
+      "name_zh": "100T",
+      "slug": "100-thieves",
+      "rank": null,
+      "list_type": "extra",
+      "coverage": {
+        "overall_maps": 7,
+        "lan_maps": 7,
+        "overall_match_rows": 68,
+        "lan_match_rows": 46,
+        "player_count": 5,
+        "latest_map_stats_at": "2026-05-08T11:48:31.000Z",
+        "latest_match_at": "2026-05-08T11:49:02.000Z",
+        "latest_player_at": "2026-05-08T11:50:43.000Z",
+        "recent_form": [
+          {
+            "match_date": "2026-05-03T00:00:00.000Z",
+            "opponent_name": "Sharks",
+            "result": "7 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Inferno"
+          },
+          {
+            "match_date": "2026-05-03T00:00:00.000Z",
+            "opponent_name": "Sharks",
+            "result": "4 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "illwill",
+            "result": "13 - 4",
+            "won": 1,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Nuke"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "illwill",
+            "result": "11 - 13",
+            "won": 0,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Ancient"
+          },
+          {
+            "match_date": "2026-05-02T00:00:00.000Z",
+            "opponent_name": "illwill",
+            "result": "13 - 7",
+            "won": 1,
+            "event_name": "Stake Ranked Episode 2 Closed Qualifier",
+            "event_tier": "B",
+            "map_name": "Mirage"
+          }
+        ]
+      }
     }
-  ],
-  "extra_teams": []
+  ]
 }
