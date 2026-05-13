@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-13T08:08:59.128Z",
+    "requested_at": "2026-05-13T14:36:14.223Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
@@ -12,86 +12,6 @@
     "warnings": []
   },
   "events": [
-    {
-      "event_name": "CCT 2026 Europe Series 1",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 2,
-      "map_records": 3,
-      "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-13T14:17:17.000Z",
-      "sources": [
-        "map_matches"
-      ]
-    },
-    {
-      "event_name": "CS Asia Championships 2026",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 6,
-      "map_records": 0,
-      "normalized_matches": 0,
-      "calendar_matches": 6,
-      "latest_at": "2026-05-20T06:00:00.000Z",
-      "sources": [
-        "match_calendar"
-      ]
-    },
-    {
-      "event_name": "Hero Esports Asian Champions League 2026",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 4,
-      "map_records": 8,
-      "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-12T13:51:03.000Z",
-      "sources": [
-        "map_matches"
-      ]
-    },
-    {
-      "event_name": "Parken Challenger Championship Season 6",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 9,
-      "map_records": 18,
-      "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-13T01:07:11.000Z",
-      "sources": [
-        "map_matches"
-      ]
-    },
-    {
-      "event_name": "PGL Astana 2026 Europe Open Qualifier 1",
-      "tier": null,
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 2,
-      "map_records": 4,
-      "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-13T01:06:40.000Z",
-      "sources": [
-        "map_matches"
-      ]
-    },
     {
       "event_name": "BLAST Bounty 2026 Season 1 Finals",
       "tier": "S",
@@ -138,6 +58,22 @@
       "latest_at": "2026-05-04T15:35:02.000Z",
       "sources": [
         "map_matches"
+      ]
+    },
+    {
+      "event_name": "CS Asia Championships 2026",
+      "tier": "S",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 6,
+      "map_records": 0,
+      "normalized_matches": 0,
+      "calendar_matches": 6,
+      "latest_at": "2026-05-20T06:00:00.000Z",
+      "sources": [
+        "match_calendar"
       ]
     },
     {
@@ -260,15 +196,14 @@
       "manual_source": "manual",
       "notes": null,
       "manual_updated_at": "2026-05-04T18:30:13.000Z",
-      "display_count": 122,
-      "map_records": 244,
+      "display_count": 132,
+      "map_records": 264,
       "normalized_matches": 0,
-      "calendar_matches": 2,
-      "latest_at": "2026-05-13T14:17:53.000Z",
+      "calendar_matches": 0,
+      "latest_at": "2026-05-13T22:34:01.000Z",
       "sources": [
         "event_tiers",
-        "map_matches",
-        "match_calendar"
+        "map_matches"
       ]
     },
     {
@@ -299,6 +234,22 @@
       "normalized_matches": 0,
       "calendar_matches": 0,
       "latest_at": "2026-04-21T15:33:13.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "Hero Esports Asian Champions League 2026",
+      "tier": "A",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 6,
+      "map_records": 12,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-13T22:32:36.000Z",
       "sources": [
         "map_matches"
       ]
@@ -507,6 +458,22 @@
       "normalized_matches": 0,
       "calendar_matches": 0,
       "latest_at": "2026-04-21T15:33:22.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "CCT 2026 Europe Series 1",
+      "tier": "B",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 3,
+      "map_records": 5,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-13T22:34:19.000Z",
       "sources": [
         "map_matches"
       ]
@@ -1040,6 +1007,22 @@
       ]
     },
     {
+      "event_name": "PGL Astana 2026 Europe Open Qualifier 1",
+      "tier": "B",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 2,
+      "map_records": 4,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-13T01:06:40.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
       "event_name": "PGL Astana 2026 South America Closed Qualifier",
       "tier": "B",
       "manual_tier": false,
@@ -1564,6 +1547,22 @@
       "normalized_matches": 0,
       "calendar_matches": 0,
       "latest_at": "2026-04-09T02:59:45.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "Parken Challenger Championship Season 6",
+      "tier": "C",
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 9,
+      "map_records": 18,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-13T01:07:11.000Z",
       "sources": [
         "map_matches"
       ]
