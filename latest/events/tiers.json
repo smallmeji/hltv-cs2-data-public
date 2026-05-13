@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-13T06:19:49.023Z",
+    "requested_at": "2026-05-13T08:08:59.128Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
-    "event_count": 108,
+    "event_count": 109,
     "warnings": []
   },
   "events": [
@@ -26,6 +26,22 @@
       "latest_at": "2026-05-13T14:17:17.000Z",
       "sources": [
         "map_matches"
+      ]
+    },
+    {
+      "event_name": "CS Asia Championships 2026",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 6,
+      "map_records": 0,
+      "normalized_matches": 0,
+      "calendar_matches": 6,
+      "latest_at": "2026-05-20T06:00:00.000Z",
+      "sources": [
+        "match_calendar"
       ]
     },
     {
@@ -182,10 +198,11 @@
       "display_count": 78,
       "map_records": 156,
       "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-13T14:18:16.000Z",
+      "calendar_matches": 6,
+      "latest_at": "2026-05-13T23:00:00.000Z",
       "sources": [
-        "map_matches"
+        "map_matches",
+        "match_calendar"
       ]
     },
     {
@@ -246,7 +263,7 @@
       "display_count": 122,
       "map_records": 244,
       "normalized_matches": 0,
-      "calendar_matches": 3,
+      "calendar_matches": 2,
       "latest_at": "2026-05-13T14:17:53.000Z",
       "sources": [
         "event_tiers",
