@@ -1,17 +1,33 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-20T17:45:54.630Z",
+    "requested_at": "2026-05-21T09:46:18.119Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
-    "event_count": 110,
+    "event_count": 111,
     "warnings": []
   },
   "events": [
+    {
+      "event_name": "BC Game Masters Championship Season 2",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 1,
+      "map_records": 2,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-21T17:04:19.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
     {
       "event_name": "BLAST Bounty 2026 Season 1 Finals",
       "tier": "S",
@@ -67,11 +83,11 @@
       "manual_source": null,
       "notes": null,
       "manual_updated_at": null,
-      "display_count": 33,
-      "map_records": 66,
+      "display_count": 52,
+      "map_records": 104,
       "normalized_matches": 0,
       "calendar_matches": 0,
-      "latest_at": "2026-05-21T01:42:22.000Z",
+      "latest_at": "2026-05-21T17:14:06.000Z",
       "sources": [
         "map_matches"
       ]
