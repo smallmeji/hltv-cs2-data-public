@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-22T05:39:04.190Z",
+    "requested_at": "2026-05-22T08:00:35.906Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
-    "event_count": 111,
+    "event_count": 112,
     "warnings": []
   },
   "events": [
@@ -26,6 +26,22 @@
       "latest_at": "2026-05-22T00:29:20.000Z",
       "sources": [
         "map_matches"
+      ]
+    },
+    {
+      "event_name": "Stake Ranked Episode 2",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 3,
+      "map_records": 0,
+      "normalized_matches": 0,
+      "calendar_matches": 3,
+      "latest_at": "2026-05-27T15:00:00.000Z",
+      "sources": [
+        "match_calendar"
       ]
     },
     {
@@ -83,13 +99,14 @@
       "manual_source": null,
       "notes": null,
       "manual_updated_at": null,
-      "display_count": 72,
-      "map_records": 144,
+      "display_count": 90,
+      "map_records": 180,
       "normalized_matches": 0,
-      "calendar_matches": 0,
-      "latest_at": "2026-05-22T00:28:48.000Z",
+      "calendar_matches": 2,
+      "latest_at": "2026-05-22T15:57:37.000Z",
       "sources": [
-        "map_matches"
+        "map_matches",
+        "match_calendar"
       ]
     },
     {
