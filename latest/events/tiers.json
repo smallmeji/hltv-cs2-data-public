@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-05-22T19:52:22.525Z",
+    "requested_at": "2026-05-23T13:23:32.124Z",
     "source_policy": "mysql_tidb_export",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
-    "event_count": 124,
+    "event_count": 125,
     "warnings": []
   },
   "events": [
@@ -109,6 +109,22 @@
       ]
     },
     {
+      "event_name": "Parken Challenger Championship Season 8",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 2,
+      "map_records": 4,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-23T21:21:24.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
       "event_name": "PGL Bucharest 2026 Asia Closed Qualifier",
       "tier": null,
       "manual_tier": false,
@@ -152,6 +168,22 @@
       "normalized_matches": 0,
       "calendar_matches": 0,
       "latest_at": "2026-05-23T03:13:56.000Z",
+      "sources": [
+        "map_matches"
+      ]
+    },
+    {
+      "event_name": "Tipsport Conquest of Prague 2026 Finals",
+      "tier": null,
+      "manual_tier": false,
+      "manual_source": null,
+      "notes": null,
+      "manual_updated_at": null,
+      "display_count": 8,
+      "map_records": 16,
+      "normalized_matches": 0,
+      "calendar_matches": 0,
+      "latest_at": "2026-05-23T21:20:57.000Z",
       "sources": [
         "map_matches"
       ]
@@ -259,11 +291,11 @@
       "manual_source": null,
       "notes": null,
       "manual_updated_at": null,
-      "display_count": 106,
-      "map_records": 212,
+      "display_count": 116,
+      "map_records": 232,
       "normalized_matches": 0,
       "calendar_matches": 0,
-      "latest_at": "2026-05-23T03:13:45.000Z",
+      "latest_at": "2026-05-23T21:20:07.000Z",
       "sources": [
         "map_matches"
       ]
@@ -580,11 +612,11 @@
       "manual_source": null,
       "notes": null,
       "manual_updated_at": null,
-      "display_count": 15,
-      "map_records": 30,
+      "display_count": 25,
+      "map_records": 50,
       "normalized_matches": 0,
       "calendar_matches": 0,
-      "latest_at": "2026-05-23T03:13:45.000Z",
+      "latest_at": "2026-05-23T21:21:28.000Z",
       "sources": [
         "map_matches"
       ]
@@ -1436,23 +1468,6 @@
       "sources": [
         "event_tiers",
         "map_matches"
-      ]
-    },
-    {
-      "event_name": "Tipsport Conquest of Prague 2026 Finals",
-      "tier": "B",
-      "manual_tier": false,
-      "manual_source": null,
-      "notes": null,
-      "manual_updated_at": null,
-      "display_count": 6,
-      "map_records": 12,
-      "normalized_matches": 0,
-      "calendar_matches": 1,
-      "latest_at": "2026-05-23T03:13:18.000Z",
-      "sources": [
-        "map_matches",
-        "match_calendar"
       ]
     },
     {
