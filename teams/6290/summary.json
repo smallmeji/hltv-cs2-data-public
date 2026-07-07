@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-07T12:50:00.401Z",
+    "requested_at": "2026-07-07T16:01:32.306Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
@@ -9,11 +9,6 @@
       "policy": "calendar_year"
     },
     "warnings": [
-      {
-        "code": "PLAYER_RATINGS_UNAVAILABLE",
-        "message": "No annual player rating rows available.",
-        "field": "players"
-      },
       {
         "code": "RECENT_MATCHES_UNAVAILABLE",
         "message": "No recent map-match rows available.",
@@ -154,11 +149,11 @@
         "draws": 0,
         "losses": 0,
         "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "pick_pct": "100.00",
+        "ban_pct": "0.00",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
+        "data_to": "2026-07-07",
+        "snapshot_time": "2026-07-07T23:57:43.000Z",
         "latest_match_at": null,
         "detail_source_url": null,
         "event_tier_breakdown": {
@@ -192,11 +187,11 @@
         "draws": 0,
         "losses": 0,
         "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "pick_pct": "0.00",
+        "ban_pct": "33.30",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
+        "data_to": "2026-07-07",
+        "snapshot_time": "2026-07-07T23:57:43.000Z",
         "latest_match_at": null,
         "detail_source_url": null,
         "event_tier_breakdown": {
@@ -230,11 +225,11 @@
         "draws": 0,
         "losses": 0,
         "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "pick_pct": "0.00",
+        "ban_pct": "66.70",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
+        "data_to": "2026-07-07",
+        "snapshot_time": "2026-07-07T23:57:43.000Z",
         "latest_match_at": null,
         "detail_source_url": null,
         "event_tier_breakdown": {
@@ -422,11 +417,11 @@
         "draws": 0,
         "losses": 0,
         "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "pick_pct": "100.00",
+        "ban_pct": "0.00",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
+        "data_to": "2026-07-07",
+        "snapshot_time": "2026-07-07T23:57:48.000Z",
         "latest_match_at": null,
         "detail_source_url": null,
         "event_tier_breakdown": {
@@ -460,11 +455,11 @@
         "draws": 0,
         "losses": 0,
         "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "pick_pct": "0.00",
+        "ban_pct": "33.30",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
+        "data_to": "2026-07-07",
+        "snapshot_time": "2026-07-07T23:57:48.000Z",
         "latest_match_at": null,
         "detail_source_url": null,
         "event_tier_breakdown": {
@@ -498,11 +493,11 @@
         "draws": 0,
         "losses": 0,
         "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "pick_pct": "0.00",
+        "ban_pct": "66.70",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
+        "data_to": "2026-07-07",
+        "snapshot_time": "2026-07-07T23:57:48.000Z",
         "latest_match_at": null,
         "detail_source_url": null,
         "event_tier_breakdown": {
@@ -567,7 +562,53 @@
       }
     ]
   },
-  "players": [],
+  "players": [
+    {
+      "hltv_team_id": 6290,
+      "player_name": "lux",
+      "rating_type": "annual",
+      "rating2": "1.140",
+      "data_from": "2026-01-01",
+      "data_to": "2026-07-07",
+      "snapshot_time": "2026-07-07T23:58:03.000Z"
+    },
+    {
+      "hltv_team_id": 6290,
+      "player_name": "Rainwaker",
+      "rating_type": "annual",
+      "rating2": "0.970",
+      "data_from": "2026-01-01",
+      "data_to": "2026-07-07",
+      "snapshot_time": "2026-07-07T23:58:03.000Z"
+    },
+    {
+      "hltv_team_id": 6290,
+      "player_name": "afro",
+      "rating_type": "annual",
+      "rating2": "0.920",
+      "data_from": "2026-01-01",
+      "data_to": "2026-07-07",
+      "snapshot_time": "2026-07-07T23:58:03.000Z"
+    },
+    {
+      "hltv_team_id": 6290,
+      "player_name": "Bymas",
+      "rating_type": "annual",
+      "rating2": "0.850",
+      "data_from": "2026-01-01",
+      "data_to": "2026-07-07",
+      "snapshot_time": "2026-07-07T23:58:03.000Z"
+    },
+    {
+      "hltv_team_id": 6290,
+      "player_name": "AZUWU",
+      "rating_type": "annual",
+      "rating2": "0.830",
+      "data_from": "2026-01-01",
+      "data_to": "2026-07-07",
+      "snapshot_time": "2026-07-07T23:58:03.000Z"
+    }
+  ],
   "recent_matches": [],
   "ct_t_status": "not_collected"
 }
