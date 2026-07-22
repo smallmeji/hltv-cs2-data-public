@@ -1,6 +1,6 @@
 {
   "schema_version": "hltv-cs2-data.static.v1",
-  "generated_at": "2026-07-21T08:42:26.216Z",
+  "generated_at": "2026-07-22T05:17:37.415Z",
   "source_policy": "mysql_tidb_export",
   "date_window": {
     "start": "2026-01-01",
@@ -18,7 +18,12 @@
       13027,
       11581,
       10503,
-      7969
+      7969,
+      13679,
+      13808,
+      10823,
+      10577,
+      12257
     ],
     "exported_extra_team_ids": [
       12878,
@@ -26,7 +31,12 @@
       13027,
       11581,
       10503,
-      7969
+      7969,
+      13679,
+      13808,
+      10823,
+      10577,
+      12257
     ]
   },
   "entries": [
@@ -1886,14 +1896,274 @@
       "path": "teams/7969/map-details-lan.json"
     },
     {
+      "type": "teams",
+      "key": "teams/13679/summary",
+      "path": "teams/13679/summary.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/maps-overall",
+      "path": "teams/13679/maps-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/maps-lan",
+      "path": "teams/13679/maps-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/players",
+      "path": "teams/13679/players.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/recent-overall",
+      "path": "teams/13679/recent-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/recent-lan",
+      "path": "teams/13679/recent-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/map-details-overall",
+      "path": "teams/13679/map-details-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13679/map-details-lan",
+      "path": "teams/13679/map-details-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/summary",
+      "path": "teams/13808/summary.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/maps-overall",
+      "path": "teams/13808/maps-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/maps-lan",
+      "path": "teams/13808/maps-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/players",
+      "path": "teams/13808/players.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/recent-overall",
+      "path": "teams/13808/recent-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/recent-lan",
+      "path": "teams/13808/recent-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/map-details-overall",
+      "path": "teams/13808/map-details-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/13808/map-details-lan",
+      "path": "teams/13808/map-details-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/summary",
+      "path": "teams/10823/summary.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/maps-overall",
+      "path": "teams/10823/maps-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/maps-lan",
+      "path": "teams/10823/maps-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/players",
+      "path": "teams/10823/players.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/recent-overall",
+      "path": "teams/10823/recent-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/recent-lan",
+      "path": "teams/10823/recent-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/map-details-overall",
+      "path": "teams/10823/map-details-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10823/map-details-lan",
+      "path": "teams/10823/map-details-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/summary",
+      "path": "teams/10577/summary.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/maps-overall",
+      "path": "teams/10577/maps-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/maps-lan",
+      "path": "teams/10577/maps-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/players",
+      "path": "teams/10577/players.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/recent-overall",
+      "path": "teams/10577/recent-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/recent-lan",
+      "path": "teams/10577/recent-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/map-details-overall",
+      "path": "teams/10577/map-details-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/10577/map-details-lan",
+      "path": "teams/10577/map-details-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/summary",
+      "path": "teams/12257/summary.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/maps-overall",
+      "path": "teams/12257/maps-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/maps-lan",
+      "path": "teams/12257/maps-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/players",
+      "path": "teams/12257/players.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/recent-overall",
+      "path": "teams/12257/recent-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/recent-lan",
+      "path": "teams/12257/recent-lan.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/map-details-overall",
+      "path": "teams/12257/map-details-overall.json"
+    },
+    {
+      "type": "teams",
+      "key": "teams/12257/map-details-lan",
+      "path": "teams/12257/map-details-lan.json"
+    },
+    {
       "type": "calendar",
       "key": "calendar/upcoming",
       "path": "calendar/upcoming.json"
     },
     {
       "type": "matches",
+      "key": "matches/2395999/data-pack",
+      "path": "matches/2395999/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2396053/data-pack",
+      "path": "matches/2396053/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2396000/data-pack",
+      "path": "matches/2396000/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2395997/data-pack",
+      "path": "matches/2395997/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2395994/data-pack",
+      "path": "matches/2395994/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2395991/data-pack",
+      "path": "matches/2395991/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2395992/data-pack",
+      "path": "matches/2395992/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2396004/data-pack",
+      "path": "matches/2396004/data-pack.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/2396001/data-pack",
+      "path": "matches/2396001/data-pack.json"
+    },
+    {
+      "type": "matches",
       "key": "matches/index",
       "path": "matches/index.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/by-date/2026-07-22",
+      "path": "matches/by-date/2026-07-22.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/by-date/2026-07-23",
+      "path": "matches/by-date/2026-07-23.json"
+    },
+    {
+      "type": "matches",
+      "key": "matches/by-date/2026-07-24",
+      "path": "matches/by-date/2026-07-24.json"
     },
     {
       "type": "matches",
