@@ -1,13 +1,16 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-23T21:39:35.917Z",
+    "requested_at": "2026-07-24T15:48:52.650Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
+    "source_hltv_team_ids": [
+      13679
+    ],
     "warnings": []
   },
   "team": {
@@ -24,22 +27,22 @@
         "hltv_team_id": 13679,
         "map_name": "Ancient",
         "data_type": "overall",
-        "sample_maps": 21,
-        "wins": 18,
+        "sample_maps": 26,
+        "wins": 19,
         "draws": 0,
-        "losses": 3,
-        "raw_win_rate": 0.8571,
+        "losses": 7,
+        "raw_win_rate": 0.7308,
         "pick_pct": "0.5420",
         "ban_pct": "0.0430",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:23.000Z",
-        "latest_match_at": "2026-06-01T15:05:59.000Z",
+        "latest_match_at": "2026-07-24T05:35:48.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/47/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 0,
           "A": 2,
-          "B": 13,
+          "B": 18,
           "C": 6,
           "unknown": 0
         },
@@ -51,12 +54,15 @@
         "rounds_won": 275,
         "pistol_rounds": 42,
         "pistol_rounds_won": 30,
-        "pistol_round_win_rate": "0.7140",
-        "first_kill_round_win_rate": "0.7790",
-        "first_death_round_win_rate": "0.3450",
+        "pistol_round_win_rate": 0.7143,
+        "first_kill_round_win_rate": 0.779,
+        "first_death_round_win_rate": 0.345,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
@@ -89,33 +95,36 @@
         "rounds_won": 0,
         "pistol_rounds": 0,
         "pistol_rounds_won": 0,
-        "pistol_round_win_rate": "0.0000",
+        "pistol_round_win_rate": null,
         "first_kill_round_win_rate": "0.0000",
         "first_death_round_win_rate": "0.0000",
         "zero_sample": true,
         "side_stats_status": "zero_sample",
-        "detail_status": "zero_sample"
+        "detail_status": "zero_sample",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Dust2",
         "data_type": "overall",
-        "sample_maps": 19,
-        "wins": 8,
+        "sample_maps": 24,
+        "wins": 12,
         "draws": 0,
-        "losses": 11,
-        "raw_win_rate": 0.4211,
+        "losses": 12,
+        "raw_win_rate": 0.5,
         "pick_pct": "0.0420",
         "ban_pct": "0.2880",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:23.000Z",
-        "latest_match_at": "2026-06-01T15:05:38.000Z",
+        "latest_match_at": "2026-07-23T23:02:48.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 0,
-          "A": 3,
-          "B": 13,
+          "A": 4,
+          "B": 17,
           "C": 3,
           "unknown": 0
         },
@@ -127,33 +136,36 @@
         "rounds_won": 199,
         "pistol_rounds": 38,
         "pistol_rounds_won": 21,
-        "pistol_round_win_rate": "0.5530",
-        "first_kill_round_win_rate": "0.7300",
-        "first_death_round_win_rate": "0.2520",
+        "pistol_round_win_rate": 0.5526,
+        "first_kill_round_win_rate": 0.73,
+        "first_death_round_win_rate": 0.252,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Inferno",
         "data_type": "overall",
-        "sample_maps": 16,
-        "wins": 9,
+        "sample_maps": 18,
+        "wins": 10,
         "draws": 0,
-        "losses": 7,
-        "raw_win_rate": 0.5625,
+        "losses": 8,
+        "raw_win_rate": 0.5556,
         "pick_pct": "0.4800",
         "ban_pct": "0.0240",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:23.000Z",
-        "latest_match_at": "2026-06-01T15:06:20.000Z",
+        "latest_match_at": "2026-07-24T05:35:47.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/33/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 0,
           "A": 4,
-          "B": 9,
+          "B": 11,
           "C": 3,
           "unknown": 0
         },
@@ -165,33 +177,36 @@
         "rounds_won": 189,
         "pistol_rounds": 32,
         "pistol_rounds_won": 20,
-        "pistol_round_win_rate": "0.6250",
-        "first_kill_round_win_rate": "0.7100",
-        "first_death_round_win_rate": "0.3350",
+        "pistol_round_win_rate": 0.625,
+        "first_kill_round_win_rate": 0.71,
+        "first_death_round_win_rate": 0.335,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Mirage",
         "data_type": "overall",
-        "sample_maps": 16,
+        "sample_maps": 17,
         "wins": 8,
         "draws": 0,
-        "losses": 8,
-        "raw_win_rate": 0.5,
+        "losses": 9,
+        "raw_win_rate": 0.4706,
         "pick_pct": "0.1380",
         "ban_pct": "0.1300",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:23.000Z",
-        "latest_match_at": "2026-06-01T15:05:48.000Z",
+        "latest_match_at": "2026-07-21T17:05:43.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/32/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 0,
           "A": 1,
-          "B": 11,
+          "B": 12,
           "C": 4,
           "unknown": 0
         },
@@ -203,33 +218,36 @@
         "rounds_won": 165,
         "pistol_rounds": 32,
         "pistol_rounds_won": 12,
-        "pistol_round_win_rate": "0.3750",
-        "first_kill_round_win_rate": "0.7340",
-        "first_death_round_win_rate": "0.2360",
+        "pistol_round_win_rate": 0.375,
+        "first_kill_round_win_rate": 0.734,
+        "first_death_round_win_rate": 0.236,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Nuke",
         "data_type": "overall",
-        "sample_maps": 15,
-        "wins": 7,
+        "sample_maps": 22,
+        "wins": 9,
         "draws": 0,
-        "losses": 8,
-        "raw_win_rate": 0.4667,
+        "losses": 13,
+        "raw_win_rate": 0.4091,
         "pick_pct": "0.1150",
         "ban_pct": "0.2860",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:23.000Z",
-        "latest_match_at": "2026-06-01T15:06:09.000Z",
+        "latest_match_at": "2026-07-23T23:02:49.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/34/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 0,
-          "A": 2,
-          "B": 10,
+          "A": 3,
+          "B": 16,
           "C": 3,
           "unknown": 0
         },
@@ -241,12 +259,15 @@
         "rounds_won": 162,
         "pistol_rounds": 30,
         "pistol_rounds_won": 15,
-        "pistol_round_win_rate": "0.5000",
-        "first_kill_round_win_rate": "0.7300",
-        "first_death_round_win_rate": "0.3100",
+        "pistol_round_win_rate": 0.5,
+        "first_kill_round_win_rate": 0.73,
+        "first_death_round_win_rate": 0.31,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
@@ -284,7 +305,10 @@
         "first_death_round_win_rate": null,
         "zero_sample": false,
         "side_stats_status": "not_collected",
-        "detail_status": "not_collected"
+        "detail_status": "not_collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       }
     ],
     "lan": [
@@ -292,22 +316,22 @@
         "hltv_team_id": 13679,
         "map_name": "Ancient",
         "data_type": "lan",
-        "sample_maps": 12,
+        "sample_maps": 13,
         "wins": 10,
         "draws": 0,
-        "losses": 2,
-        "raw_win_rate": 0.8333,
+        "losses": 3,
+        "raw_win_rate": 0.7692,
         "pick_pct": "0.8180",
         "ban_pct": "0.0480",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:31.000Z",
-        "latest_match_at": "2026-06-01T15:13:33.000Z",
+        "latest_match_at": "2026-07-21T17:05:53.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/47/13679/fokus?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
           "S": 0,
           "A": 2,
-          "B": 4,
+          "B": 5,
           "C": 6,
           "unknown": 0
         },
@@ -319,12 +343,15 @@
         "rounds_won": 160,
         "pistol_rounds": 24,
         "pistol_rounds_won": 16,
-        "pistol_round_win_rate": "0.6670",
-        "first_kill_round_win_rate": "0.7470",
-        "first_death_round_win_rate": "0.3110",
+        "pistol_round_win_rate": 0.6667,
+        "first_kill_round_win_rate": 0.747,
+        "first_death_round_win_rate": 0.311,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
@@ -357,33 +384,36 @@
         "rounds_won": 0,
         "pistol_rounds": 0,
         "pistol_rounds_won": 0,
-        "pistol_round_win_rate": "0.0000",
+        "pistol_round_win_rate": null,
         "first_kill_round_win_rate": "0.0000",
         "first_death_round_win_rate": "0.0000",
         "zero_sample": true,
         "side_stats_status": "zero_sample",
-        "detail_status": "zero_sample"
+        "detail_status": "zero_sample",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Dust2",
         "data_type": "lan",
-        "sample_maps": 10,
+        "sample_maps": 11,
         "wins": 4,
         "draws": 0,
-        "losses": 6,
-        "raw_win_rate": 0.4,
+        "losses": 7,
+        "raw_win_rate": 0.3636,
         "pick_pct": "0.0000",
         "ban_pct": "0.3100",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:31.000Z",
-        "latest_match_at": "2026-06-01T15:13:17.000Z",
+        "latest_match_at": "2026-07-21T17:05:53.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
           "S": 0,
           "A": 3,
-          "B": 4,
+          "B": 5,
           "C": 3,
           "unknown": 0
         },
@@ -395,12 +425,15 @@
         "rounds_won": 104,
         "pistol_rounds": 20,
         "pistol_rounds_won": 11,
-        "pistol_round_win_rate": "0.5500",
-        "first_kill_round_win_rate": "0.7350",
-        "first_death_round_win_rate": "0.2710",
+        "pistol_round_win_rate": 0.55,
+        "first_kill_round_win_rate": 0.735,
+        "first_death_round_win_rate": 0.271,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
@@ -433,33 +466,36 @@
         "rounds_won": 106,
         "pistol_rounds": 18,
         "pistol_rounds_won": 11,
-        "pistol_round_win_rate": "0.6110",
-        "first_kill_round_win_rate": "0.6790",
-        "first_death_round_win_rate": "0.3110",
+        "pistol_round_win_rate": 0.6111,
+        "first_kill_round_win_rate": 0.679,
+        "first_death_round_win_rate": 0.311,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Mirage",
         "data_type": "lan",
-        "sample_maps": 6,
+        "sample_maps": 7,
         "wins": 2,
         "draws": 0,
-        "losses": 4,
-        "raw_win_rate": 0.3333,
+        "losses": 5,
+        "raw_win_rate": 0.2857,
         "pick_pct": "0.0000",
         "ban_pct": "0.1430",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:31.000Z",
-        "latest_match_at": "2026-06-01T15:13:24.000Z",
+        "latest_match_at": "2026-07-21T17:05:51.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/32/13679/fokus?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
           "S": 0,
           "A": 1,
-          "B": 1,
+          "B": 2,
           "C": 4,
           "unknown": 0
         },
@@ -471,33 +507,36 @@
         "rounds_won": 61,
         "pistol_rounds": 12,
         "pistol_rounds_won": 5,
-        "pistol_round_win_rate": "0.4170",
-        "first_kill_round_win_rate": "0.7060",
-        "first_death_round_win_rate": "0.1940",
+        "pistol_round_win_rate": 0.4167,
+        "first_kill_round_win_rate": 0.706,
+        "first_death_round_win_rate": 0.194,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
         "map_name": "Nuke",
         "data_type": "lan",
-        "sample_maps": 9,
-        "wins": 4,
+        "sample_maps": 12,
+        "wins": 5,
         "draws": 0,
-        "losses": 5,
-        "raw_win_rate": 0.4444,
+        "losses": 7,
+        "raw_win_rate": 0.4167,
         "pick_pct": "0.0710",
         "ban_pct": "0.3230",
         "data_from": "2026-01-01",
         "data_to": "2026-07-23",
         "snapshot_time": "2026-07-24T05:35:31.000Z",
-        "latest_match_at": "2026-06-01T15:13:41.000Z",
+        "latest_match_at": "2026-07-21T17:05:52.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/34/13679/fokus?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
           "S": 0,
           "A": 2,
-          "B": 4,
+          "B": 7,
           "C": 3,
           "unknown": 0
         },
@@ -509,12 +548,15 @@
         "rounds_won": 91,
         "pistol_rounds": 18,
         "pistol_rounds_won": 8,
-        "pistol_round_win_rate": "0.4440",
-        "first_kill_round_win_rate": "0.7330",
-        "first_death_round_win_rate": "0.2860",
+        "pistol_round_win_rate": 0.4444,
+        "first_kill_round_win_rate": 0.733,
+        "first_death_round_win_rate": 0.286,
         "zero_sample": false,
         "side_stats_status": "collected",
-        "detail_status": "collected"
+        "detail_status": "collected",
+        "source_hltv_team_ids": [
+          13679
+        ]
       },
       {
         "hltv_team_id": 13679,
@@ -547,12 +589,15 @@
         "rounds_won": 0,
         "pistol_rounds": 0,
         "pistol_rounds_won": 0,
-        "pistol_round_win_rate": 0,
+        "pistol_round_win_rate": null,
         "first_kill_round_win_rate": 0,
         "first_death_round_win_rate": 0,
         "zero_sample": true,
         "side_stats_status": "zero_sample",
-        "detail_status": "zero_sample"
+        "detail_status": "zero_sample",
+        "source_hltv_team_ids": [
+          13679
+        ]
       }
     ]
   },
@@ -562,58 +607,265 @@
       "player_name": "Banjo",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": "1.110",
+      "rating3": 1.11,
       "maps_played": 117,
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
-      "snapshot_time": "2026-07-24T05:36:14.000Z"
+      "snapshot_time": "2026-07-24T05:36:14.000Z",
+      "source_hltv_team_ids": [
+        13679
+      ]
     },
     {
       "hltv_team_id": 13679,
       "player_name": "Matheos",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": "1.070",
+      "rating3": 1.07,
       "maps_played": 117,
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
-      "snapshot_time": "2026-07-24T05:36:14.000Z"
+      "snapshot_time": "2026-07-24T05:36:14.000Z",
+      "source_hltv_team_ids": [
+        13679
+      ]
     },
     {
       "hltv_team_id": 13679,
       "player_name": "podi",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": "1.010",
+      "rating3": 1.01,
       "maps_played": 8,
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
-      "snapshot_time": "2026-07-24T05:36:14.000Z"
+      "snapshot_time": "2026-07-24T05:36:14.000Z",
+      "source_hltv_team_ids": [
+        13679
+      ]
     },
     {
       "hltv_team_id": 13679,
       "player_name": "ztr",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": "1.000",
+      "rating3": 1,
       "maps_played": 117,
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
-      "snapshot_time": "2026-07-24T05:36:14.000Z"
+      "snapshot_time": "2026-07-24T05:36:14.000Z",
+      "source_hltv_team_ids": [
+        13679
+      ]
     },
     {
       "hltv_team_id": 13679,
       "player_name": "jocab",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": "0.890",
+      "rating3": 0.89,
       "maps_played": 8,
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
-      "snapshot_time": "2026-07-24T05:36:14.000Z"
+      "snapshot_time": "2026-07-24T05:36:14.000Z",
+      "source_hltv_team_ids": [
+        13679
+      ]
     }
   ],
   "recent_matches": [
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Inferno",
+      "data_type": "overall",
+      "match_date": "23/07/26",
+      "event_name": "StarLadder StarSeries Fall 2026 Europe Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "HEROIC",
+      "result": "10 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-07-24T05:35:47.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Dust2",
+      "data_type": "overall",
+      "match_date": "23/07/26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "event_tier": "A",
+      "opponent_name": "Aurora",
+      "result": "13 - 4",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-07-23T23:02:48.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Ancient",
+      "data_type": "overall",
+      "match_date": "23/07/26",
+      "event_name": "StarLadder StarSeries Fall 2026 Europe Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "HEROIC",
+      "result": "6 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-07-24T05:35:48.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "23/07/26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "event_tier": "A",
+      "opponent_name": "Aurora",
+      "result": "7 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-07-23T23:02:49.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Cache",
+      "data_type": "overall",
+      "match_date": "23/07/26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "event_tier": "A",
+      "opponent_name": "Aurora",
+      "result": "13 - 11",
+      "won": 1,
+      "match_order": 2,
+      "page_index": 2,
+      "recorded_at": "2026-07-23T23:02:49.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "21/07/26",
+      "event_name": "StarLadder StarSeries Fall 2026 Europe Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Astralis",
+      "result": "1 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-07-22T13:15:33.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Ancient",
+      "data_type": "overall",
+      "match_date": "21/07/26",
+      "event_name": "StarLadder StarSeries Fall 2026 Europe Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Astralis",
+      "result": "11 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-07-22T13:15:33.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Dust2",
+      "data_type": "overall",
+      "match_date": "21/07/26",
+      "event_name": "StarLadder StarSeries Fall 2026 Europe Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Astralis",
+      "result": "13 - 10",
+      "won": 1,
+      "match_order": 2,
+      "page_index": 2,
+      "recorded_at": "2026-07-22T13:15:36.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "25/06/26",
+      "event_name": "Digital Crusade Super DraculaN Season 1",
+      "event_tier": "B",
+      "opponent_name": "INFINITE",
+      "result": "5 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-07-21T17:05:43.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "25/06/26",
+      "event_name": "Digital Crusade Super DraculaN Season 1",
+      "event_tier": "B",
+      "opponent_name": "INFINITE",
+      "result": "4 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-07-21T17:05:44.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Ancient",
+      "data_type": "overall",
+      "match_date": "24/06/26",
+      "event_name": "Digital Crusade Super DraculaN Season 1",
+      "event_tier": "B",
+      "opponent_name": "Echo",
+      "result": "11 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 2,
+      "recorded_at": "2026-07-21T17:05:45.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "teamId": 300002,
+      "hltv_team_id": 13679,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "24/06/26",
+      "event_name": "Digital Crusade Super DraculaN Season 1",
+      "event_tier": "B",
+      "opponent_name": "Echo",
+      "result": "9 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 3,
+      "recorded_at": "2026-07-21T17:05:44.000Z",
+      "source_hltv_team_id": 13679
+    },
     {
       "hltv_team_id": 13679,
       "map_name": "Overpass",
@@ -628,7 +880,8 @@
       "opponent_score": 3,
       "won": 1,
       "source_url": "https://www.hltv.org/stats/teams/map/40/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:26.000Z"
+      "recorded_at": "2026-06-01T15:06:26.000Z",
+      "source_hltv_team_id": 13679
     },
     {
       "hltv_team_id": 13679,
@@ -644,23 +897,8 @@
       "opponent_score": 10,
       "won": 1,
       "source_url": "https://www.hltv.org/stats/teams/map/47/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:54.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "2026-05-31T00:00:00.000Z",
-      "event_name": "BC Game Masters Europe Season 2 Series 2",
-      "event_tier": "B",
-      "opponent_name": "Nemiga",
-      "opponent_rank": null,
-      "result": "14 - 16",
-      "own_score": 14,
-      "opponent_score": 16,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:45.000Z"
+      "recorded_at": "2026-06-01T15:05:54.000Z",
+      "source_hltv_team_id": 13679
     },
     {
       "hltv_team_id": 13679,
@@ -676,23 +914,25 @@
       "opponent_score": 13,
       "won": 0,
       "source_url": "https://www.hltv.org/stats/teams/map/32/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:45.000Z"
+      "recorded_at": "2026-06-01T15:05:45.000Z",
+      "source_hltv_team_id": 13679
     },
     {
       "hltv_team_id": 13679,
-      "map_name": "Dust2",
+      "map_name": "Mirage",
       "data_type": "overall",
       "match_date": "2026-05-31T00:00:00.000Z",
       "event_name": "BC Game Masters Europe Season 2 Series 2",
       "event_tier": "B",
       "opponent_name": "Nemiga",
       "opponent_rank": null,
-      "result": "13 - 8",
-      "own_score": 13,
-      "opponent_score": 8,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:34.000Z"
+      "result": "14 - 16",
+      "own_score": 14,
+      "opponent_score": 16,
+      "won": 0,
+      "source_url": "https://www.hltv.org/stats/teams/map/32/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
+      "recorded_at": "2026-06-01T15:05:45.000Z",
+      "source_hltv_team_id": 13679
     },
     {
       "hltv_team_id": 13679,
@@ -708,7 +948,25 @@
       "opponent_score": 13,
       "won": 0,
       "source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:34.000Z"
+      "recorded_at": "2026-06-01T15:05:34.000Z",
+      "source_hltv_team_id": 13679
+    },
+    {
+      "hltv_team_id": 13679,
+      "map_name": "Dust2",
+      "data_type": "overall",
+      "match_date": "2026-05-31T00:00:00.000Z",
+      "event_name": "BC Game Masters Europe Season 2 Series 2",
+      "event_tier": "B",
+      "opponent_name": "Nemiga",
+      "opponent_rank": null,
+      "result": "13 - 8",
+      "own_score": 13,
+      "opponent_score": 8,
+      "won": 1,
+      "source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
+      "recorded_at": "2026-06-01T15:05:34.000Z",
+      "source_hltv_team_id": 13679
     },
     {
       "hltv_team_id": 13679,
@@ -724,7 +982,8 @@
       "opponent_score": 13,
       "won": 0,
       "source_url": "https://www.hltv.org/stats/teams/map/33/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:16.000Z"
+      "recorded_at": "2026-06-01T15:06:16.000Z",
+      "source_hltv_team_id": 13679
     },
     {
       "hltv_team_id": 13679,
@@ -740,199 +999,8 @@
       "opponent_score": 9,
       "won": 1,
       "source_url": "https://www.hltv.org/stats/teams/map/47/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:55.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "2026-05-30T00:00:00.000Z",
-      "event_name": "BC Game Masters Europe Season 2 Series 2",
-      "event_tier": "B",
-      "opponent_name": "fnatic",
-      "opponent_rank": null,
-      "result": "13 - 8",
-      "own_score": 13,
-      "opponent_score": 8,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:35.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Overpass",
-      "data_type": "overall",
-      "match_date": "2026-05-28T00:00:00.000Z",
-      "event_name": "BC Game Masters Europe Season 2 Series 2",
-      "event_tier": "B",
-      "opponent_name": "Ursa",
-      "opponent_rank": null,
-      "result": "16 - 13",
-      "own_score": 16,
-      "opponent_score": 13,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/40/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:26.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "2026-05-28T00:00:00.000Z",
-      "event_name": "BC Game Masters Europe Season 2 Series 2",
-      "event_tier": "B",
-      "opponent_name": "Ursa",
-      "opponent_rank": null,
-      "result": "13 - 11",
-      "own_score": 13,
-      "opponent_score": 11,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:35.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Inferno",
-      "data_type": "overall",
-      "match_date": "2026-05-24T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Wildcard",
-      "opponent_rank": null,
-      "result": "7 - 13",
-      "own_score": 7,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/33/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:16.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-05-24T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Wildcard",
-      "opponent_rank": null,
-      "result": "6 - 13",
-      "own_score": 6,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:06.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-05-24T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Inner Circle",
-      "opponent_rank": null,
-      "result": "6 - 13",
-      "own_score": 6,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:06.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Ancient",
-      "data_type": "overall",
-      "match_date": "2026-05-24T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Inner Circle",
-      "opponent_rank": null,
-      "result": "13 - 8",
-      "own_score": 13,
-      "opponent_score": 8,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/47/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:55.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "2026-05-24T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Inner Circle",
-      "opponent_rank": null,
-      "result": "16 - 14",
-      "own_score": 16,
-      "opponent_score": 14,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:45.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "2026-05-24T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Wildcard",
-      "opponent_rank": null,
-      "result": "13 - 10",
-      "own_score": 13,
-      "opponent_score": 10,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/31/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:05:35.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Overpass",
-      "data_type": "overall",
-      "match_date": "2026-05-23T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Sharks",
-      "opponent_rank": null,
-      "result": "13 - 11",
-      "own_score": 13,
-      "opponent_score": 11,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/40/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:27.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Inferno",
-      "data_type": "overall",
-      "match_date": "2026-05-23T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Wildcard",
-      "opponent_rank": null,
-      "result": "3 - 13",
-      "own_score": 3,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/33/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:17.000Z"
-    },
-    {
-      "hltv_team_id": 13679,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-05-23T00:00:00.000Z",
-      "event_name": "BC Game Masters Championship Season 2",
-      "event_tier": "B",
-      "opponent_name": "Sharks",
-      "opponent_rank": null,
-      "result": "13 - 8",
-      "own_score": 13,
-      "opponent_score": 8,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/13679/fokus?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-01T15:06:06.000Z"
+      "recorded_at": "2026-06-01T15:05:55.000Z",
+      "source_hltv_team_id": 13679
     }
   ],
   "ct_t_status": "not_collected"

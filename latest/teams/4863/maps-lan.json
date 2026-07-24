@@ -1,13 +1,16 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-23T21:38:50.506Z",
+    "requested_at": "2026-07-24T15:48:07.069Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
+    "source_hltv_team_ids": [
+      4863
+    ],
     "warnings": []
   },
   "team": {
@@ -50,32 +53,35 @@
       "rounds_won": 150,
       "pistol_rounds": 28,
       "pistol_rounds_won": 12,
-      "pistol_round_win_rate": "0.4290",
-      "first_kill_round_win_rate": "0.7110",
-      "first_death_round_win_rate": "0.3330",
+      "pistol_round_win_rate": 0.4286,
+      "first_kill_round_win_rate": 0.711,
+      "first_death_round_win_rate": 0.333,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        4863
+      ]
     },
     {
       "hltv_team_id": 4863,
       "map_name": "Anubis",
       "data_type": "lan",
-      "sample_maps": 3,
-      "wins": 2,
+      "sample_maps": 4,
+      "wins": 3,
       "draws": 0,
       "losses": 1,
-      "raw_win_rate": 0.6667,
+      "raw_win_rate": 0.75,
       "pick_pct": "0.0000",
       "ban_pct": "0.3260",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:32:07.000Z",
-      "latest_match_at": "2026-06-07T07:44:34.000Z",
+      "latest_match_at": "2026-07-02T11:22:18.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/48/4863/tyloo?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
         "S": 1,
-        "A": 1,
+        "A": 2,
         "B": 0,
         "C": 1,
         "unknown": 0
@@ -88,12 +94,15 @@
       "rounds_won": 34,
       "pistol_rounds": 6,
       "pistol_rounds_won": 3,
-      "pistol_round_win_rate": "0.5000",
-      "first_kill_round_win_rate": "0.8000",
-      "first_death_round_win_rate": "0.3450",
+      "pistol_round_win_rate": 0.5,
+      "first_kill_round_win_rate": 0.8,
+      "first_death_round_win_rate": 0.345,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        4863
+      ]
     },
     {
       "hltv_team_id": 4863,
@@ -126,32 +135,35 @@
       "rounds_won": 0,
       "pistol_rounds": 0,
       "pistol_rounds_won": 0,
-      "pistol_round_win_rate": "0.0000",
+      "pistol_round_win_rate": null,
       "first_kill_round_win_rate": "0.0000",
       "first_death_round_win_rate": "0.0000",
       "zero_sample": true,
       "side_stats_status": "zero_sample",
-      "detail_status": "zero_sample"
+      "detail_status": "zero_sample",
+      "source_hltv_team_ids": [
+        4863
+      ]
     },
     {
       "hltv_team_id": 4863,
       "map_name": "Inferno",
       "data_type": "lan",
-      "sample_maps": 11,
+      "sample_maps": 14,
       "wins": 7,
       "draws": 0,
-      "losses": 4,
-      "raw_win_rate": 0.6364,
+      "losses": 7,
+      "raw_win_rate": 0.5,
       "pick_pct": "0.4500",
       "ban_pct": "0.0000",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:32:07.000Z",
-      "latest_match_at": "2026-06-07T07:44:20.000Z",
+      "latest_match_at": "2026-07-10T11:23:35.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/33/4863/tyloo?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
-        "S": 5,
-        "A": 2,
+        "S": 7,
+        "A": 3,
         "B": 0,
         "C": 4,
         "unknown": 0
@@ -164,35 +176,38 @@
       "rounds_won": 125,
       "pistol_rounds": 22,
       "pistol_rounds_won": 8,
-      "pistol_round_win_rate": "0.3640",
-      "first_kill_round_win_rate": "0.7730",
-      "first_death_round_win_rate": "0.3280",
+      "pistol_round_win_rate": 0.3636,
+      "first_kill_round_win_rate": 0.773,
+      "first_death_round_win_rate": 0.328,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        4863
+      ]
     },
     {
       "hltv_team_id": 4863,
       "map_name": "Mirage",
       "data_type": "lan",
-      "sample_maps": 15,
-      "wins": 11,
+      "sample_maps": 18,
+      "wins": 13,
       "draws": 0,
-      "losses": 4,
-      "raw_win_rate": 0.7333,
+      "losses": 5,
+      "raw_win_rate": 0.7222,
       "pick_pct": "0.5260",
       "ban_pct": "0.0570",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:32:07.000Z",
-      "latest_match_at": "2026-06-07T07:43:56.000Z",
+      "latest_match_at": "2026-07-10T11:23:35.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/32/4863/tyloo?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
-        "S": 5,
-        "A": 1,
+        "S": 7,
+        "A": 3,
         "B": 0,
         "C": 8,
-        "unknown": 1
+        "unknown": 0
       },
       "ct_side_win_rate": "0.5700",
       "t_side_win_rate": "0.5900",
@@ -202,32 +217,35 @@
       "rounds_won": 167,
       "pistol_rounds": 30,
       "pistol_rounds_won": 20,
-      "pistol_round_win_rate": "0.6670",
-      "first_kill_round_win_rate": "0.8110",
-      "first_death_round_win_rate": "0.2970",
+      "pistol_round_win_rate": 0.6667,
+      "first_kill_round_win_rate": 0.811,
+      "first_death_round_win_rate": 0.297,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        4863
+      ]
     },
     {
       "hltv_team_id": 4863,
       "map_name": "Nuke",
       "data_type": "lan",
-      "sample_maps": 8,
-      "wins": 5,
+      "sample_maps": 11,
+      "wins": 7,
       "draws": 0,
-      "losses": 3,
-      "raw_win_rate": 0.625,
+      "losses": 4,
+      "raw_win_rate": 0.6364,
       "pick_pct": "0.0670",
       "ban_pct": "0.2000",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:32:07.000Z",
-      "latest_match_at": "2026-06-07T07:44:12.000Z",
+      "latest_match_at": "2026-07-10T11:23:36.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/34/4863/tyloo?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
-        "S": 3,
-        "A": 1,
+        "S": 4,
+        "A": 3,
         "B": 0,
         "C": 4,
         "unknown": 0
@@ -240,12 +258,15 @@
       "rounds_won": 96,
       "pistol_rounds": 16,
       "pistol_rounds_won": 7,
-      "pistol_round_win_rate": "0.4380",
-      "first_kill_round_win_rate": "0.7680",
-      "first_death_round_win_rate": "0.3400",
+      "pistol_round_win_rate": 0.4375,
+      "first_kill_round_win_rate": 0.768,
+      "first_death_round_win_rate": 0.34,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        4863
+      ]
     },
     {
       "hltv_team_id": 4863,
@@ -283,7 +304,10 @@
       "first_death_round_win_rate": null,
       "zero_sample": false,
       "side_stats_status": "not_collected",
-      "detail_status": "not_collected"
+      "detail_status": "not_collected",
+      "source_hltv_team_ids": [
+        4863
+      ]
     }
   ]
 }

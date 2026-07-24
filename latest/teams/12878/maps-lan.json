@@ -1,13 +1,16 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-23T21:39:25.739Z",
+    "requested_at": "2026-07-24T15:48:43.038Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
+    "source_hltv_team_ids": [
+      12878
+    ],
     "warnings": []
   },
   "team": {
@@ -50,31 +53,34 @@
       "rounds_won": 43,
       "pistol_rounds": 12,
       "pistol_rounds_won": 6,
-      "pistol_round_win_rate": "0.5000",
-      "first_kill_round_win_rate": "0.6040",
-      "first_death_round_win_rate": "0.1920",
+      "pistol_round_win_rate": 0.5,
+      "first_kill_round_win_rate": 0.604,
+      "first_death_round_win_rate": 0.192,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        12878
+      ]
     },
     {
       "hltv_team_id": 12878,
       "map_name": "Anubis",
       "data_type": "lan",
-      "sample_maps": 3,
+      "sample_maps": 4,
       "wins": 0,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "raw_win_rate": 0,
       "pick_pct": "0.0000",
       "ban_pct": "0.2500",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:35:09.000Z",
-      "latest_match_at": "2026-05-08T11:47:45.000Z",
+      "latest_match_at": "2026-05-21T17:04:39.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/48/12878/bcgame?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
-        "S": 1,
+        "S": 2,
         "A": 1,
         "B": 0,
         "C": 1,
@@ -88,31 +94,34 @@
       "rounds_won": 19,
       "pistol_rounds": 6,
       "pistol_rounds_won": 3,
-      "pistol_round_win_rate": "0.5000",
-      "first_kill_round_win_rate": "0.5600",
-      "first_death_round_win_rate": "0.1520",
+      "pistol_round_win_rate": 0.5,
+      "first_kill_round_win_rate": 0.56,
+      "first_death_round_win_rate": 0.152,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        12878
+      ]
     },
     {
       "hltv_team_id": 12878,
       "map_name": "Dust2",
       "data_type": "lan",
-      "sample_maps": 7,
+      "sample_maps": 10,
       "wins": 2,
       "draws": 0,
-      "losses": 5,
-      "raw_win_rate": 0.2857,
+      "losses": 8,
+      "raw_win_rate": 0.2,
       "pick_pct": "0.6250",
       "ban_pct": "0.0000",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:35:09.000Z",
-      "latest_match_at": "2026-05-08T11:47:00.000Z",
+      "latest_match_at": "2026-05-21T17:04:40.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/31/12878/bcgame?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
-        "S": 3,
+        "S": 6,
         "A": 2,
         "B": 0,
         "C": 2,
@@ -126,12 +135,15 @@
       "rounds_won": 64,
       "pistol_rounds": 14,
       "pistol_rounds_won": 7,
-      "pistol_round_win_rate": "0.5000",
-      "first_kill_round_win_rate": "0.6340",
-      "first_death_round_win_rate": "0.2680",
+      "pistol_round_win_rate": 0.5,
+      "first_kill_round_win_rate": 0.634,
+      "first_death_round_win_rate": 0.268,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        12878
+      ]
     },
     {
       "hltv_team_id": 12878,
@@ -164,12 +176,15 @@
       "rounds_won": 31,
       "pistol_rounds": 6,
       "pistol_rounds_won": 3,
-      "pistol_round_win_rate": "0.5000",
-      "first_kill_round_win_rate": "0.7040",
-      "first_death_round_win_rate": "0.3870",
+      "pistol_round_win_rate": 0.5,
+      "first_kill_round_win_rate": 0.704,
+      "first_death_round_win_rate": 0.387,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        12878
+      ]
     },
     {
       "hltv_team_id": 12878,
@@ -202,12 +217,15 @@
       "rounds_won": 0,
       "pistol_rounds": 0,
       "pistol_rounds_won": 0,
-      "pistol_round_win_rate": "0.0000",
+      "pistol_round_win_rate": null,
       "first_kill_round_win_rate": "0.0000",
       "first_death_round_win_rate": "0.0000",
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        12878
+      ]
     },
     {
       "hltv_team_id": 12878,
@@ -240,12 +258,15 @@
       "rounds_won": 100,
       "pistol_rounds": 18,
       "pistol_rounds_won": 7,
-      "pistol_round_win_rate": "0.3890",
-      "first_kill_round_win_rate": "0.7090",
-      "first_death_round_win_rate": "0.3100",
+      "pistol_round_win_rate": 0.3889,
+      "first_kill_round_win_rate": 0.709,
+      "first_death_round_win_rate": 0.31,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        12878
+      ]
     },
     {
       "hltv_team_id": 12878,
@@ -278,12 +299,15 @@
       "rounds_won": 0,
       "pistol_rounds": 0,
       "pistol_rounds_won": 0,
-      "pistol_round_win_rate": 0,
+      "pistol_round_win_rate": null,
       "first_kill_round_win_rate": 0,
       "first_death_round_win_rate": 0,
       "zero_sample": true,
       "side_stats_status": "zero_sample",
-      "detail_status": "zero_sample"
+      "detail_status": "zero_sample",
+      "source_hltv_team_ids": [
+        12878
+      ]
     }
   ]
 }

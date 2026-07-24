@@ -1,13 +1,16 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-23T21:39:42.059Z",
+    "requested_at": "2026-07-24T15:48:57.037Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
+    "source_hltv_team_ids": [
+      10577
+    ],
     "warnings": []
   },
   "team": {
@@ -23,22 +26,22 @@
       "hltv_team_id": 10577,
       "map_name": "Ancient",
       "data_type": "overall",
-      "sample_maps": 18,
-      "wins": 10,
+      "sample_maps": 22,
+      "wins": 11,
       "draws": 0,
-      "losses": 8,
-      "raw_win_rate": 0.5556,
+      "losses": 11,
+      "raw_win_rate": 0.5,
       "pick_pct": "0.0800",
       "ban_pct": "0.2500",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:35:24.000Z",
-      "latest_match_at": "2026-06-07T07:37:33.000Z",
+      "latest_match_at": "2026-07-24T05:35:50.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/47/10577/sinners?startDate=2026-01-01&endDate=2026-12-31",
       "event_tier_breakdown": {
         "S": 2,
-        "A": 2,
-        "B": 10,
+        "A": 5,
+        "B": 11,
         "C": 4,
         "unknown": 0
       },
@@ -50,12 +53,15 @@
       "rounds_won": 238,
       "pistol_rounds": 38,
       "pistol_rounds_won": 25,
-      "pistol_round_win_rate": "0.6580",
-      "first_kill_round_win_rate": "0.7220",
-      "first_death_round_win_rate": "0.3360",
+      "pistol_round_win_rate": 0.6579,
+      "first_kill_round_win_rate": 0.722,
+      "first_death_round_win_rate": 0.336,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        10577
+      ]
     },
     {
       "hltv_team_id": 10577,
@@ -88,32 +94,35 @@
       "rounds_won": 0,
       "pistol_rounds": 0,
       "pistol_rounds_won": 0,
-      "pistol_round_win_rate": "0.0000",
+      "pistol_round_win_rate": null,
       "first_kill_round_win_rate": "0.0000",
       "first_death_round_win_rate": "0.0000",
       "zero_sample": true,
       "side_stats_status": "zero_sample",
-      "detail_status": "zero_sample"
+      "detail_status": "zero_sample",
+      "source_hltv_team_ids": [
+        10577
+      ]
     },
     {
       "hltv_team_id": 10577,
       "map_name": "Dust2",
       "data_type": "overall",
-      "sample_maps": 21,
-      "wins": 11,
+      "sample_maps": 23,
+      "wins": 12,
       "draws": 0,
-      "losses": 10,
-      "raw_win_rate": 0.5238,
+      "losses": 11,
+      "raw_win_rate": 0.5217,
       "pick_pct": "0.4070",
       "ban_pct": "0.1570",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:35:24.000Z",
-      "latest_match_at": "2026-06-07T07:37:12.000Z",
+      "latest_match_at": "2026-07-24T05:35:50.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/31/10577/sinners?startDate=2026-01-01&endDate=2026-12-31",
       "event_tier_breakdown": {
         "S": 1,
-        "A": 5,
+        "A": 7,
         "B": 12,
         "C": 3,
         "unknown": 0
@@ -126,12 +135,15 @@
       "rounds_won": 224,
       "pistol_rounds": 42,
       "pistol_rounds_won": 18,
-      "pistol_round_win_rate": "0.4290",
-      "first_kill_round_win_rate": "0.6940",
-      "first_death_round_win_rate": "0.3060",
+      "pistol_round_win_rate": 0.4286,
+      "first_kill_round_win_rate": 0.694,
+      "first_death_round_win_rate": 0.306,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        10577
+      ]
     },
     {
       "hltv_team_id": 10577,
@@ -164,33 +176,36 @@
       "rounds_won": 141,
       "pistol_rounds": 24,
       "pistol_rounds_won": 16,
-      "pistol_round_win_rate": "0.6670",
-      "first_kill_round_win_rate": "0.7240",
-      "first_death_round_win_rate": "0.2570",
+      "pistol_round_win_rate": 0.6667,
+      "first_kill_round_win_rate": 0.724,
+      "first_death_round_win_rate": 0.257,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        10577
+      ]
     },
     {
       "hltv_team_id": 10577,
       "map_name": "Mirage",
       "data_type": "overall",
-      "sample_maps": 23,
-      "wins": 14,
+      "sample_maps": 26,
+      "wins": 15,
       "draws": 0,
-      "losses": 9,
-      "raw_win_rate": 0.6087,
+      "losses": 11,
+      "raw_win_rate": 0.5769,
       "pick_pct": "0.4170",
       "ban_pct": "0.0330",
       "data_from": "2026-01-01",
       "data_to": "2026-07-23",
       "snapshot_time": "2026-07-24T05:35:24.000Z",
-      "latest_match_at": "2026-06-07T07:37:24.000Z",
+      "latest_match_at": "2026-07-24T05:35:49.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/32/10577/sinners?startDate=2026-01-01&endDate=2026-12-31",
       "event_tier_breakdown": {
         "S": 3,
-        "A": 4,
-        "B": 8,
+        "A": 6,
+        "B": 9,
         "C": 8,
         "unknown": 0
       },
@@ -202,12 +217,15 @@
       "rounds_won": 316,
       "pistol_rounds": 48,
       "pistol_rounds_won": 30,
-      "pistol_round_win_rate": "0.6250",
-      "first_kill_round_win_rate": "0.7220",
-      "first_death_round_win_rate": "0.3240",
+      "pistol_round_win_rate": 0.625,
+      "first_kill_round_win_rate": 0.722,
+      "first_death_round_win_rate": 0.324,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        10577
+      ]
     },
     {
       "hltv_team_id": 10577,
@@ -240,12 +258,15 @@
       "rounds_won": 222,
       "pistol_rounds": 40,
       "pistol_rounds_won": 21,
-      "pistol_round_win_rate": "0.5250",
-      "first_kill_round_win_rate": "0.6910",
-      "first_death_round_win_rate": "0.2610",
+      "pistol_round_win_rate": 0.525,
+      "first_kill_round_win_rate": 0.691,
+      "first_death_round_win_rate": 0.261,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        10577
+      ]
     },
     {
       "hltv_team_id": 10577,
@@ -278,12 +299,15 @@
       "rounds_won": 0,
       "pistol_rounds": 0,
       "pistol_rounds_won": 0,
-      "pistol_round_win_rate": 0,
+      "pistol_round_win_rate": null,
       "first_kill_round_win_rate": 0,
       "first_death_round_win_rate": 0,
       "zero_sample": true,
       "side_stats_status": "zero_sample",
-      "detail_status": "zero_sample"
+      "detail_status": "zero_sample",
+      "source_hltv_team_ids": [
+        10577
+      ]
     }
   ]
 }

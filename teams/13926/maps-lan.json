@@ -1,44 +1,52 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-23T21:39:06.821Z",
+    "requested_at": "2026-07-24T15:48:23.727Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
       "end": "2026-12-31",
       "policy": "calendar_year"
     },
+    "source_hltv_team_ids": [
+      13926,
+      8113
+    ],
     "warnings": []
   },
   "team": {
     "db_id": 210004,
-    "hltv_id": 8113,
-    "name": "Sharks",
-    "name_zh": "sharks",
-    "slug": "sharks",
-    "rank": 29
+    "hltv_id": 13926,
+    "name": "DENDELE",
+    "name_zh": "DENDELE",
+    "slug": "dendele",
+    "rank": 29,
+    "source_hltv_ids": [
+      13926,
+      8113
+    ]
   },
   "maps": [
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Ancient",
       "data_type": "lan",
-      "sample_maps": 13,
-      "wins": 4,
+      "sample_maps": 16,
+      "wins": 6,
       "draws": 0,
-      "losses": 9,
-      "raw_win_rate": 0.3077,
+      "losses": 10,
+      "raw_win_rate": 0.375,
       "pick_pct": "0.2590",
       "ban_pct": "0.1000",
       "data_from": "2026-01-01",
-      "data_to": "2026-07-23",
+      "data_to": "2026-12-31",
       "snapshot_time": "2026-07-24T05:33:10.000Z",
-      "latest_match_at": "2026-06-07T07:42:40.000Z",
+      "latest_match_at": "2026-07-01T12:04:53.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/47/8113/sharks?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
         "S": 0,
         "A": 2,
-        "B": 10,
+        "B": 13,
         "C": 1,
         "unknown": 0
       },
@@ -50,33 +58,37 @@
       "rounds_won": 131,
       "pistol_rounds": 26,
       "pistol_rounds_won": 12,
-      "pistol_round_win_rate": "0.4620",
-      "first_kill_round_win_rate": "0.7500",
-      "first_death_round_win_rate": "0.2240",
+      "pistol_round_win_rate": 0.4615,
+      "first_kill_round_win_rate": 0.75,
+      "first_death_round_win_rate": 0.224,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     },
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Anubis",
       "data_type": "lan",
-      "sample_maps": 7,
+      "sample_maps": 9,
       "wins": 5,
       "draws": 0,
-      "losses": 2,
-      "raw_win_rate": 0.7143,
+      "losses": 4,
+      "raw_win_rate": 0.5556,
       "pick_pct": "0.0500",
       "ban_pct": "0.1540",
       "data_from": "2026-01-01",
-      "data_to": "2026-07-23",
+      "data_to": "2026-12-31",
       "snapshot_time": "2026-07-24T05:33:10.000Z",
-      "latest_match_at": "2026-06-07T07:43:15.000Z",
+      "latest_match_at": "2026-07-01T12:04:55.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/48/8113/sharks?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
         "S": 1,
         "A": 1,
-        "B": 5,
+        "B": 7,
         "C": 0,
         "unknown": 0
       },
@@ -88,15 +100,19 @@
       "rounds_won": 82,
       "pistol_rounds": 14,
       "pistol_rounds_won": 7,
-      "pistol_round_win_rate": "0.5000",
-      "first_kill_round_win_rate": "0.8210",
-      "first_death_round_win_rate": "0.3460",
+      "pistol_round_win_rate": 0.5,
+      "first_kill_round_win_rate": 0.821,
+      "first_death_round_win_rate": 0.346,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     },
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Dust2",
       "data_type": "lan",
       "sample_maps": 1,
@@ -107,7 +123,7 @@
       "pick_pct": "0.0000",
       "ban_pct": "0.8860",
       "data_from": "2026-01-01",
-      "data_to": "2026-07-23",
+      "data_to": "2026-12-31",
       "snapshot_time": "2026-07-24T05:33:10.000Z",
       "latest_match_at": "2026-06-07T07:42:23.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/31/8113/sharks?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
@@ -126,33 +142,37 @@
       "rounds_won": 13,
       "pistol_rounds": 2,
       "pistol_rounds_won": 2,
-      "pistol_round_win_rate": "1.0000",
-      "first_kill_round_win_rate": "0.8180",
-      "first_death_round_win_rate": "0.5710",
+      "pistol_round_win_rate": 1,
+      "first_kill_round_win_rate": 0.818,
+      "first_death_round_win_rate": 0.571,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     },
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Inferno",
       "data_type": "lan",
-      "sample_maps": 12,
-      "wins": 6,
+      "sample_maps": 13,
+      "wins": 7,
       "draws": 0,
       "losses": 6,
-      "raw_win_rate": 0.5,
+      "raw_win_rate": 0.5385,
       "pick_pct": "0.2730",
       "ban_pct": "0.2380",
       "data_from": "2026-01-01",
-      "data_to": "2026-07-23",
+      "data_to": "2026-12-31",
       "snapshot_time": "2026-07-24T05:33:10.000Z",
-      "latest_match_at": "2026-06-07T07:42:59.000Z",
+      "latest_match_at": "2026-07-01T12:04:54.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/33/8113/sharks?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
         "S": 1,
         "A": 1,
-        "B": 9,
+        "B": 10,
         "C": 1,
         "unknown": 0
       },
@@ -164,33 +184,37 @@
       "rounds_won": 125,
       "pistol_rounds": 24,
       "pistol_rounds_won": 13,
-      "pistol_round_win_rate": "0.5420",
-      "first_kill_round_win_rate": "0.7540",
-      "first_death_round_win_rate": "0.2400",
+      "pistol_round_win_rate": 0.5417,
+      "first_kill_round_win_rate": 0.754,
+      "first_death_round_win_rate": 0.24,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     },
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Mirage",
       "data_type": "lan",
-      "sample_maps": 12,
-      "wins": 7,
+      "sample_maps": 15,
+      "wins": 10,
       "draws": 0,
       "losses": 5,
-      "raw_win_rate": 0.5833,
+      "raw_win_rate": 0.6667,
       "pick_pct": "0.0770",
       "ban_pct": "0.2000",
       "data_from": "2026-01-01",
-      "data_to": "2026-07-23",
+      "data_to": "2026-12-31",
       "snapshot_time": "2026-07-24T05:33:10.000Z",
-      "latest_match_at": "2026-06-07T07:42:31.000Z",
+      "latest_match_at": "2026-07-01T12:04:56.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/32/8113/sharks?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
         "S": 1,
         "A": 1,
-        "B": 9,
+        "B": 12,
         "C": 1,
         "unknown": 0
       },
@@ -202,33 +226,37 @@
       "rounds_won": 139,
       "pistol_rounds": 24,
       "pistol_rounds_won": 10,
-      "pistol_round_win_rate": "0.4170",
-      "first_kill_round_win_rate": "0.7560",
-      "first_death_round_win_rate": "0.3120",
+      "pistol_round_win_rate": 0.4167,
+      "first_kill_round_win_rate": 0.756,
+      "first_death_round_win_rate": 0.312,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     },
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Nuke",
       "data_type": "lan",
-      "sample_maps": 26,
-      "wins": 18,
+      "sample_maps": 30,
+      "wins": 20,
       "draws": 0,
-      "losses": 8,
-      "raw_win_rate": 0.6923,
+      "losses": 10,
+      "raw_win_rate": 0.6667,
       "pick_pct": "0.6130",
       "ban_pct": "0.0000",
       "data_from": "2026-01-01",
-      "data_to": "2026-07-23",
+      "data_to": "2026-12-31",
       "snapshot_time": "2026-07-24T05:33:10.000Z",
-      "latest_match_at": "2026-06-07T07:42:51.000Z",
+      "latest_match_at": "2026-07-01T12:04:55.000Z",
       "detail_source_url": "https://www.hltv.org/stats/teams/map/34/8113/sharks?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
       "event_tier_breakdown": {
         "S": 2,
         "A": 3,
-        "B": 19,
+        "B": 23,
         "C": 2,
         "unknown": 0
       },
@@ -240,15 +268,19 @@
       "rounds_won": 304,
       "pistol_rounds": 52,
       "pistol_rounds_won": 30,
-      "pistol_round_win_rate": "0.5770",
-      "first_kill_round_win_rate": "0.7390",
-      "first_death_round_win_rate": "0.3230",
+      "pistol_round_win_rate": 0.5769,
+      "first_kill_round_win_rate": 0.739,
+      "first_death_round_win_rate": 0.323,
       "zero_sample": false,
       "side_stats_status": "collected",
-      "detail_status": "collected"
+      "detail_status": "collected",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     },
     {
-      "hltv_team_id": 8113,
+      "hltv_team_id": 13926,
       "map_name": "Cache",
       "data_type": "lan",
       "sample_maps": 0,
@@ -278,12 +310,16 @@
       "rounds_won": 0,
       "pistol_rounds": 0,
       "pistol_rounds_won": 0,
-      "pistol_round_win_rate": 0,
+      "pistol_round_win_rate": null,
       "first_kill_round_win_rate": 0,
       "first_death_round_win_rate": 0,
       "zero_sample": true,
       "side_stats_status": "zero_sample",
-      "detail_status": "zero_sample"
+      "detail_status": "zero_sample",
+      "source_hltv_team_ids": [
+        13926,
+        8113
+      ]
     }
   ]
 }
