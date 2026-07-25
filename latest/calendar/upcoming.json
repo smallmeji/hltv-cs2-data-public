@@ -2,45 +2,16 @@
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
     "source_policy": "api_with_legacy_fallback",
-    "requested_at": "2026-07-24T15:48:59.672Z",
+    "requested_at": "2026-07-25T07:03:06.045Z",
     "days": 8,
     "top": 40,
-    "warnings": []
+    "warnings": [
+      {
+        "code": "CALENDAR_EMPTY",
+        "message": "No upcoming match rows available in match_calendar.",
+        "field": "calendar"
+      }
+    ]
   },
-  "matches": [
-    {
-      "id": 1470013,
-      "hltv_match_id": 2396004,
-      "hltv_url": "https://www.hltv.org/matches/2396004/liquid-vs-vitality-blast-bounty-2026-season-2",
-      "event_name": "BLAST Bounty 2026 Season 2",
-      "event_tier": "A",
-      "team1_hltv_id": 5973,
-      "team1_name": "Liquid",
-      "team1_rank": 31,
-      "team2_hltv_id": 9565,
-      "team2_name": "Vitality",
-      "team2_rank": 2,
-      "match_format": "bo3",
-      "match_time": "2026-07-24T14:00:00.000Z",
-      "status": "upcoming",
-      "result": null
-    },
-    {
-      "id": 1470014,
-      "hltv_match_id": 2396001,
-      "hltv_url": "https://www.hltv.org/matches/2396001/sharks-vs-furia-blast-bounty-2026-season-2",
-      "event_name": "BLAST Bounty 2026 Season 2",
-      "event_tier": "A",
-      "team1_hltv_id": 13926,
-      "team1_name": "DENDELE",
-      "team1_rank": 29,
-      "team2_hltv_id": 8297,
-      "team2_name": "FURIA",
-      "team2_rank": 3,
-      "match_format": "bo3",
-      "match_time": "2026-07-24T16:30:00.000Z",
-      "status": "upcoming",
-      "result": null
-    }
-  ]
+  "matches": []
 }
