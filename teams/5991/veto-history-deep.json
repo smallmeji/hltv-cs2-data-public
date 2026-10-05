@@ -1,0 +1,3727 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:29:58.294Z",
+    "source_policy": "roster_continuity_with_exact_historical_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 5991,
+        "from": "2026-09-29T00:00:00.000Z"
+      },
+      {
+        "hltvTeamId": 4914,
+        "before": "2026-09-29T00:00:00.000Z"
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 5991,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 14,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 14,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 14,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 14,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Mirage",
+        "count": 20,
+        "empirical_share_of_resolved_sample": 1
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 20,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-31T11:30:00.000Z",
+      "to": "2026-09-27T11:30:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-31T11:30:00.000Z",
+      "to": "2026-09-27T11:30:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398240,
+      "hltv_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+      "scheduled_at": "2026-09-27T11:30:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030044,
+        "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+        "retrieved_at": "2026-09-27T15:17:59.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. GamerLegion picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 3DMAX picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. GamerLegion removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030044,
+            "source_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398236,
+      "hltv_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+      "scheduled_at": "2026-09-26T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000044,
+        "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+        "retrieved_at": "2026-09-27T06:07:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 3DMAX picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Alliance removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398094,
+      "hltv_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+      "scheduled_at": "2026-09-25T14:15:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940120,
+        "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+        "retrieved_at": "2026-09-25T17:34:32.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 3DMAX removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397919,
+      "hltv_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-23T16:45:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940121,
+        "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-25T17:34:33.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "5. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "6. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397918,
+      "hltv_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-22T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940117,
+        "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-25T17:34:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397916,
+      "hltv_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-19T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2880043,
+        "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-20T05:15:20.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. M80 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. M80 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. 3DMAX removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880043,
+            "source_url": "https://www.hltv.org/matches/2397916/3dmax-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397913,
+      "hltv_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T18:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820052,
+        "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:14.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. INFINITE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 3DMAX removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. INFINITE removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820052,
+            "source_url": "https://www.hltv.org/matches/2397913/infinite-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:14.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397909,
+      "hltv_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T16:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820048,
+        "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:05.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. 3DMAX removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397908,
+      "hltv_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T14:35:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820053,
+        "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. BBL removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 3DMAX removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BBL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820053,
+            "source_url": "https://www.hltv.org/matches/2397908/bbl-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397906,
+      "hltv_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T13:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820055,
+        "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. 3DMAX removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397901,
+      "hltv_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T09:55:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 11737,
+        "name": "EYEBALLERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820054,
+        "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. EYEBALLERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. EYEBALLERS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 3DMAX removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. EYEBALLERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820054,
+            "source_url": "https://www.hltv.org/matches/2397901/3dmax-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397874,
+      "hltv_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-11T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580043,
+        "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397870,
+      "hltv_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-10T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2550045,
+        "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T06:12:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BBL picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BBL removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550045,
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397860,
+      "hltv_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-09T11:15:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340050,
+        "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:33.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Acend removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340050,
+            "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:33.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396748,
+      "hltv_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-03T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2100050,
+        "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-04T07:38:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 3DMAX picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 3DMAX removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. HOTU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396746,
+      "hltv_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-03T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2070050,
+        "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-03T13:26:39.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. INFINITE picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. INFINITE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. 3DMAX removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070050,
+            "source_url": "https://www.hltv.org/matches/2396746/3dmax-vs-infinite-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396745,
+      "hltv_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-02T18:15:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13808,
+        "name": "Walczaki"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040053,
+        "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-03T07:59:58.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13808,
+          "actor_team_name": "Walczaki",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Walczaki removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13808,
+          "actor_team_name": "Walczaki",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Walczaki picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. 3DMAX picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13808,
+          "actor_team_name": "Walczaki",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Walczaki removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040053,
+            "source_url": "https://www.hltv.org/matches/2396745/3dmax-vs-walczaki-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397317,
+      "hltv_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T16:15:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040054,
+        "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-03T07:59:59.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. MIBR picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. MIBR removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040054,
+            "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397308,
+      "hltv_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2010049,
+        "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-02T13:50:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. HEROIC picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. HEROIC removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010049,
+            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396735,
+      "hltv_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+      "scheduled_at": "2026-08-31T11:30:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "opponent": {
+        "hltv_id": 13908,
+        "name": "Butterfly"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920051,
+        "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-01T06:04:10.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13908,
+          "actor_team_name": "Butterfly",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Butterfly removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. 3DMAX picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13908,
+          "actor_team_name": "Butterfly",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Butterfly picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13908,
+          "actor_team_name": "Butterfly",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Butterfly removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920051,
+            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:08.601Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 12376
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "5 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 12376,
+  "coverage": {
+    "eligible_completed_matches": 5,
+    "eligible_bo3_matches": 5,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 5,
+      "bo5": 0
+    },
+    "with_veto": 5,
+    "complete_seven_map_veto": 5,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 5,
+    "first_ban_fact_time_eligible": 5,
+    "first_ban_retrieved_by_cutoff": 5,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 5
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 5,
+    "eligible_bo3_matches": 5,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 5,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 5,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Nuke",
+        "count": 5,
+        "empirical_share_of_resolved_sample": 1
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 5,
+        "resolved_first_bans": 5,
+        "first_bans": [
+          {
+            "map_name": "Nuke",
+            "count": 5,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 5,
+      "from": "2026-09-26T20:30:00.000Z",
+      "to": "2026-10-05T14:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 5,
+      "from": "2026-09-26T20:30:00.000Z",
+      "to": "2026-10-05T14:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398738,
+      "hltv_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-05T14:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 4863,
+        "name": "TYLOO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360051,
+        "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-05T21:28:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. TYLOO removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. TYLOO picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. TYLOO removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. M80 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360051,
+            "source_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:28:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398732,
+      "hltv_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-04T17:10:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330051,
+        "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-04T20:01:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. BETBOOM picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BETBOOM removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398722,
+      "hltv_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-03T15:25:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270044,
+        "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-03T19:25:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. MOUZ picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. MOUZ removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270044,
+            "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398299,
+      "hltv_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-27T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 13926,
+        "name": "DENDELE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060047,
+        "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-28T05:59:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. DENDELE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. M80 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. DENDELE picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. DENDELE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060047,
+            "source_url": "https://www.hltv.org/matches/2398299/m80-vs-dendele-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398297,
+      "hltv_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-26T20:30:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000046,
+        "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-27T06:07:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. M80 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

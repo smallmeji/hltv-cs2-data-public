@@ -1,0 +1,3772 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:17.226Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 7532
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 7532,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 2,
+      "bo3": 18,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 2,
+      "bo3": 18,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Anubis",
+        "count": 8,
+        "empirical_share_of_resolved_sample": 0.4
+      },
+      {
+        "map_name": "Nuke",
+        "count": 5,
+        "empirical_share_of_resolved_sample": 0.25
+      },
+      {
+        "map_name": "Mirage",
+        "count": 3,
+        "empirical_share_of_resolved_sample": 0.15
+      },
+      {
+        "map_name": "Dust2",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Ancient",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Inferno",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Anubis",
+            "count": 8,
+            "empirical_share_of_resolved_pool_sample": 0.4
+          },
+          {
+            "map_name": "Nuke",
+            "count": 5,
+            "empirical_share_of_resolved_pool_sample": 0.25
+          },
+          {
+            "map_name": "Mirage",
+            "count": 3,
+            "empirical_share_of_resolved_pool_sample": 0.15
+          },
+          {
+            "map_name": "Dust2",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
+          },
+          {
+            "map_name": "Ancient",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          },
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-07-03T10:55:00.000Z",
+      "to": "2026-10-03T10:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-07-03T10:55:00.000Z",
+      "to": "2026-10-03T10:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398004,
+      "hltv_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-03T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270052,
+        "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T19:25:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BIG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Astralis picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Astralis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270052,
+            "source_url": "https://www.hltv.org/matches/2398004/astralis-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398002,
+      "hltv_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-02T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240052,
+        "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T00:57:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Luminosity removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397939,
+      "hltv_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-01T12:15:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 4991,
+        "name": "fnatic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180055,
+        "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-01T17:02:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. fnatic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. fnatic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. fnatic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180055,
+            "source_url": "https://www.hltv.org/matches/2397939/big-vs-fnatic-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397605,
+      "hltv_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+      "scheduled_at": "2026-09-09T08:10:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340041,
+        "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+        "retrieved_at": "2026-09-09T17:54:06.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BIG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. G2 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. G2 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340041,
+            "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397601,
+      "hltv_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+      "scheduled_at": "2026-09-08T09:25:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310049,
+        "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+        "retrieved_at": "2026-09-08T17:53:56.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BETBOOM picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BETBOOM removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397325,
+      "hltv_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-03T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2100048,
+        "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-04T07:38:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. magic removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100048,
+            "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397321,
+      "hltv_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T19:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 4773,
+        "name": "paiN"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040051,
+        "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-03T07:59:42.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. paiN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. paiN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. paiN removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040051,
+            "source_url": "https://www.hltv.org/matches/2397321/pain-vs-big-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397311,
+      "hltv_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040056,
+        "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-03T08:00:00.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Nemiga picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. BIG picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Nemiga removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040056,
+            "source_url": "https://www.hltv.org/matches/2397311/big-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396591,
+      "hltv_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+      "scheduled_at": "2026-08-15T18:10:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1650048,
+        "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+        "retrieved_at": "2026-08-16T08:48:32.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Spirit picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Spirit removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650048,
+            "source_url": "https://www.hltv.org/matches/2396591/spirit-vs-big-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396576,
+      "hltv_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+      "scheduled_at": "2026-08-13T13:15:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620050,
+        "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. G2 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. G2 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620050,
+            "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396562,
+      "hltv_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560051,
+        "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:32.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396556,
+      "hltv_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T15:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350112,
+        "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:01:34.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396550,
+      "hltv_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T12:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 11609,
+        "name": "GenOne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350114,
+        "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:01:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. GenOne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. GenOne picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. GenOne removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350114,
+            "source_url": "https://www.hltv.org/matches/2396550/big-vs-genone-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396538,
+      "hltv_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350113,
+        "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:01:34.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Eternal Fire picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BIG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350113,
+            "source_url": "https://www.hltv.org/matches/2396538/eternal-fire-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396469,
+      "hltv_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T11:40:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 11837,
+        "name": "Fluxo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350115,
+        "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:01:36.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Fluxo removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Fluxo picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Fluxo removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350115,
+            "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396453,
+      "hltv_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T09:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 13966,
+        "name": "z to forward"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350116,
+        "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:01:52.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13966,
+          "actor_team_name": "z to forward",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. z to forward removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13966,
+          "actor_team_name": "z to forward",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. z to forward picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. BIG picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13966,
+          "actor_team_name": "z to forward",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. z to forward removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350116,
+            "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395488,
+      "hltv_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-10T08:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 12467,
+        "name": "PARIVISION"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350099,
+        "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T10:00:30.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. PARIVISION removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. PARIVISION picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. PARIVISION removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350099,
+            "source_url": "https://www.hltv.org/matches/2395488/parivision-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:00:30.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395484,
+      "hltv_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-05T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350118,
+        "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T10:01:53.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. B8 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. B8 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350118,
+            "source_url": "https://www.hltv.org/matches/2395484/b8-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395480,
+      "hltv_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-04T08:30:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940132,
+        "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:35:21.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Ninjas in Pyjamas picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940132,
+            "source_url": "https://www.hltv.org/matches/2395480/big-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395472,
+      "hltv_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-03T10:55:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940133,
+        "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:35:21.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. MIBR removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. BIG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. MIBR removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940133,
+            "source_url": "https://www.hltv.org/matches/2395472/big-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

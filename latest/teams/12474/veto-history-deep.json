@@ -1,0 +1,3769 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:01.746Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 12474
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 12474,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 3,
+      "bo3": 17,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 3,
+      "bo3": 17,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Mirage",
+        "count": 19,
+        "empirical_share_of_resolved_sample": 0.95
+      },
+      {
+        "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 17,
+        "resolved_first_bans": 17,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 16,
+            "empirical_share_of_resolved_pool_sample": 0.9411764705882353
+          },
+          {
+            "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.058823529411764705
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 3,
+        "resolved_first_bans": 3,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 3,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 3,
+      "from": "2026-06-14T11:00:00.000Z",
+      "to": "2026-06-14T17:20:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 17,
+      "from": "2026-07-01T14:15:00.000Z",
+      "to": "2026-10-03T13:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-06-14T11:00:00.000Z",
+      "to": "2026-10-03T13:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398005,
+      "hltv_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-03T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 4991,
+        "name": "fnatic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270053,
+        "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T19:25:32.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. fnatic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. fnatic picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Alliance removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. fnatic removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270053,
+            "source_url": "https://www.hltv.org/matches/2398005/fnatic-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398003,
+      "hltv_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-02T18:35:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240053,
+        "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T00:57:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Nemiga picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Alliance picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Alliance removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nemiga removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240053,
+            "source_url": "https://www.hltv.org/matches/2398003/alliance-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397940,
+      "hltv_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-01T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3210056,
+        "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-01T21:44:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Astralis picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Astralis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Alliance removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210056,
+            "source_url": "https://www.hltv.org/matches/2397940/astralis-vs-alliance-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398236,
+      "hltv_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+      "scheduled_at": "2026-09-26T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000044,
+        "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+        "retrieved_at": "2026-09-27T06:07:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 3DMAX picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Alliance removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 3DMAX removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000044,
+            "source_url": "https://www.hltv.org/matches/2398236/alliance-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398093,
+      "hltv_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+      "scheduled_at": "2026-09-25T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940108,
+        "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+        "retrieved_at": "2026-09-25T17:33:52.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. SINNERS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. SINNERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940108,
+            "source_url": "https://www.hltv.org/matches/2398093/alliance-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397620,
+      "hltv_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+      "scheduled_at": "2026-09-11T06:00:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580048,
+        "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+        "retrieved_at": "2026-09-11T19:56:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. MIBR picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Alliance removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. MIBR removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580048,
+            "source_url": "https://www.hltv.org/matches/2397620/mibr-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-11T19:56:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397618,
+      "hltv_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+      "scheduled_at": "2026-09-10T12:10:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520043,
+        "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+        "retrieved_at": "2026-09-10T16:11:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. magic removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520043,
+            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397615,
+      "hltv_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+      "scheduled_at": "2026-09-10T03:15:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 4863,
+        "name": "TYLOO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2490050,
+        "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+        "retrieved_at": "2026-09-10T10:33:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. TYLOO removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. TYLOO picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Alliance picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. TYLOO removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490050,
+            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
+            "retrieved_at": "2026-09-10T10:33:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397608,
+      "hltv_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+      "scheduled_at": "2026-09-09T07:35:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340044,
+        "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+        "retrieved_at": "2026-09-09T17:54:06.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Legacy picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Alliance removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Legacy removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340044,
+            "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397598,
+      "hltv_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+      "scheduled_at": "2026-09-08T07:50:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310044,
+        "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+        "retrieved_at": "2026-09-08T17:53:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Alliance picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FaZe picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395993,
+      "hltv_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+      "scheduled_at": "2026-07-21T17:55:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 12257,
+        "name": "Wildcard"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350146,
+        "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+        "retrieved_at": "2026-08-12T10:04:12.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Wildcard removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Wildcard picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Wildcard removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350146,
+            "source_url": "https://www.hltv.org/matches/2395993/alliance-vs-wildcard-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:04:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395490,
+      "hltv_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-11T08:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350074,
+        "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T09:58:28.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. 9z picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Alliance removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. 9z removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350074,
+            "source_url": "https://www.hltv.org/matches/2395490/9z-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:28.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395487,
+      "hltv_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-09T12:25:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350147,
+        "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T10:04:15.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Nemesis picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Nemesis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350147,
+            "source_url": "https://www.hltv.org/matches/2395487/alliance-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:04:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395479,
+      "hltv_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-04T10:35:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350077,
+        "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T09:58:41.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 9z picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Alliance picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. 9z removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350077,
+            "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395474,
+      "hltv_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-03T13:00:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560062,
+        "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-13T08:46:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Alliance removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. B8 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560062,
+            "source_url": "https://www.hltv.org/matches/2395474/b8-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395462,
+      "hltv_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-02T08:45:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940110,
+        "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:33:54.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. Alliance removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940110,
+            "source_url": "https://www.hltv.org/matches/2395462/alliance-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395222,
+      "hltv_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-01T14:15:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 12467,
+        "name": "PARIVISION"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940100,
+        "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:33:02.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Alliance removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. PARIVISION removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. PARIVISION removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. PARIVISION removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940100,
+            "source_url": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:33:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395321,
+      "hltv_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+      "scheduled_at": "2026-06-14T17:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 11641,
+        "name": "Metizport"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350148,
+        "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+        "retrieved_at": "2026-08-12T10:04:17.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Metizport removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Metizport picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Alliance picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Metizport removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "6. Alliance removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350148,
+            "source_url": "https://www.hltv.org/matches/2395321/metizport-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-08-12T10:04:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395320,
+      "hltv_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+      "scheduled_at": "2026-06-14T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9143,
+        "name": "ROG JOURNEY Summer 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 4991,
+        "name": "fnatic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940111,
+        "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+        "retrieved_at": "2026-09-25T17:34:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. fnatic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. fnatic picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Alliance picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "5. fnatic removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Alliance removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940111,
+            "source_url": "https://www.hltv.org/matches/2395320/fnatic-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395319,
+      "hltv_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+      "scheduled_at": "2026-06-14T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9143,
+        "name": "ROG JOURNEY Summer 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "opponent": {
+        "hltv_id": 7187,
+        "name": "Nexus"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940112,
+        "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+        "retrieved_at": "2026-09-25T17:34:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7187,
+          "actor_team_name": "Nexus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nexus removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7187,
+          "actor_team_name": "Nexus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "3. Nexus picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Alliance picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7187,
+          "actor_team_name": "Nexus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nexus removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Alliance removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940112,
+            "source_url": "https://www.hltv.org/matches/2395319/nexus-vs-alliance-rog-journey-summer-2026",
+            "retrieved_at": "2026-09-25T17:34:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

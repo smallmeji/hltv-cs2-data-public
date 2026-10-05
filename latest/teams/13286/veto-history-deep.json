@@ -1,0 +1,3779 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:29:35.895Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 13286
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 13286,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 2,
+      "bo3": 17,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 2,
+      "bo3": 17,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Inferno",
+        "count": 16,
+        "empirical_share_of_resolved_sample": 0.8
+      },
+      {
+        "map_name": "Dust2",
+        "count": 3,
+        "empirical_share_of_resolved_sample": 0.15
+      },
+      {
+        "map_name": "Nuke",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 12,
+        "resolved_first_bans": 12,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 9,
+            "empirical_share_of_resolved_pool_sample": 0.75
+          },
+          {
+            "map_name": "Dust2",
+            "count": 3,
+            "empirical_share_of_resolved_pool_sample": 0.25
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 8,
+        "resolved_first_bans": 8,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 7,
+            "empirical_share_of_resolved_pool_sample": 0.875
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.125
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 8,
+      "from": "2026-05-13T15:30:00.000Z",
+      "to": "2026-06-15T14:30:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 12,
+      "from": "2026-07-23T13:00:00.000Z",
+      "to": "2026-08-31T18:35:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-05-13T15:30:00.000Z",
+      "to": "2026-08-31T18:35:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2396946,
+      "hltv_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+      "scheduled_at": "2026-08-31T18:35:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920049,
+        "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+        "retrieved_at": "2026-09-01T06:03:29.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. FUT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Vitality picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Vitality removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920049,
+            "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396942,
+      "hltv_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+      "scheduled_at": "2026-08-30T14:40:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1890044,
+        "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+        "retrieved_at": "2026-08-31T05:32:22.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. FUT picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Inner Circle picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. FUT removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396937,
+      "hltv_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+      "scheduled_at": "2026-08-29T13:30:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1860048,
+        "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+        "retrieved_at": "2026-08-30T06:10:14.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. FUT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396929,
+      "hltv_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+      "scheduled_at": "2026-08-27T14:30:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1830048,
+        "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+        "retrieved_at": "2026-08-28T07:07:52.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Legacy picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Legacy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830048,
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396614,
+      "hltv_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+      "scheduled_at": "2026-08-23T12:15:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1800044,
+        "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+        "retrieved_at": "2026-08-25T07:01:39.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FUT picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Spirit picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "5. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "6. Spirit picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800044,
+            "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396611,
+      "hltv_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+      "scheduled_at": "2026-08-22T14:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1770045,
+        "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+        "retrieved_at": "2026-08-22T20:39:26.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. FURIA removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FURIA picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. FUT removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FURIA removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1770045,
+            "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T20:39:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396608,
+      "hltv_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+      "scheduled_at": "2026-08-21T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1740043,
+        "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+        "retrieved_at": "2026-08-22T10:30:31.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. MOUZ picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. MOUZ removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1740043,
+            "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-22T10:30:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396601,
+      "hltv_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+      "scheduled_at": "2026-08-19T14:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1710053,
+        "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+        "retrieved_at": "2026-08-21T09:10:51.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. FUT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. magic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710053,
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396584,
+      "hltv_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+      "scheduled_at": "2026-08-14T13:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620049,
+        "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:01.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. MOUZ picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. MOUZ removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620049,
+            "source_url": "https://www.hltv.org/matches/2396584/fut-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396569,
+      "hltv_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T10:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 4863,
+        "name": "TYLOO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560060,
+        "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:46:12.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. TYLOO removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. TYLOO removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. FUT removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. FUT removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. TYLOO removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560060,
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396009,
+      "hltv_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+      "scheduled_at": "2026-07-26T12:15:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350110,
+        "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+        "retrieved_at": "2026-08-12T10:01:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 3DMAX picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. FUT removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350110,
+            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395997,
+      "hltv_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+      "scheduled_at": "2026-07-23T13:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350109,
+        "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+        "retrieved_at": "2026-08-12T10:01:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. SINNERS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. SINNERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. FUT removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350109,
+            "source_url": "https://www.hltv.org/matches/2395997/sinners-vs-fut-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T10:01:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394994,
+      "hltv_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-15T14:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350094,
+        "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T10:00:07.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BetBoom removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. FUT picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. BetBoom picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. BetBoom removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Overpass",
+          "raw_text": "7. Overpass was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394987,
+      "hltv_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-14T12:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350082,
+        "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:59:01.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. MOUZ picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. MOUZ removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "6. FUT removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350082,
+            "source_url": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:59:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394980,
+      "hltv_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-13T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350111,
+        "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T10:01:26.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. FUT picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "5. B8 removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350111,
+            "source_url": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:01:26.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394973,
+      "hltv_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-12T12:10:00.000Z",
+      "event": {
+        "hltv_id": 8301,
+        "name": "IEM Cologne Major 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940052,
+        "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+        "retrieved_at": "2026-09-25T17:29:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "3. G2 picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. FUT picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. G2 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940052,
+            "source_url": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394898,
+      "hltv_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-11T12:10:00.000Z",
+      "event": {
+        "hltv_id": 8301,
+        "name": "IEM Cologne Major 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940053,
+        "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+        "retrieved_at": "2026-09-25T17:29:15.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. FUT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "4. Vitality picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Vitality removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940053,
+            "source_url": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394887,
+      "hltv_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+      "scheduled_at": "2026-06-07T18:45:00.000Z",
+      "event": {
+        "hltv_id": 9029,
+        "name": "IEM Cologne Major 2026 Stage 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940054,
+        "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+        "retrieved_at": "2026-09-25T17:29:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. FUT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "4. G2 picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. G2 removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940054,
+            "source_url": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394868,
+      "hltv_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+      "scheduled_at": "2026-06-06T11:30:00.000Z",
+      "event": {
+        "hltv_id": 9029,
+        "name": "IEM Cologne Major 2026 Stage 2"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940055,
+        "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+        "retrieved_at": "2026-09-25T17:29:23.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. B8 removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. FUT removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940055,
+            "source_url": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:29:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394165,
+      "hltv_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+      "scheduled_at": "2026-05-13T15:30:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940056,
+        "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+        "retrieved_at": "2026-09-25T17:29:27.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. B8 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "4. FUT picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940056,
+            "source_url": "https://www.hltv.org/matches/2394165/b8-vs-fut-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

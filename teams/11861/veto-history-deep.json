@@ -1,0 +1,3742 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:29:37.611Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 11861
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 11861,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 18,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 18,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Ancient",
+        "count": 17,
+        "empirical_share_of_resolved_sample": 0.85
+      },
+      {
+        "map_name": "Dust2",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Inferno",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Ancient",
+            "count": 17,
+            "empirical_share_of_resolved_pool_sample": 0.85
+          },
+          {
+            "map_name": "Dust2",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
+          },
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-07-22T10:00:00.000Z",
+      "to": "2026-10-05T17:20:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-07-22T10:00:00.000Z",
+      "to": "2026-10-05T17:20:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398740,
+      "hltv_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-05T17:20:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360048,
+        "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-05T21:27:34.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BETBOOM picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Aurora picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BETBOOM removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398728,
+      "hltv_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-04T12:20:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330045,
+        "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-04T20:01:02.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Falcons removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Aurora picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Falcons picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Falcons removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330045,
+            "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398721,
+      "hltv_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-03T14:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270049,
+        "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-03T19:25:23.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 9z picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Aurora picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 9z removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270049,
+            "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398108,
+      "hltv_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-20T15:00:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940051,
+        "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-25T17:29:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Vitality picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "5. Aurora picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "6. Vitality picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940051,
+            "source_url": "https://www.hltv.org/matches/2398108/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-25T17:29:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398105,
+      "hltv_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-19T15:25:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2880044,
+        "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-20T05:15:20.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Vitality picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Vitality removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2880044,
+            "source_url": "https://www.hltv.org/matches/2398105/aurora-vs-vitality-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-20T05:15:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398101,
+      "hltv_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-18T16:05:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820045,
+        "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-19T07:11:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Aurora picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398090,
+      "hltv_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-17T15:05:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790047,
+        "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-18T07:12:45.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Aurora picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Natus Vincere picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Natus Vincere removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396944,
+      "hltv_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+      "scheduled_at": "2026-08-31T11:30:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920050,
+        "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+        "retrieved_at": "2026-09-01T06:03:46.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. G2 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. G2 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920050,
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "retrieved_at": "2026-09-01T06:03:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396939,
+      "hltv_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+      "scheduled_at": "2026-08-30T12:20:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1890047,
+        "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+        "retrieved_at": "2026-08-31T05:32:23.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Aurora picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. M80 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. M80 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890047,
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396931,
+      "hltv_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+      "scheduled_at": "2026-08-28T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 13926,
+        "name": "DENDELE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1860049,
+        "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+        "retrieved_at": "2026-08-30T06:10:17.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. DENDELE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. DENDELE picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Aurora picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. DENDELE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860049,
+            "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396923,
+      "hltv_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+      "scheduled_at": "2026-08-26T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1830049,
+        "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+        "retrieved_at": "2026-08-28T07:07:54.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. G2 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. G2 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830049,
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396600,
+      "hltv_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+      "scheduled_at": "2026-08-19T17:40:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1680003,
+        "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+        "retrieved_at": "2026-08-20T15:34:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. FURIA removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Aurora picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FURIA picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. FURIA removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1680003,
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-20T15:34:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396592,
+      "hltv_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+      "scheduled_at": "2026-08-15T16:50:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 10245,
+        "name": "JiJieHao"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1650049,
+        "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+        "retrieved_at": "2026-08-16T08:48:32.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. JiJieHao removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. JiJieHao picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. JiJieHao removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650049,
+            "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396578,
+      "hltv_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+      "scheduled_at": "2026-08-13T13:55:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620051,
+        "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Aurora picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. M80 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. M80 removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620051,
+            "source_url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396562,
+      "hltv_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560051,
+        "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:32.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560051,
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396079,
+      "hltv_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-07-26T13:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350065,
+        "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-08-12T09:57:52.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. HOTU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350065,
+            "source_url": "https://www.hltv.org/matches/2396079/hotu-vs-aurora-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:52.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396076,
+      "hltv_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-07-25T13:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 13871,
+        "name": "Echo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350066,
+        "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-08-12T09:57:57.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13871,
+          "actor_team_name": "Echo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Echo removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13871,
+          "actor_team_name": "Echo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Echo picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13871,
+          "actor_team_name": "Echo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Echo removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350066,
+            "source_url": "https://www.hltv.org/matches/2396076/aurora-vs-echo-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:57:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396000,
+      "hltv_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+      "scheduled_at": "2026-07-23T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350067,
+        "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+        "retrieved_at": "2026-08-12T09:57:58.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. FOKUS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FOKUS picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Aurora picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. FOKUS removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350067,
+            "source_url": "https://www.hltv.org/matches/2396000/fokus-vs-aurora-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:57:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396065,
+      "hltv_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-07-22T16:55:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350068,
+        "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-08-12T09:58:04.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Nemesis picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Aurora picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Nemesis removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350068,
+            "source_url": "https://www.hltv.org/matches/2396065/aurora-vs-nemesis-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396053,
+      "hltv_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-07-22T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "opponent": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350069,
+        "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-08-12T09:58:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. K27 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350069,
+            "source_url": "https://www.hltv.org/matches/2396053/aurora-vs-k27-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-08-12T09:58:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

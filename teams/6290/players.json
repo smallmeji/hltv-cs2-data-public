@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-26T06:37:13.581Z",
+    "requested_at": "2026-10-05T21:30:04.023Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
@@ -9,81 +9,28 @@
       "policy": "calendar_year"
     },
     "source_hltv_team_ids": [
-      6290
+      6290,
+      11811
     ],
-    "warnings": []
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 6290,
+        "from": "2026-07-01T00:00:00.000Z"
+      },
+      {
+        "hltvTeamId": 11811,
+        "from": "2026-01-01T00:00:00.000Z",
+        "before": "2026-07-01T00:00:00.000Z"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "PLAYER_RATINGS_UNAVAILABLE",
+        "message": "No annual player rating rows available.",
+        "field": "players"
+      }
+    ]
   },
   "team_hltv_id": 6290,
-  "players": [
-    {
-      "hltv_team_id": 6290,
-      "player_name": "lux",
-      "rating_type": "annual",
-      "rating2": null,
-      "rating3": 1.14,
-      "maps_played": 5,
-      "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:32:38.000Z",
-      "source_hltv_team_ids": [
-        6290
-      ]
-    },
-    {
-      "hltv_team_id": 6290,
-      "player_name": "Rainwaker",
-      "rating_type": "annual",
-      "rating2": null,
-      "rating3": 0.97,
-      "maps_played": 5,
-      "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:32:38.000Z",
-      "source_hltv_team_ids": [
-        6290
-      ]
-    },
-    {
-      "hltv_team_id": 6290,
-      "player_name": "afro",
-      "rating_type": "annual",
-      "rating2": null,
-      "rating3": 0.92,
-      "maps_played": 5,
-      "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:32:38.000Z",
-      "source_hltv_team_ids": [
-        6290
-      ]
-    },
-    {
-      "hltv_team_id": 6290,
-      "player_name": "Bymas",
-      "rating_type": "annual",
-      "rating2": null,
-      "rating3": 0.85,
-      "maps_played": 5,
-      "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:32:38.000Z",
-      "source_hltv_team_ids": [
-        6290
-      ]
-    },
-    {
-      "hltv_team_id": 6290,
-      "player_name": "AZUWU",
-      "rating_type": "annual",
-      "rating2": null,
-      "rating3": 0.83,
-      "maps_played": 5,
-      "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:32:38.000Z",
-      "source_hltv_team_ids": [
-        6290
-      ]
-    }
-  ]
+  "players": []
 }

@@ -1,0 +1,3789 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:29:46.273Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 6667
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 6667,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 3,
+      "bo3": 17,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 3,
+      "bo3": 17,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Inferno",
+        "count": 16,
+        "empirical_share_of_resolved_sample": 0.8
+      },
+      {
+        "map_name": "Dust2",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Mirage",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Overpass",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 18,
+        "resolved_first_bans": 18,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 15,
+            "empirical_share_of_resolved_pool_sample": 0.8333333333333334
+          },
+          {
+            "map_name": "Dust2",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1111111111111111
+          },
+          {
+            "map_name": "Mirage",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05555555555555555
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 2,
+        "resolved_first_bans": 2,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.5
+          },
+          {
+            "map_name": "Overpass",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 2,
+      "from": "2026-05-29T18:30:00.000Z",
+      "to": "2026-05-30T13:00:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 18,
+      "from": "2026-07-01T08:45:00.000Z",
+      "to": "2026-10-02T12:10:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-05-29T18:30:00.000Z",
+      "to": "2026-10-02T12:10:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398000,
+      "hltv_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-02T12:10:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240054,
+        "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T00:57:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Astralis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FaZe picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Astralis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240054,
+            "source_url": "https://www.hltv.org/matches/2398000/astralis-vs-faze-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397941,
+      "hltv_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-01T19:20:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3210055,
+        "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-01T21:44:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Nemiga picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. FaZe picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nemiga removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210055,
+            "source_url": "https://www.hltv.org/matches/2397941/faze-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397607,
+      "hltv_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+      "scheduled_at": "2026-09-09T03:00:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340045,
+        "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+        "retrieved_at": "2026-09-09T17:54:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. FaZe picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. magic removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340045,
+            "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397598,
+      "hltv_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+      "scheduled_at": "2026-09-08T07:50:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 12474,
+        "name": "Alliance"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310044,
+        "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+        "retrieved_at": "2026-09-08T17:53:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Alliance removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Alliance picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FaZe picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12474,
+          "actor_team_name": "Alliance",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Alliance removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310044,
+            "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396605,
+      "hltv_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+      "scheduled_at": "2026-08-20T13:35:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1710048,
+        "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+        "retrieved_at": "2026-08-21T09:10:29.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Vitality picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. FaZe picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Vitality removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710048,
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396580,
+      "hltv_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+      "scheduled_at": "2026-08-13T16:50:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620047,
+        "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:01.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FaZe picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Legacy picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Legacy removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620047,
+            "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396565,
+      "hltv_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T15:10:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560052,
+        "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:34.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. BetBoom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. BetBoom removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396020,
+      "hltv_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+      "scheduled_at": "2026-08-01T10:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350048,
+        "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+        "retrieved_at": "2026-08-12T09:56:29.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Spirit picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. FaZe picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Spirit removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. FaZe removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350048,
+            "source_url": "https://www.hltv.org/matches/2396020/faze-vs-spirit-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:56:29.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396016,
+      "hltv_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+      "scheduled_at": "2026-07-31T12:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 6248,
+        "name": "The MongolZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350070,
+        "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+        "retrieved_at": "2026-08-12T09:58:11.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. The MongolZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. FaZe picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. The MongolZ picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. The MongolZ removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350070,
+            "source_url": "https://www.hltv.org/matches/2396016/faze-vs-the-mongolz-blast-bounty-2026-season-2-finals",
+            "retrieved_at": "2026-08-12T09:58:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396012,
+      "hltv_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+      "scheduled_at": "2026-07-25T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 13926,
+        "name": "DENDELE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350071,
+        "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+        "retrieved_at": "2026-08-12T09:58:19.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. DENDELE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. DENDELE picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. FaZe picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13926,
+          "actor_team_name": "DENDELE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. DENDELE removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350071,
+            "source_url": "https://www.hltv.org/matches/2396012/dendele-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395999,
+      "hltv_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+      "scheduled_at": "2026-07-22T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 11737,
+        "name": "EYEBALLERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350072,
+        "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+        "retrieved_at": "2026-08-12T09:58:19.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. EYEBALLERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. EYEBALLERS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. FaZe picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. EYEBALLERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350072,
+            "source_url": "https://www.hltv.org/matches/2395999/eyeballers-vs-faze-blast-bounty-2026-season-2",
+            "retrieved_at": "2026-08-12T09:58:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395491,
+      "hltv_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-11T12:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 12467,
+        "name": "PARIVISION"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350073,
+        "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T09:58:22.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. PARIVISION removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FaZe picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. PARIVISION picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. PARIVISION removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350073,
+            "source_url": "https://www.hltv.org/matches/2395491/parivision-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:58:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395489,
+      "hltv_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-10T12:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350092,
+        "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T09:59:57.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FaZe picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. BetBoom picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BetBoom removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FaZe removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395485,
+      "hltv_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-05T13:20:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 11737,
+        "name": "EYEBALLERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940074,
+        "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:30:56.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. EYEBALLERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FaZe picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. EYEBALLERS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. EYEBALLERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940074,
+            "source_url": "https://www.hltv.org/matches/2395485/eyeballers-vs-faze-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:30:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395482,
+      "hltv_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-04T13:15:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940075,
+        "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:31:05.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FaZe picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. 3DMAX picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. 3DMAX removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FaZe removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940075,
+            "source_url": "https://www.hltv.org/matches/2395482/faze-vs-3dmax-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395475,
+      "hltv_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-03T12:50:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940076,
+        "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:31:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. SINNERS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. FaZe picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. SINNERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940076,
+            "source_url": "https://www.hltv.org/matches/2395475/faze-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395465,
+      "hltv_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-02T09:55:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940077,
+        "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:31:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. MIBR removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. MIBR removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940077,
+            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395218,
+      "hltv_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-01T08:45:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 4863,
+        "name": "TYLOO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940078,
+        "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:31:15.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. FaZe removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. TYLOO removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. TYLOO removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. TYLOO removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940078,
+            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:31:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394321,
+      "hltv_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+      "scheduled_at": "2026-05-30T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9054,
+        "name": "Stake Ranked Episode 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940080,
+        "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+        "retrieved_at": "2026-09-25T17:31:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "1. FaZe removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FaZe picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940080,
+            "source_url": "https://www.hltv.org/matches/2394321/ninjas-in-pyjamas-vs-faze-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394320,
+      "hltv_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+      "scheduled_at": "2026-05-29T18:30:00.000Z",
+      "event": {
+        "hltv_id": 9054,
+        "name": "Stake Ranked Episode 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 8113,
+        "name": "Sharks"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940079,
+        "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+        "retrieved_at": "2026-09-25T17:31:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8113,
+          "actor_team_name": "Sharks",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Sharks removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8113,
+          "actor_team_name": "Sharks",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Sharks picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. FaZe picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8113,
+          "actor_team_name": "Sharks",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "6. Sharks removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940079,
+            "source_url": "https://www.hltv.org/matches/2394320/faze-vs-sharks-stake-ranked-episode-2",
+            "retrieved_at": "2026-09-25T17:31:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

@@ -1,0 +1,3732 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:24.128Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 8840
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 8840,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 16,
+    "eligible_matches_by_format": {
+      "bo1": 4,
+      "bo3": 16,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 16,
+    "eligible_matches_by_format": {
+      "bo1": 4,
+      "bo3": 16,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Mirage",
+        "count": 19,
+        "empirical_share_of_resolved_sample": 0.95
+      },
+      {
+        "map_name": "Ancient",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 19,
+            "empirical_share_of_resolved_pool_sample": 0.95
+          },
+          {
+            "map_name": "Ancient",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-07-01T16:20:00.000Z",
+      "to": "2026-09-29T13:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-07-01T16:20:00.000Z",
+      "to": "2026-09-29T13:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398489,
+      "hltv_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-29T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13667,
+        "name": "NEXVOID"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180058,
+        "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-10-01T17:02:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. NEXVOID removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NEXVOID picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Lynn Vision picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. NEXVOID removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398486,
+      "hltv_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-27T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13667,
+        "name": "NEXVOID"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060049,
+        "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-28T05:59:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. NEXVOID removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NEXVOID picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Lynn Vision picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. NEXVOID removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398480,
+      "hltv_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-25T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 12510,
+        "name": "The Huns"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940164,
+        "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-25T17:37:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12510,
+          "actor_team_name": "The Huns",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. The Huns removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12510,
+          "actor_team_name": "The Huns",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. The Huns picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Lynn Vision picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12510,
+          "actor_team_name": "The Huns",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. The Huns removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398468,
+      "hltv_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-23T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13983,
+        "name": "Vitalem Aerem"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940166,
+        "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-25T17:37:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13983,
+          "actor_team_name": "Vitalem Aerem",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Vitalem Aerem removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13983,
+          "actor_team_name": "Vitalem Aerem",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Vitalem Aerem picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13983,
+          "actor_team_name": "Vitalem Aerem",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Vitalem Aerem removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398460,
+      "hltv_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-22T13:20:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13116,
+        "name": "UR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940167,
+        "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-25T17:37:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13116,
+          "actor_team_name": "UR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. UR removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13116,
+          "actor_team_name": "UR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. UR picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Lynn Vision picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13116,
+          "actor_team_name": "UR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. UR removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Lynn Vision removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397302,
+      "hltv_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+      "scheduled_at": "2026-09-03T06:00:00.000Z",
+      "event": {
+        "hltv_id": 9295,
+        "name": "IEM Beijing 2026 Asia Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 12536,
+        "name": "DEPO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2070047,
+        "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+        "retrieved_at": "2026-09-03T13:26:39.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12536,
+          "actor_team_name": "DEPO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. DEPO removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12536,
+          "actor_team_name": "DEPO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. DEPO picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12536,
+          "actor_team_name": "DEPO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. DEPO removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070047,
+            "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397298,
+      "hltv_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+      "scheduled_at": "2026-09-02T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9295,
+        "name": "IEM Beijing 2026 Asia Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13667,
+        "name": "NEXVOID"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2010050,
+        "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+        "retrieved_at": "2026-09-02T13:50:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. NEXVOID removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. NEXVOID picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. NEXVOID removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010050,
+            "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397296,
+      "hltv_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+      "scheduled_at": "2026-09-02T06:10:00.000Z",
+      "event": {
+        "hltv_id": 9295,
+        "name": "IEM Beijing 2026 Asia Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 11514,
+        "name": "Rare Atom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2010048,
+        "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+        "retrieved_at": "2026-09-02T13:50:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11514,
+          "actor_team_name": "Rare Atom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Rare Atom removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11514,
+          "actor_team_name": "Rare Atom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Rare Atom picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11514,
+          "actor_team_name": "Rare Atom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Rare Atom removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2010048,
+            "source_url": "https://www.hltv.org/matches/2397296/rare-atom-vs-lynn-vision-iem-beijing-2026-asia-closed-qualifier",
+            "retrieved_at": "2026-09-02T13:50:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396937,
+      "hltv_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+      "scheduled_at": "2026-08-29T13:30:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1860048,
+        "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+        "retrieved_at": "2026-08-30T06:10:14.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. FUT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860048,
+            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:14.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396930,
+      "hltv_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+      "scheduled_at": "2026-08-27T17:10:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1830044,
+        "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+        "retrieved_at": "2026-08-28T07:07:36.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Falcons removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Lynn Vision picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Falcons picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Falcons removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830044,
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396596,
+      "hltv_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+      "scheduled_at": "2026-08-16T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1710049,
+        "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+        "retrieved_at": "2026-08-21T09:10:31.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Vitality picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Lynn Vision removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Vitality removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710049,
+            "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396586,
+      "hltv_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+      "scheduled_at": "2026-08-14T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 4863,
+        "name": "TYLOO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620054,
+        "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:25.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. TYLOO removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Lynn Vision picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. TYLOO picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. TYLOO removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620054,
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396570,
+      "hltv_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T19:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560049,
+        "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:17.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. MOUZ removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. Lynn Vision removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. MOUZ removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560049,
+            "source_url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395682,
+      "hltv_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+      "scheduled_at": "2026-07-12T06:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 4863,
+        "name": "TYLOO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350133,
+        "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+        "retrieved_at": "2026-08-12T10:03:02.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. TYLOO removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Lynn Vision picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. TYLOO picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4863,
+          "actor_team_name": "TYLOO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. TYLOO removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350133,
+            "source_url": "https://www.hltv.org/matches/2395682/tyloo-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:03:02.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395681,
+      "hltv_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+      "scheduled_at": "2026-07-11T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13724,
+        "name": "5star"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350200,
+        "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+        "retrieved_at": "2026-08-12T10:09:51.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13724,
+          "actor_team_name": "5star",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. 5star removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13724,
+          "actor_team_name": "5star",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. 5star picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Lynn Vision picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13724,
+          "actor_team_name": "5star",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 5star removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350200,
+            "source_url": "https://www.hltv.org/matches/2395681/5star-vs-lynn-vision-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395679,
+      "hltv_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+      "scheduled_at": "2026-07-10T13:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 8536,
+        "name": "Ground Zero"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350201,
+        "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+        "retrieved_at": "2026-08-12T10:09:55.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8536,
+          "actor_team_name": "Ground Zero",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Ground Zero removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8536,
+          "actor_team_name": "Ground Zero",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Ground Zero picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8536,
+          "actor_team_name": "Ground Zero",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Ground Zero removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350201,
+            "source_url": "https://www.hltv.org/matches/2395679/lynn-vision-vs-ground-zero-ggmedia-challenger-series-1-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:09:55.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395477,
+      "hltv_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-04T05:10:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350120,
+        "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T10:01:53.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. B8 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. B8 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350120,
+            "source_url": "https://www.hltv.org/matches/2395477/b8-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:01:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395471,
+      "hltv_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-03T08:20:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 12467,
+        "name": "PARIVISION"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940097,
+        "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:32:55.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. PARIVISION removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. PARIVISION removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. PARIVISION removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940097,
+            "source_url": "https://www.hltv.org/matches/2395471/parivision-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:32:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395464,
+      "hltv_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-02T10:30:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560064,
+        "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-13T08:46:20.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. Luminosity removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Luminosity removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395224,
+      "hltv_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-01T16:20:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940134,
+        "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-09-25T17:35:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Lynn Vision removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "4. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BIG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940134,
+            "source_url": "https://www.hltv.org/matches/2395224/big-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-09-25T17:35:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

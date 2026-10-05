@@ -1,0 +1,3732 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:18.964Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 10621
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 10621,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 2,
+      "bo3": 18,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 2,
+      "bo3": 18,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Nuke",
+        "count": 19,
+        "empirical_share_of_resolved_sample": 0.95
+      },
+      {
+        "map_name": "Inferno",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Nuke",
+            "count": 19,
+            "empirical_share_of_resolved_pool_sample": 0.95
+          },
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-31T16:25:00.000Z",
+      "to": "2026-10-05T11:30:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-31T16:25:00.000Z",
+      "to": "2026-10-05T11:30:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398736,
+      "hltv_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-05T11:30:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360046,
+        "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-05T21:26:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Legacy picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Legacy removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360046,
+            "source_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:26:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398730,
+      "hltv_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-04T14:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330049,
+        "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-04T20:01:19.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. G2 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. G2 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. G2 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330049,
+            "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398719,
+      "hltv_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-03T11:30:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270047,
+        "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-03T19:25:07.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Vitality picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 1win removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Vitality removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270047,
+            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397879,
+      "hltv_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-12T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670046,
+        "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-13T07:17:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. HEROIC picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. HEROIC removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670046,
+            "source_url": "https://www.hltv.org/matches/2397879/heroic-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397776,
+      "hltv_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-12T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2640045,
+        "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-12T12:47:37.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. B8 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640045,
+            "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397875,
+      "hltv_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-11T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580047,
+        "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Ninjas in Pyjamas picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397774,
+      "hltv_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-11T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580052,
+        "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:29.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nemiga picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 1win removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Nemiga removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580052,
+            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397871,
+      "hltv_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-10T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2550048,
+        "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T06:13:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FOKUS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FOKUS picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. 1win picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. FOKUS removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550048,
+            "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397770,
+      "hltv_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-10T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520044,
+        "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-10T16:11:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. B8 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520044,
+            "source_url": "https://www.hltv.org/matches/2397770/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397863,
+      "hltv_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-09T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2490053,
+        "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-10T10:33:19.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. INFINITE picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. INFINITE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490053,
+            "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397720,
+      "hltv_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-09T08:15:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340059,
+        "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:56.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397637,
+      "hltv_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+      "scheduled_at": "2026-09-06T17:40:00.000Z",
+      "event": {
+        "hltv_id": 9368,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2280044,
+        "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+        "retrieved_at": "2026-09-07T14:42:38.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. HEROIC picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. HEROIC removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. 1win removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280044,
+            "source_url": "https://www.hltv.org/matches/2397637/1win-vs-heroic-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:38.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397634,
+      "hltv_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+      "scheduled_at": "2026-09-06T15:15:00.000Z",
+      "event": {
+        "hltv_id": 9368,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13333,
+        "name": "ASTRAL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310052,
+        "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+        "retrieved_at": "2026-09-08T17:54:12.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. ASTRAL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. ASTRAL picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. ASTRAL removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. 1win removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310052,
+            "source_url": "https://www.hltv.org/matches/2397634/1win-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397628,
+      "hltv_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+      "scheduled_at": "2026-09-06T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9368,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 11609,
+        "name": "GenOne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310053,
+        "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+        "retrieved_at": "2026-09-08T17:54:12.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. GenOne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. GenOne removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. GenOne removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. 1win removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310053,
+            "source_url": "https://www.hltv.org/matches/2397628/1win-vs-genone-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-08T17:54:12.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397547,
+      "hltv_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+      "scheduled_at": "2026-09-04T15:25:00.000Z",
+      "event": {
+        "hltv_id": 9367,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 9139,
+        "name": "BRUTE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310055,
+        "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+        "retrieved_at": "2026-09-08T17:54:13.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9139,
+          "actor_team_name": "BRUTE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BRUTE removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9139,
+          "actor_team_name": "BRUTE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. BRUTE picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9139,
+          "actor_team_name": "BRUTE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BRUTE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310055,
+            "source_url": "https://www.hltv.org/matches/2397547/brute-vs-1win-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397541,
+      "hltv_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+      "scheduled_at": "2026-09-04T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9367,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13281,
+        "name": "Bushido Wildcats"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310054,
+        "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+        "retrieved_at": "2026-09-08T17:54:13.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13281,
+          "actor_team_name": "Bushido Wildcats",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Bushido Wildcats removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13281,
+          "actor_team_name": "Bushido Wildcats",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Bushido Wildcats removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. 1win removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 1win removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13281,
+          "actor_team_name": "Bushido Wildcats",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Bushido Wildcats removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310054,
+            "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396743,
+      "hltv_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-02T11:10:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940186,
+        "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-25T17:38:15.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Nemesis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Nemesis removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940186,
+            "source_url": "https://www.hltv.org/matches/2396743/nemesis-vs-1win-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396740,
+      "hltv_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-01T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13814,
+        "name": "INOX Division"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940187,
+        "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-25T17:38:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. INOX Division removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. INOX Division picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. 1win picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. INOX Division removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. 1win removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940187,
+            "source_url": "https://www.hltv.org/matches/2396740/1win-vs-inox-division-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-25T17:38:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397061,
+      "hltv_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-09-01T09:10:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1980047,
+        "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-02T06:47:07.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 1win picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Nuclear TigeRES removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397059,
+      "hltv_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-08-31T16:25:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "opponent": {
+        "hltv_id": 13617,
+        "name": "ex-RUBY"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940188,
+        "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:38:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13617,
+          "actor_team_name": "ex-RUBY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. ex-RUBY removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13617,
+          "actor_team_name": "ex-RUBY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. ex-RUBY picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13617,
+          "actor_team_name": "ex-RUBY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. ex-RUBY removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. 1win removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940188,
+            "source_url": "https://www.hltv.org/matches/2397059/1win-vs-ex-ruby-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

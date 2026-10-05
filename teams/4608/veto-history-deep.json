@@ -1,0 +1,3799 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:29:39.365Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 4608
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 4608,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 18,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 18,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Overpass",
+        "count": 8,
+        "empirical_share_of_resolved_sample": 0.4
+      },
+      {
+        "map_name": "Dust2",
+        "count": 6,
+        "empirical_share_of_resolved_sample": 0.3
+      },
+      {
+        "map_name": "Nuke",
+        "count": 3,
+        "empirical_share_of_resolved_sample": 0.15
+      },
+      {
+        "map_name": "Cache",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Ancient",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 11,
+        "resolved_first_bans": 11,
+        "first_bans": [
+          {
+            "map_name": "Dust2",
+            "count": 6,
+            "empirical_share_of_resolved_pool_sample": 0.5454545454545454
+          },
+          {
+            "map_name": "Cache",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.18181818181818182
+          },
+          {
+            "map_name": "Nuke",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.18181818181818182
+          },
+          {
+            "map_name": "Ancient",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.09090909090909091
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 9,
+        "resolved_first_bans": 9,
+        "first_bans": [
+          {
+            "map_name": "Overpass",
+            "count": 8,
+            "empirical_share_of_resolved_pool_sample": 0.8888888888888888
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.1111111111111111
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 9,
+      "from": "2026-05-13T23:40:00.000Z",
+      "to": "2026-06-15T17:00:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 11,
+      "from": "2026-08-12T16:45:00.000Z",
+      "to": "2026-10-05T12:20:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-05-13T23:40:00.000Z",
+      "to": "2026-10-05T12:20:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398735,
+      "hltv_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-05T12:20:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360049,
+        "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-05T21:27:53.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. 9z picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Natus Vincere picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. 9z removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Natus Vincere removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360049,
+            "source_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398731,
+      "hltv_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-04T16:30:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330048,
+        "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-04T20:01:02.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Natus Vincere picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Vitality picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Natus Vincere removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Vitality removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330048,
+            "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398723,
+      "hltv_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-03T16:30:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270050,
+        "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-03T19:25:27.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Natus Vincere removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Natus Vincere picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. G2 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. G2 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270050,
+            "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398099,
+      "hltv_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-18T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820046,
+        "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-19T07:11:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Natus Vincere removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Natus Vincere picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. MOUZ picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. MOUZ removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Natus Vincere removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820046,
+            "source_url": "https://www.hltv.org/matches/2398099/mouz-vs-natus-vincere-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398090,
+      "hltv_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-17T15:05:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790047,
+        "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-18T07:12:45.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Aurora picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Natus Vincere picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Natus Vincere removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Aurora removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790047,
+            "source_url": "https://www.hltv.org/matches/2398090/natus-vincere-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396940,
+      "hltv_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+      "scheduled_at": "2026-08-30T09:05:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1890046,
+        "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+        "retrieved_at": "2026-08-31T05:32:22.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. G2 picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Natus Vincere removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. G2 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890046,
+            "source_url": "https://www.hltv.org/matches/2396940/g2-vs-natus-vincere-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396933,
+      "hltv_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+      "scheduled_at": "2026-08-28T14:30:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 4773,
+        "name": "paiN"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1860050,
+        "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+        "retrieved_at": "2026-08-30T06:10:17.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. paiN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. paiN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Natus Vincere picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. paiN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Natus Vincere removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860050,
+            "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:10:17.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396925,
+      "hltv_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+      "scheduled_at": "2026-08-26T14:25:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1830050,
+        "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+        "retrieved_at": "2026-08-28T07:07:58.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Natus Vincere removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. M80 picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Natus Vincere picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830050,
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396603,
+      "hltv_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+      "scheduled_at": "2026-08-20T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1710050,
+        "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+        "retrieved_at": "2026-08-21T09:10:31.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Legacy picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Legacy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Natus Vincere removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1710050,
+            "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+            "retrieved_at": "2026-08-21T09:10:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396587,
+      "hltv_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+      "scheduled_at": "2026-08-15T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 6248,
+        "name": "The MongolZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1650046,
+        "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+        "retrieved_at": "2026-08-16T08:48:32.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. The MongolZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Natus Vincere removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. The MongolZ picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. The MongolZ removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1650046,
+            "source_url": "https://www.hltv.org/matches/2396587/the-mongolz-vs-natus-vincere-esports-world-cup-2026",
+            "retrieved_at": "2026-08-16T08:48:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396571,
+      "hltv_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T16:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560050,
+        "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:32.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Natus Vincere removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. 3DMAX removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Natus Vincere removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560050,
+            "source_url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:32.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394995,
+      "hltv_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-15T17:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350061,
+        "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:57:36.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. G2 picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Natus Vincere picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Natus Vincere removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. G2 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350061,
+            "source_url": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394991,
+      "hltv_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-14T17:40:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350046,
+        "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:56:10.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Falcons removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Natus Vincere removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Falcons picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Natus Vincere picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "5. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Falcons removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350046,
+            "source_url": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:10.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394979,
+      "hltv_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-13T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 6248,
+        "name": "The MongolZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350062,
+        "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:57:40.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. The MongolZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. The MongolZ picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. The MongolZ removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350062,
+            "source_url": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:40.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394976,
+      "hltv_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-12T14:40:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350063,
+        "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:57:41.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Legacy picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Natus Vincere removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Legacy removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350063,
+            "source_url": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394900,
+      "hltv_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-11T18:40:00.000Z",
+      "event": {
+        "hltv_id": 8301,
+        "name": "IEM Cologne Major 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940057,
+        "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+        "retrieved_at": "2026-09-25T17:29:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Spirit picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Natus Vincere picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Natus Vincere removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Spirit removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940057,
+            "source_url": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:29:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394178,
+      "hltv_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+      "scheduled_at": "2026-05-17T18:25:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940058,
+        "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+        "retrieved_at": "2026-09-25T17:29:42.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. GamerLegion removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. GamerLegion picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Natus Vincere picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "5. GamerLegion picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "6. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940058,
+            "source_url": "https://www.hltv.org/matches/2394178/gamerlegion-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394175,
+      "hltv_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+      "scheduled_at": "2026-05-16T21:05:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940059,
+        "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+        "retrieved_at": "2026-09-25T17:29:45.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "1. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BETBOOM picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Natus Vincere removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BETBOOM removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940059,
+            "source_url": "https://www.hltv.org/matches/2394175/betboom-vs-natus-vincere-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394174,
+      "hltv_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+      "scheduled_at": "2026-05-15T21:30:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940060,
+        "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+        "retrieved_at": "2026-09-25T17:29:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Vitality picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Natus Vincere picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Vitality removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Natus Vincere removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940060,
+            "source_url": "https://www.hltv.org/matches/2394174/natus-vincere-vs-vitality-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394171,
+      "hltv_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+      "scheduled_at": "2026-05-13T23:40:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4608,
+        "name": "Natus Vincere"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940061,
+        "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+        "retrieved_at": "2026-09-25T17:29:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Natus Vincere removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Legacy picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Natus Vincere picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Legacy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4608,
+          "actor_team_name": "Natus Vincere",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Natus Vincere removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940061,
+            "source_url": "https://www.hltv.org/matches/2394171/natus-vincere-vs-legacy-iem-atlanta-2026",
+            "retrieved_at": "2026-09-25T17:29:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Overpass",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

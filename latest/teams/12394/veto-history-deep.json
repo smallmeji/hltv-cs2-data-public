@@ -1,0 +1,3779 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:29:44.519Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 12394
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 12394,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 3,
+      "bo3": 17,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 17,
+    "eligible_matches_by_format": {
+      "bo1": 3,
+      "bo3": 17,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Inferno",
+        "count": 18,
+        "empirical_share_of_resolved_sample": 0.9
+      },
+      {
+        "map_name": "Ancient",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 13,
+        "resolved_first_bans": 13,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 12,
+            "empirical_share_of_resolved_pool_sample": 0.9230769230769231
+          },
+          {
+            "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.07692307692307693
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 7,
+        "resolved_first_bans": 7,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 6,
+            "empirical_share_of_resolved_pool_sample": 0.8571428571428571
+          },
+          {
+            "map_name": "Ancient",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.14285714285714285
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 7,
+      "from": "2026-06-08T14:30:00.000Z",
+      "to": "2026-06-18T13:45:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 13,
+      "from": "2026-07-01T15:45:00.000Z",
+      "to": "2026-10-05T17:20:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-06-08T14:30:00.000Z",
+      "to": "2026-10-05T17:20:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398740,
+      "hltv_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-05T17:20:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360048,
+        "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-05T21:27:34.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BETBOOM picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Aurora picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BETBOOM removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360048,
+            "source_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398732,
+      "hltv_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-04T17:10:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330051,
+        "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-04T20:01:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. BETBOOM picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BETBOOM removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330051,
+            "source_url": "https://www.hltv.org/matches/2398732/betboom-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398724,
+      "hltv_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-03T17:25:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3300087,
+        "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-03T19:33:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. FURIA removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BETBOOM picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. FURIA picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BETBOOM removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. FURIA removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3300087,
+            "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:33:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397621,
+      "hltv_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+      "scheduled_at": "2026-09-12T11:05:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670045,
+        "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+        "retrieved_at": "2026-09-13T07:17:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. G2 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. BETBOOM picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. G2 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BETBOOM removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670045,
+            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397613,
+      "hltv_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+      "scheduled_at": "2026-09-10T10:40:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520045,
+        "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+        "retrieved_at": "2026-09-10T16:11:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. MIBR picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. BETBOOM picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. MIBR removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. BETBOOM removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520045,
+            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
+            "retrieved_at": "2026-09-10T16:11:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397606,
+      "hltv_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+      "scheduled_at": "2026-09-09T11:55:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340042,
+        "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+        "retrieved_at": "2026-09-09T17:54:06.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Astralis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. BETBOOM picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Astralis removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. BETBOOM removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340042,
+            "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+            "retrieved_at": "2026-09-09T17:54:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397601,
+      "hltv_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+      "scheduled_at": "2026-09-08T09:25:00.000Z",
+      "event": {
+        "hltv_id": 8266,
+        "name": "FISSURE Playground 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310049,
+        "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+        "retrieved_at": "2026-09-08T17:53:56.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BETBOOM picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BIG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BETBOOM removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310049,
+            "source_url": "https://www.hltv.org/matches/2397601/betboom-vs-big-fissure-playground-3",
+            "retrieved_at": "2026-09-08T17:53:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396582,
+      "hltv_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+      "scheduled_at": "2026-08-14T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620052,
+        "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:21.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. BetBoom picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. BetBoom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620052,
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396565,
+      "hltv_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T15:10:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560052,
+        "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:34.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. BetBoom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. BetBoom removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. FaZe removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560052,
+            "source_url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395489,
+      "hltv_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-10T12:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350092,
+        "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T09:59:57.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FaZe removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FaZe picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. BetBoom picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BetBoom removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FaZe removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350092,
+            "source_url": "https://www.hltv.org/matches/2395489/faze-vs-betboom-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395476,
+      "hltv_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-03T16:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350091,
+        "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T09:59:56.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Nemesis picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. BetBoom picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BetBoom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nemesis removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350091,
+            "source_url": "https://www.hltv.org/matches/2395476/betboom-vs-nemesis-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T09:59:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395466,
+      "hltv_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-02T13:30:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560055,
+        "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-13T08:45:49.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. BetBoom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. BetBoom removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560055,
+            "source_url": "https://www.hltv.org/matches/2395466/betboom-vs-big-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:49.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395223,
+      "hltv_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-01T15:45:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560056,
+        "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-13T08:45:54.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. SINNERS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. BetBoom removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BetBoom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. SINNERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560056,
+            "source_url": "https://www.hltv.org/matches/2395223/betboom-vs-sinners-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:45:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394996,
+      "hltv_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-18T13:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350093,
+        "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T10:00:01.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. BetBoom picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Aurora picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Aurora removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "6. BetBoom removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350093,
+            "source_url": "https://www.hltv.org/matches/2394996/aurora-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394994,
+      "hltv_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-15T14:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350094,
+        "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T10:00:07.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. FUT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BetBoom removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. FUT picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. BetBoom picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. BetBoom removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. FUT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Overpass",
+          "raw_text": "7. Overpass was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350094,
+            "source_url": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T10:00:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394989,
+      "hltv_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-14T15:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350053,
+        "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:56:54.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "3. Vitality picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BetBoom picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BetBoom removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Vitality removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350053,
+            "source_url": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:56:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394985,
+      "hltv_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-13T17:40:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BetBoom"
+      },
+      "opponent": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350059,
+        "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+        "retrieved_at": "2026-08-12T09:57:24.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. FURIA removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BetBoom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "3. FURIA picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. BetBoom picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BetBoom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BetBoom removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. FURIA removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350059,
+            "source_url": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+            "retrieved_at": "2026-08-12T09:57:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394975,
+      "hltv_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-12T15:10:00.000Z",
+      "event": {
+        "hltv_id": 8301,
+        "name": "IEM Cologne Major 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940045,
+        "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+        "retrieved_at": "2026-09-25T17:28:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Falcons removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. BETBOOM picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Falcons picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Falcons removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BETBOOM removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940045,
+            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:28:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394904,
+      "hltv_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+      "scheduled_at": "2026-06-11T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8301,
+        "name": "IEM Cologne Major 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 6248,
+        "name": "The MongolZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940083,
+        "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+        "retrieved_at": "2026-09-25T17:31:51.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. The MongolZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. BETBOOM picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. The MongolZ picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6248,
+          "actor_team_name": "The MongolZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. The MongolZ removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "6. BETBOOM removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940083,
+            "source_url": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+            "retrieved_at": "2026-09-25T17:31:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394891,
+      "hltv_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+      "scheduled_at": "2026-06-08T14:30:00.000Z",
+      "event": {
+        "hltv_id": 9029,
+        "name": "IEM Cologne Major 2026 Stage 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 11811,
+        "name": "Monte"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940085,
+        "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+        "retrieved_at": "2026-09-25T17:31:56.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11811,
+          "actor_team_name": "Monte",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "2. Monte removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. BETBOOM picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11811,
+          "actor_team_name": "Monte",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Monte picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11811,
+          "actor_team_name": "Monte",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Monte removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BETBOOM removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940085,
+            "source_url": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+            "retrieved_at": "2026-09-25T17:31:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-26T06:37:39.206Z",
+    "requested_at": "2026-10-05T21:30:15.443Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
@@ -11,6 +11,11 @@
     "source_hltv_team_ids": [
       6673
     ],
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 6673
+      }
+    ],
     "warnings": []
   },
   "team": {
@@ -19,7 +24,7 @@
     "name": "NRG",
     "name_zh": "NRG",
     "slug": "nrg",
-    "rank": 37
+    "rank": 30
   },
   "maps": {
     "overall": [
@@ -27,23 +32,23 @@
         "hltv_team_id": 6673,
         "map_name": "Ancient",
         "data_type": "overall",
-        "sample_maps": 14,
-        "wins": 8,
+        "sample_maps": 20,
+        "wins": 11,
         "draws": 0,
-        "losses": 6,
-        "raw_win_rate": 0.5714,
+        "losses": 9,
+        "raw_win_rate": 0.55,
         "pick_pct": "0.3160",
         "ban_pct": "0.3660",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
-        "latest_match_at": "2026-07-14T22:35:22.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
+        "latest_match_at": "2026-09-12T12:45:50.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/47/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 9,
           "A": 1,
-          "B": 3,
-          "C": 1,
+          "B": 6,
+          "C": 4,
           "unknown": 0
         },
         "ct_side_win_rate": "0.6030",
@@ -76,8 +81,8 @@
         "pick_pct": "0.0560",
         "ban_pct": "0.2380",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
         "latest_match_at": "2026-06-07T07:32:56.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/48/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
@@ -109,23 +114,23 @@
         "hltv_team_id": 6673,
         "map_name": "Dust2",
         "data_type": "overall",
-        "sample_maps": 14,
-        "wins": 5,
+        "sample_maps": 19,
+        "wins": 9,
         "draws": 0,
-        "losses": 9,
-        "raw_win_rate": 0.3571,
+        "losses": 10,
+        "raw_win_rate": 0.4737,
         "pick_pct": "0.4440",
         "ban_pct": "0.3950",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
-        "latest_match_at": "2026-07-14T22:35:21.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
+        "latest_match_at": "2026-09-26T07:45:37.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/31/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 6,
+          "S": 7,
           "A": 1,
-          "B": 3,
-          "C": 4,
+          "B": 6,
+          "C": 5,
           "unknown": 0
         },
         "ct_side_win_rate": "0.4930",
@@ -150,23 +155,23 @@
         "hltv_team_id": 6673,
         "map_name": "Inferno",
         "data_type": "overall",
-        "sample_maps": 17,
-        "wins": 9,
+        "sample_maps": 25,
+        "wins": 12,
         "draws": 0,
-        "losses": 8,
-        "raw_win_rate": 0.5294,
+        "losses": 13,
+        "raw_win_rate": 0.48,
         "pick_pct": "0.3480",
         "ban_pct": "0.0490",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
-        "latest_match_at": "2026-07-14T22:35:20.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
+        "latest_match_at": "2026-09-26T07:45:38.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/33/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 7,
+          "S": 9,
           "A": 2,
-          "B": 4,
-          "C": 4,
+          "B": 8,
+          "C": 6,
           "unknown": 0
         },
         "ct_side_win_rate": "0.5350",
@@ -191,22 +196,22 @@
         "hltv_team_id": 6673,
         "map_name": "Mirage",
         "data_type": "overall",
-        "sample_maps": 22,
-        "wins": 15,
+        "sample_maps": 29,
+        "wins": 18,
         "draws": 0,
-        "losses": 7,
-        "raw_win_rate": 0.6818,
+        "losses": 11,
+        "raw_win_rate": 0.6207,
         "pick_pct": "0.3750",
         "ban_pct": "0.0610",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
-        "latest_match_at": "2026-07-14T22:35:20.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
+        "latest_match_at": "2026-09-27T06:04:19.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/32/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 7,
+          "S": 8,
           "A": 2,
-          "B": 8,
+          "B": 14,
           "C": 5,
           "unknown": 0
         },
@@ -232,23 +237,23 @@
         "hltv_team_id": 6673,
         "map_name": "Nuke",
         "data_type": "overall",
-        "sample_maps": 14,
-        "wins": 5,
+        "sample_maps": 20,
+        "wins": 10,
         "draws": 0,
-        "losses": 9,
-        "raw_win_rate": 0.3571,
+        "losses": 10,
+        "raw_win_rate": 0.5,
         "pick_pct": "0.0950",
         "ban_pct": "0.3540",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
-        "latest_match_at": "2026-07-14T22:35:22.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
+        "latest_match_at": "2026-09-13T07:14:28.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/34/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
           "S": 8,
           "A": 2,
-          "B": 3,
-          "C": 1,
+          "B": 6,
+          "C": 4,
           "unknown": 0
         },
         "ct_side_win_rate": "0.4860",
@@ -273,23 +278,23 @@
         "hltv_team_id": 6673,
         "map_name": "Cache",
         "data_type": "overall",
-        "sample_maps": 2,
-        "wins": 2,
+        "sample_maps": 14,
+        "wins": 10,
         "draws": 0,
-        "losses": 0,
-        "raw_win_rate": 1,
-        "pick_pct": "50.00",
+        "losses": 4,
+        "raw_win_rate": 0.7143,
+        "pick_pct": "76.50",
         "ban_pct": "0.00",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:04.000Z",
-        "latest_match_at": "2026-07-14T22:35:19.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:13.000Z",
+        "latest_match_at": "2026-09-27T06:04:19.000Z",
         "detail_source_url": null,
         "event_tier_breakdown": {
-          "S": 0,
+          "S": 3,
           "A": 0,
-          "B": 0,
-          "C": 2,
+          "B": 6,
+          "C": 5,
           "unknown": 0
         },
         "ct_side_win_rate": null,
@@ -316,22 +321,22 @@
         "hltv_team_id": 6673,
         "map_name": "Ancient",
         "data_type": "lan",
-        "sample_maps": 11,
+        "sample_maps": 12,
         "wins": 5,
         "draws": 0,
-        "losses": 6,
-        "raw_win_rate": 0.4545,
+        "losses": 7,
+        "raw_win_rate": 0.4167,
         "pick_pct": "0.4000",
         "ban_pct": "0.3940",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:10.000Z",
-        "latest_match_at": "2026-07-14T22:35:30.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
+        "latest_match_at": "2026-09-11T20:39:47.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/47/6673/nrg?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
           "S": 8,
           "A": 1,
-          "B": 1,
+          "B": 2,
           "C": 1,
           "unknown": 0
         },
@@ -365,8 +370,8 @@
         "pick_pct": "0.0000",
         "ban_pct": "0.2190",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": "2026-06-07T07:41:20.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
         "latest_match_at": null,
         "detail_source_url": "https://www.hltv.org/stats/teams/map/48/6673/nrg?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
@@ -398,22 +403,22 @@
         "hltv_team_id": 6673,
         "map_name": "Dust2",
         "data_type": "lan",
-        "sample_maps": 13,
-        "wins": 5,
+        "sample_maps": 15,
+        "wins": 6,
         "draws": 0,
-        "losses": 8,
-        "raw_win_rate": 0.3846,
+        "losses": 9,
+        "raw_win_rate": 0.4,
         "pick_pct": "0.4670",
         "ban_pct": "0.3780",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:10.000Z",
-        "latest_match_at": "2026-07-14T22:35:29.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
+        "latest_match_at": "2026-09-26T07:45:45.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/31/6673/nrg?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 6,
+          "S": 7,
           "A": 1,
-          "B": 2,
+          "B": 3,
           "C": 4,
           "unknown": 0
         },
@@ -439,22 +444,22 @@
         "hltv_team_id": 6673,
         "map_name": "Inferno",
         "data_type": "lan",
-        "sample_maps": 16,
-        "wins": 9,
+        "sample_maps": 21,
+        "wins": 10,
         "draws": 0,
-        "losses": 7,
-        "raw_win_rate": 0.5625,
+        "losses": 11,
+        "raw_win_rate": 0.4762,
         "pick_pct": "0.3500",
         "ban_pct": "0.0560",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:10.000Z",
-        "latest_match_at": "2026-07-14T22:35:28.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
+        "latest_match_at": "2026-09-26T07:45:46.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/33/6673/nrg?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 6,
+          "S": 8,
           "A": 2,
-          "B": 4,
+          "B": 7,
           "C": 4,
           "unknown": 0
         },
@@ -480,22 +485,22 @@
         "hltv_team_id": 6673,
         "map_name": "Mirage",
         "data_type": "lan",
-        "sample_maps": 18,
-        "wins": 12,
+        "sample_maps": 24,
+        "wins": 15,
         "draws": 0,
-        "losses": 6,
-        "raw_win_rate": 0.6667,
+        "losses": 9,
+        "raw_win_rate": 0.625,
         "pick_pct": "0.3160",
         "ban_pct": "0.0730",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:10.000Z",
-        "latest_match_at": "2026-07-14T22:35:29.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
+        "latest_match_at": "2026-09-27T06:04:27.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/32/6673/nrg?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 6,
+          "S": 7,
           "A": 2,
-          "B": 5,
+          "B": 10,
           "C": 5,
           "unknown": 0
         },
@@ -529,8 +534,8 @@
         "pick_pct": "0.1000",
         "ban_pct": "0.3330",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:10.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
         "latest_match_at": "2026-07-14T22:35:30.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/34/6673/nrg?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
@@ -562,22 +567,22 @@
         "hltv_team_id": 6673,
         "map_name": "Cache",
         "data_type": "lan",
-        "sample_maps": 2,
-        "wins": 2,
+        "sample_maps": 9,
+        "wins": 6,
         "draws": 0,
-        "losses": 0,
-        "raw_win_rate": 1,
-        "pick_pct": "50.00",
+        "losses": 3,
+        "raw_win_rate": 0.6667,
+        "pick_pct": "75.00",
         "ban_pct": "0.00",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:34:10.000Z",
-        "latest_match_at": "2026-07-14T22:35:27.000Z",
+        "data_to": "2026-10-05",
+        "snapshot_time": "2026-10-04T19:47:24.000Z",
+        "latest_match_at": "2026-09-27T06:04:26.000Z",
         "detail_source_url": null,
         "event_tier_breakdown": {
-          "S": 0,
+          "S": 3,
           "A": 0,
-          "B": 0,
+          "B": 4,
           "C": 2,
           "unknown": 0
         },
@@ -604,14 +609,172 @@
   "players": [
     {
       "hltv_team_id": 6673,
+      "player_name": "hallzerk",
+      "rating_type": "annual",
+      "rating2": null,
+      "rating3": 1.14,
+      "maps_played": 44,
+      "data_from": "2026-01-01",
+      "data_to": "2026-10-05",
+      "snapshot_time": "2026-10-04T19:48:02.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.97,
+          "maps_played": 3,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 0.99,
+          "maps_played": 5,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 0.97,
+          "maps_played": 7,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 1.07,
+          "maps_played": 16,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 1.1,
+          "maps_played": 23,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
+      "source_hltv_team_ids": [
+        6673
+      ]
+    },
+    {
+      "hltv_team_id": 6673,
       "player_name": "Sonic",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 1.09,
-      "maps_played": 95,
+      "rating3": 1.1,
+      "maps_played": 139,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:34:31.000Z",
+      "data_to": "2026-10-05",
+      "snapshot_time": "2026-10-04T19:48:02.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.96,
+          "maps_played": 13,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 0.98,
+          "maps_played": 21,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 0.94,
+          "maps_played": 40,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 0.95,
+          "maps_played": 63,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 0.99,
+          "maps_played": 83,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         6673
       ]
@@ -621,11 +784,83 @@
       "player_name": "Grim",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 1.08,
-      "maps_played": 53,
+      "rating3": 1.07,
+      "maps_played": 97,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:34:31.000Z",
+      "data_to": "2026-10-05",
+      "snapshot_time": "2026-10-04T19:48:02.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.97,
+          "maps_played": 8,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 1.02,
+          "maps_played": 16,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 0.98,
+          "maps_played": 27,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 1.04,
+          "maps_played": 46,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 1.03,
+          "maps_played": 63,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         6673
       ]
@@ -635,11 +870,83 @@
       "player_name": "Jeorge",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 1.04,
-      "maps_played": 50,
+      "rating3": 1.05,
+      "maps_played": 94,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:34:31.000Z",
+      "data_to": "2026-10-05",
+      "snapshot_time": "2026-10-04T19:48:02.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.88,
+          "maps_played": 8,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 0.89,
+          "maps_played": 10,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 0.92,
+          "maps_played": 20,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 0.93,
+          "maps_played": 33,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 0.97,
+          "maps_played": 43,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         6673
       ]
@@ -649,11 +956,83 @@
       "player_name": "nitr0",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 0.98,
-      "maps_played": 95,
+      "rating3": 1,
+      "maps_played": 139,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:34:31.000Z",
+      "data_to": "2026-10-05",
+      "snapshot_time": "2026-10-04T19:48:02.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.81,
+          "maps_played": 13,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 0.86,
+          "maps_played": 21,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 0.88,
+          "maps_played": 40,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 0.87,
+          "maps_played": 63,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 0.92,
+          "maps_played": 83,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-05",
+          "snapshot_time": "2026-10-04T19:48:02.189Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/6673/nrg?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-05&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            6673
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         6673
       ]
@@ -665,31 +1044,17 @@
       "hltv_team_id": 6673,
       "map_name": "Cache",
       "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "SportsBetExpert",
-      "result": "13 - 6",
-      "won": 1,
+      "match_date": "26/09/26",
+      "event_name": "iBUYPOWER Masters FML 2026",
+      "event_tier": "B",
+      "opponent_name": "Wildcard",
+      "opponent_hltv_id": 12257,
+      "result": "9 - 13",
+      "won": 0,
       "match_order": 0,
       "page_index": 0,
-      "recorded_at": "2026-07-14T22:35:19.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "teamId": 120005,
-      "hltv_team_id": 6673,
-      "map_name": "Inferno",
-      "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "SportsBetExpert",
-      "result": "13 - 2",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-07-14T22:35:20.000Z",
+      "recorded_at": "2026-09-27T06:04:19.000Z",
+      "opponent_canonical_hltv_id": 12257,
       "source_hltv_team_id": 6673
     },
     {
@@ -697,15 +1062,35 @@
       "hltv_team_id": 6673,
       "map_name": "Mirage",
       "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "SportsBetExpert",
-      "result": "9 - 13",
+      "match_date": "26/09/26",
+      "event_name": "iBUYPOWER Masters FML 2026",
+      "event_tier": "B",
+      "opponent_name": "Wildcard",
+      "opponent_hltv_id": 12257,
+      "result": "10 - 13",
       "won": 0,
-      "match_order": 2,
-      "page_index": 2,
-      "recorded_at": "2026-07-14T22:35:20.000Z",
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-27T06:04:19.000Z",
+      "opponent_canonical_hltv_id": 12257,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "25/09/26",
+      "event_name": "iBUYPOWER Masters FML 2026",
+      "event_tier": "B",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "10 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-26T07:45:36.000Z",
+      "opponent_canonical_hltv_id": 5973,
       "source_hltv_team_id": 6673
     },
     {
@@ -713,47 +1098,35 @@
       "hltv_team_id": 6673,
       "map_name": "Dust2",
       "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "SportsBetExpert",
-      "result": "16 - 14",
-      "won": 1,
-      "match_order": 3,
-      "page_index": 3,
-      "recorded_at": "2026-07-14T22:35:21.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "teamId": 120005,
-      "hltv_team_id": 6673,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "NuTorious",
-      "result": "13 - 8",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 4,
-      "recorded_at": "2026-07-14T22:35:22.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "teamId": 120005,
-      "hltv_team_id": 6673,
-      "map_name": "Ancient",
-      "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "NuTorious",
-      "result": "16 - 13",
-      "won": 1,
+      "match_date": "25/09/26",
+      "event_name": "iBUYPOWER Masters FML 2026",
+      "event_tier": "B",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "11 - 13",
+      "won": 0,
       "match_order": 1,
-      "page_index": 5,
-      "recorded_at": "2026-07-14T22:35:22.000Z",
+      "page_index": 1,
+      "recorded_at": "2026-09-26T07:45:37.000Z",
+      "opponent_canonical_hltv_id": 5973,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Inferno",
+      "data_type": "overall",
+      "match_date": "19/09/26",
+      "event_name": "StarLadder StarSeries Fall 2026",
+      "event_tier": "S",
+      "opponent_name": "MIBR",
+      "opponent_hltv_id": 9215,
+      "result": "2 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-19T15:57:56.000Z",
+      "opponent_canonical_hltv_id": 9215,
       "source_hltv_team_id": 6673
     },
     {
@@ -761,15 +1134,17 @@
       "hltv_team_id": 6673,
       "map_name": "Cache",
       "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "Eh",
-      "result": "13 - 3",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 6,
-      "recorded_at": "2026-07-14T22:35:19.000Z",
+      "match_date": "19/09/26",
+      "event_name": "StarLadder StarSeries Fall 2026",
+      "event_tier": "S",
+      "opponent_name": "MIBR",
+      "opponent_hltv_id": 9215,
+      "result": "7 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-19T15:57:57.000Z",
+      "opponent_canonical_hltv_id": 9215,
       "source_hltv_team_id": 6673
     },
     {
@@ -777,219 +1152,251 @@
       "hltv_team_id": 6673,
       "map_name": "Mirage",
       "data_type": "overall",
-      "match_date": "12/07/26",
-      "event_name": "FRAG St. Clair 2026",
-      "event_tier": "C",
-      "opponent_name": "Eh",
-      "result": "13 - 1",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 7,
-      "recorded_at": "2026-07-14T22:35:20.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "hltv_team_id": 6673,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-06-05T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
+      "match_date": "18/09/26",
+      "event_name": "StarLadder StarSeries Fall 2026",
       "event_tier": "S",
-      "opponent_name": "BIG",
-      "opponent_rank": null,
-      "result": "16 - 12",
-      "own_score": 16,
-      "opponent_score": 12,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:31.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "hltv_team_id": 6673,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "2026-06-05T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
-      "event_tier": "S",
-      "opponent_name": "BIG",
-      "opponent_rank": null,
-      "result": "12 - 16",
-      "own_score": 12,
-      "opponent_score": 16,
+      "opponent_name": "Aurora",
+      "opponent_hltv_id": 11861,
+      "result": "17 - 19",
       "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:12.000Z",
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-19T07:09:05.000Z",
+      "opponent_canonical_hltv_id": 11861,
       "source_hltv_team_id": 6673
     },
     {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Cache",
+      "data_type": "overall",
+      "match_date": "18/09/26",
+      "event_name": "StarLadder StarSeries Fall 2026",
+      "event_tier": "S",
+      "opponent_name": "Aurora",
+      "opponent_hltv_id": 11861,
+      "result": "7 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-19T07:09:06.000Z",
+      "opponent_canonical_hltv_id": 11861,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
       "hltv_team_id": 6673,
       "map_name": "Dust2",
       "data_type": "overall",
-      "match_date": "2026-06-05T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
+      "match_date": "17/09/26",
+      "event_name": "StarLadder StarSeries Fall 2026",
       "event_tier": "S",
-      "opponent_name": "BIG",
-      "opponent_rank": null,
+      "opponent_name": "MOUZ",
+      "opponent_hltv_id": 4494,
+      "result": "13 - 10",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-18T07:08:26.000Z",
+      "opponent_canonical_hltv_id": 4494,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Inferno",
+      "data_type": "overall",
+      "match_date": "17/09/26",
+      "event_name": "StarLadder StarSeries Fall 2026",
+      "event_tier": "S",
+      "opponent_name": "MOUZ",
+      "opponent_hltv_id": 4494,
       "result": "5 - 13",
-      "own_score": 5,
-      "opponent_score": 13,
       "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/31/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:03.000Z",
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-18T07:08:27.000Z",
+      "opponent_canonical_hltv_id": 4494,
       "source_hltv_team_id": 6673
     },
     {
+      "teamId": 120005,
       "hltv_team_id": 6673,
       "map_name": "Inferno",
       "data_type": "overall",
-      "match_date": "2026-06-04T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
-      "event_tier": "S",
-      "opponent_name": "M80",
-      "opponent_rank": null,
-      "result": "10 - 13",
-      "own_score": 10,
-      "opponent_score": 13,
+      "match_date": "12/09/26",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "5 - 13",
       "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/33/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:39.000Z",
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-13T07:14:26.000Z",
+      "opponent_canonical_hltv_id": 5973,
       "source_hltv_team_id": 6673
     },
     {
+      "teamId": 120005,
       "hltv_team_id": 6673,
-      "map_name": "Ancient",
+      "map_name": "Nuke",
       "data_type": "overall",
-      "match_date": "2026-06-04T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
-      "event_tier": "S",
-      "opponent_name": "M80",
-      "opponent_rank": null,
-      "result": "6 - 13",
-      "own_score": 6,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/47/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:22.000Z",
+      "match_date": "12/09/26",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "13 - 9",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-12T12:45:50.000Z",
+      "opponent_canonical_hltv_id": 5973,
       "source_hltv_team_id": 6673
     },
     {
+      "teamId": 120005,
       "hltv_team_id": 6673,
       "map_name": "Mirage",
       "data_type": "overall",
-      "match_date": "2026-06-03T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
-      "event_tier": "S",
-      "opponent_name": "FlyQuest",
-      "opponent_rank": null,
-      "result": "13 - 10",
-      "own_score": 13,
-      "opponent_score": 10,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:12.000Z",
+      "match_date": "12/09/26",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "11 - 13",
+      "won": 0,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-13T07:14:27.000Z",
+      "opponent_canonical_hltv_id": 5973,
       "source_hltv_team_id": 6673
     },
     {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Ancient",
+      "data_type": "overall",
+      "match_date": "12/09/26",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "13 - 10",
+      "won": 1,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-12T12:45:50.000Z",
+      "opponent_canonical_hltv_id": 5973,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Cache",
+      "data_type": "overall",
+      "match_date": "11/09/26",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Voca",
+      "opponent_hltv_id": 13499,
+      "result": "13 - 5",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-11T20:39:36.000Z",
+      "opponent_canonical_hltv_id": 13499,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "11/09/26",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Voca",
+      "opponent_hltv_id": 13499,
+      "result": "13 - 10",
+      "won": 1,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-09-11T20:39:38.000Z",
+      "opponent_canonical_hltv_id": 13499,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
+      "hltv_team_id": 6673,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "08/08/26",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Acend",
+      "opponent_hltv_id": 13518,
+      "result": "13 - 9",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-09T14:59:52.000Z",
+      "opponent_canonical_hltv_id": 13518,
+      "source_hltv_team_id": 6673
+    },
+    {
+      "teamId": 120005,
       "hltv_team_id": 6673,
       "map_name": "Inferno",
       "data_type": "overall",
-      "match_date": "2026-06-02T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
-      "event_tier": "S",
-      "opponent_name": "GamerLegion",
-      "opponent_rank": null,
-      "result": "10 - 13",
-      "own_score": 10,
-      "opponent_score": 13,
+      "match_date": "08/08/26",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_tier": "B",
+      "opponent_name": "Acend",
+      "opponent_hltv_id": 13518,
+      "result": "11 - 13",
       "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/33/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:40.000Z",
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-08-09T14:59:55.000Z",
+      "opponent_canonical_hltv_id": 13518,
       "source_hltv_team_id": 6673
     },
     {
-      "hltv_team_id": 6673,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-06-02T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 1",
-      "event_tier": "S",
-      "opponent_name": "SINNERS",
-      "opponent_rank": null,
-      "result": "13 - 6",
-      "own_score": 13,
-      "opponent_score": 6,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:31.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "hltv_team_id": 6673,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-05-21T00:00:00.000Z",
-      "event_name": "CS Asia Championships 2026",
-      "event_tier": "S",
-      "opponent_name": "MOUZ",
-      "opponent_rank": null,
-      "result": "6 - 13",
-      "own_score": 6,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:31.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
+      "teamId": 120005,
       "hltv_team_id": 6673,
       "map_name": "Ancient",
       "data_type": "overall",
-      "match_date": "2026-05-21T00:00:00.000Z",
-      "event_name": "CS Asia Championships 2026",
-      "event_tier": "S",
-      "opponent_name": "MOUZ",
-      "opponent_rank": null,
-      "result": "13 - 10",
-      "own_score": 13,
-      "opponent_score": 10,
+      "match_date": "03/08/26",
+      "event_name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier",
+      "event_tier": "C",
+      "opponent_name": "Voca",
+      "opponent_hltv_id": 13499,
+      "result": "16 - 13",
       "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/47/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:22.000Z",
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-04T16:18:22.000Z",
+      "opponent_canonical_hltv_id": 13499,
       "source_hltv_team_id": 6673
     },
     {
+      "teamId": 120005,
       "hltv_team_id": 6673,
-      "map_name": "Mirage",
+      "map_name": "Cache",
       "data_type": "overall",
-      "match_date": "2026-05-21T00:00:00.000Z",
-      "event_name": "CS Asia Championships 2026",
-      "event_tier": "S",
-      "opponent_name": "MOUZ",
-      "opponent_rank": null,
-      "result": "9 - 13",
-      "own_score": 9,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:12.000Z",
-      "source_hltv_team_id": 6673
-    },
-    {
-      "hltv_team_id": 6673,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-05-20T00:00:00.000Z",
-      "event_name": "CS Asia Championships 2026",
-      "event_tier": "S",
-      "opponent_name": "Legacy",
-      "opponent_rank": null,
-      "result": "10 - 13",
-      "own_score": 10,
-      "opponent_score": 13,
-      "won": 0,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/6673/nrg?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:32:31.000Z",
+      "match_date": "03/08/26",
+      "event_name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier",
+      "event_tier": "C",
+      "opponent_name": "Voca",
+      "opponent_hltv_id": 13499,
+      "result": "13 - 7",
+      "won": 1,
+      "match_order": 1,
+      "page_index": 1,
+      "recorded_at": "2026-08-04T16:18:23.000Z",
+      "opponent_canonical_hltv_id": 13499,
       "source_hltv_team_id": 6673
     }
   ],

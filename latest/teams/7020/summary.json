@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-07-26T06:36:45.071Z",
+    "requested_at": "2026-10-05T21:29:24.101Z",
     "source_policy": "api_with_legacy_fallback",
     "date_window": {
       "start": "2026-01-01",
@@ -11,6 +11,11 @@
     "source_hltv_team_ids": [
       7020
     ],
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 7020
+      }
+    ],
     "warnings": []
   },
   "team": {
@@ -19,7 +24,7 @@
     "name": "Spirit",
     "name_zh": "Spirit",
     "slug": "spirit",
-    "rank": 4
+    "rank": 1
   },
   "maps": {
     "overall": [
@@ -27,24 +32,24 @@
         "hltv_team_id": 7020,
         "map_name": "Ancient",
         "data_type": "overall",
-        "sample_maps": 13,
-        "wins": 10,
+        "sample_maps": 22,
+        "wins": 18,
         "draws": 0,
-        "losses": 3,
-        "raw_win_rate": 0.7692,
+        "losses": 4,
+        "raw_win_rate": 0.8182,
         "pick_pct": "0.1250",
         "ban_pct": "0.1950",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:16.000Z",
-        "latest_match_at": "2026-07-24T05:30:39.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
+        "latest_match_at": "2026-10-04T19:32:55.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/47/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 11,
+          "S": 19,
           "A": 2,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 1
         },
         "ct_side_win_rate": "0.5960",
         "t_side_win_rate": "0.5040",
@@ -68,24 +73,24 @@
         "hltv_team_id": 7020,
         "map_name": "Anubis",
         "data_type": "overall",
-        "sample_maps": 8,
-        "wins": 5,
+        "sample_maps": 14,
+        "wins": 11,
         "draws": 0,
         "losses": 3,
-        "raw_win_rate": 0.625,
+        "raw_win_rate": 0.7857,
         "pick_pct": "0.1500",
         "ban_pct": "0.2630",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:16.000Z",
-        "latest_match_at": "2026-06-21T18:07:42.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
+        "latest_match_at": "2026-10-04T19:32:54.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/48/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 8,
-          "A": 0,
+          "S": 12,
+          "A": 1,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 1
         },
         "ct_side_win_rate": "0.5330",
         "t_side_win_rate": "0.3780",
@@ -109,24 +114,24 @@
         "hltv_team_id": 7020,
         "map_name": "Dust2",
         "data_type": "overall",
-        "sample_maps": 25,
-        "wins": 20,
+        "sample_maps": 38,
+        "wins": 30,
         "draws": 0,
-        "losses": 5,
-        "raw_win_rate": 0.8,
+        "losses": 8,
+        "raw_win_rate": 0.7895,
         "pick_pct": "0.6210",
         "ban_pct": "0.0280",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:16.000Z",
-        "latest_match_at": "2026-07-24T05:30:40.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
+        "latest_match_at": "2026-10-05T21:07:39.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/31/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 23,
-          "A": 2,
+          "S": 32,
+          "A": 3,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 3
         },
         "ct_side_win_rate": "0.6100",
         "t_side_win_rate": "0.5880",
@@ -158,8 +163,8 @@
         "pick_pct": "0.0000",
         "ban_pct": "1.0000",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": "2026-06-07T07:34:38.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
         "latest_match_at": null,
         "detail_source_url": "https://www.hltv.org/stats/teams/map/33/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
@@ -191,24 +196,24 @@
         "hltv_team_id": 7020,
         "map_name": "Mirage",
         "data_type": "overall",
-        "sample_maps": 21,
-        "wins": 15,
+        "sample_maps": 31,
+        "wins": 20,
         "draws": 0,
-        "losses": 6,
-        "raw_win_rate": 0.7143,
+        "losses": 11,
+        "raw_win_rate": 0.6452,
         "pick_pct": "0.1360",
         "ban_pct": "0.0240",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:16.000Z",
-        "latest_match_at": "2026-06-21T18:07:42.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
+        "latest_match_at": "2026-10-05T21:07:38.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/32/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 20,
-          "A": 1,
+          "S": 27,
+          "A": 2,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 2
         },
         "ct_side_win_rate": "0.5940",
         "t_side_win_rate": "0.4830",
@@ -232,24 +237,24 @@
         "hltv_team_id": 7020,
         "map_name": "Nuke",
         "data_type": "overall",
-        "sample_maps": 9,
-        "wins": 6,
+        "sample_maps": 15,
+        "wins": 10,
         "draws": 0,
-        "losses": 3,
+        "losses": 5,
         "raw_win_rate": 0.6667,
         "pick_pct": "0.0480",
         "ban_pct": "0.1840",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:16.000Z",
-        "latest_match_at": "2026-06-13T15:41:19.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
+        "latest_match_at": "2026-10-03T19:03:22.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/34/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
         "event_tier_breakdown": {
-          "S": 8,
+          "S": 13,
           "A": 1,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 1
         },
         "ct_side_win_rate": "0.5730",
         "t_side_win_rate": "0.5240",
@@ -273,20 +278,20 @@
         "hltv_team_id": 7020,
         "map_name": "Cache",
         "data_type": "overall",
-        "sample_maps": 1,
-        "wins": 1,
+        "sample_maps": 7,
+        "wins": 4,
         "draws": 0,
-        "losses": 0,
-        "raw_win_rate": 1,
+        "losses": 3,
+        "raw_win_rate": 0.5714,
         "pick_pct": "0.00",
-        "ban_pct": "0.00",
+        "ban_pct": "28.00",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:16.000Z",
-        "latest_match_at": "2026-07-24T05:30:41.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:25.000Z",
+        "latest_match_at": "2026-09-01T13:33:55.000Z",
         "detail_source_url": null,
         "event_tier_breakdown": {
-          "S": 0,
+          "S": 6,
           "A": 1,
           "B": 0,
           "C": 0,
@@ -316,24 +321,24 @@
         "hltv_team_id": 7020,
         "map_name": "Ancient",
         "data_type": "lan",
-        "sample_maps": 10,
-        "wins": 7,
+        "sample_maps": 19,
+        "wins": 15,
         "draws": 0,
-        "losses": 3,
-        "raw_win_rate": 0.7,
+        "losses": 4,
+        "raw_win_rate": 0.7895,
         "pick_pct": "0.1430",
         "ban_pct": "0.1760",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:24.000Z",
-        "latest_match_at": "2026-06-07T07:42:20.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
+        "latest_match_at": "2026-10-04T19:33:02.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/47/7020/spirit?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 10,
+          "S": 18,
           "A": 0,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 1
         },
         "ct_side_win_rate": "0.5740",
         "t_side_win_rate": "0.5100",
@@ -357,24 +362,24 @@
         "hltv_team_id": 7020,
         "map_name": "Anubis",
         "data_type": "lan",
-        "sample_maps": 6,
-        "wins": 3,
+        "sample_maps": 11,
+        "wins": 8,
         "draws": 0,
         "losses": 3,
-        "raw_win_rate": 0.5,
+        "raw_win_rate": 0.7273,
         "pick_pct": "0.1250",
         "ban_pct": "0.2670",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:24.000Z",
-        "latest_match_at": "2026-06-21T18:07:48.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
+        "latest_match_at": "2026-10-04T19:33:01.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/48/7020/spirit?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 6,
+          "S": 10,
           "A": 0,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 1
         },
         "ct_side_win_rate": "0.4440",
         "t_side_win_rate": "0.2220",
@@ -398,24 +403,24 @@
         "hltv_team_id": 7020,
         "map_name": "Dust2",
         "data_type": "lan",
-        "sample_maps": 23,
-        "wins": 19,
+        "sample_maps": 35,
+        "wins": 28,
         "draws": 0,
-        "losses": 4,
-        "raw_win_rate": 0.8261,
+        "losses": 7,
+        "raw_win_rate": 0.8,
         "pick_pct": "0.7080",
         "ban_pct": "0.0360",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:24.000Z",
-        "latest_match_at": "2026-06-21T18:07:47.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
+        "latest_match_at": "2026-10-05T21:07:45.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/31/7020/spirit?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 23,
+          "S": 32,
           "A": 0,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 3
         },
         "ct_side_win_rate": "0.6080",
         "t_side_win_rate": "0.5790",
@@ -447,8 +452,8 @@
         "pick_pct": "0.0000",
         "ban_pct": "1.0000",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": "2026-06-07T07:42:32.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
         "latest_match_at": null,
         "detail_source_url": "https://www.hltv.org/stats/teams/map/33/7020/spirit?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
@@ -480,24 +485,24 @@
         "hltv_team_id": 7020,
         "map_name": "Mirage",
         "data_type": "lan",
-        "sample_maps": 19,
-        "wins": 14,
+        "sample_maps": 28,
+        "wins": 19,
         "draws": 0,
-        "losses": 5,
-        "raw_win_rate": 0.7368,
+        "losses": 9,
+        "raw_win_rate": 0.6786,
         "pick_pct": "0.1050",
         "ban_pct": "0.0000",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:24.000Z",
-        "latest_match_at": "2026-06-21T18:07:47.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
+        "latest_match_at": "2026-10-05T21:07:45.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/32/7020/spirit?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 19,
+          "S": 26,
           "A": 0,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 2
         },
         "ct_side_win_rate": "0.6170",
         "t_side_win_rate": "0.4920",
@@ -521,24 +526,24 @@
         "hltv_team_id": 7020,
         "map_name": "Nuke",
         "data_type": "lan",
-        "sample_maps": 6,
-        "wins": 3,
+        "sample_maps": 12,
+        "wins": 7,
         "draws": 0,
-        "losses": 3,
-        "raw_win_rate": 0.5,
+        "losses": 5,
+        "raw_win_rate": 0.5833,
         "pick_pct": "0.0000",
         "ban_pct": "0.2000",
         "data_from": "2026-01-01",
-        "data_to": "2026-07-26",
-        "snapshot_time": "2026-07-26T14:30:24.000Z",
-        "latest_match_at": "2026-06-13T15:41:25.000Z",
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
+        "latest_match_at": "2026-10-03T19:03:29.000Z",
         "detail_source_url": "https://www.hltv.org/stats/teams/map/34/7020/spirit?startDate=2026-01-01&endDate=2026-12-31&matchType=Lan",
         "event_tier_breakdown": {
-          "S": 6,
+          "S": 11,
           "A": 0,
           "B": 0,
           "C": 0,
-          "unknown": 0
+          "unknown": 1
         },
         "ct_side_win_rate": "0.5420",
         "t_side_win_rate": "0.4410",
@@ -562,39 +567,39 @@
         "hltv_team_id": 7020,
         "map_name": "Cache",
         "data_type": "lan",
-        "sample_maps": 0,
-        "wins": 0,
+        "sample_maps": 6,
+        "wins": 3,
         "draws": 0,
-        "losses": 0,
-        "raw_win_rate": 0,
-        "pick_pct": 0,
-        "ban_pct": 0,
+        "losses": 3,
+        "raw_win_rate": 0.5,
+        "pick_pct": "0.00",
+        "ban_pct": "29.20",
         "data_from": "2026-01-01",
-        "data_to": "2026-12-31",
-        "snapshot_time": null,
-        "latest_match_at": null,
+        "data_to": "2026-10-06",
+        "snapshot_time": "2026-10-05T21:07:35.000Z",
+        "latest_match_at": "2026-09-01T13:34:02.000Z",
         "detail_source_url": null,
         "event_tier_breakdown": {
-          "S": 0,
+          "S": 6,
           "A": 0,
           "B": 0,
           "C": 0,
           "unknown": 0
         },
-        "ct_side_win_rate": 0,
-        "t_side_win_rate": 0,
-        "ct_rounds": 0,
-        "t_rounds": 0,
-        "total_rounds_played": 0,
-        "rounds_won": 0,
-        "pistol_rounds": 0,
-        "pistol_rounds_won": 0,
+        "ct_side_win_rate": null,
+        "t_side_win_rate": null,
+        "ct_rounds": null,
+        "t_rounds": null,
+        "total_rounds_played": null,
+        "rounds_won": null,
+        "pistol_rounds": null,
+        "pistol_rounds_won": null,
         "pistol_round_win_rate": null,
-        "first_kill_round_win_rate": 0,
-        "first_death_round_win_rate": 0,
-        "zero_sample": true,
-        "side_stats_status": "zero_sample",
-        "detail_status": "zero_sample",
+        "first_kill_round_win_rate": null,
+        "first_death_round_win_rate": null,
+        "zero_sample": false,
+        "side_stats_status": "not_collected",
+        "detail_status": "not_collected",
         "source_hltv_team_ids": [
           7020
         ]
@@ -607,11 +612,83 @@
       "player_name": "donk",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 1.43,
-      "maps_played": 87,
+      "rating3": 1.44,
+      "maps_played": 136,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:30:41.000Z",
+      "data_to": "2026-10-06",
+      "snapshot_time": "2026-10-05T21:09:05.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 1.27,
+          "maps_played": 38,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 1.31,
+          "maps_played": 60,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 1.37,
+          "maps_played": 102,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 1.39,
+          "maps_played": 113,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 1.41,
+          "maps_played": 120,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         7020
       ]
@@ -621,11 +698,83 @@
       "player_name": "sh1ro",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 1.19,
-      "maps_played": 87,
+      "rating3": 1.18,
+      "maps_played": 136,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:30:41.000Z",
+      "data_to": "2026-10-06",
+      "snapshot_time": "2026-10-05T21:09:05.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 1.2,
+          "maps_played": 38,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 1.21,
+          "maps_played": 60,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 1.18,
+          "maps_played": 102,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 1.19,
+          "maps_played": 113,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 1.19,
+          "maps_played": 120,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         7020
       ]
@@ -635,25 +784,83 @@
       "player_name": "tN1R",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 1.05,
-      "maps_played": 87,
+      "rating3": 1.06,
+      "maps_played": 136,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:30:41.000Z",
-      "source_hltv_team_ids": [
-        7020
-      ]
-    },
-    {
-      "hltv_team_id": 7020,
-      "player_name": "magixx",
-      "rating_type": "annual",
-      "rating2": null,
-      "rating3": 0.99,
-      "maps_played": 87,
-      "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:30:41.000Z",
+      "data_to": "2026-10-06",
+      "snapshot_time": "2026-10-05T21:09:05.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 1.04,
+          "maps_played": 38,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 1.03,
+          "maps_played": 60,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 1.04,
+          "maps_played": 102,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 1.04,
+          "maps_played": 113,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 1.04,
+          "maps_played": 120,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         7020
       ]
@@ -663,11 +870,169 @@
       "player_name": "zont1x",
       "rating_type": "annual",
       "rating2": null,
-      "rating3": 0.98,
-      "maps_played": 87,
+      "rating3": 0.99,
+      "maps_played": 136,
       "data_from": "2026-01-01",
-      "data_to": "2026-07-26",
-      "snapshot_time": "2026-07-26T14:30:41.000Z",
+      "data_to": "2026-10-06",
+      "snapshot_time": "2026-10-05T21:09:05.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.96,
+          "maps_played": 38,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 0.98,
+          "maps_played": 60,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 1,
+          "maps_played": 102,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 0.99,
+          "maps_played": 113,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 0.99,
+          "maps_played": 120,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
+      "source_hltv_team_ids": [
+        7020
+      ]
+    },
+    {
+      "hltv_team_id": 7020,
+      "player_name": "magixx",
+      "rating_type": "annual",
+      "rating2": null,
+      "rating3": 0.98,
+      "maps_played": 136,
+      "data_from": "2026-01-01",
+      "data_to": "2026-10-06",
+      "snapshot_time": "2026-10-05T21:09:05.000Z",
+      "opponent_rank_ratings": {
+        "Top5": {
+          "rating3": 0.91,
+          "maps_played": 38,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top5"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top10": {
+          "rating3": 0.91,
+          "maps_played": 60,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top10"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top20": {
+          "rating3": 0.96,
+          "maps_played": 102,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top20"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top30": {
+          "rating3": 0.97,
+          "maps_played": 113,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top30"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        },
+        "Top50": {
+          "rating3": 0.98,
+          "maps_played": 120,
+          "data_from": "2026-01-01",
+          "data_to": "2026-10-06",
+          "snapshot_time": "2026-10-05T21:09:04.618Z",
+          "source_urls": [
+            "https://www.hltv.org/stats/teams/players/7020/spirit?csVersion=CS2&startDate=2026-01-01&endDate=2026-10-06&rankingFilter=Top50"
+          ],
+          "source_hltv_team_ids": [
+            7020
+          ],
+          "missing_source_hltv_team_ids": []
+        }
+      },
       "source_hltv_team_ids": [
         7020
       ]
@@ -677,327 +1042,361 @@
     {
       "teamId": 30001,
       "hltv_team_id": 7020,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "05/10/26",
+      "event_name": "ESL Pro League Season 24",
+      "event_tier": null,
+      "opponent_name": "MOUZ",
+      "opponent_hltv_id": 4494,
+      "result": "11 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-10-05T21:07:38.000Z",
+      "opponent_canonical_hltv_id": 4494,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Anubis",
+      "data_type": "overall",
+      "match_date": "04/10/26",
+      "event_name": "ESL Pro League Season 24",
+      "event_tier": null,
+      "opponent_name": "PARIVISION",
+      "opponent_hltv_id": 12467,
+      "result": "13 - 5",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-10-04T19:32:54.000Z",
+      "opponent_canonical_hltv_id": 12467,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "03/10/26",
+      "event_name": "ESL Pro League Season 24",
+      "event_tier": null,
+      "opponent_name": "ShindeN",
+      "opponent_hltv_id": 12959,
+      "result": "13 - 4",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-10-03T19:03:22.000Z",
+      "opponent_canonical_hltv_id": 12959,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "06/09/26",
+      "event_name": "BLAST Open Porto 2026",
+      "event_tier": "S",
+      "opponent_name": "MOUZ",
+      "opponent_hltv_id": 4494,
+      "result": "13 - 6",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-07T22:28:21.000Z",
+      "opponent_canonical_hltv_id": 4494,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Ancient",
+      "data_type": "overall",
+      "match_date": "05/09/26",
+      "event_name": "BLAST Open Porto 2026",
+      "event_tier": "S",
+      "opponent_name": "Falcons",
+      "opponent_hltv_id": 11283,
+      "result": "13 - 11",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-06T15:51:42.000Z",
+      "opponent_canonical_hltv_id": 11283,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Cache",
+      "data_type": "overall",
+      "match_date": "31/08/26",
+      "event_name": "BLAST Open Porto 2026",
+      "event_tier": "S",
+      "opponent_name": "FURIA",
+      "opponent_hltv_id": 8297,
+      "result": "13 - 5",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-09-01T13:33:55.000Z",
+      "opponent_canonical_hltv_id": 8297,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Cache",
+      "data_type": "overall",
+      "match_date": "28/08/26",
+      "event_name": "BLAST Open Porto 2026",
+      "event_tier": "S",
+      "opponent_name": "G2",
+      "opponent_hltv_id": 5995,
+      "result": "13 - 9",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-30T13:35:50.000Z",
+      "opponent_canonical_hltv_id": 5995,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Cache",
+      "data_type": "overall",
+      "match_date": "26/08/26",
+      "event_name": "BLAST Open Porto 2026",
+      "event_tier": "S",
+      "opponent_name": "DENDELE",
+      "opponent_hltv_id": 13926,
+      "result": "13 - 7",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-28T14:51:41.000Z",
+      "opponent_canonical_hltv_id": 13926,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "23/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "FUT",
+      "opponent_hltv_id": 13286,
+      "result": "13 - 5",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-25T14:42:21.000Z",
+      "opponent_canonical_hltv_id": 13286,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Ancient",
+      "data_type": "overall",
+      "match_date": "22/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "Legacy",
+      "opponent_hltv_id": 12468,
+      "result": "13 - 9",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-23T04:25:55.000Z",
+      "opponent_canonical_hltv_id": 12468,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "21/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "Vitality",
+      "opponent_hltv_id": 9565,
+      "result": "13 - 3",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-22T18:00:34.000Z",
+      "opponent_canonical_hltv_id": 9565,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "20/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "B8",
+      "opponent_hltv_id": 11241,
+      "result": "13 - 9",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-21T13:32:09.000Z",
+      "opponent_canonical_hltv_id": 11241,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "15/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "BIG",
+      "opponent_hltv_id": 7532,
+      "result": "13 - 7",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-16T15:51:14.000Z",
+      "opponent_canonical_hltv_id": 7532,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Dust2",
+      "data_type": "overall",
+      "match_date": "13/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "Luminosity",
+      "opponent_hltv_id": 6290,
+      "result": "19 - 15",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-15T12:02:13.000Z",
+      "opponent_canonical_hltv_id": 6290,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Mirage",
+      "data_type": "overall",
+      "match_date": "12/08/26",
+      "event_name": "Esports World Cup 2026",
+      "event_tier": "S",
+      "opponent_name": "JiJieHao",
+      "opponent_hltv_id": 10245,
+      "result": "10 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-13T15:51:04.000Z",
+      "opponent_canonical_hltv_id": 10245,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Nuke",
+      "data_type": "overall",
+      "match_date": "02/08/26",
+      "event_name": "BLAST Bounty 2026 Season 2 Finals",
+      "event_tier": "S",
+      "opponent_name": "MOUZ",
+      "opponent_hltv_id": 4494,
+      "result": "10 - 13",
+      "won": 0,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-04T15:57:50.000Z",
+      "opponent_canonical_hltv_id": 4494,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Anubis",
+      "data_type": "overall",
+      "match_date": "01/08/26",
+      "event_name": "BLAST Bounty 2026 Season 2 Finals",
+      "event_tier": "S",
+      "opponent_name": "FaZe",
+      "opponent_hltv_id": 6667,
+      "result": "13 - 11",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-02T15:17:19.000Z",
+      "opponent_canonical_hltv_id": 6667,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Anubis",
+      "data_type": "overall",
+      "match_date": "30/07/26",
+      "event_name": "BLAST Bounty 2026 Season 2 Finals",
+      "event_tier": "S",
+      "opponent_name": "Liquid",
+      "opponent_hltv_id": 5973,
+      "result": "13 - 5",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-08-01T15:11:33.000Z",
+      "opponent_canonical_hltv_id": 5973,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
+      "map_name": "Dust2",
+      "data_type": "overall",
+      "match_date": "26/07/26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "event_tier": "A",
+      "opponent_name": "100 Thieves",
+      "opponent_hltv_id": 8474,
+      "result": "13 - 0",
+      "won": 1,
+      "match_order": 0,
+      "page_index": 0,
+      "recorded_at": "2026-07-28T00:30:03.000Z",
+      "opponent_canonical_hltv_id": 8474,
+      "source_hltv_team_id": 7020
+    },
+    {
+      "teamId": 30001,
+      "hltv_team_id": 7020,
       "map_name": "Ancient",
       "data_type": "overall",
       "match_date": "23/07/26",
       "event_name": "BLAST Bounty 2026 Season 2",
       "event_tier": "A",
       "opponent_name": "OG",
+      "opponent_hltv_id": 10503,
       "result": "19 - 16",
       "won": 1,
       "match_order": 0,
       "page_index": 0,
       "recorded_at": "2026-07-24T05:30:39.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "23/07/26",
-      "event_name": "BLAST Bounty 2026 Season 2",
-      "event_tier": "A",
-      "opponent_name": "OG",
-      "result": "11 - 13",
-      "won": 0,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-07-24T05:30:40.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "20/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "Falcons",
-      "result": "12 - 16",
-      "won": 0,
-      "match_order": 0,
-      "page_index": 0,
-      "recorded_at": "2026-06-21T18:07:41.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "20/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "Falcons",
-      "result": "13 - 8",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-06-21T18:07:42.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "19/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "G2",
-      "result": "25 - 22",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 0,
-      "recorded_at": "2026-06-20T18:05:40.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "19/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "G2",
-      "result": "16 - 14",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-06-20T18:05:41.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "13/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "9z",
-      "result": "16 - 14",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 0,
-      "recorded_at": "2026-06-14T18:35:31.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "13/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "9z",
-      "result": "16 - 13",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-06-14T18:35:32.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "12/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "Aurora",
-      "result": "13 - 5",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 0,
-      "recorded_at": "2026-06-13T15:41:19.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Anubis",
-      "data_type": "overall",
-      "match_date": "12/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "Aurora",
-      "result": "13 - 4",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-06-13T15:41:20.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Anubis",
-      "data_type": "overall",
-      "match_date": "11/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "Natus Vincere",
-      "result": "13 - 8",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 0,
-      "recorded_at": "2026-06-12T14:16:11.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "11/06/26",
-      "event_name": "IEM Cologne Major 2026",
-      "event_tier": "S",
-      "opponent_name": "Natus Vincere",
-      "result": "13 - 1",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-06-12T14:16:11.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "07/06/26",
-      "event_name": "IEM Cologne Major 2026 Stage 2",
-      "event_tier": "S",
-      "opponent_name": "9z",
-      "result": "13 - 1",
-      "won": 1,
-      "match_order": 0,
-      "page_index": 0,
-      "recorded_at": "2026-06-08T16:15:17.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "teamId": 30001,
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "07/06/26",
-      "event_name": "IEM Cologne Major 2026 Stage 2",
-      "event_tier": "S",
-      "opponent_name": "9z",
-      "result": "13 - 3",
-      "won": 1,
-      "match_order": 1,
-      "page_index": 1,
-      "recorded_at": "2026-06-08T16:15:18.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "2026-06-06T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 2",
-      "event_tier": null,
-      "opponent_name": "BetBoom",
-      "opponent_rank": null,
-      "result": "13 - 5",
-      "own_score": 13,
-      "opponent_score": 5,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:34:14.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "2026-06-06T00:00:00.000Z",
-      "event_name": "IEM Cologne Major 2026 Stage 2",
-      "event_tier": null,
-      "opponent_name": "MIBR",
-      "opponent_rank": null,
-      "result": "13 - 1",
-      "own_score": 13,
-      "opponent_score": 1,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:34:13.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "hltv_team_id": 7020,
-      "map_name": "Ancient",
-      "data_type": "overall",
-      "match_date": "2026-05-17T00:00:00.000Z",
-      "event_name": "PGL Astana 2026",
-      "event_tier": "S",
-      "opponent_name": "Falcons",
-      "opponent_rank": null,
-      "result": "13 - 10",
-      "own_score": 13,
-      "opponent_score": 10,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/47/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:34:23.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "hltv_team_id": 7020,
-      "map_name": "Mirage",
-      "data_type": "overall",
-      "match_date": "2026-05-17T00:00:00.000Z",
-      "event_name": "PGL Astana 2026",
-      "event_tier": "S",
-      "opponent_name": "Falcons",
-      "opponent_rank": null,
-      "result": "13 - 7",
-      "own_score": 13,
-      "opponent_score": 7,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/32/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:34:14.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "hltv_team_id": 7020,
-      "map_name": "Dust2",
-      "data_type": "overall",
-      "match_date": "2026-05-17T00:00:00.000Z",
-      "event_name": "PGL Astana 2026",
-      "event_tier": "S",
-      "opponent_name": "Falcons",
-      "opponent_rank": null,
-      "result": "16 - 12",
-      "own_score": 16,
-      "opponent_score": 12,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/31/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:34:04.000Z",
-      "source_hltv_team_id": 7020
-    },
-    {
-      "hltv_team_id": 7020,
-      "map_name": "Nuke",
-      "data_type": "overall",
-      "match_date": "2026-05-16T00:00:00.000Z",
-      "event_name": "PGL Astana 2026",
-      "event_tier": "S",
-      "opponent_name": "MOUZ",
-      "opponent_rank": null,
-      "result": "13 - 2",
-      "own_score": 13,
-      "opponent_score": 2,
-      "won": 1,
-      "source_url": "https://www.hltv.org/stats/teams/map/34/7020/spirit?startDate=2026-01-01&endDate=2026-12-31",
-      "recorded_at": "2026-06-07T07:34:31.000Z",
+      "opponent_canonical_hltv_id": 10503,
       "source_hltv_team_id": 7020
     }
   ],

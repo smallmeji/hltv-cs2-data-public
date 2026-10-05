@@ -1,0 +1,3789 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:10.328Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 13117
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 13117,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 14,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 14,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 14,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 14,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Inferno",
+        "count": 17,
+        "empirical_share_of_resolved_sample": 0.85
+      },
+      {
+        "map_name": "Ancient",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Dust2",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 19,
+        "resolved_first_bans": 19,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 16,
+            "empirical_share_of_resolved_pool_sample": 0.8421052631578947
+          },
+          {
+            "map_name": "Ancient",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
+          },
+          {
+            "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
+          },
+          {
+            "map_name": "Dust2",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 1,
+        "resolved_first_bans": 1,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 1,
+      "from": "2026-06-28T17:30:00.000Z",
+      "to": "2026-06-28T17:30:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 19,
+      "from": "2026-07-09T16:30:00.000Z",
+      "to": "2026-09-22T17:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-06-28T17:30:00.000Z",
+      "to": "2026-09-22T17:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2397918,
+      "hltv_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-22T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940117,
+        "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-25T17:34:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940117,
+            "source_url": "https://www.hltv.org/matches/2397918/inner-circle-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397914,
+      "hltv_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T18:05:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 11737,
+        "name": "EYEBALLERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820057,
+        "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. EYEBALLERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. EYEBALLERS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Inner Circle removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. EYEBALLERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820057,
+            "source_url": "https://www.hltv.org/matches/2397914/inner-circle-vs-eyeballers-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397907,
+      "hltv_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T14:25:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820056,
+        "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. INFINITE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. INFINITE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820056,
+            "source_url": "https://www.hltv.org/matches/2397907/infinite-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397906,
+      "hltv_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T13:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820055,
+        "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. 3DMAX removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820055,
+            "source_url": "https://www.hltv.org/matches/2397906/3dmax-vs-inner-circle-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397904,
+      "hltv_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T12:10:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820050,
+        "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Inner Circle removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Inner Circle removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Liquid removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397900,
+      "hltv_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T08:50:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820059,
+        "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BBL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BBL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820059,
+            "source_url": "https://www.hltv.org/matches/2397900/inner-circle-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397772,
+      "hltv_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-11T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580042,
+        "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. B8 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580042,
+            "source_url": "https://www.hltv.org/matches/2397772/inner-circle-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397769,
+      "hltv_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-10T11:10:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520047,
+        "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-10T16:11:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520047,
+            "source_url": "https://www.hltv.org/matches/2397769/ninjas-in-pyjamas-vs-inner-circle-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397723,
+      "hltv_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-09T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2490045,
+        "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-10T10:32:49.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nemiga picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Inner Circle picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Inner Circle removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nemiga removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490045,
+            "source_url": "https://www.hltv.org/matches/2397723/inner-circle-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396942,
+      "hltv_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+      "scheduled_at": "2026-08-30T14:40:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13286,
+        "name": "FUT"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1890044,
+        "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+        "retrieved_at": "2026-08-31T05:32:22.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. FUT removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Inner Circle removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. FUT picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Inner Circle picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13286,
+          "actor_team_name": "FUT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. FUT removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890044,
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396936,
+      "hltv_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+      "scheduled_at": "2026-08-29T11:10:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1860045,
+        "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+        "retrieved_at": "2026-08-30T06:09:57.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Inner Circle picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. MOUZ picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. MOUZ removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1860045,
+            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
+            "retrieved_at": "2026-08-30T06:09:57.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396927,
+      "hltv_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+      "scheduled_at": "2026-08-27T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8249,
+        "name": "BLAST Open Porto 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1830046,
+        "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+        "retrieved_at": "2026-08-28T07:07:36.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Inner Circle picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Vitality picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Vitality removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1830046,
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "retrieved_at": "2026-08-28T07:07:36.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396552,
+      "hltv_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T12:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350149,
+        "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:04:22.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Inner Circle removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Inner Circle picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. HOTU picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. HOTU removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350149,
+            "source_url": "https://www.hltv.org/matches/2396552/hotu-vs-inner-circle-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396541,
+      "hltv_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13104,
+        "name": "Iberian Soul"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350150,
+        "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:04:24.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13104,
+          "actor_team_name": "Iberian Soul",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Iberian Soul removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13104,
+          "actor_team_name": "Iberian Soul",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Iberian Soul picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Inner Circle picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13104,
+          "actor_team_name": "Iberian Soul",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Iberian Soul removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350150,
+            "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396467,
+      "hltv_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T11:40:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13333,
+        "name": "ASTRAL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350151,
+        "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:04:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. ASTRAL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. ASTRAL picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Inner Circle picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. ASTRAL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350151,
+            "source_url": "https://www.hltv.org/matches/2396467/inner-circle-vs-astral-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396451,
+      "hltv_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13954,
+        "name": "NIO"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350152,
+        "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:04:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13954,
+          "actor_team_name": "NIO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. NIO removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Inner Circle picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13954,
+          "actor_team_name": "NIO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. NIO picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13954,
+          "actor_team_name": "NIO",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. NIO removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350152,
+            "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395661,
+      "hltv_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+      "scheduled_at": "2026-07-11T18:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 5378,
+        "name": "Virtus.pro"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350153,
+        "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+        "retrieved_at": "2026-08-12T10:04:35.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Virtus.pro removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Virtus.pro picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Virtus.pro removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350153,
+            "source_url": "https://www.hltv.org/matches/2395661/virtuspro-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-08-12T10:04:35.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395660,
+      "hltv_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+      "scheduled_at": "2026-07-10T16:20:00.000Z",
+      "event": {
+        "hltv_id": 9237,
+        "name": "RES Showdown 4 Europe: BLAST Premier Rising Event"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940109,
+        "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+        "retrieved_at": "2026-09-25T17:33:52.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. magic removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940109,
+            "source_url": "https://www.hltv.org/matches/2395660/magic-vs-inner-circle-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:33:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395657,
+      "hltv_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+      "scheduled_at": "2026-07-09T16:30:00.000Z",
+      "event": {
+        "hltv_id": 9237,
+        "name": "RES Showdown 4 Europe: BLAST Premier Rising Event"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 11609,
+        "name": "GenOne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940118,
+        "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+        "retrieved_at": "2026-09-25T17:34:26.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. GenOne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. GenOne picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Inner Circle picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. GenOne removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940118,
+            "source_url": "https://www.hltv.org/matches/2395657/inner-circle-vs-genone-res-showdown-4-europe-blast-premier-rising-event",
+            "retrieved_at": "2026-09-25T17:34:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395400,
+      "hltv_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+      "scheduled_at": "2026-06-28T17:30:00.000Z",
+      "event": {
+        "hltv_id": 9118,
+        "name": "Digital Crusade Super DraculaN Season 1"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "opponent": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940119,
+        "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+        "retrieved_at": "2026-09-25T17:34:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Acend picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "5. Acend picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "6. Inner Circle picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940119,
+            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

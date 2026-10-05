@@ -1,0 +1,3762 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:27.558Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 8474
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 8474,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 13,
+    "eligible_matches_by_format": {
+      "bo1": 7,
+      "bo3": 13,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 13,
+    "eligible_matches_by_format": {
+      "bo1": 7,
+      "bo3": 13,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Cache",
+        "count": 13,
+        "empirical_share_of_resolved_sample": 0.65
+      },
+      {
+        "map_name": "Mirage",
+        "count": 3,
+        "empirical_share_of_resolved_sample": 0.15
+      },
+      {
+        "map_name": "Ancient",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Anubis",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Nuke",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Cache",
+            "count": 13,
+            "empirical_share_of_resolved_pool_sample": 0.65
+          },
+          {
+            "map_name": "Mirage",
+            "count": 3,
+            "empirical_share_of_resolved_pool_sample": 0.15
+          },
+          {
+            "map_name": "Ancient",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
+          },
+          {
+            "map_name": "Anubis",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-12T18:20:00.000Z",
+      "to": "2026-10-03T09:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-12T18:20:00.000Z",
+      "to": "2026-10-03T09:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398970,
+      "hltv_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 10245,
+        "name": "JiJieHao"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270056,
+        "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T19:25:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. JiJieHao removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. JiJieHao picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. JiJieHao removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270056,
+            "source_url": "https://www.hltv.org/matches/2398970/jijiehao-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398966,
+      "hltv_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T18:30:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13499,
+        "name": "Voca"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240060,
+        "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Voca removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Voca picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Voca removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240060,
+            "source_url": "https://www.hltv.org/matches/2398966/voca-vs-100-thieves-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398916,
+      "hltv_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T16:40:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240061,
+        "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:15.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. SINNERS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240061,
+            "source_url": "https://www.hltv.org/matches/2398916/100-thieves-vs-sinners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398913,
+      "hltv_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T15:15:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240062,
+        "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:15.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398910,
+      "hltv_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13937,
+        "name": "Nordic Partners"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240063,
+        "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nordic Partners removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. 100 Thieves removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. Nordic Partners removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Nordic Partners removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240063,
+            "source_url": "https://www.hltv.org/matches/2398910/100-thieves-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398907,
+      "hltv_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 9735,
+        "name": "Lilmix"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240064,
+        "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9735,
+          "actor_team_name": "Lilmix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Lilmix removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9735,
+          "actor_team_name": "Lilmix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. Lilmix removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9735,
+          "actor_team_name": "Lilmix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Lilmix removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 100 Thieves removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240064,
+            "source_url": "https://www.hltv.org/matches/2398907/100-thieves-vs-lilmix-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398906,
+      "hltv_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13968,
+        "name": "Anteiku"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240065,
+        "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13968,
+          "actor_team_name": "Anteiku",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Anteiku removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13968,
+          "actor_team_name": "Anteiku",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. Anteiku removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. 100 Thieves removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13968,
+          "actor_team_name": "Anteiku",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Anteiku removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240065,
+            "source_url": "https://www.hltv.org/matches/2398906/100-thieves-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398074,
+      "hltv_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-26T17:10:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000053,
+        "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-27T06:07:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. HEROIC picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. HEROIC removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000053,
+            "source_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398072,
+      "hltv_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-26T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000045,
+        "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-27T06:07:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. 100 Thieves picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Astralis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Astralis removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000045,
+            "source_url": "https://www.hltv.org/matches/2398072/100-thieves-vs-astralis-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398069,
+      "hltv_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-25T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940181,
+        "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-25T17:37:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BBL picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 100 Thieves picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BBL removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940181,
+            "source_url": "https://www.hltv.org/matches/2398069/100-thieves-vs-bbl-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:37:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398062,
+      "hltv_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-23T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13173,
+        "name": "Phantom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940182,
+        "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-25T17:38:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Phantom removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Phantom picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 100 Thieves picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Phantom removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940182,
+            "source_url": "https://www.hltv.org/matches/2398062/100-thieves-vs-phantom-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398014,
+      "hltv_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-23T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13838,
+        "name": "EAC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940183,
+        "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-25T17:38:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. EAC removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. EAC picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. 100 Thieves picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. EAC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940183,
+            "source_url": "https://www.hltv.org/matches/2398014/100-thieves-vs-eac-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397878,
+      "hltv_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-12T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670047,
+        "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-13T07:17:23.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 100 Thieves picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397874,
+      "hltv_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-11T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580043,
+        "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580043,
+            "source_url": "https://www.hltv.org/matches/2397874/3dmax-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397868,
+      "hltv_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-10T14:30:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520050,
+        "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-10T16:11:22.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Acend picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 100 Thieves removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520050,
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397861,
+      "hltv_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-09T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340055,
+        "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:45.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. 100 Thieves picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BBL picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BBL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340055,
+            "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397078,
+      "hltv_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+      "scheduled_at": "2026-08-24T17:25:00.000Z",
+      "event": {
+        "hltv_id": 9294,
+        "name": "IEM Beijing 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1800045,
+        "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+        "retrieved_at": "2026-08-25T07:01:39.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Eternal Fire picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 100 Thieves picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. 100 Thieves removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800045,
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397070,
+      "hltv_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+      "scheduled_at": "2026-08-24T16:00:00.000Z",
+      "event": {
+        "hltv_id": 9294,
+        "name": "IEM Beijing 2026 Open Qualifier"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 13814,
+        "name": "INOX Division"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1800048,
+        "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+        "retrieved_at": "2026-08-25T07:01:51.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. INOX Division removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. 100 Thieves removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. INOX Division removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. INOX Division removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. 100 Thieves removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1800048,
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-08-25T07:01:51.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396585,
+      "hltv_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+      "scheduled_at": "2026-08-14T17:15:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 12467,
+        "name": "PARIVISION"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620053,
+        "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:23.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. PARIVISION removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. 100 Thieves picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. PARIVISION picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. PARIVISION removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620053,
+            "source_url": "https://www.hltv.org/matches/2396585/parivision-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:23.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396567,
+      "hltv_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T18:20:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560046,
+        "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:45:13.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. Vitality removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "4. 100 Thieves removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 100 Thieves removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Vitality removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560046,
+            "source_url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:45:13.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

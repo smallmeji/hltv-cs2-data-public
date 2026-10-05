@@ -1,0 +1,3752 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:06.872Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 4411
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 4411,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 9,
+    "eligible_matches_by_format": {
+      "bo1": 10,
+      "bo3": 9,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 9,
+    "eligible_matches_by_format": {
+      "bo1": 10,
+      "bo3": 9,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Anubis",
+        "count": 12,
+        "empirical_share_of_resolved_sample": 0.6
+      },
+      {
+        "map_name": "Dust2",
+        "count": 6,
+        "empirical_share_of_resolved_sample": 0.3
+      },
+      {
+        "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Nuke",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Anubis",
+            "count": 12,
+            "empirical_share_of_resolved_pool_sample": 0.6
+          },
+          {
+            "map_name": "Dust2",
+            "count": 6,
+            "empirical_share_of_resolved_pool_sample": 0.3
+          },
+          {
+            "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-09-10T17:00:00.000Z",
+      "to": "2026-10-03T18:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-09-10T17:00:00.000Z",
+      "to": "2026-10-03T18:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398974,
+      "hltv_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330054,
+        "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-04T20:01:34.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Ninjas in Pyjamas picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Ninjas in Pyjamas removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398972,
+      "hltv_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T12:35:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270058,
+        "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T19:25:51.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. BBL picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Ninjas in Pyjamas picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BBL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270058,
+            "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398968,
+      "hltv_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270059,
+        "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T19:25:54.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Ninjas in Pyjamas picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. SINNERS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Ninjas in Pyjamas removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270059,
+            "source_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398964,
+      "hltv_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T18:30:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 12604,
+        "name": "Johnny Speeds"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240067,
+        "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:29.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12604,
+          "actor_team_name": "Johnny Speeds",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Johnny Speeds removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12604,
+          "actor_team_name": "Johnny Speeds",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Johnny Speeds picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Ninjas in Pyjamas picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12604,
+          "actor_team_name": "Johnny Speeds",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Johnny Speeds removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Ninjas in Pyjamas removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240067,
+            "source_url": "https://www.hltv.org/matches/2398964/ninjas-in-pyjamas-vs-johnny-speeds-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398931,
+      "hltv_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T16:25:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240068,
+        "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. BBL removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. Ninjas in Pyjamas removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BBL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Ninjas in Pyjamas removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240068,
+            "source_url": "https://www.hltv.org/matches/2398931/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398928,
+      "hltv_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 13375,
+        "name": "SportsBetExpert"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240069,
+        "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. SportsBetExpert removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. SportsBetExpert removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. SportsBetExpert removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240069,
+            "source_url": "https://www.hltv.org/matches/2398928/ninjas-in-pyjamas-vs-sportsbetexpert-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398925,
+      "hltv_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T14:25:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 7865,
+        "name": "HAVU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240070,
+        "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:37.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7865,
+          "actor_team_name": "HAVU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. HAVU removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Ninjas in Pyjamas removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7865,
+          "actor_team_name": "HAVU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. HAVU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "4. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7865,
+          "actor_team_name": "HAVU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. HAVU removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240070,
+            "source_url": "https://www.hltv.org/matches/2398925/ninjas-in-pyjamas-vs-havu-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398922,
+      "hltv_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T13:30:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240071,
+        "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sangal removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240071,
+            "source_url": "https://www.hltv.org/matches/2398922/ninjas-in-pyjamas-vs-sangal-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398919,
+      "hltv_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 14076,
+        "name": "XEPT"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240072,
+        "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14076,
+          "actor_team_name": "XEPT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. XEPT removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14076,
+          "actor_team_name": "XEPT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. XEPT removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "4. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14076,
+          "actor_team_name": "XEPT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. XEPT removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240072,
+            "source_url": "https://www.hltv.org/matches/2398919/ninjas-in-pyjamas-vs-xept-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398245,
+      "hltv_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+      "scheduled_at": "2026-09-28T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120053,
+        "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+        "retrieved_at": "2026-09-29T11:41:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. GamerLegion removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. GamerLegion picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "5. GamerLegion picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "6. Ninjas in Pyjamas picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120053,
+            "source_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398242,
+      "hltv_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+      "scheduled_at": "2026-09-27T15:20:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060048,
+        "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+        "retrieved_at": "2026-09-28T05:59:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Ninjas in Pyjamas picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. magic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060048,
+            "source_url": "https://www.hltv.org/matches/2398242/ninjas-in-pyjamas-vs-magic-1win-private-club-season-1",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398238,
+      "hltv_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+      "scheduled_at": "2026-09-26T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000056,
+        "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+        "retrieved_at": "2026-09-27T06:08:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. SINNERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. SINNERS picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Ninjas in Pyjamas picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000056,
+            "source_url": "https://www.hltv.org/matches/2398238/sinners-vs-ninjas-in-pyjamas-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398094,
+      "hltv_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+      "scheduled_at": "2026-09-25T14:15:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940120,
+        "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+        "retrieved_at": "2026-09-25T17:34:32.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 3DMAX removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940120,
+            "source_url": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1",
+            "retrieved_at": "2026-09-25T17:34:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397898,
+      "hltv_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T17:45:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790063,
+        "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Luminosity removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397894,
+      "hltv_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T15:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790056,
+        "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. GamerLegion removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. GamerLegion removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. GamerLegion removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790056,
+            "source_url": "https://www.hltv.org/matches/2397894/gamerlegion-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397893,
+      "hltv_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 11641,
+        "name": "Metizport"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790064,
+        "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:33.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Metizport removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Metizport removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Metizport removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790064,
+            "source_url": "https://www.hltv.org/matches/2397893/metizport-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397891,
+      "hltv_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T12:30:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790052,
+        "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:02.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. B8 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Ninjas in Pyjamas removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790052,
+            "source_url": "https://www.hltv.org/matches/2397891/ninjas-in-pyjamas-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397886,
+      "hltv_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790061,
+        "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. M80 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790061,
+            "source_url": "https://www.hltv.org/matches/2397886/ninjas-in-pyjamas-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397875,
+      "hltv_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-11T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580047,
+        "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Ninjas in Pyjamas picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580047,
+            "source_url": "https://www.hltv.org/matches/2397875/1win-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397869,
+      "hltv_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-10T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2550042,
+        "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T06:12:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. INFINITE removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Ninjas in Pyjamas picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. INFINITE picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. INFINITE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550042,
+            "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

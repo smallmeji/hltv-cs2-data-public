@@ -1,0 +1,3758 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:03.454Z",
+    "source_policy": "roster_continuity_with_exact_historical_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 6290,
+        "from": "2026-07-01T00:00:00.000Z"
+      },
+      {
+        "hltvTeamId": 11811,
+        "from": "2026-01-01T00:00:00.000Z",
+        "before": "2026-07-01T00:00:00.000Z"
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 6290,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 12,
+    "eligible_matches_by_format": {
+      "bo1": 7,
+      "bo3": 12,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 12,
+    "eligible_matches_by_format": {
+      "bo1": 7,
+      "bo3": 12,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Anubis",
+        "count": 9,
+        "empirical_share_of_resolved_sample": 0.45
+      },
+      {
+        "map_name": "Cache",
+        "count": 8,
+        "empirical_share_of_resolved_sample": 0.4
+      },
+      {
+        "map_name": "Mirage",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Ancient",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Anubis",
+            "count": 9,
+            "empirical_share_of_resolved_pool_sample": 0.45
+          },
+          {
+            "map_name": "Cache",
+            "count": 8,
+            "empirical_share_of_resolved_pool_sample": 0.4
+          },
+          {
+            "map_name": "Mirage",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
+          },
+          {
+            "map_name": "Ancient",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-07-02T10:30:00.000Z",
+      "to": "2026-10-04T12:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-07-02T10:30:00.000Z",
+      "to": "2026-10-04T12:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398008,
+      "hltv_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-04T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330050,
+        "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-04T20:01:20.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Luminosity picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Astralis picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Astralis removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Luminosity removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330050,
+            "source_url": "https://www.hltv.org/matches/2398008/luminosity-vs-astralis-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-04T20:01:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398006,
+      "hltv_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-03T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270054,
+        "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T19:25:39.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Nemiga picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Nemiga removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270054,
+            "source_url": "https://www.hltv.org/matches/2398006/luminosity-vs-nemiga-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T19:25:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398002,
+      "hltv_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-02T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240052,
+        "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-03T00:57:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BIG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BIG removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Luminosity removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240052,
+            "source_url": "https://www.hltv.org/matches/2398002/luminosity-vs-big-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-03T00:57:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397938,
+      "hltv_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+      "scheduled_at": "2026-10-01T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9256,
+        "name": "Stake Ranked Episode 4"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180054,
+        "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+        "retrieved_at": "2026-10-01T17:02:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. B8 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180054,
+            "source_url": "https://www.hltv.org/matches/2397938/b8-vs-luminosity-stake-ranked-episode-4",
+            "retrieved_at": "2026-10-01T17:02:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397919,
+      "hltv_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-23T16:45:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940121,
+        "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-25T17:34:33.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 3DMAX picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "5. 3DMAX picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "6. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940121,
+            "source_url": "https://www.hltv.org/matches/2397919/luminosity-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:34:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397917,
+      "hltv_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-22T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940073,
+        "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-25T17:30:55.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. B8 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940073,
+            "source_url": "https://www.hltv.org/matches/2397917/b8-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-25T17:30:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397915,
+      "hltv_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-19T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2850044,
+        "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T16:00:07.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. BBL picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Luminosity picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BBL removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850044,
+            "source_url": "https://www.hltv.org/matches/2397915/luminosity-vs-bbl-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397898,
+      "hltv_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T17:45:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790063,
+        "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Luminosity removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Ninjas in Pyjamas removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790063,
+            "source_url": "https://www.hltv.org/matches/2397898/luminosity-vs-ninjas-in-pyjamas-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397897,
+      "hltv_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T16:30:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790059,
+        "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:22.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "4. M80 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. M80 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790059,
+            "source_url": "https://www.hltv.org/matches/2397897/luminosity-vs-m80-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397892,
+      "hltv_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790051,
+        "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:12:58.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Luminosity removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. B8 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790051,
+            "source_url": "https://www.hltv.org/matches/2397892/luminosity-vs-b8-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:12:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397888,
+      "hltv_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T10:35:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 11641,
+        "name": "Metizport"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790065,
+        "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:34.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Metizport removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Metizport removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Luminosity removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Metizport removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790065,
+            "source_url": "https://www.hltv.org/matches/2397888/metizport-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397887,
+      "hltv_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-17T09:35:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790058,
+        "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-18T07:13:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Luminosity removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. GamerLegion removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. GamerLegion removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790058,
+            "source_url": "https://www.hltv.org/matches/2397887/gamerlegion-vs-luminosity-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-18T07:13:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397951,
+      "hltv_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+      "scheduled_at": "2026-09-13T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9284,
+        "name": "Radio Popular Roman Imperium Cup VIII"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2730048,
+        "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+        "retrieved_at": "2026-09-16T04:38:54.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Luminosity removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. M80 removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730048,
+            "source_url": "https://www.hltv.org/matches/2397951/luminosity-vs-m80-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397948,
+      "hltv_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+      "scheduled_at": "2026-09-13T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9284,
+        "name": "Radio Popular Roman Imperium Cup VIII"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2700042,
+        "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+        "retrieved_at": "2026-09-13T17:00:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. M80 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700042,
+            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T17:00:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397945,
+      "hltv_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+      "scheduled_at": "2026-09-12T14:05:00.000Z",
+      "event": {
+        "hltv_id": 9284,
+        "name": "Radio Popular Roman Imperium Cup VIII"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 10567,
+        "name": "SAW"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670050,
+        "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+        "retrieved_at": "2026-09-13T07:17:26.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10567,
+          "actor_team_name": "SAW",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. SAW removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10567,
+          "actor_team_name": "SAW",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. SAW picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10567,
+          "actor_team_name": "SAW",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. SAW removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670050,
+            "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-13T07:17:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397937,
+      "hltv_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+      "scheduled_at": "2026-09-11T17:20:00.000Z",
+      "event": {
+        "hltv_id": 9284,
+        "name": "Radio Popular Roman Imperium Cup VIII"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 13304,
+        "name": "LP"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580051,
+        "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+        "retrieved_at": "2026-09-11T19:56:23.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13304,
+          "actor_team_name": "LP",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. LP removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13304,
+          "actor_team_name": "LP",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. LP picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Luminosity picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13304,
+          "actor_team_name": "LP",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. LP removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Luminosity removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580051,
+            "source_url": "https://www.hltv.org/matches/2397937/luminosity-vs-lp-radio-popular-roman-imperium-cup-viii",
+            "retrieved_at": "2026-09-11T19:56:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396577,
+      "hltv_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+      "scheduled_at": "2026-08-13T11:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1620046,
+        "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+        "retrieved_at": "2026-08-15T04:21:01.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Luminosity picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Spirit picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Spirit removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1620046,
+            "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+            "retrieved_at": "2026-08-15T04:21:01.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396560,
+      "hltv_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+      "scheduled_at": "2026-08-12T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Esports World Cup 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560061,
+        "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+        "retrieved_at": "2026-08-13T08:46:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Luminosity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. GamerLegion removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Luminosity removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. GamerLegion removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560061,
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "retrieved_at": "2026-08-13T08:46:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395469,
+      "hltv_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-03T06:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350178,
+        "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-12T10:07:19.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Ninjas in Pyjamas removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Ninjas in Pyjamas picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Luminosity picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Luminosity removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Ninjas in Pyjamas removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350178,
+            "source_url": "https://www.hltv.org/matches/2395469/luminosity-vs-ninjas-in-pyjamas-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-12T10:07:19.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395464,
+      "hltv_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+      "scheduled_at": "2026-07-02T10:30:00.000Z",
+      "event": {
+        "hltv_id": 8914,
+        "name": "XSE Pro League Guangzhou 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6290,
+        "name": "Luminosity"
+      },
+      "opponent": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1560064,
+        "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+        "retrieved_at": "2026-08-13T08:46:20.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Luminosity removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. Luminosity removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6290,
+          "actor_team_name": "Luminosity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Luminosity removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1560064,
+            "source_url": "https://www.hltv.org/matches/2395464/luminosity-vs-lynn-vision-xse-pro-league-guangzhou-2026",
+            "retrieved_at": "2026-08-13T08:46:20.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

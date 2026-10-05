@@ -1,0 +1,3722 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:33.010Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 12959
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 12959,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 20,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 20,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 20,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 20,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Anubis",
+        "count": 20,
+        "empirical_share_of_resolved_sample": 1
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Anubis",
+            "count": 20,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-01T18:00:00.000Z",
+      "to": "2026-10-05T09:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-01T18:00:00.000Z",
+      "to": "2026-10-05T09:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398734,
+      "hltv_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-05T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360047,
+        "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-05T21:27:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. ShindeN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. G2 picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. ShindeN removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. G2 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360047,
+            "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-05T21:27:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398726,
+      "hltv_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-04T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330047,
+        "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-04T20:01:02.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Legacy removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Legacy picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. ShindeN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Legacy removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330047,
+            "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-04T20:01:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398720,
+      "hltv_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-03T12:05:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270048,
+        "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-03T19:25:07.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Spirit picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Spirit removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. ShindeN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270048,
+            "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-03T19:25:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398268,
+      "hltv_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+      "scheduled_at": "2026-09-20T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9335,
+        "name": "Circuit X Curitiba Season 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 11837,
+        "name": "Fluxo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030055,
+        "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+        "retrieved_at": "2026-09-27T15:18:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Fluxo removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Fluxo picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. ShindeN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Fluxo removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030055,
+            "source_url": "https://www.hltv.org/matches/2398268/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398267,
+      "hltv_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+      "scheduled_at": "2026-09-19T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9335,
+        "name": "Circuit X Curitiba Season 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 12144,
+        "name": "BESTIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030056,
+        "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+        "retrieved_at": "2026-09-27T15:18:32.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12144,
+          "actor_team_name": "BESTIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. BESTIA removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12144,
+          "actor_team_name": "BESTIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BESTIA picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12144,
+          "actor_team_name": "BESTIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. BESTIA removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. ShindeN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030056,
+            "source_url": "https://www.hltv.org/matches/2398267/bestia-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:32.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398264,
+      "hltv_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+      "scheduled_at": "2026-09-18T22:00:00.000Z",
+      "event": {
+        "hltv_id": 9335,
+        "name": "Circuit X Curitiba Season 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 9686,
+        "name": "Turma do Pagode"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030057,
+        "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+        "retrieved_at": "2026-09-27T15:18:34.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9686,
+          "actor_team_name": "Turma do Pagode",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Turma do Pagode removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9686,
+          "actor_team_name": "Turma do Pagode",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Turma do Pagode picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9686,
+          "actor_team_name": "Turma do Pagode",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Turma do Pagode removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. ShindeN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030057,
+            "source_url": "https://www.hltv.org/matches/2398264/shinden-vs-turma-do-pagode-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398255,
+      "hltv_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+      "scheduled_at": "2026-09-17T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9335,
+        "name": "Circuit X Curitiba Season 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 11837,
+        "name": "Fluxo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030058,
+        "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+        "retrieved_at": "2026-09-27T15:18:40.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Fluxo removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Fluxo picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. ShindeN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Fluxo removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030058,
+            "source_url": "https://www.hltv.org/matches/2398255/fluxo-vs-shinden-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398254,
+      "hltv_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+      "scheduled_at": "2026-09-17T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9335,
+        "name": "Circuit X Curitiba Season 3"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 13696,
+        "name": "EHISTO BASE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030059,
+        "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+        "retrieved_at": "2026-09-27T15:18:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13696,
+          "actor_team_name": "EHISTO BASE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. EHISTO BASE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13696,
+          "actor_team_name": "EHISTO BASE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. EHISTO BASE picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13696,
+          "actor_team_name": "EHISTO BASE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. EHISTO BASE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. ShindeN removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030059,
+            "source_url": "https://www.hltv.org/matches/2398254/shinden-vs-ehisto-base-circuit-x-curitiba-season-3",
+            "retrieved_at": "2026-09-27T15:18:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397765,
+      "hltv_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+      "scheduled_at": "2026-09-11T22:55:00.000Z",
+      "event": {
+        "hltv_id": 9242,
+        "name": "PGL Masters Bucharest 2026 South America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 11837,
+        "name": "Fluxo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030061,
+        "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+        "retrieved_at": "2026-09-27T15:18:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Fluxo removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Fluxo picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. ShindeN removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Fluxo removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030061,
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397763,
+      "hltv_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+      "scheduled_at": "2026-09-11T17:25:00.000Z",
+      "event": {
+        "hltv_id": 9242,
+        "name": "PGL Masters Bucharest 2026 South America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 4773,
+        "name": "paiN"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580044,
+        "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. paiN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. paiN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. paiN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. ShindeN removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580044,
+            "source_url": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397758,
+      "hltv_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+      "scheduled_at": "2026-09-10T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9242,
+        "name": "PGL Masters Bucharest 2026 South America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 9686,
+        "name": "Turma do Pagode"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030060,
+        "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+        "retrieved_at": "2026-09-27T15:18:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9686,
+          "actor_team_name": "Turma do Pagode",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Turma do Pagode removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9686,
+          "actor_team_name": "Turma do Pagode",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Turma do Pagode picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. ShindeN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9686,
+          "actor_team_name": "Turma do Pagode",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Turma do Pagode removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. ShindeN removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030060,
+            "source_url": "https://www.hltv.org/matches/2397758/shinden-vs-turma-do-pagode-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397728,
+      "hltv_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+      "scheduled_at": "2026-09-09T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9242,
+        "name": "PGL Masters Bucharest 2026 South America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 11837,
+        "name": "Fluxo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030062,
+        "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+        "retrieved_at": "2026-09-27T15:18:49.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Fluxo removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Fluxo picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. ShindeN picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. ShindeN removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Fluxo removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030062,
+            "source_url": "https://www.hltv.org/matches/2397728/shinden-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:18:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397154,
+      "hltv_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+      "scheduled_at": "2026-08-31T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9330,
+        "name": "ESL Challenger League Season 52 South America Cup 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 9455,
+        "name": "Imperial"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030063,
+        "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+        "retrieved_at": "2026-09-27T15:18:53.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9455,
+          "actor_team_name": "Imperial",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Imperial removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. ShindeN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9455,
+          "actor_team_name": "Imperial",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Imperial picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. ShindeN removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9455,
+          "actor_team_name": "Imperial",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Imperial removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030063,
+            "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397153,
+      "hltv_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+      "scheduled_at": "2026-08-30T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9330,
+        "name": "ESL Challenger League Season 52 South America Cup 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 11837,
+        "name": "Fluxo"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030064,
+        "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+        "retrieved_at": "2026-09-27T15:18:55.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Fluxo removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Fluxo picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. ShindeN removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11837,
+          "actor_team_name": "Fluxo",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Fluxo removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030064,
+            "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397151,
+      "hltv_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+      "scheduled_at": "2026-08-29T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9330,
+        "name": "ESL Challenger League Season 52 South America Cup 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 7653,
+        "name": "Isurus"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030065,
+        "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+        "retrieved_at": "2026-09-27T15:18:58.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7653,
+          "actor_team_name": "Isurus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Isurus removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7653,
+          "actor_team_name": "Isurus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Isurus picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7653,
+          "actor_team_name": "Isurus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Isurus removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. ShindeN removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030065,
+            "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397147,
+      "hltv_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+      "scheduled_at": "2026-08-28T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9330,
+        "name": "ESL Challenger League Season 52 South America Cup 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 9455,
+        "name": "Imperial"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030066,
+        "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+        "retrieved_at": "2026-09-27T15:18:59.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9455,
+          "actor_team_name": "Imperial",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Imperial removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. ShindeN picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9455,
+          "actor_team_name": "Imperial",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Imperial picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. ShindeN removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9455,
+          "actor_team_name": "Imperial",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Imperial removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030066,
+            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:18:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397136,
+      "hltv_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+      "scheduled_at": "2026-08-26T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9330,
+        "name": "ESL Challenger League Season 52 South America Cup 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 13977,
+        "name": "ex-MIBR Academy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030067,
+        "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+        "retrieved_at": "2026-09-27T15:19:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13977,
+          "actor_team_name": "ex-MIBR Academy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. ex-MIBR Academy removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13977,
+          "actor_team_name": "ex-MIBR Academy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. ex-MIBR Academy picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. ShindeN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13977,
+          "actor_team_name": "ex-MIBR Academy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. ex-MIBR Academy removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. ShindeN removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030067,
+            "source_url": "https://www.hltv.org/matches/2397136/ex-mibr-academy-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397130,
+      "hltv_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+      "scheduled_at": "2026-08-25T21:00:00.000Z",
+      "event": {
+        "hltv_id": 9330,
+        "name": "ESL Challenger League Season 52 South America Cup 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 13756,
+        "name": "ALKA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030069,
+        "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+        "retrieved_at": "2026-09-27T15:19:08.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13756,
+          "actor_team_name": "ALKA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. ALKA removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13756,
+          "actor_team_name": "ALKA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. ALKA picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. ShindeN picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13756,
+          "actor_team_name": "ALKA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. ALKA removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. ShindeN removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030069,
+            "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396237,
+      "hltv_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+      "scheduled_at": "2026-08-02T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9288,
+        "name": "StarLadder StarSeries Fall 2026 South America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 12144,
+        "name": "BESTIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030068,
+        "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+        "retrieved_at": "2026-09-27T15:19:08.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12144,
+          "actor_team_name": "BESTIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BESTIA removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12144,
+          "actor_team_name": "BESTIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. BESTIA picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12144,
+          "actor_team_name": "BESTIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BESTIA removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. ShindeN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030068,
+            "source_url": "https://www.hltv.org/matches/2396237/shinden-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-09-27T15:19:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396235,
+      "hltv_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+      "scheduled_at": "2026-08-01T18:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12959,
+        "name": "ShindeN"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350143,
+        "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+        "retrieved_at": "2026-08-12T10:03:58.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ShindeN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. ShindeN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. MIBR picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. MIBR removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12959,
+          "actor_team_name": "ShindeN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. ShindeN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350143,
+            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
+            "retrieved_at": "2026-08-12T10:03:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

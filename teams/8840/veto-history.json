@@ -1,0 +1,1022 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:24.128Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 8840
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "5 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 8840,
+  "coverage": {
+    "eligible_completed_matches": 5,
+    "eligible_bo3_matches": 5,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 5,
+      "bo5": 0
+    },
+    "with_veto": 5,
+    "complete_seven_map_veto": 5,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 5,
+    "first_ban_fact_time_eligible": 5,
+    "first_ban_retrieved_by_cutoff": 5,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 5
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 5,
+    "eligible_bo3_matches": 5,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 5,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 5,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Mirage",
+        "count": 5,
+        "empirical_share_of_resolved_sample": 1
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 5,
+        "resolved_first_bans": 5,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 5,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 5,
+      "from": "2026-09-22T13:20:00.000Z",
+      "to": "2026-09-29T13:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 5,
+      "from": "2026-09-22T13:20:00.000Z",
+      "to": "2026-09-29T13:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398489,
+      "hltv_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-29T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13667,
+        "name": "NEXVOID"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180058,
+        "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-10-01T17:02:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. NEXVOID removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NEXVOID picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Lynn Vision picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. NEXVOID removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180058,
+            "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-10-01T17:02:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398486,
+      "hltv_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-27T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13667,
+        "name": "NEXVOID"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060049,
+        "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-28T05:59:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. NEXVOID removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NEXVOID picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Lynn Vision picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13667,
+          "actor_team_name": "NEXVOID",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. NEXVOID removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Lynn Vision removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060049,
+            "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-28T05:59:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398480,
+      "hltv_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-25T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 12510,
+        "name": "The Huns"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940164,
+        "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-25T17:37:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12510,
+          "actor_team_name": "The Huns",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. The Huns removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12510,
+          "actor_team_name": "The Huns",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. The Huns picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Lynn Vision picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12510,
+          "actor_team_name": "The Huns",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. The Huns removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Lynn Vision removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940164,
+            "source_url": "https://www.hltv.org/matches/2398480/lynn-vision-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398468,
+      "hltv_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-23T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13983,
+        "name": "Vitalem Aerem"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940166,
+        "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-25T17:37:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13983,
+          "actor_team_name": "Vitalem Aerem",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Vitalem Aerem removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13983,
+          "actor_team_name": "Vitalem Aerem",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Vitalem Aerem picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lynn Vision picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13983,
+          "actor_team_name": "Vitalem Aerem",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Vitalem Aerem removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Lynn Vision removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940166,
+            "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398460,
+      "hltv_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+      "scheduled_at": "2026-09-22T13:20:00.000Z",
+      "event": {
+        "hltv_id": 9354,
+        "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8840,
+        "name": "Lynn Vision"
+      },
+      "opponent": {
+        "hltv_id": 13116,
+        "name": "UR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940167,
+        "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+        "retrieved_at": "2026-09-25T17:37:17.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13116,
+          "actor_team_name": "UR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. UR removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Lynn Vision removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13116,
+          "actor_team_name": "UR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. UR picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Lynn Vision picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13116,
+          "actor_team_name": "UR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. UR removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8840,
+          "actor_team_name": "Lynn Vision",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Lynn Vision removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940167,
+            "source_url": "https://www.hltv.org/matches/2398460/lynn-vision-vs-ur-esl-challenger-league-season-52-asia-pacific-cup-2",
+            "retrieved_at": "2026-09-25T17:37:17.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

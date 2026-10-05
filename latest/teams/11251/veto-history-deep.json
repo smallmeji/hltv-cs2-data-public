@@ -1,0 +1,3732 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:29.336Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 11251
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 11251,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 15,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 15,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 15,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 15,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Nuke",
+        "count": 19,
+        "empirical_share_of_resolved_sample": 0.95
+      },
+      {
+        "map_name": "Anubis",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Nuke",
+            "count": 19,
+            "empirical_share_of_resolved_pool_sample": 0.95
+          },
+          {
+            "map_name": "Anubis",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-09-17T15:30:00.000Z",
+      "to": "2026-10-03T18:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-09-17T15:30:00.000Z",
+      "to": "2026-10-03T18:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398974,
+      "hltv_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3330054,
+        "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-04T20:01:34.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Ninjas in Pyjamas picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Ninjas in Pyjamas removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3330054,
+            "source_url": "https://www.hltv.org/matches/2398974/ninjas-in-pyjamas-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-04T20:01:34.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398973,
+      "hltv_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T12:30:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 10245,
+        "name": "JiJieHao"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3270055,
+        "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T19:25:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. JiJieHao removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. JiJieHao picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. JiJieHao removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3270055,
+            "source_url": "https://www.hltv.org/matches/2398973/eternal-fire-vs-jijiehao-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T19:25:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398971,
+      "hltv_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3360052,
+        "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-05T21:28:50.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sangal picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3360052,
+            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-05T21:28:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398967,
+      "hltv_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T18:30:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13181,
+        "name": "BASEMENT BOYS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240079,
+        "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BASEMENT BOYS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BASEMENT BOYS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Eternal Fire picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. BASEMENT BOYS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240079,
+            "source_url": "https://www.hltv.org/matches/2398967/eternal-fire-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398917,
+      "hltv_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T16:40:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13968,
+        "name": "Anteiku"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240080,
+        "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:02.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13968,
+          "actor_team_name": "Anteiku",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Anteiku removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13968,
+          "actor_team_name": "Anteiku",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Anteiku removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13968,
+          "actor_team_name": "Anteiku",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Anteiku removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240080,
+            "source_url": "https://www.hltv.org/matches/2398917/eternal-fire-vs-anteiku-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:02.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398913,
+      "hltv_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T15:15:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240062,
+        "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:15.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. 100 Thieves removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240062,
+            "source_url": "https://www.hltv.org/matches/2398913/100-thieves-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:15.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398911,
+      "hltv_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 9735,
+        "name": "Lilmix"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240081,
+        "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9735,
+          "actor_team_name": "Lilmix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Lilmix removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9735,
+          "actor_team_name": "Lilmix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Lilmix removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9735,
+          "actor_team_name": "Lilmix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Lilmix removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240081,
+            "source_url": "https://www.hltv.org/matches/2398911/lilmix-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398909,
+      "hltv_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240077,
+        "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:58:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. Eternal Fire removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. SINNERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240077,
+            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:58:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398904,
+      "hltv_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13937,
+        "name": "Nordic Partners"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240082,
+        "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nordic Partners removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "3. Nordic Partners removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Nordic Partners removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240082,
+            "source_url": "https://www.hltv.org/matches/2398904/eternal-fire-vs-nordic-partners-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398684,
+      "hltv_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-27T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060053,
+        "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-28T05:59:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. K27 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. K27 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398680,
+      "hltv_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-26T15:25:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120062,
+        "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-29T11:42:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398672,
+      "hltv_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-25T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13683,
+        "name": "WBT"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120063,
+        "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-29T11:42:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13683,
+          "actor_team_name": "WBT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. WBT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Eternal Fire picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13683,
+          "actor_team_name": "WBT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. WBT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13683,
+          "actor_team_name": "WBT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. WBT removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120063,
+            "source_url": "https://www.hltv.org/matches/2398672/wbt-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398067,
+      "hltv_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-24T16:30:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120064,
+        "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-29T11:42:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Eternal Fire picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Betclic picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Eternal Fire removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Betclic removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120064,
+            "source_url": "https://www.hltv.org/matches/2398067/eternal-fire-vs-betclic-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398066,
+      "hltv_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-24T13:40:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13333,
+        "name": "ASTRAL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120065,
+        "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-29T11:42:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ASTRAL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. ASTRAL picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. ASTRAL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Eternal Fire removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120065,
+            "source_url": "https://www.hltv.org/matches/2398066/eternal-fire-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398017,
+      "hltv_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-24T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 10245,
+        "name": "JiJieHao"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940142,
+        "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-25T17:36:08.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. JiJieHao removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Eternal Fire picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. JiJieHao picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. JiJieHao removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940142,
+            "source_url": "https://www.hltv.org/matches/2398017/jijiehao-vs-eternal-fire-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:36:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398169,
+      "hltv_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+      "scheduled_at": "2026-09-20T17:45:00.000Z",
+      "event": {
+        "hltv_id": 9341,
+        "name": "HyperX Retake Season 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 13683,
+        "name": "WBT"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120066,
+        "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+        "retrieved_at": "2026-09-29T11:42:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13683,
+          "actor_team_name": "WBT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. WBT removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13683,
+          "actor_team_name": "WBT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. WBT picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Eternal Fire picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13683,
+          "actor_team_name": "WBT",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. WBT removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120066,
+            "source_url": "https://www.hltv.org/matches/2398169/wbt-vs-eternal-fire-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398167,
+      "hltv_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+      "scheduled_at": "2026-09-20T12:30:00.000Z",
+      "event": {
+        "hltv_id": 9341,
+        "name": "HyperX Retake Season 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 11609,
+        "name": "GenOne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120067,
+        "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+        "retrieved_at": "2026-09-29T11:42:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. GenOne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Eternal Fire picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. GenOne picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. GenOne removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120067,
+            "source_url": "https://www.hltv.org/matches/2398167/eternal-fire-vs-genone-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-29T11:42:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398164,
+      "hltv_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+      "scheduled_at": "2026-09-19T17:05:00.000Z",
+      "event": {
+        "hltv_id": 9341,
+        "name": "HyperX Retake Season 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 14007,
+        "name": "Nice Try"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2910055,
+        "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+        "retrieved_at": "2026-09-20T11:51:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14007,
+          "actor_team_name": "Nice Try",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nice Try removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14007,
+          "actor_team_name": "Nice Try",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Nice Try picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Eternal Fire picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14007,
+          "actor_team_name": "Nice Try",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Nice Try removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910055,
+            "source_url": "https://www.hltv.org/matches/2398164/eternal-fire-vs-nice-try-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398148,
+      "hltv_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+      "scheduled_at": "2026-09-17T17:45:00.000Z",
+      "event": {
+        "hltv_id": 9341,
+        "name": "HyperX Retake Season 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 12642,
+        "name": "RBLS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2910057,
+        "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+        "retrieved_at": "2026-09-20T11:51:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12642,
+          "actor_team_name": "RBLS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. RBLS removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Eternal Fire picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12642,
+          "actor_team_name": "RBLS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. RBLS picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12642,
+          "actor_team_name": "RBLS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. RBLS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910057,
+            "source_url": "https://www.hltv.org/matches/2398148/eternal-fire-vs-rbls-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398146,
+      "hltv_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+      "scheduled_at": "2026-09-17T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9341,
+        "name": "HyperX Retake Season 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "opponent": {
+        "hltv_id": 14029,
+        "name": "WIMOK"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2910054,
+        "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+        "retrieved_at": "2026-09-20T11:51:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 14029,
+          "actor_team_name": "WIMOK",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. WIMOK removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Eternal Fire picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 14029,
+          "actor_team_name": "WIMOK",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. WIMOK picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 14029,
+          "actor_team_name": "WIMOK",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. WIMOK removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910054,
+            "source_url": "https://www.hltv.org/matches/2398146/eternal-fire-vs-wimok-hyperx-retake-season-12",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

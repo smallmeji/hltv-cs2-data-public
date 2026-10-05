@@ -1,0 +1,3732 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:13.740Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 6673
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 6673,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 18,
+      "bo5": 2
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 18,
+      "bo5": 2
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Anubis",
+        "count": 19,
+        "empirical_share_of_resolved_sample": 0.95
+      },
+      {
+        "map_name": "Mirage",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Anubis",
+            "count": 19,
+            "empirical_share_of_resolved_pool_sample": 0.95
+          },
+          {
+            "map_name": "Mirage",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-07-12T16:15:00.000Z",
+      "to": "2026-09-26T17:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-07-12T16:15:00.000Z",
+      "to": "2026-09-26T17:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398291,
+      "hltv_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-26T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 12257,
+        "name": "Wildcard"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000048,
+        "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-27T06:07:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Wildcard removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Wildcard picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Wildcard removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000048,
+            "source_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398289,
+      "hltv_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-25T22:45:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2970044,
+        "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-26T07:48:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. NRG picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Liquid picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Liquid removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398288,
+      "hltv_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-25T17:20:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 12257,
+        "name": "Wildcard"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2970051,
+        "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-26T07:48:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Wildcard removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Wildcard picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Wildcard removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970051,
+            "source_url": "https://www.hltv.org/matches/2398288/nrg-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398104,
+      "hltv_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-19T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2850045,
+        "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-19T16:00:07.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. MIBR picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. MIBR removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2850045,
+            "source_url": "https://www.hltv.org/matches/2398104/mibr-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T16:00:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398101,
+      "hltv_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-18T16:05:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820045,
+        "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-19T07:11:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Aurora picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Aurora removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820045,
+            "source_url": "https://www.hltv.org/matches/2398101/nrg-vs-aurora-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398088,
+      "hltv_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+      "scheduled_at": "2026-09-17T10:00:00.000Z",
+      "event": {
+        "hltv_id": 8057,
+        "name": "StarLadder StarSeries Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2790050,
+        "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+        "retrieved_at": "2026-09-18T07:12:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. MOUZ picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. MOUZ removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. NRG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2790050,
+            "source_url": "https://www.hltv.org/matches/2398088/mouz-vs-nrg-starladder-starseries-fall-2026",
+            "retrieved_at": "2026-09-18T07:12:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397757,
+      "hltv_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-12T22:40:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670043,
+        "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-13T07:17:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Liquid picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "5. NRG picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "6. Liquid picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397754,
+      "hltv_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-12T02:00:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2640043,
+        "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-12T12:47:37.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Liquid removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NRG picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Liquid picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397750,
+      "hltv_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-11T02:00:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13499,
+        "name": "Voca"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2610042,
+        "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-11T20:52:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Voca removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Voca picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. NRG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Voca removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610042,
+            "source_url": "https://www.hltv.org/matches/2397750/voca-vs-nrg-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397733,
+      "hltv_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-09T23:10:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 6914,
+        "name": "Without a Roof"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2610043,
+        "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-11T20:52:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6914,
+          "actor_team_name": "Without a Roof",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Without a Roof removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6914,
+          "actor_team_name": "Without a Roof",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Without a Roof picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. NRG picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6914,
+          "actor_team_name": "Without a Roof",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Without a Roof removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610043,
+            "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T20:52:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396539,
+      "hltv_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8762,
+        "name": "Esports World Cup 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13173,
+        "name": "Phantom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2610044,
+        "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-09-11T20:52:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Phantom removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Phantom picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. NRG picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Phantom removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. NRG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610044,
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396509,
+      "hltv_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-08T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350194,
+        "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:08:46.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. NRG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Acend removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350194,
+            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:08:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396494,
+      "hltv_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T16:30:00.000Z",
+      "event": {
+        "hltv_id": 8762,
+        "name": "Esports World Cup 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 12822,
+        "name": "Spirit HU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2610045,
+        "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-09-11T20:52:44.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12822,
+          "actor_team_name": "Spirit HU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Spirit HU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12822,
+          "actor_team_name": "Spirit HU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Spirit HU picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12822,
+          "actor_team_name": "Spirit HU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Spirit HU removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. NRG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2610045,
+            "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-11T20:52:44.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396252,
+      "hltv_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-08-03T00:40:00.000Z",
+      "event": {
+        "hltv_id": 9287,
+        "name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13499,
+        "name": "Voca"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940122,
+        "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:34:42.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Voca removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Voca picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Voca removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. NRG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940122,
+            "source_url": "https://www.hltv.org/matches/2396252/voca-vs-nrg-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:42.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396251,
+      "hltv_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-08-02T22:15:00.000Z",
+      "event": {
+        "hltv_id": 9287,
+        "name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13375,
+        "name": "SportsBetExpert"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940123,
+        "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:34:45.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. SportsBetExpert removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. SportsBetExpert picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. SportsBetExpert removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940123,
+            "source_url": "https://www.hltv.org/matches/2396251/nrg-vs-sportsbetexpert-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396249,
+      "hltv_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-08-01T22:00:00.000Z",
+      "event": {
+        "hltv_id": 9287,
+        "name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13499,
+        "name": "Voca"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940124,
+        "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:34:50.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Voca removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Voca picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. NRG picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Voca removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940124,
+            "source_url": "https://www.hltv.org/matches/2396249/nrg-vs-voca-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396243,
+      "hltv_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-07-29T22:00:00.000Z",
+      "event": {
+        "hltv_id": 9287,
+        "name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13124,
+        "name": "Marsborne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940125,
+        "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:34:51.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13124,
+          "actor_team_name": "Marsborne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Marsborne removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13124,
+          "actor_team_name": "Marsborne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Marsborne picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. NRG picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13124,
+          "actor_team_name": "Marsborne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Marsborne removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940125,
+            "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396239,
+      "hltv_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-07-28T19:00:00.000Z",
+      "event": {
+        "hltv_id": 9287,
+        "name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13857,
+        "name": "Iowa Stormboar"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940126,
+        "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:34:58.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13857,
+          "actor_team_name": "Iowa Stormboar",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Iowa Stormboar removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13857,
+          "actor_team_name": "Iowa Stormboar",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Iowa Stormboar picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. NRG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13857,
+          "actor_team_name": "Iowa Stormboar",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Iowa Stormboar removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940126,
+            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:34:58.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395888,
+      "hltv_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+      "scheduled_at": "2026-07-12T19:40:00.000Z",
+      "event": {
+        "hltv_id": 9264,
+        "name": "FRAG St. Clair 2026"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13375,
+        "name": "SportsBetExpert"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940127,
+        "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+        "retrieved_at": "2026-09-25T17:35:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. SportsBetExpert removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. SportsBetExpert picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. NRG picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "5. SportsBetExpert picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "6. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940127,
+            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395885,
+      "hltv_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+      "scheduled_at": "2026-07-12T16:15:00.000Z",
+      "event": {
+        "hltv_id": 9264,
+        "name": "FRAG St. Clair 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 12973,
+        "name": "NuTorious"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940128,
+        "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+        "retrieved_at": "2026-09-25T17:35:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12973,
+          "actor_team_name": "NuTorious",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. NuTorious removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12973,
+          "actor_team_name": "NuTorious",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NuTorious picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. NRG picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12973,
+          "actor_team_name": "NuTorious",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. NuTorious removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940128,
+            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
+            "retrieved_at": "2026-09-25T17:35:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

@@ -1,0 +1,3752 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-05T21:30:05.163Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 5973
+      }
+    ],
+    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 5973,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 14,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 14,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 14,
+    "eligible_matches_by_format": {
+      "bo1": 5,
+      "bo3": 14,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Ancient",
+        "count": 13,
+        "empirical_share_of_resolved_sample": 0.65
+      },
+      {
+        "map_name": "Dust2",
+        "count": 5,
+        "empirical_share_of_resolved_sample": 0.25
+      },
+      {
+        "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Inferno",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Ancient",
+            "count": 13,
+            "empirical_share_of_resolved_pool_sample": 0.65
+          },
+          {
+            "map_name": "Dust2",
+            "count": 5,
+            "empirical_share_of_resolved_pool_sample": 0.25
+          },
+          {
+            "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          },
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-04T14:00:00.000Z",
+      "to": "2026-09-27T22:45:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-04T14:00:00.000Z",
+      "to": "2026-09-27T22:45:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398300,
+      "hltv_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-27T22:45:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 12257,
+        "name": "Wildcard"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060045,
+        "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-28T05:59:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Wildcard removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Wildcard picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Wildcard removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Liquid removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060045,
+            "source_url": "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-28T05:59:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398297,
+      "hltv_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-26T20:30:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000046,
+        "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-27T06:07:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. M80 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000046,
+            "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-27T06:07:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398289,
+      "hltv_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-25T22:45:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2970044,
+        "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-26T07:48:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. NRG picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Liquid picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Liquid removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970044,
+            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398287,
+      "hltv_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+      "scheduled_at": "2026-09-25T17:20:00.000Z",
+      "event": {
+        "hltv_id": 9187,
+        "name": "iBUYPOWER Masters FML 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 13107,
+        "name": "Chicken Coop"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2970050,
+        "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+        "retrieved_at": "2026-09-26T07:48:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13107,
+          "actor_team_name": "Chicken Coop",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Chicken Coop removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13107,
+          "actor_team_name": "Chicken Coop",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Chicken Coop picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Liquid picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13107,
+          "actor_team_name": "Chicken Coop",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Chicken Coop removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970050,
+            "source_url": "https://www.hltv.org/matches/2398287/liquid-vs-chicken-coop-ibuypower-masters-fml-2026",
+            "retrieved_at": "2026-09-26T07:48:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397911,
+      "hltv_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T17:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820047,
+        "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:11:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BBL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. BBL removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BBL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820047,
+            "source_url": "https://www.hltv.org/matches/2397911/bbl-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:11:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397909,
+      "hltv_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T16:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820048,
+        "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:05.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. 3DMAX removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. 3DMAX removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820048,
+            "source_url": "https://www.hltv.org/matches/2397909/liquid-vs-3dmax-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:05.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397905,
+      "hltv_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T13:15:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 11737,
+        "name": "EYEBALLERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820049,
+        "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:08.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. EYEBALLERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. EYEBALLERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. EYEBALLERS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820049,
+            "source_url": "https://www.hltv.org/matches/2397905/eyeballers-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:08.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397904,
+      "hltv_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T12:10:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820050,
+        "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Inner Circle removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Inner Circle removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Inner Circle removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Liquid removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820050,
+            "source_url": "https://www.hltv.org/matches/2397904/inner-circle-vs-liquid-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397902,
+      "hltv_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+      "scheduled_at": "2026-09-18T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9266,
+        "name": "Logitech G Play Connect 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2820051,
+        "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+        "retrieved_at": "2026-09-19T07:12:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. INFINITE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. INFINITE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Liquid removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2820051,
+            "source_url": "https://www.hltv.org/matches/2397902/liquid-vs-infinite-logitech-g-play-connect-2026",
+            "retrieved_at": "2026-09-19T07:12:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397757,
+      "hltv_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-12T22:40:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670043,
+        "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-13T07:17:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Liquid picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "5. NRG picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "6. Liquid picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670043,
+            "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397756,
+      "hltv_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-12T19:00:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 13499,
+        "name": "Voca"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670042,
+        "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-13T07:17:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Voca removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Voca picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Liquid removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Voca removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670042,
+            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397754,
+      "hltv_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-12T02:00:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2640043,
+        "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-12T12:47:37.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Liquid removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. NRG picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Liquid picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. NRG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2640043,
+            "source_url": "https://www.hltv.org/matches/2397754/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-12T12:47:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397751,
+      "hltv_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-11T02:05:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 13124,
+        "name": "Marsborne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2550046,
+        "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-11T06:12:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13124,
+          "actor_team_name": "Marsborne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Marsborne removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13124,
+          "actor_team_name": "Marsborne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Marsborne picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13124,
+          "actor_team_name": "Marsborne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Marsborne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550046,
+            "source_url": "https://www.hltv.org/matches/2397751/marsborne-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:12:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397735,
+      "hltv_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "scheduled_at": "2026-09-10T02:10:00.000Z",
+      "event": {
+        "hltv_id": 9243,
+        "name": "PGL Masters Bucharest 2026 North America Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 14018,
+        "name": "antivalue"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2490043,
+        "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "retrieved_at": "2026-09-10T10:32:49.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14018,
+          "actor_team_name": "antivalue",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. antivalue removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14018,
+          "actor_team_name": "antivalue",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. antivalue picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Liquid picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 14018,
+          "actor_team_name": "antivalue",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. antivalue removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490043,
+            "source_url": "https://www.hltv.org/matches/2397735/liquid-vs-antivalue-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:32:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396544,
+      "hltv_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350121,
+        "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:02:07.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Liquid removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350121,
+            "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396505,
+      "hltv_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-08T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 11641,
+        "name": "Metizport"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350124,
+        "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:02:11.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Metizport removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Liquid picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Metizport picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Liquid removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Metizport removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350124,
+            "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396489,
+      "hltv_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T16:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 13919,
+        "name": "Dhala"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350123,
+        "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:02:11.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13919,
+          "actor_team_name": "Dhala",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Dhala removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13919,
+          "actor_team_name": "Dhala",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Dhala picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Liquid picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13919,
+          "actor_team_name": "Dhala",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Dhala removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Liquid removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350123,
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396321,
+      "hltv_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-05T17:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350122,
+        "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+        "retrieved_at": "2026-08-12T10:02:11.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Betclic picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Betclic removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Liquid removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350122,
+            "source_url": "https://www.hltv.org/matches/2396321/betclic-vs-liquid-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:11.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396320,
+      "hltv_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-05T13:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 4991,
+        "name": "fnatic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350125,
+        "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+        "retrieved_at": "2026-08-12T10:02:15.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. fnatic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. fnatic picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4991,
+          "actor_team_name": "fnatic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. fnatic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Liquid removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350125,
+            "source_url": "https://www.hltv.org/matches/2396320/liquid-vs-fnatic-stake-pulse-beat-i",
+            "retrieved_at": "2026-08-12T10:02:15.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396317,
+      "hltv_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-04T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9221,
+        "name": "Stake Pulse Beat I"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 10278,
+        "name": "9INE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940136,
+        "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+        "retrieved_at": "2026-09-25T17:35:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10278,
+          "actor_team_name": "9INE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. 9INE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10278,
+          "actor_team_name": "9INE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. 9INE picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Liquid picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10278,
+          "actor_team_name": "9INE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. 9INE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940136,
+            "source_url": "https://www.hltv.org/matches/2396317/liquid-vs-9ine-stake-pulse-beat-i",
+            "retrieved_at": "2026-09-25T17:35:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}
