@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:29:54.874Z",
+    "requested_at": "2026-10-08T13:00:31.949Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 9928
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -117,8 +117,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-09-26T18:10:00.000Z",
-      "to": "2026-09-28T14:00:00.000Z"
+      "from": "2026-09-27T11:30:00.000Z",
+      "to": "2026-10-08T09:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -127,11 +127,191 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-09-26T18:10:00.000Z",
-      "to": "2026-09-28T14:00:00.000Z"
+      "from": "2026-09-27T11:30:00.000Z",
+      "to": "2026-10-08T09:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398979,
+      "hltv_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-08T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "opponent": {
+        "hltv_id": 13619,
+        "name": "BET-M"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3450046,
+        "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-08T12:58:56.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. BET-M removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. GamerLegion picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BET-M picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. GamerLegion removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BET-M removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450046,
+            "source_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-08T12:58:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398245,
       "hltv_url": "https://www.hltv.org/matches/2398245/ninjas-in-pyjamas-vs-gamerlegion-1win-private-club-season-1",
@@ -842,186 +1022,6 @@
       },
       "target_first_ban": {
         "step_number": 1,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398239,
-      "hltv_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-      "scheduled_at": "2026-09-26T18:10:00.000Z",
-      "event": {
-        "hltv_id": 9327,
-        "name": "1win Private Club Season 1"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9928,
-        "name": "GamerLegion"
-      },
-      "opponent": {
-        "hltv_id": 13592,
-        "name": "magic"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3000047,
-        "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-        "retrieved_at": "2026-09-27T06:07:28.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13592,
-          "actor_team_name": "magic",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. magic removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. GamerLegion removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13592,
-          "actor_team_name": "magic",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. magic picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "4. GamerLegion picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "5. GamerLegion removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13592,
-          "actor_team_name": "magic",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. magic removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Ancient",
-          "raw_text": "7. Ancient was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3000047,
-            "source_url": "https://www.hltv.org/matches/2398239/magic-vs-gamerlegion-1win-private-club-season-1",
-            "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
         "map_name": "Anubis",
         "retrieval_lineage_status": "observed_by_cutoff"
       },

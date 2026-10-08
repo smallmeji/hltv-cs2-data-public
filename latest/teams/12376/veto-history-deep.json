@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:30:08.601Z",
+    "requested_at": "2026-10-08T13:00:47.545Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 12376
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -107,8 +107,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-08-30T12:20:00.000Z",
-      "to": "2026-10-05T14:00:00.000Z"
+      "from": "2026-09-12T13:30:00.000Z",
+      "to": "2026-10-07T18:05:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +117,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-08-30T12:20:00.000Z",
-      "to": "2026-10-05T14:00:00.000Z"
+      "from": "2026-09-12T13:30:00.000Z",
+      "to": "2026-10-07T18:05:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398749,
+      "hltv_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-07T18:05:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3450043,
+        "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-08T12:57:54.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Spirit picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Spirit removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450043,
+            "source_url": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:57:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398746,
+      "hltv_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-06T17:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "opponent": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3420047,
+        "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-07T04:45:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Legacy picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Legacy removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398738,
       "hltv_url": "https://www.hltv.org/matches/2398738/m80-vs-tyloo-esl-pro-league-season-24",
@@ -3353,366 +3713,6 @@
       "target_first_ban": {
         "step_number": 1,
         "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397936,
-      "hltv_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-      "scheduled_at": "2026-09-11T16:50:00.000Z",
-      "event": {
-        "hltv_id": 9284,
-        "name": "Radio Popular Roman Imperium Cup VIII"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 12376,
-        "name": "M80"
-      },
-      "opponent": {
-        "hltv_id": 13882,
-        "name": "6666"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2580049,
-        "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-        "retrieved_at": "2026-09-11T19:56:17.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13882,
-          "actor_team_name": "6666",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "1. 6666 removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 12376,
-          "actor_team_name": "M80",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. M80 removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13882,
-          "actor_team_name": "6666",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. 6666 picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 12376,
-          "actor_team_name": "M80",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. M80 picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13882,
-          "actor_team_name": "6666",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. 6666 removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12376,
-          "actor_team_name": "M80",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "6. M80 removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580049,
-            "source_url": "https://www.hltv.org/matches/2397936/m80-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "retrieved_at": "2026-09-11T19:56:17.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Nuke",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396939,
-      "hltv_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-      "scheduled_at": "2026-08-30T12:20:00.000Z",
-      "event": {
-        "hltv_id": 8249,
-        "name": "BLAST Open Porto 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 12376,
-        "name": "M80"
-      },
-      "opponent": {
-        "hltv_id": 11861,
-        "name": "Aurora"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1890047,
-        "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-        "retrieved_at": "2026-08-31T05:32:23.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11861,
-          "actor_team_name": "Aurora",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. Aurora removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 12376,
-          "actor_team_name": "M80",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. M80 removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11861,
-          "actor_team_name": "Aurora",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. Aurora picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 12376,
-          "actor_team_name": "M80",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. M80 picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 11861,
-          "actor_team_name": "Aurora",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. Aurora removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12376,
-          "actor_team_name": "M80",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "6. M80 removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1890047,
-            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-            "retrieved_at": "2026-08-31T05:32:23.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Nuke",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

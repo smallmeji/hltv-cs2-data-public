@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:29:32.440Z",
+    "requested_at": "2026-10-08T13:00:03.456Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 12468
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -76,18 +76,18 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 18,
-        "resolved_first_bans": 18,
+        "fact_time_eligible_matches": 19,
+        "resolved_first_bans": 19,
         "first_bans": [
           {
             "map_name": "Anubis",
-            "count": 17,
-            "empirical_share_of_resolved_pool_sample": 0.9444444444444444
+            "count": 18,
+            "empirical_share_of_resolved_pool_sample": 0.9473684210526315
           },
           {
             "map_name": "Inferno",
             "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.05555555555555555
+            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
           }
         ]
       },
@@ -102,12 +102,12 @@
           "Nuke",
           "Overpass"
         ],
-        "fact_time_eligible_matches": 2,
-        "resolved_first_bans": 2,
+        "fact_time_eligible_matches": 1,
+        "resolved_first_bans": 1,
         "first_bans": [
           {
             "map_name": "Anubis",
-            "count": 2,
+            "count": 1,
             "empirical_share_of_resolved_pool_sample": 1
           }
         ]
@@ -127,8 +127,8 @@
         "Nuke",
         "Overpass"
       ],
-      "match_count": 2,
-      "from": "2026-06-13T15:45:00.000Z",
+      "match_count": 1,
+      "from": "2026-06-14T17:00:00.000Z",
       "to": "2026-06-14T17:00:00.000Z"
     },
     {
@@ -143,9 +143,9 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 18,
+      "match_count": 19,
       "from": "2026-08-12T13:20:00.000Z",
-      "to": "2026-10-05T11:30:00.000Z"
+      "to": "2026-10-06T17:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -154,11 +154,191 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-06-13T15:45:00.000Z",
-      "to": "2026-10-05T11:30:00.000Z"
+      "from": "2026-06-14T17:00:00.000Z",
+      "to": "2026-10-06T17:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398746,
+      "hltv_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-06T17:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "opponent": {
+        "hltv_id": 12376,
+        "name": "M80"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3420047,
+        "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-07T04:45:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. M80 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. M80 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Legacy picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12376,
+          "actor_team_name": "M80",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. M80 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Legacy removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420047,
+            "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398736,
       "hltv_url": "https://www.hltv.org/matches/2398736/legacy-vs-1win-esl-pro-league-season-24",
@@ -3547,186 +3727,6 @@
             "raw_snapshot_id": 1350086,
             "source_url": "https://www.hltv.org/matches/2394992/g2-vs-legacy-iem-cologne-major-2026",
             "retrieved_at": "2026-08-12T09:59:18.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2394984,
-      "hltv_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-      "scheduled_at": "2026-06-13T15:45:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 12468,
-        "name": "Legacy"
-      },
-      "opponent": {
-        "hltv_id": 12467,
-        "name": "PARIVISION"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350101,
-        "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-        "retrieved_at": "2026-08-12T10:00:52.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 12468,
-          "actor_team_name": "Legacy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. Legacy removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 12467,
-          "actor_team_name": "PARIVISION",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. PARIVISION removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 12468,
-          "actor_team_name": "Legacy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "3. Legacy picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 12467,
-          "actor_team_name": "PARIVISION",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "4. PARIVISION picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 12467,
-          "actor_team_name": "PARIVISION",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Overpass",
-          "raw_text": "5. PARIVISION removed Overpass",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12468,
-          "actor_team_name": "Legacy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. Legacy removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350101,
-            "source_url": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T10:00:52.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },

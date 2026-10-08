@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:29:44.519Z",
+    "requested_at": "2026-10-08T13:00:19.227Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 12394
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -97,8 +97,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-09-10T10:40:00.000Z",
-      "to": "2026-10-05T17:20:00.000Z"
+      "from": "2026-09-12T11:05:00.000Z",
+      "to": "2026-10-06T14:30:00.000Z"
     }
   ],
   "roster_segments": [
@@ -107,11 +107,191 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-09-10T10:40:00.000Z",
-      "to": "2026-10-05T17:20:00.000Z"
+      "from": "2026-09-12T11:05:00.000Z",
+      "to": "2026-10-06T14:30:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398744,
+      "hltv_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-06T14:30:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "opponent": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3420048,
+        "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-07T04:45:21.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 9z picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. BETBOOM picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 9z removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BETBOOM removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398740,
       "hltv_url": "https://www.hltv.org/matches/2398740/aurora-vs-betboom-esl-pro-league-season-24",
@@ -800,186 +980,6 @@
             "raw_snapshot_id": 2670045,
             "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
             "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397613,
-      "hltv_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-      "scheduled_at": "2026-09-10T10:40:00.000Z",
-      "event": {
-        "hltv_id": 8266,
-        "name": "FISSURE Playground 3"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 12394,
-        "name": "BETBOOM"
-      },
-      "opponent": {
-        "hltv_id": 9215,
-        "name": "MIBR"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2520045,
-        "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-        "retrieved_at": "2026-09-10T16:11:03.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. MIBR removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 12394,
-          "actor_team_name": "BETBOOM",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. BETBOOM removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "3. MIBR picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 12394,
-          "actor_team_name": "BETBOOM",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Anubis",
-          "raw_text": "4. BETBOOM picked Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "5. MIBR removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12394,
-          "actor_team_name": "BETBOOM",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. BETBOOM removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Nuke",
-          "raw_text": "7. Nuke was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520045,
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },

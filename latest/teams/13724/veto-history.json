@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:30:22.419Z",
+    "requested_at": "2026-10-08T13:01:04.631Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 13724
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -97,8 +97,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-09-10T13:30:00.000Z",
-      "to": "2026-10-04T06:15:00.000Z"
+      "from": "2026-09-30T09:10:00.000Z",
+      "to": "2026-10-08T05:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -107,11 +107,191 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-09-10T13:30:00.000Z",
-      "to": "2026-10-04T06:15:00.000Z"
+      "from": "2026-09-30T09:10:00.000Z",
+      "to": "2026-10-08T05:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399372,
+      "hltv_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+      "scheduled_at": "2026-10-08T05:00:00.000Z",
+      "event": {
+        "hltv_id": 9428,
+        "name": "MESA Pro Series Fall 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13724,
+        "name": "5star"
+      },
+      "opponent": {
+        "hltv_id": 12646,
+        "name": "Chinggis Warriors"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3450047,
+        "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+        "retrieved_at": "2026-10-08T12:59:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12646,
+          "actor_team_name": "Chinggis Warriors",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Chinggis Warriors removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13724,
+          "actor_team_name": "5star",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. 5star removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12646,
+          "actor_team_name": "Chinggis Warriors",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Chinggis Warriors picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13724,
+          "actor_team_name": "5star",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. 5star picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12646,
+          "actor_team_name": "Chinggis Warriors",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Chinggis Warriors removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13724,
+          "actor_team_name": "5star",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 5star removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450047,
+            "source_url": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "retrieved_at": "2026-10-08T12:59:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398853,
       "hltv_url": "https://www.hltv.org/matches/2398853/the-huns-vs-5star-esn-fall-showdown-2026",
@@ -822,186 +1002,6 @@
       },
       "target_first_ban": {
         "step_number": 2,
-        "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397614,
-      "hltv_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-      "scheduled_at": "2026-09-10T13:30:00.000Z",
-      "event": {
-        "hltv_id": 8266,
-        "name": "FISSURE Playground 3"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 13724,
-        "name": "5star"
-      },
-      "opponent": {
-        "hltv_id": 5995,
-        "name": "G2"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2520042,
-        "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-        "retrieved_at": "2026-09-10T16:11:03.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13724,
-          "actor_team_name": "5star",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. 5star removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. G2 removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13724,
-          "actor_team_name": "5star",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "3. 5star picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. G2 picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13724,
-          "actor_team_name": "5star",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. 5star removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. G2 removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Anubis",
-          "raw_text": "7. Anubis was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2520042,
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "retrieved_at": "2026-09-10T16:11:03.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
         "map_name": "Dust2",
         "retrieval_lineage_status": "observed_by_cutoff"
       },

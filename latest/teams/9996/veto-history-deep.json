@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:29:49.715Z",
+    "requested_at": "2026-10-08T13:00:24.606Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 9996
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 9996,
   "coverage": {
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 15,
+    "eligible_bo3_matches": 16,
     "eligible_matches_by_format": {
-      "bo1": 4,
-      "bo3": 15,
+      "bo1": 3,
+      "bo3": 16,
       "bo5": 1
     },
     "with_veto": 20,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 15,
+    "eligible_bo3_matches": 16,
     "eligible_matches_by_format": {
-      "bo1": 4,
-      "bo3": 15,
+      "bo1": 3,
+      "bo3": 16,
       "bo5": 1
     },
     "resolved_first_ban_sample_size": 20,
@@ -76,61 +76,24 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 19,
-        "resolved_first_bans": 19,
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
         "first_bans": [
           {
             "map_name": "Anubis",
-            "count": 17,
-            "empirical_share_of_resolved_pool_sample": 0.8947368421052632
+            "count": 18,
+            "empirical_share_of_resolved_pool_sample": 0.9
           },
           {
             "map_name": "Mirage",
             "count": 2,
-            "empirical_share_of_resolved_pool_sample": 0.10526315789473684
-          }
-        ]
-      },
-      {
-        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "fact_time_eligible_matches": 1,
-        "resolved_first_bans": 1,
-        "first_bans": [
-          {
-            "map_name": "Anubis",
-            "count": 1,
-            "empirical_share_of_resolved_pool_sample": 1
+            "empirical_share_of_resolved_pool_sample": 0.1
           }
         ]
       }
     ]
   },
   "map_pool_segments": [
-    {
-      "evidence_status": "complete_seven_map",
-      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
-      "maps": [
-        "Ancient",
-        "Anubis",
-        "Dust2",
-        "Inferno",
-        "Mirage",
-        "Nuke",
-        "Overpass"
-      ],
-      "match_count": 1,
-      "from": "2026-06-18T17:00:00.000Z",
-      "to": "2026-06-18T17:00:00.000Z"
-    },
     {
       "evidence_status": "complete_seven_map",
       "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
@@ -143,9 +106,9 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 19,
-      "from": "2026-07-01T12:00:00.000Z",
-      "to": "2026-10-05T12:20:00.000Z"
+      "match_count": 20,
+      "from": "2026-07-02T13:45:00.000Z",
+      "to": "2026-10-07T12:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -154,11 +117,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-06-18T17:00:00.000Z",
-      "to": "2026-10-05T12:20:00.000Z"
+      "from": "2026-07-02T13:45:00.000Z",
+      "to": "2026-10-07T12:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398747,
+      "hltv_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-07T12:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "opponent": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3450044,
+        "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-08T12:58:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. FURIA removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. 9z picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. FURIA picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 9z removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. FURIA removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398744,
+      "hltv_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-06T14:30:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "opponent": {
+        "hltv_id": 12394,
+        "name": "BETBOOM"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3420048,
+        "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-07T04:45:21.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. BETBOOM removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 9z picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. BETBOOM picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 9z removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12394,
+          "actor_team_name": "BETBOOM",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BETBOOM removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420048,
+            "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398735,
       "hltv_url": "https://www.hltv.org/matches/2398735/9z-vs-natus-vincere-esl-pro-league-season-24",
@@ -3390,366 +3713,6 @@
       "target_first_ban": {
         "step_number": 3,
         "map_name": "Mirage",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395220,
-      "hltv_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-      "scheduled_at": "2026-07-01T12:00:00.000Z",
-      "event": {
-        "hltv_id": 8914,
-        "name": "XSE Pro League Guangzhou 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9996,
-        "name": "9z"
-      },
-      "opponent": {
-        "hltv_id": 11737,
-        "name": "EYEBALLERS"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940090,
-        "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-        "retrieved_at": "2026-09-25T17:32:18.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11737,
-          "actor_team_name": "EYEBALLERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. EYEBALLERS removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 11737,
-          "actor_team_name": "EYEBALLERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. EYEBALLERS removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "3. 9z removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "4. 9z removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. 9z removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 11737,
-          "actor_team_name": "EYEBALLERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "6. EYEBALLERS removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Ancient",
-          "raw_text": "7. Ancient was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940090,
-            "source_url": "https://www.hltv.org/matches/2395220/9z-vs-eyeballers-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:18.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 3,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2394997,
-      "hltv_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-      "scheduled_at": "2026-06-18T17:00:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9996,
-        "name": "9z"
-      },
-      "opponent": {
-        "hltv_id": 8297,
-        "name": "FURIA"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350058,
-        "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-        "retrieved_at": "2026-08-12T09:57:16.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. 9z removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "2. FURIA removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. 9z picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. FURIA picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "5. FURIA removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "6. 9z removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Overpass",
-          "raw_text": "7. Overpass was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350058,
-            "source_url": "https://www.hltv.org/matches/2394997/9z-vs-furia-iem-cologne-major-2026",
-            "retrieved_at": "2026-08-12T09:57:16.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Anubis",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

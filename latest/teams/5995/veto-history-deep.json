@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:29:34.158Z",
+    "requested_at": "2026-10-08T13:00:05.421Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 5995
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -55,11 +55,16 @@
     "maps": [
       {
         "map_name": "Nuke",
-        "count": 19,
-        "empirical_share_of_resolved_sample": 0.95
+        "count": 18,
+        "empirical_share_of_resolved_sample": 0.9
       },
       {
         "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Dust2",
         "count": 1,
         "empirical_share_of_resolved_sample": 0.05
       }
@@ -81,11 +86,16 @@
         "first_bans": [
           {
             "map_name": "Nuke",
-            "count": 19,
-            "empirical_share_of_resolved_pool_sample": 0.95
+            "count": 18,
+            "empirical_share_of_resolved_pool_sample": 0.9
           },
           {
             "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          },
+          {
+            "map_name": "Dust2",
             "count": 1,
             "empirical_share_of_resolved_pool_sample": 0.05
           }
@@ -107,8 +117,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-07-25T12:50:00.000Z",
-      "to": "2026-10-05T09:00:00.000Z"
+      "from": "2026-08-12T12:10:00.000Z",
+      "to": "2026-10-06T12:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +127,191 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-07-25T12:50:00.000Z",
-      "to": "2026-10-05T09:00:00.000Z"
+      "from": "2026-08-12T12:10:00.000Z",
+      "to": "2026-10-06T12:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398741,
+      "hltv_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-06T12:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5995,
+        "name": "G2"
+      },
+      "opponent": {
+        "hltv_id": 12467,
+        "name": "PARIVISION"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3420044,
+        "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-07T04:45:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. PARIVISION removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. G2 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. PARIVISION picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. G2 picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12467,
+          "actor_team_name": "PARIVISION",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. PARIVISION removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5995,
+          "actor_team_name": "G2",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. G2 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420044,
+            "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398734,
       "hltv_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
@@ -3510,186 +3700,6 @@
             "raw_snapshot_id": 1560053,
             "source_url": "https://www.hltv.org/matches/2396561/g2-vs-m80-esports-world-cup-2026",
             "retrieved_at": "2026-08-13T08:45:37.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Nuke",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396013,
-      "hltv_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-      "scheduled_at": "2026-07-25T12:50:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 5995,
-        "name": "G2"
-      },
-      "opponent": {
-        "hltv_id": 5973,
-        "name": "Liquid"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350083,
-        "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-        "retrieved_at": "2026-08-12T09:59:06.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 5973,
-          "actor_team_name": "Liquid",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. Liquid removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. G2 removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 5973,
-          "actor_team_name": "Liquid",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Anubis",
-          "raw_text": "3. Liquid picked Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. G2 picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 5973,
-          "actor_team_name": "Liquid",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "5. Liquid removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. G2 removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Inferno",
-          "raw_text": "7. Inferno was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350083,
-            "source_url": "https://www.hltv.org/matches/2396013/liquid-vs-g2-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:06.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },

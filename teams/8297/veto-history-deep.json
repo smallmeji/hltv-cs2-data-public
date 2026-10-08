@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-05T21:29:29.017Z",
+    "requested_at": "2026-10-08T12:59:59.526Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 8297
       }
     ],
-    "data_cutoff": "2026-10-05T21:29:12.964Z",
+    "data_cutoff": "2026-10-08T12:59:43.257Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -60,16 +60,16 @@
       },
       {
         "map_name": "Inferno",
-        "count": 5,
-        "empirical_share_of_resolved_sample": 0.25
-      },
-      {
-        "map_name": "Ancient",
-        "count": 1,
-        "empirical_share_of_resolved_sample": 0.05
+        "count": 4,
+        "empirical_share_of_resolved_sample": 0.2
       },
       {
         "map_name": "Dust2",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Ancient",
         "count": 1,
         "empirical_share_of_resolved_sample": 0.05
       }
@@ -96,16 +96,16 @@
           },
           {
             "map_name": "Inferno",
-            "count": 5,
-            "empirical_share_of_resolved_pool_sample": 0.25
-          },
-          {
-            "map_name": "Ancient",
-            "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.05
+            "count": 4,
+            "empirical_share_of_resolved_pool_sample": 0.2
           },
           {
             "map_name": "Dust2",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
+          },
+          {
+            "map_name": "Ancient",
             "count": 1,
             "empirical_share_of_resolved_pool_sample": 0.05
           }
@@ -127,8 +127,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-08-19T17:40:00.000Z",
-      "to": "2026-10-05T09:00:00.000Z"
+      "from": "2026-08-22T14:00:00.000Z",
+      "to": "2026-10-07T12:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -137,11 +137,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-08-19T17:40:00.000Z",
-      "to": "2026-10-05T09:00:00.000Z"
+      "from": "2026-08-22T14:00:00.000Z",
+      "to": "2026-10-07T12:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398747,
+      "hltv_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-07T12:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "opponent": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3450044,
+        "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-08T12:58:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. FURIA removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. 9z picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. FURIA picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 9z removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. FURIA removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3450044,
+            "source_url": "https://www.hltv.org/matches/2398747/furia-vs-9z-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-08T12:58:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398743,
+      "hltv_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-06T15:40:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "opponent": {
+        "hltv_id": 11861,
+        "name": "Aurora"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3420046,
+        "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-07T04:45:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Aurora removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. FURIA removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Aurora picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. FURIA picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11861,
+          "actor_team_name": "Aurora",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Aurora removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. FURIA removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3420046,
+            "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-07T04:45:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398733,
       "hltv_url": "https://www.hltv.org/matches/2398733/parivision-vs-furia-esl-pro-league-season-24",
@@ -3350,366 +3710,6 @@
             "raw_snapshot_id": 1770045,
             "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
             "retrieved_at": "2026-08-22T20:39:26.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396607,
-      "hltv_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-      "scheduled_at": "2026-08-20T16:20:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Esports World Cup 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 8297,
-        "name": "FURIA"
-      },
-      "opponent": {
-        "hltv_id": 5995,
-        "name": "G2"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1710045,
-        "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-        "retrieved_at": "2026-08-21T09:10:14.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. G2 removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. FURIA removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. G2 picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Anubis",
-          "raw_text": "4. FURIA picked Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 5995,
-          "actor_team_name": "G2",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. G2 removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. FURIA removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1710045,
-            "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-            "retrieved_at": "2026-08-21T09:10:14.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396600,
-      "hltv_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-      "scheduled_at": "2026-08-19T17:40:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Esports World Cup 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 8297,
-        "name": "FURIA"
-      },
-      "opponent": {
-        "hltv_id": 11861,
-        "name": "Aurora"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1680003,
-        "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-        "retrieved_at": "2026-08-20T15:34:35.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11861,
-          "actor_team_name": "Aurora",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Aurora removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. FURIA removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11861,
-          "actor_team_name": "Aurora",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. Aurora picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "4. FURIA picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 11861,
-          "actor_team_name": "Aurora",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "5. Aurora removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 8297,
-          "actor_team_name": "FURIA",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. FURIA removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1680003,
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "retrieved_at": "2026-08-20T15:34:35.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },
