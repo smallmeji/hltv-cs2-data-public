@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:58:04.120Z",
+    "requested_at": "2026-10-09T20:56:34.193Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 7969
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,11 +22,11 @@
   "team_hltv_id": 7969,
   "coverage": {
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 17,
+    "eligible_bo3_matches": 18,
     "eligible_matches_by_format": {
       "bo1": 0,
-      "bo3": 17,
-      "bo5": 3
+      "bo3": 18,
+      "bo5": 2
     },
     "with_veto": 20,
     "complete_seven_map_veto": 20,
@@ -44,11 +44,11 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 17,
+    "eligible_bo3_matches": 18,
     "eligible_matches_by_format": {
       "bo1": 0,
-      "bo3": 17,
-      "bo5": 3
+      "bo3": 18,
+      "bo5": 2
     },
     "resolved_first_ban_sample_size": 20,
     "coverage_ratio": 1,
@@ -117,8 +117,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-09-11T14:00:00.000Z",
-      "to": "2026-10-04T16:35:00.000Z"
+      "from": "2026-09-12T17:00:00.000Z",
+      "to": "2026-10-09T10:58:48.000Z"
     }
   ],
   "roster_segments": [
@@ -127,11 +127,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-09-11T14:00:00.000Z",
-      "to": "2026-10-04T16:35:00.000Z"
+      "from": "2026-09-12T17:00:00.000Z",
+      "to": "2026-10-09T10:58:48.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398408,
+      "hltv_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+      "scheduled_at": "2026-10-09T10:58:48.000Z",
+      "event": {
+        "hltv_id": 9420,
+        "name": "CCT 2026 Europe Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "opponent": {
+        "hltv_id": 14014,
+        "name": "Gothic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540055,
+        "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+        "retrieved_at": "2026-10-09T20:54:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14014,
+          "actor_team_name": "Gothic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Gothic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14014,
+          "actor_team_name": "Gothic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Gothic picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Nemiga picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14014,
+          "actor_team_name": "Gothic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Gothic removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540055,
+            "source_url": "https://www.hltv.org/matches/2398408/nemiga-vs-gothic-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398404,
+      "hltv_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+      "scheduled_at": "2026-10-08T11:30:00.000Z",
+      "event": {
+        "hltv_id": 9420,
+        "name": "CCT 2026 Europe Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "opponent": {
+        "hltv_id": 12609,
+        "name": "Lavked"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510049,
+        "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+        "retrieved_at": "2026-10-09T06:00:55.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12609,
+          "actor_team_name": "Lavked",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Lavked removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nemiga picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12609,
+          "actor_team_name": "Lavked",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Lavked picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nemiga removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12609,
+          "actor_team_name": "Lavked",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Lavked removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510049,
+            "source_url": "https://www.hltv.org/matches/2398404/nemiga-vs-lavked-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398009,
       "hltv_url": "https://www.hltv.org/matches/2398009/nemiga-vs-astralis-stake-ranked-episode-4",
@@ -3363,366 +3723,6 @@
       "target_first_ban": {
         "step_number": 2,
         "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397777,
-      "hltv_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-      "scheduled_at": "2026-09-12T13:00:00.000Z",
-      "event": {
-        "hltv_id": 9241,
-        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
-      },
-      "format": "bo5",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 7969,
-        "name": "Nemiga"
-      },
-      "opponent": {
-        "hltv_id": 11241,
-        "name": "B8"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2670044,
-        "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-        "retrieved_at": "2026-09-13T07:17:06.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 7969,
-          "actor_team_name": "Nemiga",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Nemiga removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 11241,
-          "actor_team_name": "B8",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. B8 removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 7969,
-          "actor_team_name": "Nemiga",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "3. Nemiga picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 11241,
-          "actor_team_name": "B8",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. B8 picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 7969,
-          "actor_team_name": "Nemiga",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "5. Nemiga picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 11241,
-          "actor_team_name": "B8",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "6. B8 picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Nuke",
-          "raw_text": "7. Nuke was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2670044,
-            "source_url": "https://www.hltv.org/matches/2397777/nemiga-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-13T07:17:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397774,
-      "hltv_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-      "scheduled_at": "2026-09-11T14:00:00.000Z",
-      "event": {
-        "hltv_id": 9241,
-        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 7969,
-        "name": "Nemiga"
-      },
-      "opponent": {
-        "hltv_id": 10621,
-        "name": "1win"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2580052,
-        "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-        "retrieved_at": "2026-09-11T19:56:29.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 7969,
-          "actor_team_name": "Nemiga",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Nemiga removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10621,
-          "actor_team_name": "1win",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. 1win removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 7969,
-          "actor_team_name": "Nemiga",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Anubis",
-          "raw_text": "3. Nemiga picked Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10621,
-          "actor_team_name": "1win",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "4. 1win picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 10621,
-          "actor_team_name": "1win",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. 1win removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 7969,
-          "actor_team_name": "Nemiga",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. Nemiga removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2580052,
-            "source_url": "https://www.hltv.org/matches/2397774/1win-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-            "retrieved_at": "2026-09-11T19:56:29.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Inferno",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

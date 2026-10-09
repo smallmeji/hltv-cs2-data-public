@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:58:37.479Z",
+    "requested_at": "2026-10-09T20:57:05.519Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 11581
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -127,8 +127,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-08-31T14:00:00.000Z",
-      "to": "2026-10-01T16:00:00.000Z"
+      "from": "2026-09-02T12:15:00.000Z",
+      "to": "2026-10-09T09:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -137,11 +137,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-08-31T14:00:00.000Z",
-      "to": "2026-10-01T16:00:00.000Z"
+      "from": "2026-09-02T12:15:00.000Z",
+      "to": "2026-10-09T09:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398983,
+      "hltv_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540057,
+        "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T20:54:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Acend picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398975,
+      "hltv_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-07T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13623,
+        "name": "STATE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510064,
+        "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T06:01:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13623,
+          "actor_team_name": "STATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. STATE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13623,
+          "actor_team_name": "STATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. STATE picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13623,
+          "actor_team_name": "STATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. STATE removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510064,
+            "source_url": "https://www.hltv.org/matches/2398975/hotu-vs-state-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398793,
       "hltv_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
@@ -3372,366 +3732,6 @@
       },
       "target_first_ban": {
         "step_number": 1,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397062,
-      "hltv_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-      "scheduled_at": "2026-09-01T12:00:00.000Z",
-      "event": {
-        "hltv_id": 9349,
-        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 11581,
-        "name": "HOTU"
-      },
-      "opponent": {
-        "hltv_id": 13973,
-        "name": "Color"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1980049,
-        "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-        "retrieved_at": "2026-09-02T06:47:08.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13973,
-          "actor_team_name": "Color",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. Color removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. HOTU removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13973,
-          "actor_team_name": "Color",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. Color picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "4. HOTU picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13973,
-          "actor_team_name": "Color",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "5. Color removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. HOTU removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Anubis",
-          "raw_text": "7. Anubis was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1980049,
-            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T06:47:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396736,
-      "hltv_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-      "scheduled_at": "2026-08-31T14:00:00.000Z",
-      "event": {
-        "hltv_id": 9315,
-        "name": "NODWIN Clutch Series 11"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 11581,
-        "name": "HOTU"
-      },
-      "opponent": {
-        "hltv_id": 13989,
-        "name": "UPGRADE"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1920052,
-        "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-        "retrieved_at": "2026-09-01T06:04:24.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13989,
-          "actor_team_name": "UPGRADE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "1. UPGRADE removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. HOTU removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13989,
-          "actor_team_name": "UPGRADE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Anubis",
-          "raw_text": "3. UPGRADE picked Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "4. HOTU picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13989,
-          "actor_team_name": "UPGRADE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "5. UPGRADE removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. HOTU removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920052,
-            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
         "map_name": "Inferno",
         "retrieval_lineage_status": "observed_by_cutoff"
       },

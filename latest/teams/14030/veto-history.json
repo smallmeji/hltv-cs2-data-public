@@ -1,62 +1,72 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:58:46.570Z",
+    "requested_at": "2026-10-09T20:57:12.947Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 14030
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
     "warnings": [
       {
         "code": "ROSTER_MISSING",
-        "message": "1 eligible match(es) have no exact-team lineup evidence."
+        "message": "5 eligible match(es) have no exact-team lineup evidence."
       }
     ]
   },
   "team_hltv_id": 14030,
   "coverage": {
-    "eligible_completed_matches": 1,
-    "eligible_bo3_matches": 1,
+    "eligible_completed_matches": 5,
+    "eligible_bo3_matches": 5,
     "eligible_matches_by_format": {
       "bo1": 0,
-      "bo3": 1,
+      "bo3": 5,
       "bo5": 0
     },
-    "with_veto": 1,
-    "complete_seven_map_veto": 1,
+    "with_veto": 5,
+    "complete_seven_map_veto": 5,
     "missing_veto": 0,
-    "first_ban_resolved_total": 1,
-    "first_ban_fact_time_eligible": 1,
-    "first_ban_retrieved_by_cutoff": 1,
+    "first_ban_resolved_total": 5,
+    "first_ban_fact_time_eligible": 5,
+    "first_ban_retrieved_by_cutoff": 5,
     "unresolved_actor_steps": 0,
     "reconstructed_after_cutoff_matches": 0,
     "source_time_unknown_matches": 0,
     "roster_present_matches": 0,
     "roster_retrieved_by_cutoff_matches": 0,
-    "roster_missing_matches": 1
+    "roster_missing_matches": 5
   },
   "first_ban_summary": {
     "status": "available",
-    "eligible_completed_matches": 1,
-    "eligible_bo3_matches": 1,
+    "eligible_completed_matches": 5,
+    "eligible_bo3_matches": 5,
     "eligible_matches_by_format": {
       "bo1": 0,
-      "bo3": 1,
+      "bo3": 5,
       "bo5": 0
     },
-    "resolved_first_ban_sample_size": 1,
+    "resolved_first_ban_sample_size": 5,
     "coverage_ratio": 1,
     "maps": [
       {
         "map_name": "Anubis",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.4
+      },
+      {
+        "map_name": "Inferno",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.4
+      },
+      {
+        "map_name": "Cache",
         "count": 1,
-        "empirical_share_of_resolved_sample": 1
+        "empirical_share_of_resolved_sample": 0.2
       }
     ],
     "by_map_pool_signature": [
@@ -71,13 +81,23 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 1,
-        "resolved_first_bans": 1,
+        "fact_time_eligible_matches": 5,
+        "resolved_first_bans": 5,
         "first_bans": [
           {
             "map_name": "Anubis",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.4
+          },
+          {
+            "map_name": "Inferno",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.4
+          },
+          {
+            "map_name": "Cache",
             "count": 1,
-            "empirical_share_of_resolved_pool_sample": 1
+            "empirical_share_of_resolved_pool_sample": 0.2
           }
         ]
       }
@@ -96,9 +116,9 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 1,
-      "from": "2026-10-01T12:30:00.000Z",
-      "to": "2026-10-01T12:30:00.000Z"
+      "match_count": 5,
+      "from": "2026-09-30T08:00:00.000Z",
+      "to": "2026-10-09T18:30:00.000Z"
     }
   ],
   "roster_segments": [
@@ -106,12 +126,372 @@
       "identity_status": "missing",
       "signature": null,
       "members": [],
-      "match_count": 1,
-      "from": "2026-10-01T12:30:00.000Z",
-      "to": "2026-10-01T12:30:00.000Z"
+      "match_count": 5,
+      "from": "2026-09-30T08:00:00.000Z",
+      "to": "2026-10-09T18:30:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398986,
+      "hltv_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-09T18:30:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 14030,
+        "name": "PRIVATE"
+      },
+      "opponent": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540059,
+        "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T20:55:07.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. PRIVATE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. PRIVATE picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. PRIVATE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540059,
+            "source_url": "https://www.hltv.org/matches/2398986/nuclear-tigeres-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:55:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398981,
+      "hltv_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-08T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 14030,
+        "name": "PRIVATE"
+      },
+      "opponent": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510079,
+        "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T06:02:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. PRIVATE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Betclic removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. PRIVATE picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Betclic picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. PRIVATE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510079,
+            "source_url": "https://www.hltv.org/matches/2398981/betclic-vs-private-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398792,
       "hltv_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
@@ -283,6 +663,366 @@
       "target_first_ban": {
         "step_number": 1,
         "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398785,
+      "hltv_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-30T10:30:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 14030,
+        "name": "PRIVATE"
+      },
+      "opponent": {
+        "hltv_id": 14067,
+        "name": "Magnum"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510080,
+        "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-09T06:02:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. PRIVATE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 14067,
+          "actor_team_name": "Magnum",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Magnum removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. PRIVATE picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 14067,
+          "actor_team_name": "Magnum",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Magnum picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. PRIVATE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 14067,
+          "actor_team_name": "Magnum",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Magnum removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510080,
+            "source_url": "https://www.hltv.org/matches/2398785/private-vs-magnum-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:02:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398783,
+      "hltv_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-30T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 14030,
+        "name": "PRIVATE"
+      },
+      "opponent": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510070,
+        "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-09T06:01:50.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. PRIVATE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. PRIVATE picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. PRIVATE removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510070,
+            "source_url": "https://www.hltv.org/matches/2398783/private-vs-nuclear-tigeres-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-09T06:01:50.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

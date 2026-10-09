@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:57:59.391Z",
+    "requested_at": "2026-10-09T20:56:29.594Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 9928
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -86,71 +86,34 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 19,
-        "resolved_first_bans": 19,
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
         "first_bans": [
           {
             "map_name": "Anubis",
             "count": 11,
-            "empirical_share_of_resolved_pool_sample": 0.5789473684210527
+            "empirical_share_of_resolved_pool_sample": 0.55
           },
           {
             "map_name": "Inferno",
             "count": 6,
-            "empirical_share_of_resolved_pool_sample": 0.3157894736842105
+            "empirical_share_of_resolved_pool_sample": 0.3
+          },
+          {
+            "map_name": "Dust2",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
           },
           {
             "map_name": "Ancient",
             "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
-          },
-          {
-            "map_name": "Dust2",
-            "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
-          }
-        ]
-      },
-      {
-        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "fact_time_eligible_matches": 1,
-        "resolved_first_bans": 1,
-        "first_bans": [
-          {
-            "map_name": "Dust2",
-            "count": 1,
-            "empirical_share_of_resolved_pool_sample": 1
+            "empirical_share_of_resolved_pool_sample": 0.05
           }
         ]
       }
     ]
   },
   "map_pool_segments": [
-    {
-      "evidence_status": "complete_seven_map",
-      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
-      "maps": [
-        "Ancient",
-        "Anubis",
-        "Dust2",
-        "Inferno",
-        "Mirage",
-        "Nuke",
-        "Overpass"
-      ],
-      "match_count": 1,
-      "from": "2026-06-24T18:10:00.000Z",
-      "to": "2026-06-24T18:10:00.000Z"
-    },
     {
       "evidence_status": "complete_seven_map",
       "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
@@ -163,9 +126,9 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 19,
+      "match_count": 20,
       "from": "2026-07-22T15:30:00.000Z",
-      "to": "2026-10-08T09:00:00.000Z"
+      "to": "2026-10-09T12:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -174,11 +137,191 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-06-24T18:10:00.000Z",
-      "to": "2026-10-08T09:00:00.000Z"
+      "from": "2026-07-22T15:30:00.000Z",
+      "to": "2026-10-09T12:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398984,
+      "hltv_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-09T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540054,
+        "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T20:54:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. GamerLegion removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. SINNERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. GamerLegion picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. SINNERS picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398979,
       "hltv_url": "https://www.hltv.org/matches/2398979/gamerlegion-vs-bet-m-1win-private-club-season-2-closed-qualifier",
@@ -3590,186 +3733,6 @@
       "target_first_ban": {
         "step_number": 2,
         "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395383,
-      "hltv_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-      "scheduled_at": "2026-06-24T18:10:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9928,
-        "name": "GamerLegion"
-      },
-      "opponent": {
-        "hltv_id": 10278,
-        "name": "9INE"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350138,
-        "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-        "retrieved_at": "2026-08-12T10:03:30.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10278,
-          "actor_team_name": "9INE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. 9INE removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "2. GamerLegion removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 10278,
-          "actor_team_name": "9INE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. 9INE picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. GamerLegion picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. GamerLegion removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10278,
-          "actor_team_name": "9INE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Overpass",
-          "raw_text": "6. 9INE removed Overpass",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350138,
-            "source_url": "https://www.hltv.org/matches/2395383/9ine-vs-gamerlegion-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Dust2",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

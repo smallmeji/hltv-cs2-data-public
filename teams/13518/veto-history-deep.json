@@ -1,67 +1,72 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:58:39.427Z",
+    "requested_at": "2026-10-09T20:57:07.027Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 13518
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
     "warnings": [
       {
         "code": "ROSTER_MISSING",
-        "message": "9 eligible match(es) have no exact-team lineup evidence."
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
       }
     ]
   },
   "team_hltv_id": 13518,
   "coverage": {
-    "eligible_completed_matches": 9,
-    "eligible_bo3_matches": 8,
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
-      "bo1": 0,
-      "bo3": 8,
-      "bo5": 1
+      "bo1": 1,
+      "bo3": 19,
+      "bo5": 0
     },
-    "with_veto": 9,
-    "complete_seven_map_veto": 9,
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
     "missing_veto": 0,
-    "first_ban_resolved_total": 9,
-    "first_ban_fact_time_eligible": 9,
-    "first_ban_retrieved_by_cutoff": 9,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
     "unresolved_actor_steps": 0,
     "reconstructed_after_cutoff_matches": 0,
     "source_time_unknown_matches": 0,
     "roster_present_matches": 0,
     "roster_retrieved_by_cutoff_matches": 0,
-    "roster_missing_matches": 9
+    "roster_missing_matches": 20
   },
   "first_ban_summary": {
     "status": "available",
-    "eligible_completed_matches": 9,
-    "eligible_bo3_matches": 8,
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
-      "bo1": 0,
-      "bo3": 8,
-      "bo5": 1
+      "bo1": 1,
+      "bo3": 19,
+      "bo5": 0
     },
-    "resolved_first_ban_sample_size": 9,
+    "resolved_first_ban_sample_size": 20,
     "coverage_ratio": 1,
     "maps": [
       {
         "map_name": "Nuke",
-        "count": 8,
-        "empirical_share_of_resolved_sample": 0.8888888888888888
+        "count": 18,
+        "empirical_share_of_resolved_sample": 0.9
+      },
+      {
+        "map_name": "Anubis",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
       },
       {
         "map_name": "Cache",
         "count": 1,
-        "empirical_share_of_resolved_sample": 0.1111111111111111
+        "empirical_share_of_resolved_sample": 0.05
       }
     ],
     "by_map_pool_signature": [
@@ -76,61 +81,29 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 7,
-        "resolved_first_bans": 7,
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
         "first_bans": [
           {
             "map_name": "Nuke",
-            "count": 6,
-            "empirical_share_of_resolved_pool_sample": 0.8571428571428571
+            "count": 18,
+            "empirical_share_of_resolved_pool_sample": 0.9
+          },
+          {
+            "map_name": "Anubis",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
           },
           {
             "map_name": "Cache",
             "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.14285714285714285
-          }
-        ]
-      },
-      {
-        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "fact_time_eligible_matches": 2,
-        "resolved_first_bans": 2,
-        "first_bans": [
-          {
-            "map_name": "Nuke",
-            "count": 2,
-            "empirical_share_of_resolved_pool_sample": 1
+            "empirical_share_of_resolved_pool_sample": 0.05
           }
         ]
       }
     ]
   },
   "map_pool_segments": [
-    {
-      "evidence_status": "complete_seven_map",
-      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
-      "maps": [
-        "Ancient",
-        "Anubis",
-        "Dust2",
-        "Inferno",
-        "Mirage",
-        "Nuke",
-        "Overpass"
-      ],
-      "match_count": 2,
-      "from": "2026-06-23T18:20:00.000Z",
-      "to": "2026-06-28T17:30:00.000Z"
-    },
     {
       "evidence_status": "complete_seven_map",
       "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
@@ -143,9 +116,9 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 7,
-      "from": "2026-08-07T16:30:00.000Z",
-      "to": "2026-09-10T14:30:00.000Z"
+      "match_count": 20,
+      "from": "2026-08-02T10:00:00.000Z",
+      "to": "2026-10-09T14:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -153,12 +126,1092 @@
       "identity_status": "missing",
       "signature": null,
       "members": [],
-      "match_count": 9,
-      "from": "2026-06-23T18:20:00.000Z",
-      "to": "2026-09-10T14:30:00.000Z"
+      "match_count": 20,
+      "from": "2026-08-02T10:00:00.000Z",
+      "to": "2026-10-09T14:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398409,
+      "hltv_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+      "scheduled_at": "2026-10-09T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9420,
+        "name": "CCT 2026 Europe Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 7187,
+        "name": "Nexus"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540058,
+        "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+        "retrieved_at": "2026-10-09T20:54:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7187,
+          "actor_team_name": "Nexus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nexus removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7187,
+          "actor_team_name": "Nexus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Nexus picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Acend picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7187,
+          "actor_team_name": "Nexus",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nexus removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Acend removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540058,
+            "source_url": "https://www.hltv.org/matches/2398409/acend-vs-nexus-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T20:54:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398983,
+      "hltv_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540057,
+        "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T20:54:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Acend picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540057,
+            "source_url": "https://www.hltv.org/matches/2398983/hotu-vs-acend-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398403,
+      "hltv_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+      "scheduled_at": "2026-10-08T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9420,
+        "name": "CCT 2026 Europe Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 13573,
+        "name": "ex-Zero Tenacity"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510053,
+        "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+        "retrieved_at": "2026-10-09T06:00:57.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13573,
+          "actor_team_name": "ex-Zero Tenacity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. ex-Zero Tenacity removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13573,
+          "actor_team_name": "ex-Zero Tenacity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. ex-Zero Tenacity picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13573,
+          "actor_team_name": "ex-Zero Tenacity",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. ex-Zero Tenacity removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510053,
+            "source_url": "https://www.hltv.org/matches/2398403/acend-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:00:57.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397709,
+      "hltv_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+      "scheduled_at": "2026-09-27T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9364,
+        "name": "NODWIN Clutch Series 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 13619,
+        "name": "BET-M"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510051,
+        "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+        "retrieved_at": "2026-10-09T06:00:56.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. BET-M removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. BET-M picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BET-M removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510051,
+            "source_url": "https://www.hltv.org/matches/2397709/acend-vs-bet-m-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:00:56.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397701,
+      "hltv_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+      "scheduled_at": "2026-09-25T11:10:00.000Z",
+      "event": {
+        "hltv_id": 9364,
+        "name": "NODWIN Clutch Series 12"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 13924,
+        "name": "Black Phoenix"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510054,
+        "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+        "retrieved_at": "2026-10-09T06:01:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Black Phoenix removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Black Phoenix picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Acend picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Black Phoenix removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Acend removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510054,
+            "source_url": "https://www.hltv.org/matches/2397701/acend-vs-black-phoenix-nodwin-clutch-series-12",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397280,
+      "hltv_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+      "scheduled_at": "2026-09-11T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9352,
+        "name": "CCT 2026 Europe Series 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 13814,
+        "name": "INOX Division"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510055,
+        "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+        "retrieved_at": "2026-10-09T06:01:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. INOX Division removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Acend picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. INOX Division picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. INOX Division removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510055,
+            "source_url": "https://www.hltv.org/matches/2397280/acend-vs-inox-division-cct-2026-europe-series-8",
+            "retrieved_at": "2026-10-09T06:01:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2397868,
       "hltv_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
@@ -488,6 +1541,726 @@
             "source_url": "https://www.hltv.org/matches/2397860/3dmax-vs-acend-thunderpick-world-championship-2026-closed-qualifier",
             "retrieved_at": "2026-09-09T17:54:33.000Z",
             "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396686,
+      "hltv_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+      "scheduled_at": "2026-08-29T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9324,
+        "name": "CCT 2026 Europe Series 7"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 11609,
+        "name": "GenOne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510057,
+        "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+        "retrieved_at": "2026-10-09T06:01:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. GenOne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. GenOne picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. GenOne removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Acend removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510057,
+            "source_url": "https://www.hltv.org/matches/2396686/acend-vs-genone-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396678,
+      "hltv_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+      "scheduled_at": "2026-08-27T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9324,
+        "name": "CCT 2026 Europe Series 7"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 12267,
+        "name": "UNiTY"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510056,
+        "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+        "retrieved_at": "2026-10-09T06:01:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12267,
+          "actor_team_name": "UNiTY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. UNiTY removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12267,
+          "actor_team_name": "UNiTY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. UNiTY picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12267,
+          "actor_team_name": "UNiTY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. UNiTY removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Acend removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510056,
+            "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
+            "retrieved_at": "2026-10-09T06:01:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397079,
+      "hltv_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+      "scheduled_at": "2026-08-24T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9294,
+        "name": "IEM Beijing 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510058,
+        "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+        "retrieved_at": "2026-10-09T06:01:22.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nemiga picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Acend picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Nemiga removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Acend removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510058,
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397072,
+      "hltv_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+      "scheduled_at": "2026-08-24T16:20:00.000Z",
+      "event": {
+        "hltv_id": 9294,
+        "name": "IEM Beijing 2026 Open Qualifier"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 13173,
+        "name": "Phantom"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510059,
+        "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+        "retrieved_at": "2026-10-09T06:01:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Phantom removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Acend removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Phantom removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13173,
+          "actor_team_name": "Phantom",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Phantom removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Acend removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510059,
+            "source_url": "https://www.hltv.org/matches/2397072/acend-vs-phantom-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -1420,14 +3193,14 @@
       }
     },
     {
-      "hltv_match_id": 2395400,
-      "hltv_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-      "scheduled_at": "2026-06-28T17:30:00.000Z",
+      "hltv_match_id": 2396316,
+      "hltv_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-04T11:00:00.000Z",
       "event": {
-        "hltv_id": 9118,
-        "name": "Digital Crusade Super DraculaN Season 1"
+        "hltv_id": 9221,
+        "name": "Stake Pulse Beat I"
       },
-      "format": "bo5",
+      "format": "bo3",
       "status": "over",
       "fact_time_status": "eligible_by_final_status_and_scheduled_at",
       "team": {
@@ -1435,30 +3208,30 @@
         "name": "Acend"
       },
       "opponent": {
-        "hltv_id": 13117,
-        "name": "Inner Circle"
+        "hltv_id": 12916,
+        "name": "Betclic"
       },
       "match_source": {
-        "raw_snapshot_id": 2940119,
-        "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-        "retrieved_at": "2026-09-25T17:34:30.000Z",
+        "raw_snapshot_id": 3510060,
+        "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+        "retrieved_at": "2026-10-09T06:01:24.000Z",
         "parser_version": "match_detail.dom.v3",
         "parse_status": "success"
       },
       "ordered_steps": [
         {
           "step_number": 1,
-          "actor_team_hltv_id": 13518,
-          "actor_team_name": "Acend",
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. Acend removed Nuke",
+          "map_name": "Inferno",
+          "raw_text": "1. Betclic removed Inferno",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1466,17 +3239,17 @@
         },
         {
           "step_number": 2,
-          "actor_team_hltv_id": 13117,
-          "actor_team_name": "Inner Circle",
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. Inner Circle removed Inferno",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1484,17 +3257,17 @@
         },
         {
           "step_number": 3,
-          "actor_team_hltv_id": 13518,
-          "actor_team_name": "Acend",
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
           "actor_identity_status": "stored_match_exact",
           "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "3. Acend picked Mirage",
+          "map_name": "Cache",
+          "raw_text": "3. Betclic picked Cache",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1502,17 +3275,17 @@
         },
         {
           "step_number": 4,
-          "actor_team_hltv_id": 13117,
-          "actor_team_name": "Inner Circle",
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
           "actor_identity_status": "stored_match_exact",
           "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "4. Inner Circle picked Dust2",
+          "map_name": "Mirage",
+          "raw_text": "4. Acend picked Mirage",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1520,17 +3293,17 @@
         },
         {
           "step_number": 5,
-          "actor_team_hltv_id": 13518,
-          "actor_team_name": "Acend",
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Overpass",
-          "raw_text": "5. Acend picked Overpass",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Betclic removed Dust2",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1538,17 +3311,197 @@
         },
         {
           "step_number": 6,
-          "actor_team_hltv_id": 13117,
-          "actor_team_name": "Inner Circle",
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "6. Inner Circle picked Ancient",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Acend removed Anubis",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510060,
+            "source_url": "https://www.hltv.org/matches/2396316/acend-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396307,
+      "hltv_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-02T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9221,
+        "name": "Stake Pulse Beat I"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13518,
+        "name": "Acend"
+      },
+      "opponent": {
+        "hltv_id": 9139,
+        "name": "BRUTE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510062,
+        "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+        "retrieved_at": "2026-10-09T06:01:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9139,
+          "actor_team_name": "BRUTE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BRUTE removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9139,
+          "actor_team_name": "BRUTE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. BRUTE picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Acend picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9139,
+          "actor_team_name": "BRUTE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BRUTE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Acend removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1564,9 +3517,9 @@
           "raw_text": "7. Anubis was left over",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940119,
-            "source_url": "https://www.hltv.org/matches/2395400/inner-circle-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-09-25T17:34:30.000Z",
+            "raw_snapshot_id": 3510062,
+            "source_url": "https://www.hltv.org/matches/2396307/acend-vs-brute-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1579,16 +3532,16 @@
         "maps": [
           "Ancient",
           "Anubis",
+          "Cache",
           "Dust2",
           "Inferno",
           "Mirage",
-          "Nuke",
-          "Overpass"
+          "Nuke"
         ],
-        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
       },
       "target_first_ban": {
-        "step_number": 1,
+        "step_number": 2,
         "map_name": "Nuke",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
@@ -1600,12 +3553,12 @@
       }
     },
     {
-      "hltv_match_id": 2395377,
-      "hltv_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-      "scheduled_at": "2026-06-23T18:20:00.000Z",
+      "hltv_match_id": 2396305,
+      "hltv_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-02T10:00:00.000Z",
       "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
+        "hltv_id": 9221,
+        "name": "Stake Pulse Beat I"
       },
       "format": "bo3",
       "status": "over",
@@ -1615,103 +3568,103 @@
         "name": "Acend"
       },
       "opponent": {
-        "hltv_id": 9928,
-        "name": "GamerLegion"
+        "hltv_id": 13882,
+        "name": "6666"
       },
       "match_source": {
-        "raw_snapshot_id": 1350139,
-        "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-        "retrieved_at": "2026-08-12T10:03:30.000Z",
-        "parser_version": "match_detail.dom.v2",
+        "raw_snapshot_id": 3510061,
+        "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+        "retrieved_at": "2026-10-09T06:01:24.000Z",
+        "parser_version": "match_detail.dom.v3",
         "parse_status": "success"
       },
       "ordered_steps": [
         {
           "step_number": 1,
-          "actor_team_hltv_id": 13518,
-          "actor_team_name": "Acend",
+          "actor_team_hltv_id": 13882,
+          "actor_team_name": "6666",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. Acend removed Nuke",
+          "map_name": "Cache",
+          "raw_text": "1. 6666 removed Cache",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 2,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "2. GamerLegion removed Dust2",
+          "map_name": "Nuke",
+          "raw_text": "2. Acend removed Nuke",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 3,
-          "actor_team_hltv_id": 13518,
-          "actor_team_name": "Acend",
+          "actor_team_hltv_id": 13882,
+          "actor_team_name": "6666",
           "actor_identity_status": "stored_match_exact",
           "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "3. Acend picked Mirage",
+          "map_name": "Ancient",
+          "raw_text": "3. 6666 picked Ancient",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 4,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
+          "actor_team_hltv_id": 13518,
+          "actor_team_name": "Acend",
           "actor_identity_status": "stored_match_exact",
           "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. GamerLegion picked Ancient",
+          "map_name": "Inferno",
+          "raw_text": "4. Acend picked Inferno",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 5,
-          "actor_team_hltv_id": 9928,
-          "actor_team_name": "GamerLegion",
+          "actor_team_hltv_id": 13882,
+          "actor_team_name": "6666",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. GamerLegion removed Anubis",
+          "map_name": "Mirage",
+          "raw_text": "5. 6666 removed Mirage",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -1722,14 +3675,14 @@
           "actor_team_name": "Acend",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Overpass",
-          "raw_text": "6. Acend removed Overpass",
+          "map_name": "Anubis",
+          "raw_text": "6. Acend removed Anubis",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -1740,14 +3693,14 @@
           "actor_team_name": null,
           "actor_identity_status": "not_applicable",
           "action": "left_over",
-          "map_name": "Inferno",
-          "raw_text": "7. Inferno was left over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 1350139,
-            "source_url": "https://www.hltv.org/matches/2395377/gamerlegion-vs-acend-digital-crusade-super-draculan-season-1",
-            "retrieved_at": "2026-08-12T10:03:30.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3510061,
+            "source_url": "https://www.hltv.org/matches/2396305/acend-vs-6666-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-09T06:01:24.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -1759,16 +3712,16 @@
         "maps": [
           "Ancient",
           "Anubis",
+          "Cache",
           "Dust2",
           "Inferno",
           "Mirage",
-          "Nuke",
-          "Overpass"
+          "Nuke"
         ],
-        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
       },
       "target_first_ban": {
-        "step_number": 1,
+        "step_number": 2,
         "map_name": "Nuke",
         "retrieval_lineage_status": "observed_by_cutoff"
       },

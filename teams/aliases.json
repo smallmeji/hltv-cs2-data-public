@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-09T05:57:29.154Z",
+    "generated_at": "2026-10-09T20:55:59.317Z",
     "alias_count": 911,
     "registry_alias_count": 911,
     "source": "teams/index.json + team_name_aliases"
@@ -401,8 +401,8 @@
       "normalized": "11110",
       "hltv_id": 11110,
       "canonical_hltv_id": 11110,
-      "canonical_name": "Honvéd",
-      "name": "Honvéd",
+      "canonical_name": "honvéd",
+      "name": "honvéd",
       "name_zh": null,
       "slug": null,
       "rank": null,
@@ -2471,8 +2471,8 @@
       "normalized": "13414",
       "hltv_id": 13414,
       "canonical_hltv_id": 13414,
-      "canonical_name": "rave",
-      "name": "rave",
+      "canonical_name": "Rave",
+      "name": "Rave",
       "name_zh": null,
       "slug": null,
       "rank": null,
@@ -3304,7 +3304,7 @@
       "source_hltv_ids": [
         13623
       ],
-      "sources": "detail_matches_opponent_id,map_matches_opponent_id,ranking_snapshots_id"
+      "sources": "detail_matches_opponent_id,map_matches_opponent_id,matches_team2_id,ranking_snapshots_id,veto_steps_id"
     },
     {
       "alias": "13627",
@@ -3716,8 +3716,8 @@
       "normalized": "13683",
       "hltv_id": 13683,
       "canonical_hltv_id": 13683,
-      "canonical_name": "WBT",
-      "name": "WBT",
+      "canonical_name": "wbt",
+      "name": "wbt",
       "name_zh": null,
       "slug": null,
       "rank": null,
@@ -4519,7 +4519,7 @@
       "source_hltv_ids": [
         13814
       ],
-      "sources": "hltv_rankings_id,map_matches_opponent_id,matches_team2_id,ranking_snapshots_id,veto_steps_id"
+      "sources": "hltv_rankings_id,map_matches_opponent_id,matches_team1_id,matches_team2_id,ranking_snapshots_id,veto_steps_id"
     },
     {
       "alias": "13816",
@@ -4819,7 +4819,7 @@
       "source_hltv_ids": [
         13871
       ],
-      "sources": "map_matches_opponent_id,matches_team2_id,ranking_snapshots_id,teams_id,teams_name_zh_id,teams_slug_id,veto_steps_id"
+      "sources": "map_matches_opponent_id,matches_team1_id,matches_team2_id,ranking_snapshots_id,teams_id,teams_name_zh_id,teams_slug_id,veto_steps_id"
     },
     {
       "alias": "13877",
@@ -5614,7 +5614,7 @@
       "source_hltv_ids": [
         14030
       ],
-      "sources": "configured,configured_id,hltv_rankings_id,map_matches_opponent_id,matches_team1_id,ranking_snapshots_id,teams_id,teams_name_zh_id,teams_slug_id,veto_steps_id"
+      "sources": "configured,configured_id,hltv_rankings_id,map_matches_opponent_id,matches_team1_id,matches_team2_id,ranking_snapshots_id,teams_id,teams_name_zh_id,teams_slug_id,veto_steps_id"
     },
     {
       "alias": "14036",
@@ -5644,7 +5644,7 @@
       "source_hltv_ids": [
         14063
       ],
-      "sources": "map_matches_opponent_id"
+      "sources": "map_matches_opponent_id,matches_team2_id,veto_steps_id"
     },
     {
       "alias": "14064",
@@ -5674,7 +5674,7 @@
       "source_hltv_ids": [
         14067
       ],
-      "sources": "map_matches_opponent_id"
+      "sources": "map_matches_opponent_id,matches_team2_id,veto_steps_id"
     },
     {
       "alias": "14074",
@@ -8316,7 +8316,7 @@
       "source_hltv_ids": [
         13871
       ],
-      "sources": "canonical_name,map_matches_opponent,matches_team2,ranking_snapshots,teams,teams_name_zh,teams_slug,veto_steps"
+      "sources": "canonical_name,map_matches_opponent,matches_team1,matches_team2,ranking_snapshots,teams,teams_name_zh,teams_slug,veto_steps"
     },
     {
       "alias": "ECSTATIC",
@@ -8541,7 +8541,7 @@
       "source_hltv_ids": [
         14063
       ],
-      "sources": "canonical_name,map_matches_opponent"
+      "sources": "canonical_name,map_matches_opponent,matches_team2,veto_steps"
     },
     {
       "alias": "Evo Novo",
@@ -9674,8 +9674,8 @@
       "normalized": "honv d",
       "hltv_id": 11110,
       "canonical_hltv_id": 11110,
-      "canonical_name": "Honvéd",
-      "name": "Honvéd",
+      "canonical_name": "honvéd",
+      "name": "honvéd",
       "name_zh": null,
       "slug": null,
       "rank": null,
@@ -9848,7 +9848,7 @@
       "source_hltv_ids": [
         13814
       ],
-      "sources": "canonical_name,hltv_rankings,map_matches_opponent,matches_team2,ranking_snapshots,veto_steps"
+      "sources": "canonical_name,hltv_rankings,map_matches_opponent,matches_team1,matches_team2,ranking_snapshots,veto_steps"
     },
     {
       "alias": "Insiders",
@@ -10509,7 +10509,7 @@
       "source_hltv_ids": [
         14067
       ],
-      "sources": "canonical_name,map_matches_opponent"
+      "sources": "canonical_name,map_matches_opponent,matches_team2,veto_steps"
     },
     {
       "alias": "MANA",
@@ -11560,7 +11560,7 @@
       "source_hltv_ids": [
         14030
       ],
-      "sources": "canonical_name,configured,configured_alias,hltv_rankings,map_matches_opponent,matches_team1,ranking_snapshots,teams,teams_name_zh,teams_slug,veto_steps"
+      "sources": "canonical_name,configured,configured_alias,hltv_rankings,map_matches_opponent,matches_team1,matches_team2,ranking_snapshots,teams,teams_name_zh,teams_slug,veto_steps"
     },
     {
       "alias": "Procyon",
@@ -11717,8 +11717,8 @@
       "normalized": "rave",
       "hltv_id": 13414,
       "canonical_hltv_id": 13414,
-      "canonical_name": "rave",
-      "name": "rave",
+      "canonical_name": "Rave",
+      "name": "Rave",
       "name_zh": null,
       "slug": null,
       "rank": null,
@@ -12401,7 +12401,7 @@
       "source_hltv_ids": [
         13623
       ],
-      "sources": "canonical_name,detail_matches_opponent,map_matches_opponent,ranking_snapshots"
+      "sources": "canonical_name,detail_matches_opponent,map_matches_opponent,matches_team2,ranking_snapshots,veto_steps"
     },
     {
       "alias": "Stay Frosty",
@@ -13204,8 +13204,8 @@
       "normalized": "wbt",
       "hltv_id": 13683,
       "canonical_hltv_id": 13683,
-      "canonical_name": "WBT",
-      "name": "WBT",
+      "canonical_name": "wbt",
+      "name": "wbt",
       "name_zh": null,
       "slug": null,
       "rank": null,

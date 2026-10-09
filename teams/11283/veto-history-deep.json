@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:57:37.642Z",
+    "requested_at": "2026-10-09T20:56:07.507Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 11283
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -55,13 +55,13 @@
     "maps": [
       {
         "map_name": "Cache",
-        "count": 14,
-        "empirical_share_of_resolved_sample": 0.7
+        "count": 15,
+        "empirical_share_of_resolved_sample": 0.75
       },
       {
         "map_name": "Overpass",
-        "count": 5,
-        "empirical_share_of_resolved_sample": 0.25
+        "count": 4,
+        "empirical_share_of_resolved_sample": 0.2
       },
       {
         "map_name": "Inferno",
@@ -81,12 +81,12 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 14,
-        "resolved_first_bans": 14,
+        "fact_time_eligible_matches": 15,
+        "resolved_first_bans": 15,
         "first_bans": [
           {
             "map_name": "Cache",
-            "count": 14,
+            "count": 15,
             "empirical_share_of_resolved_pool_sample": 1
           }
         ]
@@ -102,18 +102,18 @@
           "Nuke",
           "Overpass"
         ],
-        "fact_time_eligible_matches": 6,
-        "resolved_first_bans": 6,
+        "fact_time_eligible_matches": 5,
+        "resolved_first_bans": 5,
         "first_bans": [
           {
             "map_name": "Overpass",
-            "count": 5,
-            "empirical_share_of_resolved_pool_sample": 0.8333333333333334
+            "count": 4,
+            "empirical_share_of_resolved_pool_sample": 0.8
           },
           {
             "map_name": "Inferno",
             "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.16666666666666666
+            "empirical_share_of_resolved_pool_sample": 0.2
           }
         ]
       }
@@ -132,8 +132,8 @@
         "Nuke",
         "Overpass"
       ],
-      "match_count": 6,
-      "from": "2026-06-12T15:10:00.000Z",
+      "match_count": 5,
+      "from": "2026-06-13T12:15:00.000Z",
       "to": "2026-06-21T15:00:00.000Z"
     },
     {
@@ -148,9 +148,9 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 14,
+      "match_count": 15,
       "from": "2026-07-22T17:30:00.000Z",
-      "to": "2026-10-06T19:00:00.000Z"
+      "to": "2026-10-09T17:05:00.000Z"
     }
   ],
   "roster_segments": [
@@ -159,11 +159,191 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-06-12T15:10:00.000Z",
-      "to": "2026-10-06T19:00:00.000Z"
+      "from": "2026-06-13T12:15:00.000Z",
+      "to": "2026-10-09T17:05:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398753,
+      "hltv_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-09T17:05:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "opponent": {
+        "hltv_id": 7020,
+        "name": "Spirit"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540049,
+        "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-09T20:52:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Spirit removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Falcons removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Spirit picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Falcons picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7020,
+          "actor_team_name": "Spirit",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Spirit removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Falcons removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540049,
+            "source_url": "https://www.hltv.org/matches/2398753/falcons-vs-spirit-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-09T20:52:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398745,
       "hltv_url": "https://www.hltv.org/matches/2398745/falcons-vs-natus-vincere-esl-pro-league-season-24",
@@ -3553,186 +3733,6 @@
             "source_url": "https://www.hltv.org/matches/2394982/falcons-vs-monte-iem-cologne-major-2026",
             "retrieved_at": "2026-08-12T09:56:07.000Z",
             "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke",
-          "Overpass"
-        ],
-        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Overpass",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2394975,
-      "hltv_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-      "scheduled_at": "2026-06-12T15:10:00.000Z",
-      "event": {
-        "hltv_id": 8301,
-        "name": "IEM Cologne Major 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 11283,
-        "name": "Falcons"
-      },
-      "opponent": {
-        "hltv_id": 12394,
-        "name": "BETBOOM"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940045,
-        "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-        "retrieved_at": "2026-09-25T17:28:25.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 12394,
-          "actor_team_name": "BETBOOM",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. BETBOOM removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 11283,
-          "actor_team_name": "Falcons",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Overpass",
-          "raw_text": "2. Falcons removed Overpass",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 12394,
-          "actor_team_name": "BETBOOM",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. BETBOOM picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 11283,
-          "actor_team_name": "Falcons",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. Falcons picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 11283,
-          "actor_team_name": "Falcons",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. Falcons removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12394,
-          "actor_team_name": "BETBOOM",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. BETBOOM removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940045,
-            "source_url": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
-            "retrieved_at": "2026-09-25T17:28:25.000Z",
-            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"

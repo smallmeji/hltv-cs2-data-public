@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-09T05:58:41.374Z",
+    "requested_at": "2026-10-09T20:57:08.492Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 10577
       }
     ],
-    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "data_cutoff": "2026-10-09T20:55:40.601Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 10577,
   "coverage": {
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 1,
+    "eligible_bo3_matches": 4,
     "eligible_matches_by_format": {
-      "bo1": 4,
-      "bo3": 1,
+      "bo1": 1,
+      "bo3": 4,
       "bo5": 0
     },
     "with_veto": 5,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 1,
+    "eligible_bo3_matches": 4,
     "eligible_matches_by_format": {
-      "bo1": 4,
-      "bo3": 1,
+      "bo1": 1,
+      "bo3": 4,
       "bo5": 0
     },
     "resolved_first_ban_sample_size": 5,
@@ -55,11 +55,16 @@
     "maps": [
       {
         "map_name": "Anubis",
-        "count": 4,
-        "empirical_share_of_resolved_sample": 0.8
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.4
       },
       {
         "map_name": "Inferno",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.4
+      },
+      {
+        "map_name": "Cache",
         "count": 1,
         "empirical_share_of_resolved_sample": 0.2
       }
@@ -81,11 +86,16 @@
         "first_bans": [
           {
             "map_name": "Anubis",
-            "count": 4,
-            "empirical_share_of_resolved_pool_sample": 0.8
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.4
           },
           {
             "map_name": "Inferno",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.4
+          },
+          {
+            "map_name": "Cache",
             "count": 1,
             "empirical_share_of_resolved_pool_sample": 0.2
           }
@@ -107,8 +117,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-10-02T13:00:00.000Z",
-      "to": "2026-10-03T09:00:00.000Z"
+      "from": "2026-10-02T16:40:00.000Z",
+      "to": "2026-10-09T12:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +127,551 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-10-02T13:00:00.000Z",
-      "to": "2026-10-03T09:00:00.000Z"
+      "from": "2026-10-02T16:40:00.000Z",
+      "to": "2026-10-09T12:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398984,
+      "hltv_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-09T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3540054,
+        "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T20:54:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. GamerLegion removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. SINNERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. GamerLegion picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. SINNERS picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3540054,
+            "source_url": "https://www.hltv.org/matches/2398984/gamerlegion-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T20:54:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398406,
+      "hltv_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+      "scheduled_at": "2026-10-08T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9420,
+        "name": "CCT 2026 Europe Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "opponent": {
+        "hltv_id": 13924,
+        "name": "Black Phoenix"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510065,
+        "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+        "retrieved_at": "2026-10-09T06:01:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Black Phoenix removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Black Phoenix picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. SINNERS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Black Phoenix removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510065,
+            "source_url": "https://www.hltv.org/matches/2398406/sinners-vs-black-phoenix-cct-2026-europe-series-10",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398980,
+      "hltv_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+      "scheduled_at": "2026-10-08T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9408,
+        "name": "1win Private Club Season 2 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3510066,
+        "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+        "retrieved_at": "2026-10-09T06:01:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. SINNERS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nemesis removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. SINNERS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Nemesis picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nemesis removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3510066,
+            "source_url": "https://www.hltv.org/matches/2398980/nemesis-vs-sinners-1win-private-club-season-2-closed-qualifier",
+            "retrieved_at": "2026-10-09T06:01:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398968,
       "hltv_url": "https://www.hltv.org/matches/2398968/sinners-vs-ninjas-in-pyjamas-rog-journey-autumn-2026",
@@ -472,546 +1022,6 @@
       },
       "target_first_ban": {
         "step_number": 1,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398914,
-      "hltv_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T15:00:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10577,
-        "name": "SINNERS"
-      },
-      "opponent": {
-        "hltv_id": 13937,
-        "name": "Nordic Partners"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240075,
-        "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:58:49.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13937,
-          "actor_team_name": "Nordic Partners",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. Nordic Partners removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. SINNERS removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13937,
-          "actor_team_name": "Nordic Partners",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "3. Nordic Partners removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "4. SINNERS removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13937,
-          "actor_team_name": "Nordic Partners",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "5. Nordic Partners removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. SINNERS removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240075,
-            "source_url": "https://www.hltv.org/matches/2398914/nordic-partners-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:49.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398912,
-      "hltv_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T14:10:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10577,
-        "name": "SINNERS"
-      },
-      "opponent": {
-        "hltv_id": 13968,
-        "name": "Anteiku"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240076,
-        "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:58:57.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13968,
-          "actor_team_name": "Anteiku",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. Anteiku removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. SINNERS removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13968,
-          "actor_team_name": "Anteiku",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "3. Anteiku removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "4. SINNERS removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13968,
-          "actor_team_name": "Anteiku",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. Anteiku removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "6. SINNERS removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240076,
-            "source_url": "https://www.hltv.org/matches/2398912/anteiku-vs-sinners-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398909,
-      "hltv_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T13:00:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10577,
-        "name": "SINNERS"
-      },
-      "opponent": {
-        "hltv_id": 11251,
-        "name": "Eternal Fire"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240077,
-        "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:58:57.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11251,
-          "actor_team_name": "Eternal Fire",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. Eternal Fire removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. SINNERS removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11251,
-          "actor_team_name": "Eternal Fire",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "3. Eternal Fire removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "4. SINNERS removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 11251,
-          "actor_team_name": "Eternal Fire",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. Eternal Fire removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10577,
-          "actor_team_name": "SINNERS",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. SINNERS removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240077,
-            "source_url": "https://www.hltv.org/matches/2398909/sinners-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:58:57.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
         "map_name": "Anubis",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
