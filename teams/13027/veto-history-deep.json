@@ -1,0 +1,3796 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-09T05:58:45.082Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 13027
+      }
+    ],
+    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "VETO_ACTOR_UNRESOLVED",
+        "message": "1 Veto actor step(s) did not exactly identify one of the current match's two teams."
+      },
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 13027,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 20,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 20,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 19,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 1,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 20,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 20,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Mirage",
+        "count": 13,
+        "empirical_share_of_resolved_sample": 0.65
+      },
+      {
+        "map_name": "Dust2",
+        "count": 3,
+        "empirical_share_of_resolved_sample": 0.15
+      },
+      {
+        "map_name": "Cache",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Inferno",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Nuke",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 19,
+        "resolved_first_bans": 19,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 12,
+            "empirical_share_of_resolved_pool_sample": 0.631578947368421
+          },
+          {
+            "map_name": "Dust2",
+            "count": 3,
+            "empirical_share_of_resolved_pool_sample": 0.15789473684210525
+          },
+          {
+            "map_name": "Cache",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.10526315789473684
+          },
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05263157894736842
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 11,
+      "from": "2026-07-23T13:25:00.000Z",
+      "to": "2026-09-03T15:00:00.000Z"
+    },
+    {
+      "evidence_status": "partial",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage"
+      ],
+      "match_count": 1,
+      "from": "2026-09-04T09:00:00.000Z",
+      "to": "2026-09-04T09:00:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 8,
+      "from": "2026-09-04T15:00:00.000Z",
+      "to": "2026-09-26T15:25:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-07-23T13:25:00.000Z",
+      "to": "2026-09-26T15:25:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398680,
+      "hltv_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-26T15:25:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120062,
+        "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-29T11:42:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Eternal Fire removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120062,
+            "source_url": "https://www.hltv.org/matches/2398680/nuclear-tigeres-vs-eternal-fire-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:42:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397775,
+      "hltv_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-11T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580046,
+        "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:03.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Nuclear TigeRES picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. B8 picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. B8 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580046,
+            "source_url": "https://www.hltv.org/matches/2397775/b8-vs-nuclear-tigeres-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:03.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397773,
+      "hltv_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-11T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940207,
+        "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:39:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. SINNERS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Nuclear TigeRES picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. SINNERS removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940207,
+            "source_url": "https://www.hltv.org/matches/2397773/nuclear-tigeres-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397651,
+      "hltv_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+      "scheduled_at": "2026-09-10T11:10:00.000Z",
+      "event": {
+        "hltv_id": 9360,
+        "name": "1win Private Club Season 1 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940209,
+        "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:39:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Nuclear TigeRES picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. SINNERS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. SINNERS removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940209,
+            "source_url": "https://www.hltv.org/matches/2397651/sinners-vs-nuclear-tigeres-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:39:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397720,
+      "hltv_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-09-09T08:15:00.000Z",
+      "event": {
+        "hltv_id": 9241,
+        "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340059,
+        "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:56.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340059,
+            "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397422,
+      "hltv_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+      "scheduled_at": "2026-09-05T15:10:00.000Z",
+      "event": {
+        "hltv_id": 9281,
+        "name": "Stake Ranked Episode 4 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 4411,
+        "name": "Ninjas in Pyjamas"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2250042,
+        "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+        "retrieved_at": "2026-09-06T08:40:24.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Ninjas in Pyjamas removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Nuclear TigeRES picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Ninjas in Pyjamas picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4411,
+          "actor_team_name": "Ninjas in Pyjamas",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Ninjas in Pyjamas removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Nuclear TigeRES removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250042,
+            "source_url": "https://www.hltv.org/matches/2397422/ninjas-in-pyjamas-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397335,
+      "hltv_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-04T18:40:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2220045,
+        "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-05T07:14:42.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nuclear TigeRES picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. HEROIC picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. HEROIC removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220045,
+            "source_url": "https://www.hltv.org/matches/2397335/nuclear-tigeres-vs-heroic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397333,
+      "hltv_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-04T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2220043,
+        "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-05T07:14:41.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Nuclear TigeRES picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2220043,
+            "source_url": "https://www.hltv.org/matches/2397333/b8-vs-nuclear-tigeres-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-05T07:14:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397416,
+      "hltv_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+      "scheduled_at": "2026-09-04T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9281,
+        "name": "Stake Ranked Episode 4 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2130047,
+        "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+        "retrieved_at": "2026-09-04T14:01:45.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Nuclear TigeRES picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. INFINITE picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. INFINITE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": null,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "unmatched",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Falcons removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2130047,
+            "source_url": "https://www.hltv.org/matches/2397416/infinite-vs-nuclear-tigeres-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-04T14:01:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "partial",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397327,
+      "hltv_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-03T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2100058,
+        "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-04T07:38:46.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Eternal Fire picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Eternal Fire removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100058,
+            "source_url": "https://www.hltv.org/matches/2397327/nuclear-tigeres-vs-eternal-fire-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:46.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397316,
+      "hltv_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T16:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 13592,
+        "name": "magic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040052,
+        "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-03T07:59:58.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. magic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. magic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13592,
+          "actor_team_name": "magic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. magic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040052,
+            "source_url": "https://www.hltv.org/matches/2397316/nuclear-tigeres-vs-magic-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396741,
+      "hltv_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-01T17:30:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 13973,
+        "name": "Color"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1980050,
+        "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-02T06:47:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Color removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Color picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Nuclear TigeRES picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Color removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980050,
+            "source_url": "https://www.hltv.org/matches/2396741/nuclear-tigeres-vs-color-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397061,
+      "hltv_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-09-01T09:10:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1980047,
+        "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-02T06:47:07.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 1win picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Nuclear TigeRES removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980047,
+            "source_url": "https://www.hltv.org/matches/2397061/nuclear-tigeres-vs-1win-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397058,
+      "hltv_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-08-31T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920054,
+        "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-01T06:04:47.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nuclear TigeRES picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Nemesis picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Nemesis removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920054,
+            "source_url": "https://www.hltv.org/matches/2397058/nemesis-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:47.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397056,
+      "hltv_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-08-30T15:30:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1890043,
+        "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-08-31T05:32:22.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1890043,
+            "source_url": "https://www.hltv.org/matches/2397056/k27-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-08-31T05:32:22.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397050,
+      "hltv_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-08-28T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920055,
+        "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-01T06:04:59.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nemiga removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Nemiga picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Nuclear TigeRES picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Nuclear TigeRES removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920055,
+            "source_url": "https://www.hltv.org/matches/2397050/nemiga-vs-nuclear-tigeres-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:04:59.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397041,
+      "hltv_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-08-26T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 13619,
+        "name": "BET-M"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920056,
+        "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-01T06:05:09.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. BET-M removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Nuclear TigeRES removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. BET-M picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Nuclear TigeRES picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13619,
+          "actor_team_name": "BET-M",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. BET-M removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920056,
+            "source_url": "https://www.hltv.org/matches/2397041/nuclear-tigeres-vs-bet-m-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-01T06:05:09.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397080,
+      "hltv_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+      "scheduled_at": "2026-08-24T17:30:00.000Z",
+      "event": {
+        "hltv_id": 9294,
+        "name": "IEM Beijing 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 12380,
+        "name": "CYBERSHOKE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920057,
+        "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+        "retrieved_at": "2026-09-01T06:05:21.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Nuclear TigeRES removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. CYBERSHOKE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nuclear TigeRES picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. CYBERSHOKE picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. CYBERSHOKE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920057,
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "retrieved_at": "2026-09-01T06:05:21.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395877,
+      "hltv_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+      "scheduled_at": "2026-08-06T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9277,
+        "name": "NODWIN Clutch Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120113,
+        "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+        "retrieved_at": "2026-09-29T11:44:53.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Nuclear TigeRES removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396068,
+      "hltv_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+      "scheduled_at": "2026-07-23T13:25:00.000Z",
+      "event": {
+        "hltv_id": 9286,
+        "name": "StarLadder StarSeries Fall 2026 Europe Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "opponent": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940185,
+        "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:38:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nuclear TigeRES removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. 100 Thieves removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nuclear TigeRES picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 100 Thieves picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nuclear TigeRES removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940185,
+            "source_url": "https://www.hltv.org/matches/2396068/100-thieves-vs-nuclear-tigeres-starladder-starseries-fall-2026-europe-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

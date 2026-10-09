@@ -1,0 +1,3722 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-09T05:58:43.378Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 12895
+      }
+    ],
+    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 12895,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 18,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 18,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 18,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Inferno",
+        "count": 20,
+        "empirical_share_of_resolved_sample": 1
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 20,
+            "empirical_share_of_resolved_pool_sample": 1
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-09-06T14:00:00.000Z",
+      "to": "2026-10-02T17:50:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-09-06T14:00:00.000Z",
+      "to": "2026-10-02T17:50:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398797,
+      "hltv_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-10-02T17:50:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240073,
+        "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-03T00:58:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nemesis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. K27 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "5. Nemesis picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "6. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240073,
+            "source_url": "https://www.hltv.org/matches/2398797/k27-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398795,
+      "hltv_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-10-02T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 13989,
+        "name": "UPGRADE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240074,
+        "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-03T00:58:46.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13989,
+          "actor_team_name": "UPGRADE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. UPGRADE removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13989,
+          "actor_team_name": "UPGRADE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. UPGRADE picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13989,
+          "actor_team_name": "UPGRADE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. UPGRADE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240074,
+            "source_url": "https://www.hltv.org/matches/2398795/upgrade-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-03T00:58:46.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398792,
+      "hltv_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-10-01T12:30:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 14030,
+        "name": "PRIVATE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180059,
+        "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-01T17:02:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. PRIVATE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. PRIVATE picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14030,
+          "actor_team_name": "PRIVATE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. PRIVATE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. K27 removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180059,
+            "source_url": "https://www.hltv.org/matches/2398792/private-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398788,
+      "hltv_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-30T17:45:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 12380,
+        "name": "CYBERSHOKE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180060,
+        "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-01T17:02:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. CYBERSHOKE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. CYBERSHOKE picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. CYBERSHOKE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180060,
+            "source_url": "https://www.hltv.org/matches/2398788/cybershoke-vs-k27-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398786,
+      "hltv_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-30T14:30:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 11699,
+        "name": "BAKS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180061,
+        "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-01T17:02:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11699,
+          "actor_team_name": "BAKS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BAKS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11699,
+          "actor_team_name": "BAKS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BAKS picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11699,
+          "actor_team_name": "BAKS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BAKS removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180061,
+            "source_url": "https://www.hltv.org/matches/2398786/k27-vs-baks-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398684,
+      "hltv_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-27T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3060053,
+        "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-28T05:59:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Eternal Fire picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. K27 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. K27 removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Eternal Fire removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3060053,
+            "source_url": "https://www.hltv.org/matches/2398684/eternal-fire-vs-k27-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-28T05:59:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398241,
+      "hltv_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+      "scheduled_at": "2026-09-27T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3030045,
+        "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+        "retrieved_at": "2026-09-27T15:17:59.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. SINNERS picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. SINNERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3030045,
+            "source_url": "https://www.hltv.org/matches/2398241/k27-vs-sinners-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T15:17:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398682,
+      "hltv_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-26T18:20:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 13617,
+        "name": "ex-RUBY"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000058,
+        "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-27T06:08:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13617,
+          "actor_team_name": "ex-RUBY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ex-RUBY removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13617,
+          "actor_team_name": "ex-RUBY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. ex-RUBY picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13617,
+          "actor_team_name": "ex-RUBY",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. ex-RUBY removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000058,
+            "source_url": "https://www.hltv.org/matches/2398682/k27-vs-ex-ruby-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-27T06:08:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398237,
+      "hltv_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+      "scheduled_at": "2026-09-26T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 11737,
+        "name": "EYEBALLERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3000057,
+        "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+        "retrieved_at": "2026-09-27T06:08:07.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. EYEBALLERS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. EYEBALLERS picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11737,
+          "actor_team_name": "EYEBALLERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. EYEBALLERS removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3000057,
+            "source_url": "https://www.hltv.org/matches/2398237/eyeballers-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-27T06:08:07.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398096,
+      "hltv_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+      "scheduled_at": "2026-09-25T20:55:00.000Z",
+      "event": {
+        "hltv_id": 9327,
+        "name": "1win Private Club Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 9928,
+        "name": "GamerLegion"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2970046,
+        "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+        "retrieved_at": "2026-09-26T07:48:25.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. GamerLegion removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. GamerLegion picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9928,
+          "actor_team_name": "GamerLegion",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. GamerLegion removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2970046,
+            "source_url": "https://www.hltv.org/matches/2398096/gamerlegion-vs-k27-1win-private-club-season-1",
+            "retrieved_at": "2026-09-26T07:48:25.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398675,
+      "hltv_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-24T15:10:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 12380,
+        "name": "CYBERSHOKE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940184,
+        "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-25T17:38:11.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. CYBERSHOKE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. CYBERSHOKE picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. K27 picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12380,
+          "actor_team_name": "CYBERSHOKE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. CYBERSHOKE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940184,
+            "source_url": "https://www.hltv.org/matches/2398675/k27-vs-cybershoke-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-25T17:38:11.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397872,
+      "hltv_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-11T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 5378,
+        "name": "Virtus.pro"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2580050,
+        "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-11T19:56:19.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Virtus.pro removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Virtus.pro picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. K27 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Virtus.pro removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2580050,
+            "source_url": "https://www.hltv.org/matches/2397872/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-11T19:56:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397652,
+      "hltv_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+      "scheduled_at": "2026-09-10T14:15:00.000Z",
+      "event": {
+        "hltv_id": 9360,
+        "name": "1win Private Club Season 1 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2550047,
+        "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+        "retrieved_at": "2026-09-11T06:13:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Nemiga removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nemiga picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. K27 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2550047,
+            "source_url": "https://www.hltv.org/matches/2397652/nemiga-vs-k27-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-11T06:13:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397866,
+      "hltv_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-10T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520048,
+        "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-10T16:11:19.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. HEROIC picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HEROIC removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520048,
+            "source_url": "https://www.hltv.org/matches/2397866/heroic-vs-k27-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:19.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397650,
+      "hltv_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+      "scheduled_at": "2026-09-09T18:20:00.000Z",
+      "event": {
+        "hltv_id": 9360,
+        "name": "1win Private Club Season 1 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 12967,
+        "name": "WW"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2490052,
+        "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+        "retrieved_at": "2026-09-10T10:33:18.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12967,
+          "actor_team_name": "WW",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. WW removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12967,
+          "actor_team_name": "WW",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. WW picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12967,
+          "actor_team_name": "WW",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. WW removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. K27 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490052,
+            "source_url": "https://www.hltv.org/matches/2397650/k27-vs-ww-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:18.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397857,
+      "hltv_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-09T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 5378,
+        "name": "Virtus.pro"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340058,
+        "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:53.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Virtus.pro removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Virtus.pro picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Virtus.pro removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340058,
+            "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397645,
+      "hltv_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+      "scheduled_at": "2026-09-08T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9360,
+        "name": "1win Private Club Season 1 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 13304,
+        "name": "LP"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310051,
+        "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+        "retrieved_at": "2026-09-08T17:54:00.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13304,
+          "actor_team_name": "LP",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. LP removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13304,
+          "actor_team_name": "LP",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. LP picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. K27 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. K27 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13304,
+          "actor_team_name": "LP",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. LP removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310051,
+            "source_url": "https://www.hltv.org/matches/2397645/k27-vs-lp-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:54:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397638,
+      "hltv_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+      "scheduled_at": "2026-09-06T17:30:00.000Z",
+      "event": {
+        "hltv_id": 9368,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 10577,
+        "name": "SINNERS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2280048,
+        "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+        "retrieved_at": "2026-09-07T14:42:53.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. SINNERS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. SINNERS picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10577,
+          "actor_team_name": "SINNERS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. SINNERS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. K27 removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280048,
+            "source_url": "https://www.hltv.org/matches/2397638/k27-vs-sinners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:53.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397635,
+      "hltv_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+      "scheduled_at": "2026-09-06T15:15:00.000Z",
+      "event": {
+        "hltv_id": 9368,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 13937,
+        "name": "Nordic Partners"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2280049,
+        "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+        "retrieved_at": "2026-09-07T14:42:54.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Nordic Partners removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Nordic Partners picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. K27 picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. K27 removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13937,
+          "actor_team_name": "Nordic Partners",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nordic Partners removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280049,
+            "source_url": "https://www.hltv.org/matches/2397635/k27-vs-nordic-partners-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:42:54.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397629,
+      "hltv_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+      "scheduled_at": "2026-09-06T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9368,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12895,
+        "name": "K27"
+      },
+      "opponent": {
+        "hltv_id": 13908,
+        "name": "Butterfly"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2280050,
+        "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+        "retrieved_at": "2026-09-07T14:43:04.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13908,
+          "actor_team_name": "Butterfly",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Butterfly removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13908,
+          "actor_team_name": "Butterfly",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Butterfly removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. K27 removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. K27 removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12895,
+          "actor_team_name": "K27",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. K27 removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13908,
+          "actor_team_name": "Butterfly",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Butterfly removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2280050,
+            "source_url": "https://www.hltv.org/matches/2397629/k27-vs-butterfly-pgl-masters-bucharest-2026-europe-open-qualifier-2",
+            "retrieved_at": "2026-09-07T14:43:04.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

@@ -1,0 +1,3752 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-09T05:58:37.479Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 11581
+      }
+    ],
+    "data_cutoff": "2026-10-09T05:57:08.843Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 11581,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 19,
+      "bo5": 1
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
+    "eligible_matches_by_format": {
+      "bo1": 0,
+      "bo3": 19,
+      "bo5": 1
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Inferno",
+        "count": 16,
+        "empirical_share_of_resolved_sample": 0.8
+      },
+      {
+        "map_name": "Mirage",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Anubis",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Nuke",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 16,
+            "empirical_share_of_resolved_pool_sample": 0.8
+          },
+          {
+            "map_name": "Mirage",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.1
+          },
+          {
+            "map_name": "Anubis",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-31T14:00:00.000Z",
+      "to": "2026-10-01T16:00:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-31T14:00:00.000Z",
+      "to": "2026-10-01T16:00:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398793,
+      "hltv_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-10-01T16:00:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3210054,
+        "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-01T21:44:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nemesis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. HOTU picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Nemesis removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. HOTU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3210054,
+            "source_url": "https://www.hltv.org/matches/2398793/hotu-vs-nemesis-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T21:44:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398775,
+      "hltv_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-29T11:40:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13924,
+        "name": "Black Phoenix"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3180057,
+        "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-10-01T17:02:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Black Phoenix removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Black Phoenix picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Black Phoenix removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3180057,
+            "source_url": "https://www.hltv.org/matches/2398775/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-10-01T17:02:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398774,
+      "hltv_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-29T08:40:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 14064,
+        "name": "Refresher"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120052,
+        "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-09-29T11:41:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14064,
+          "actor_team_name": "Refresher",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Refresher removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14064,
+          "actor_team_name": "Refresher",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Refresher picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14064,
+          "actor_team_name": "Refresher",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Refresher removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120052,
+            "source_url": "https://www.hltv.org/matches/2398774/refresher-vs-hotu-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398771,
+      "hltv_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+      "scheduled_at": "2026-09-29T06:00:00.000Z",
+      "event": {
+        "hltv_id": 9361,
+        "name": "WINLINE MPKBK CIS LAN Season 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13924,
+        "name": "Black Phoenix"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120054,
+        "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+        "retrieved_at": "2026-09-29T11:41:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Black Phoenix removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Black Phoenix picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13924,
+          "actor_team_name": "Black Phoenix",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Black Phoenix removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120054,
+            "source_url": "https://www.hltv.org/matches/2398771/hotu-vs-black-phoenix-winline-mpkbk-cis-lan-season-8",
+            "retrieved_at": "2026-09-29T11:41:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397882,
+      "hltv_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-13T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 5378,
+        "name": "Virtus.pro"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2730046,
+        "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-16T04:38:54.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Virtus.pro removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Virtus.pro picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "5. Virtus.pro picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "6. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730046,
+            "source_url": "https://www.hltv.org/matches/2397882/hotu-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:38:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397881,
+      "hltv_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-13T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2700044,
+        "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-13T17:00:47.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BBL picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BBL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700044,
+            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T17:00:47.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397878,
+      "hltv_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-12T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2670047,
+        "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-13T07:17:23.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. 100 Thieves picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. 100 Thieves removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2670047,
+            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-13T07:17:23.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397867,
+      "hltv_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-10T11:45:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2520049,
+        "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-10T16:11:21.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Nemesis picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Nemesis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2520049,
+            "source_url": "https://www.hltv.org/matches/2397867/hotu-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-10T16:11:21.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397649,
+      "hltv_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+      "scheduled_at": "2026-09-09T12:15:00.000Z",
+      "event": {
+        "hltv_id": 9360,
+        "name": "1win Private Club Season 1 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340053,
+        "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:41.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HOTU removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nemiga picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Nemiga removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340053,
+            "source_url": "https://www.hltv.org/matches/2397649/hotu-vs-nemiga-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:41.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397856,
+      "hltv_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+      "scheduled_at": "2026-09-09T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9308,
+        "name": "Thunderpick World Championship 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 12257,
+        "name": "Wildcard"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2340054,
+        "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+        "retrieved_at": "2026-09-09T17:54:45.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Wildcard removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Wildcard picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Wildcard removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. HOTU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2340054,
+            "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
+            "retrieved_at": "2026-09-09T17:54:45.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397643,
+      "hltv_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+      "scheduled_at": "2026-09-08T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9360,
+        "name": "1win Private Club Season 1 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310050,
+        "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+        "retrieved_at": "2026-09-08T17:53:58.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Betclic removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. HOTU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Betclic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. HOTU picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. HOTU removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310050,
+            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
+            "retrieved_at": "2026-09-08T17:53:58.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397421,
+      "hltv_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+      "scheduled_at": "2026-09-05T12:10:00.000Z",
+      "event": {
+        "hltv_id": 9281,
+        "name": "Stake Ranked Episode 4 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2250043,
+        "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+        "retrieved_at": "2026-09-06T08:40:24.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. FOKUS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. FOKUS picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. HOTU picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. FOKUS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2250043,
+            "source_url": "https://www.hltv.org/matches/2397421/fokus-vs-hotu-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-06T08:40:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397417,
+      "hltv_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+      "scheduled_at": "2026-09-04T11:55:00.000Z",
+      "event": {
+        "hltv_id": 9281,
+        "name": "Stake Ranked Episode 4 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 11251,
+        "name": "Eternal Fire"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2490049,
+        "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+        "retrieved_at": "2026-09-10T10:33:09.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Eternal Fire removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Eternal Fire picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. HOTU removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11251,
+          "actor_team_name": "Eternal Fire",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Eternal Fire removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2490049,
+            "source_url": "https://www.hltv.org/matches/2397417/hotu-vs-eternal-fire-stake-ranked-episode-4-closed-qualifier",
+            "retrieved_at": "2026-09-10T10:33:09.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396748,
+      "hltv_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-03T18:00:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 4914,
+        "name": "3DMAX"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2100050,
+        "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-04T07:38:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. 3DMAX removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. 3DMAX picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. HOTU picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4914,
+          "actor_team_name": "3DMAX",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. 3DMAX removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. HOTU removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100050,
+            "source_url": "https://www.hltv.org/matches/2396748/3dmax-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397328,
+      "hltv_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-03T15:00:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2100049,
+        "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-04T07:38:18.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. HOTU removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2100049,
+            "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-04T07:38:18.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396747,
+      "hltv_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+      "scheduled_at": "2026-09-03T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2070048,
+        "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-03T13:26:39.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Nemesis picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Nemesis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2070048,
+            "source_url": "https://www.hltv.org/matches/2396747/nemesis-vs-hotu-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-03T13:26:39.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397319,
+      "hltv_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T18:20:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 7969,
+        "name": "Nemiga"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040055,
+        "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-03T08:00:00.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Nemiga removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Nemiga picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 7969,
+          "actor_team_name": "Nemiga",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Nemiga removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040055,
+            "source_url": "https://www.hltv.org/matches/2397319/hotu-vs-nemiga-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T08:00:00.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397312,
+      "hltv_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+      "scheduled_at": "2026-09-02T12:15:00.000Z",
+      "event": {
+        "hltv_id": 9293,
+        "name": "IEM Beijing 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 4773,
+        "name": "paiN"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2040049,
+        "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+        "retrieved_at": "2026-09-03T07:59:42.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. paiN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. paiN picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. paiN removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2040049,
+            "source_url": "https://www.hltv.org/matches/2397312/hotu-vs-pain-iem-beijing-2026-closed-qualifier",
+            "retrieved_at": "2026-09-03T07:59:42.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397062,
+      "hltv_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+      "scheduled_at": "2026-09-01T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9349,
+        "name": "GLuck Moscow Cyber Games 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13973,
+        "name": "Color"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1980049,
+        "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+        "retrieved_at": "2026-09-02T06:47:08.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Color removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Color picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. HOTU picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Color removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1980049,
+            "source_url": "https://www.hltv.org/matches/2397062/hotu-vs-color-gluck-moscow-cyber-games-2026-closed-qualifier",
+            "retrieved_at": "2026-09-02T06:47:08.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396736,
+      "hltv_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+      "scheduled_at": "2026-08-31T14:00:00.000Z",
+      "event": {
+        "hltv_id": 9315,
+        "name": "NODWIN Clutch Series 11"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "opponent": {
+        "hltv_id": 13989,
+        "name": "UPGRADE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1920052,
+        "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+        "retrieved_at": "2026-09-01T06:04:24.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13989,
+          "actor_team_name": "UPGRADE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. UPGRADE removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13989,
+          "actor_team_name": "UPGRADE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. UPGRADE picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. HOTU picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13989,
+          "actor_team_name": "UPGRADE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. UPGRADE removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1920052,
+            "source_url": "https://www.hltv.org/matches/2396736/hotu-vs-upgrade-nodwin-clutch-series-11",
+            "retrieved_at": "2026-09-01T06:04:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}
