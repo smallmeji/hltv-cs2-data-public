@@ -1,0 +1,3732 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-10T21:12:11.457Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 11712
+      }
+    ],
+    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 11712,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 19,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
+    "eligible_matches_by_format": {
+      "bo1": 1,
+      "bo3": 19,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Mirage",
+        "count": 15,
+        "empirical_share_of_resolved_sample": 0.75
+      },
+      {
+        "map_name": "Dust2",
+        "count": 5,
+        "empirical_share_of_resolved_sample": 0.25
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 20,
+        "resolved_first_bans": 20,
+        "first_bans": [
+          {
+            "map_name": "Mirage",
+            "count": 15,
+            "empirical_share_of_resolved_pool_sample": 0.75
+          },
+          {
+            "map_name": "Dust2",
+            "count": 5,
+            "empirical_share_of_resolved_pool_sample": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 20,
+      "from": "2026-08-06T08:00:00.000Z",
+      "to": "2026-10-02T16:40:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-08-06T08:00:00.000Z",
+      "to": "2026-10-02T16:40:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398961,
+      "hltv_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T16:40:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240089,
+        "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:27.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Sashi removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398681,
+      "hltv_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-26T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13355,
+        "name": "Nemesis"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120104,
+        "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-29T11:44:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Nemesis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Sashi picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Nemesis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13355,
+          "actor_team_name": "Nemesis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Nemesis removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120104,
+            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398678,
+      "hltv_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+      "scheduled_at": "2026-09-25T18:20:00.000Z",
+      "event": {
+        "hltv_id": 9342,
+        "name": "Stake Ranked Episode 5 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 10278,
+        "name": "9INE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120105,
+        "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+        "retrieved_at": "2026-09-29T11:44:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10278,
+          "actor_team_name": "9INE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. 9INE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10278,
+          "actor_team_name": "9INE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. 9INE picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10278,
+          "actor_team_name": "9INE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 9INE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120105,
+            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
+            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398057,
+      "hltv_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-21T13:30:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2940191,
+        "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-25T17:38:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Sangal picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Sashi removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2940191,
+            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398011,
+      "hltv_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-21T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120070,
+        "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+        "retrieved_at": "2026-09-29T11:42:26.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FOKUS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. FOKUS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. FOKUS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Sashi removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120070,
+            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
+            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397291,
+      "hltv_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+      "scheduled_at": "2026-09-14T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9352,
+        "name": "CCT 2026 Europe Series 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13973,
+        "name": "Color"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2910056,
+        "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+        "retrieved_at": "2026-09-20T11:51:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Color removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Color picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13973,
+          "actor_team_name": "Color",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Color removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Sashi removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910056,
+            "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397286,
+      "hltv_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+      "scheduled_at": "2026-09-13T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9352,
+        "name": "CCT 2026 Europe Series 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2700048,
+        "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+        "retrieved_at": "2026-09-13T17:01:01.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. FOKUS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. FOKUS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. FOKUS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Sashi removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2700048,
+            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-13T17:01:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397282,
+      "hltv_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+      "scheduled_at": "2026-09-12T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9352,
+        "name": "CCT 2026 Europe Series 8"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13054,
+        "name": "PCIFIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2910058,
+        "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+        "retrieved_at": "2026-09-20T11:51:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13054,
+          "actor_team_name": "PCIFIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. PCIFIC removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13054,
+          "actor_team_name": "PCIFIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. PCIFIC picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13054,
+          "actor_team_name": "PCIFIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. PCIFIC removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Sashi removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910058,
+            "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397217,
+      "hltv_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+      "scheduled_at": "2026-09-04T14:15:00.000Z",
+      "event": {
+        "hltv_id": 9267,
+        "name": "Logitech G Play Connect 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 11641,
+        "name": "Metizport"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2730063,
+        "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+        "retrieved_at": "2026-09-16T04:39:40.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Metizport removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. Metizport picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11641,
+          "actor_team_name": "Metizport",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Metizport removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2730063,
+            "source_url": "https://www.hltv.org/matches/2397217/metizport-vs-sashi-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-16T04:39:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397212,
+      "hltv_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+      "scheduled_at": "2026-09-03T11:15:00.000Z",
+      "event": {
+        "hltv_id": 9267,
+        "name": "Logitech G Play Connect 2026 Closed Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13333,
+        "name": "ASTRAL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2910059,
+        "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+        "retrieved_at": "2026-09-20T11:51:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. ASTRAL removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. ASTRAL picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. ASTRAL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2910059,
+            "source_url": "https://www.hltv.org/matches/2397212/sashi-vs-astral-logitech-g-play-connect-2026-closed-qualifier",
+            "retrieved_at": "2026-09-20T11:51:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396793,
+      "hltv_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+      "scheduled_at": "2026-08-29T17:00:00.000Z",
+      "event": {
+        "hltv_id": 9325,
+        "name": "Exort Fiesta Series 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13814,
+        "name": "INOX Division"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120106,
+        "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+        "retrieved_at": "2026-09-29T11:44:38.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. INOX Division removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. INOX Division picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13814,
+          "actor_team_name": "INOX Division",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. INOX Division removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120106,
+            "source_url": "https://www.hltv.org/matches/2396793/sashi-vs-inox-division-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396681,
+      "hltv_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+      "scheduled_at": "2026-08-28T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9324,
+        "name": "CCT 2026 Europe Series 7"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13901,
+        "name": "ex-RUSTEC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120107,
+        "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+        "retrieved_at": "2026-09-29T11:44:39.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13901,
+          "actor_team_name": "ex-RUSTEC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. ex-RUSTEC removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13901,
+          "actor_team_name": "ex-RUSTEC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. ex-RUSTEC picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13901,
+          "actor_team_name": "ex-RUSTEC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. ex-RUSTEC removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Sashi removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120107,
+            "source_url": "https://www.hltv.org/matches/2396681/sashi-vs-ex-rustec-cct-2026-europe-series-7",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396783,
+      "hltv_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+      "scheduled_at": "2026-08-27T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9325,
+        "name": "Exort Fiesta Series 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13761,
+        "name": "Vexar"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120108,
+        "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+        "retrieved_at": "2026-09-29T11:44:39.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13761,
+          "actor_team_name": "Vexar",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Vexar removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13761,
+          "actor_team_name": "Vexar",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. Vexar picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13761,
+          "actor_team_name": "Vexar",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Vexar removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120108,
+            "source_url": "https://www.hltv.org/matches/2396783/sashi-vs-vexar-exort-fiesta-series-1",
+            "retrieved_at": "2026-09-29T11:44:39.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396556,
+      "hltv_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T15:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 7532,
+        "name": "BIG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350112,
+        "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:01:34.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BIG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. BIG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7532,
+          "actor_team_name": "BIG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BIG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350112,
+            "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:01:34.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396549,
+      "hltv_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T12:30:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350202,
+        "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:09:56.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Betclic picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Betclic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350202,
+            "source_url": "https://www.hltv.org/matches/2396549/betclic-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:09:56.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396535,
+      "hltv_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8762,
+        "name": "Esports World Cup 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 5378,
+        "name": "Virtus.pro"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120109,
+        "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-09-29T11:44:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Virtus.pro removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Virtus.pro picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5378,
+          "actor_team_name": "Virtus.pro",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Virtus.pro removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120109,
+            "source_url": "https://www.hltv.org/matches/2396535/virtuspro-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396519,
+      "hltv_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-08T11:30:00.000Z",
+      "event": {
+        "hltv_id": 8762,
+        "name": "Esports World Cup 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 11838,
+        "name": "Partizan"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120110,
+        "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-09-29T11:44:43.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11838,
+          "actor_team_name": "Partizan",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Partizan removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11838,
+          "actor_team_name": "Partizan",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Partizan picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11838,
+          "actor_team_name": "Partizan",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Partizan removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Sashi removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120110,
+            "source_url": "https://www.hltv.org/matches/2396519/partizan-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:43.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396507,
+      "hltv_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-08T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8762,
+        "name": "Esports World Cup 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120111,
+        "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-09-29T11:44:49.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. FOKUS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Sashi picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. FOKUS picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. FOKUS removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120111,
+            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396492,
+      "hltv_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T16:00:00.000Z",
+      "event": {
+        "hltv_id": 8762,
+        "name": "Esports World Cup 2026 Open Qualifier"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13963,
+        "name": "Orion Wanderers"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120112,
+        "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-09-29T11:44:52.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13963,
+          "actor_team_name": "Orion Wanderers",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Orion Wanderers removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "2. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13963,
+          "actor_team_name": "Orion Wanderers",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Orion Wanderers picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13963,
+          "actor_team_name": "Orion Wanderers",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Orion Wanderers removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120112,
+            "source_url": "https://www.hltv.org/matches/2396492/orion-wanderers-vs-sashi-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-09-29T11:44:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395877,
+      "hltv_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+      "scheduled_at": "2026-08-06T08:00:00.000Z",
+      "event": {
+        "hltv_id": 9277,
+        "name": "NODWIN Clutch Series 10"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13027,
+        "name": "Nuclear TigeRES"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120113,
+        "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+        "retrieved_at": "2026-09-29T11:44:53.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Nuclear TigeRES removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Nuclear TigeRES picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13027,
+          "actor_team_name": "Nuclear TigeRES",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Nuclear TigeRES removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120113,
+            "source_url": "https://www.hltv.org/matches/2395877/sashi-vs-nuclear-tigeres-nodwin-clutch-series-10",
+            "retrieved_at": "2026-09-29T11:44:53.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}

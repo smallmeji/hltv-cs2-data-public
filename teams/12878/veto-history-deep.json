@@ -1,0 +1,3799 @@
+{
+  "metadata": {
+    "schema_version": "hltv-cs2-data.v1",
+    "requested_at": "2026-10-10T21:12:09.953Z",
+    "source_policy": "exact_hltv_match_identity",
+    "roster_source_windows": [
+      {
+        "hltvTeamId": 12878
+      }
+    ],
+    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
+    "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
+    "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
+    "warnings": [
+      {
+        "code": "ROSTER_MISSING",
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
+      }
+    ]
+  },
+  "team_hltv_id": 12878,
+  "coverage": {
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 10,
+    "eligible_matches_by_format": {
+      "bo1": 10,
+      "bo3": 10,
+      "bo5": 0
+    },
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
+    "missing_veto": 0,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
+    "unresolved_actor_steps": 0,
+    "reconstructed_after_cutoff_matches": 0,
+    "source_time_unknown_matches": 0,
+    "roster_present_matches": 0,
+    "roster_retrieved_by_cutoff_matches": 0,
+    "roster_missing_matches": 20
+  },
+  "first_ban_summary": {
+    "status": "available",
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 10,
+    "eligible_matches_by_format": {
+      "bo1": 10,
+      "bo3": 10,
+      "bo5": 0
+    },
+    "resolved_first_ban_sample_size": 20,
+    "coverage_ratio": 1,
+    "maps": [
+      {
+        "map_name": "Ancient",
+        "count": 15,
+        "empirical_share_of_resolved_sample": 0.75
+      },
+      {
+        "map_name": "Anubis",
+        "count": 2,
+        "empirical_share_of_resolved_sample": 0.1
+      },
+      {
+        "map_name": "Cache",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Inferno",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      },
+      {
+        "map_name": "Nuke",
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.05
+      }
+    ],
+    "by_map_pool_signature": [
+      {
+        "map_pool_signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "fact_time_eligible_matches": 16,
+        "resolved_first_bans": 16,
+        "first_bans": [
+          {
+            "map_name": "Ancient",
+            "count": 13,
+            "empirical_share_of_resolved_pool_sample": 0.8125
+          },
+          {
+            "map_name": "Anubis",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.125
+          },
+          {
+            "map_name": "Cache",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.0625
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 4,
+        "resolved_first_bans": 4,
+        "first_bans": [
+          {
+            "map_name": "Ancient",
+            "count": 2,
+            "empirical_share_of_resolved_pool_sample": 0.5
+          },
+          {
+            "map_name": "Inferno",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.25
+          },
+          {
+            "map_name": "Nuke",
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 4,
+      "from": "2026-05-11T18:00:00.000Z",
+      "to": "2026-05-21T06:55:00.000Z"
+    },
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_count": 16,
+      "from": "2026-07-31T09:35:00.000Z",
+      "to": "2026-10-02T16:40:00.000Z"
+    }
+  ],
+  "roster_segments": [
+    {
+      "identity_status": "missing",
+      "signature": null,
+      "members": [],
+      "match_count": 20,
+      "from": "2026-05-11T18:00:00.000Z",
+      "to": "2026-10-02T16:40:00.000Z"
+    }
+  ],
+  "matches": [
+    {
+      "hltv_match_id": 2398961,
+      "hltv_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T16:40:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240089,
+        "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:27.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Sashi removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240089,
+            "source_url": "https://www.hltv.org/matches/2398961/bcgame-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398958,
+      "hltv_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T15:40:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13181,
+        "name": "BASEMENT BOYS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240088,
+        "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:27.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BASEMENT BOYS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. BASEMENT BOYS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BASEMENT BOYS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BC.Game removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240088,
+            "source_url": "https://www.hltv.org/matches/2398958/bcgame-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398955,
+      "hltv_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T14:35:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13499,
+        "name": "Voca"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240090,
+        "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:29.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Voca removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Voca removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Voca removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240090,
+            "source_url": "https://www.hltv.org/matches/2398955/bcgame-vs-voca-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:29.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398952,
+      "hltv_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T13:05:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13159,
+        "name": "Prestige"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240092,
+        "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13159,
+          "actor_team_name": "Prestige",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. Prestige removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13159,
+          "actor_team_name": "Prestige",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "3. Prestige removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13159,
+          "actor_team_name": "Prestige",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Prestige removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240092,
+            "source_url": "https://www.hltv.org/matches/2398952/bcgame-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398949,
+      "hltv_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 14077,
+        "name": "Glitch"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3240093,
+        "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-03T00:59:41.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 14077,
+          "actor_team_name": "Glitch",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Glitch removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 14077,
+          "actor_team_name": "Glitch",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Glitch removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 14077,
+          "actor_team_name": "Glitch",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Glitch removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3240093,
+            "source_url": "https://www.hltv.org/matches/2398949/bcgame-vs-glitch-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-03T00:59:41.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397545,
+      "hltv_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+      "scheduled_at": "2026-09-04T15:20:00.000Z",
+      "event": {
+        "hltv_id": 9367,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13679,
+        "name": "FOKUS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 2310059,
+        "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+        "retrieved_at": "2026-09-08T17:54:25.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. FOKUS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. FOKUS picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. BC.Game picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BC.Game removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13679,
+          "actor_team_name": "FOKUS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. FOKUS removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 2310059,
+            "source_url": "https://www.hltv.org/matches/2397545/fokus-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-08T17:54:25.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2397538,
+      "hltv_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+      "scheduled_at": "2026-09-04T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9367,
+        "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 11609,
+        "name": "GenOne"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120077,
+        "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+        "retrieved_at": "2026-09-29T11:42:45.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. GenOne removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. GenOne removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. BC.Game removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11609,
+          "actor_team_name": "GenOne",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. GenOne removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120077,
+            "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
+            "retrieved_at": "2026-09-29T11:42:45.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 3,
+        "map_name": "Cache",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396554,
+      "hltv_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T11:55:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 8474,
+        "name": "100 Thieves"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350169,
+        "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-12T10:06:24.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. 100 Thieves removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. BC.Game picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. 100 Thieves picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. BC.Game removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 8474,
+          "actor_team_name": "100 Thieves",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. 100 Thieves removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350169,
+            "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-12T10:06:24.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396545,
+      "hltv_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-09T09:00:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 10503,
+        "name": "OG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1470048,
+        "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-13T08:31:07.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10503,
+          "actor_team_name": "OG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. OG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10503,
+          "actor_team_name": "OG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. OG picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BC.Game picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10503,
+          "actor_team_name": "OG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. OG removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BC.Game removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470048,
+            "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:07.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396477,
+      "hltv_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T12:50:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 10621,
+        "name": "1win"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1470050,
+        "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-13T08:31:27.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. 1win removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BC.Game picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. 1win picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10621,
+          "actor_team_name": "1win",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. 1win removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470050,
+            "source_url": "https://www.hltv.org/matches/2396477/1win-vs-bcgame-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:27.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396462,
+      "hltv_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+      "scheduled_at": "2026-08-07T09:45:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13181,
+        "name": "BASEMENT BOYS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1470051,
+        "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+        "retrieved_at": "2026-08-13T08:31:31.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. BASEMENT BOYS removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "3. BC.Game picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. BASEMENT BOYS picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. BASEMENT BOYS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1470051,
+            "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+            "retrieved_at": "2026-08-13T08:31:31.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396294,
+      "hltv_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+      "scheduled_at": "2026-08-01T17:05:00.000Z",
+      "event": {
+        "hltv_id": 8261,
+        "name": "Live\n                  Esports World Cup '26"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 4869,
+        "name": "ENCE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 1350208,
+        "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+        "retrieved_at": "2026-08-12T10:11:06.000Z",
+        "parser_version": "match_detail.dom.v2",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4869,
+          "actor_team_name": "ENCE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. ENCE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BC.Game picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4869,
+          "actor_team_name": "ENCE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. ENCE picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. BC.Game removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4869,
+          "actor_team_name": "ENCE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. ENCE removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 1350208,
+            "source_url": "https://www.hltv.org/matches/2396294/ence-vs-bcgame-elisa-esports-breakout-series-1",
+            "retrieved_at": "2026-08-12T10:11:06.000Z",
+            "parser_version": "match_detail.dom.v2",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396293,
+      "hltv_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+      "scheduled_at": "2026-08-01T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9220,
+        "name": "Elisa BreakOut Series 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13571,
+        "name": "SINQU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120078,
+        "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+        "retrieved_at": "2026-09-29T11:42:49.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13571,
+          "actor_team_name": "SINQU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. SINQU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13571,
+          "actor_team_name": "SINQU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. SINQU picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BC.Game picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13571,
+          "actor_team_name": "SINQU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. SINQU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120078,
+            "source_url": "https://www.hltv.org/matches/2396293/bcgame-vs-sinqu-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396290,
+      "hltv_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+      "scheduled_at": "2026-07-31T15:10:00.000Z",
+      "event": {
+        "hltv_id": 9220,
+        "name": "Elisa BreakOut Series 1"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 13913,
+        "name": "Trainwrecks"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120079,
+        "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+        "retrieved_at": "2026-09-29T11:42:54.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13913,
+          "actor_team_name": "Trainwrecks",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Trainwrecks removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "3. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13913,
+          "actor_team_name": "Trainwrecks",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. Trainwrecks removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13913,
+          "actor_team_name": "Trainwrecks",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Trainwrecks removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120079,
+            "source_url": "https://www.hltv.org/matches/2396290/bcgame-vs-trainwrecks-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:54.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396288,
+      "hltv_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+      "scheduled_at": "2026-07-31T11:00:00.000Z",
+      "event": {
+        "hltv_id": 9220,
+        "name": "Elisa BreakOut Series 1"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 7865,
+        "name": "HAVU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120080,
+        "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+        "retrieved_at": "2026-09-29T11:42:55.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7865,
+          "actor_team_name": "HAVU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. HAVU removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 7865,
+          "actor_team_name": "HAVU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. HAVU removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "4. BC.Game removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7865,
+          "actor_team_name": "HAVU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. HAVU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120080,
+            "source_url": "https://www.hltv.org/matches/2396288/havu-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:42:55.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396287,
+      "hltv_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+      "scheduled_at": "2026-07-31T09:35:00.000Z",
+      "event": {
+        "hltv_id": 9220,
+        "name": "Elisa BreakOut Series 1"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 12457,
+        "name": "ROUNDS"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120081,
+        "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+        "retrieved_at": "2026-09-29T11:43:01.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12457,
+          "actor_team_name": "ROUNDS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. ROUNDS removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12457,
+          "actor_team_name": "ROUNDS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "3. ROUNDS removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "4. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12457,
+          "actor_team_name": "ROUNDS",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. ROUNDS removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120081,
+            "source_url": "https://www.hltv.org/matches/2396287/rounds-vs-bcgame-elisa-breakout-series-1",
+            "retrieved_at": "2026-09-29T11:43:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394212,
+      "hltv_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+      "scheduled_at": "2026-05-21T06:55:00.000Z",
+      "event": {
+        "hltv_id": 8263,
+        "name": "CS Asia Championships 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 4773,
+        "name": "paiN"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120082,
+        "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+        "retrieved_at": "2026-09-29T11:43:04.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. paiN removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. BC.Game picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. paiN picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 4773,
+          "actor_team_name": "paiN",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "5. paiN removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120082,
+            "source_url": "https://www.hltv.org/matches/2394212/bcgame-vs-pain-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:04.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Nuke",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394201,
+      "hltv_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+      "scheduled_at": "2026-05-20T06:30:00.000Z",
+      "event": {
+        "hltv_id": 8263,
+        "name": "CS Asia Championships 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120083,
+        "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+        "retrieved_at": "2026-09-29T11:43:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "3. Falcons removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "4. Falcons removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Falcons removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. BC.Game removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120083,
+            "source_url": "https://www.hltv.org/matches/2394201/falcons-vs-bcgame-cs-asia-championships-2026",
+            "retrieved_at": "2026-09-29T11:43:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394159,
+      "hltv_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+      "scheduled_at": "2026-05-12T15:30:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 11241,
+        "name": "B8"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120085,
+        "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+        "retrieved_at": "2026-09-29T11:43:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. B8 removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "3. BC.Game picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. B8 picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11241,
+          "actor_team_name": "B8",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. B8 removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120085,
+            "source_url": "https://www.hltv.org/matches/2394159/b8-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2394108,
+      "hltv_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+      "scheduled_at": "2026-05-11T18:00:00.000Z",
+      "event": {
+        "hltv_id": 8243,
+        "name": "IEM Atlanta 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "opponent": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3120084,
+        "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+        "retrieved_at": "2026-09-29T11:43:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BC.Game picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Vitality picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Vitality removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Overpass",
+          "raw_text": "7. Overpass was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3120084,
+            "source_url": "https://www.hltv.org/matches/2394108/vitality-vs-bcgame-iem-atlanta-2026",
+            "retrieved_at": "2026-09-29T11:43:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    }
+  ],
+  "not_included": [
+    "veto_prediction",
+    "map_win_probability",
+    "match_win_probability",
+    "betting_recommendation"
+  ]
+}
