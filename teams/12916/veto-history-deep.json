@@ -1,72 +1,72 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:12:08.501Z",
+    "requested_at": "2026-10-11T18:43:30.197Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 12916
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
     "warnings": [
       {
         "code": "ROSTER_MISSING",
-        "message": "14 eligible match(es) have no exact-team lineup evidence."
+        "message": "20 eligible match(es) have no exact-team lineup evidence."
       }
     ]
   },
   "team_hltv_id": 12916,
   "coverage": {
-    "eligible_completed_matches": 14,
-    "eligible_bo3_matches": 13,
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
       "bo1": 1,
-      "bo3": 13,
+      "bo3": 19,
       "bo5": 0
     },
-    "with_veto": 14,
-    "complete_seven_map_veto": 14,
+    "with_veto": 20,
+    "complete_seven_map_veto": 20,
     "missing_veto": 0,
-    "first_ban_resolved_total": 14,
-    "first_ban_fact_time_eligible": 14,
-    "first_ban_retrieved_by_cutoff": 14,
+    "first_ban_resolved_total": 20,
+    "first_ban_fact_time_eligible": 20,
+    "first_ban_retrieved_by_cutoff": 20,
     "unresolved_actor_steps": 0,
     "reconstructed_after_cutoff_matches": 0,
     "source_time_unknown_matches": 0,
     "roster_present_matches": 0,
     "roster_retrieved_by_cutoff_matches": 0,
-    "roster_missing_matches": 14
+    "roster_missing_matches": 20
   },
   "first_ban_summary": {
     "status": "available",
-    "eligible_completed_matches": 14,
-    "eligible_bo3_matches": 13,
+    "eligible_completed_matches": 20,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
       "bo1": 1,
-      "bo3": 13,
+      "bo3": 19,
       "bo5": 0
     },
-    "resolved_first_ban_sample_size": 14,
+    "resolved_first_ban_sample_size": 20,
     "coverage_ratio": 1,
     "maps": [
       {
         "map_name": "Inferno",
-        "count": 11,
-        "empirical_share_of_resolved_sample": 0.7857142857142857
+        "count": 17,
+        "empirical_share_of_resolved_sample": 0.85
       },
       {
         "map_name": "Dust2",
         "count": 2,
-        "empirical_share_of_resolved_sample": 0.14285714285714285
+        "empirical_share_of_resolved_sample": 0.1
       },
       {
         "map_name": "Mirage",
         "count": 1,
-        "empirical_share_of_resolved_sample": 0.07142857142857142
+        "empirical_share_of_resolved_sample": 0.05
       }
     ],
     "by_map_pool_signature": [
@@ -81,29 +81,66 @@
           "Mirage",
           "Nuke"
         ],
-        "fact_time_eligible_matches": 14,
-        "resolved_first_bans": 14,
+        "fact_time_eligible_matches": 17,
+        "resolved_first_bans": 17,
         "first_bans": [
           {
             "map_name": "Inferno",
-            "count": 11,
-            "empirical_share_of_resolved_pool_sample": 0.7857142857142857
+            "count": 14,
+            "empirical_share_of_resolved_pool_sample": 0.8235294117647058
           },
           {
             "map_name": "Dust2",
             "count": 2,
-            "empirical_share_of_resolved_pool_sample": 0.14285714285714285
+            "empirical_share_of_resolved_pool_sample": 0.11764705882352941
           },
           {
             "map_name": "Mirage",
             "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.07142857142857142
+            "empirical_share_of_resolved_pool_sample": 0.058823529411764705
+          }
+        ]
+      },
+      {
+        "map_pool_signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "fact_time_eligible_matches": 3,
+        "resolved_first_bans": 3,
+        "first_bans": [
+          {
+            "map_name": "Inferno",
+            "count": 3,
+            "empirical_share_of_resolved_pool_sample": 1
           }
         ]
       }
     ]
   },
   "map_pool_segments": [
+    {
+      "evidence_status": "complete_seven_map",
+      "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass",
+      "maps": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
+      "match_count": 3,
+      "from": "2026-06-24T18:15:00.000Z",
+      "to": "2026-06-25T18:25:00.000Z"
+    },
     {
       "evidence_status": "complete_seven_map",
       "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke",
@@ -116,8 +153,8 @@
         "Mirage",
         "Nuke"
       ],
-      "match_count": 14,
-      "from": "2026-08-01T13:00:00.000Z",
+      "match_count": 17,
+      "from": "2026-08-01T10:00:00.000Z",
       "to": "2026-10-08T15:00:00.000Z"
     }
   ],
@@ -126,8 +163,8 @@
       "identity_status": "missing",
       "signature": null,
       "members": [],
-      "match_count": 14,
-      "from": "2026-08-01T13:00:00.000Z",
+      "match_count": 20,
+      "from": "2026-06-24T18:15:00.000Z",
       "to": "2026-10-08T15:00:00.000Z"
     }
   ],
@@ -820,6 +857,186 @@
             "raw_snapshot_id": 2940141,
             "source_url": "https://www.hltv.org/matches/2398065/jijiehao-vs-betclic-stake-pulse-beat-ii",
             "retrieved_at": "2026-09-25T17:35:59.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398016,
+      "hltv_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-24T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "opponent": {
+        "hltv_id": 13333,
+        "name": "ASTRAL"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630061,
+        "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+        "retrieved_at": "2026-10-11T18:41:06.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. ASTRAL removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. ASTRAL picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Betclic picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. ASTRAL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Betclic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -2473,6 +2690,186 @@
       }
     },
     {
+      "hltv_match_id": 2396304,
+      "hltv_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-01T16:30:00.000Z",
+      "event": {
+        "hltv_id": 9221,
+        "name": "Stake Pulse Beat I"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "opponent": {
+        "hltv_id": 6089,
+        "name": "The Last Resort"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630062,
+        "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+        "retrieved_at": "2026-10-11T18:41:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6089,
+          "actor_team_name": "The Last Resort",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. The Last Resort removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6089,
+          "actor_team_name": "The Last Resort",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. The Last Resort picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Betclic picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6089,
+          "actor_team_name": "The Last Resort",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. The Last Resort removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Betclic removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630062,
+            "source_url": "https://www.hltv.org/matches/2396304/the-last-resort-vs-betclic-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
       "hltv_match_id": 2396302,
       "hltv_url": "https://www.hltv.org/matches/2396302/liquid-vs-betclic-stake-pulse-beat-i",
       "scheduled_at": "2026-08-01T13:00:00.000Z",
@@ -2642,6 +3039,726 @@
       },
       "target_first_ban": {
         "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2396301,
+      "hltv_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+      "scheduled_at": "2026-08-01T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9221,
+        "name": "Stake Pulse Beat I"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "opponent": {
+        "hltv_id": 6089,
+        "name": "The Last Resort"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630063,
+        "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+        "retrieved_at": "2026-10-11T18:41:12.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 6089,
+          "actor_team_name": "The Last Resort",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. The Last Resort removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 6089,
+          "actor_team_name": "The Last Resort",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. The Last Resort picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Betclic picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 6089,
+          "actor_team_name": "The Last Resort",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. The Last Resort removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Betclic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630063,
+            "source_url": "https://www.hltv.org/matches/2396301/betclic-vs-the-last-resort-stake-pulse-beat-i",
+            "retrieved_at": "2026-10-11T18:41:12.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395394,
+      "hltv_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+      "scheduled_at": "2026-06-25T18:25:00.000Z",
+      "event": {
+        "hltv_id": 9118,
+        "name": "Digital Crusade Super DraculaN Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "opponent": {
+        "hltv_id": 10823,
+        "name": "INFINITE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630064,
+        "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+        "retrieved_at": "2026-10-11T18:41:13.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. INFINITE removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. INFINITE picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Betclic picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Betclic removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10823,
+          "actor_team_name": "INFINITE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "6. INFINITE removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630064,
+            "source_url": "https://www.hltv.org/matches/2395394/infinite-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:13.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395388,
+      "hltv_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+      "scheduled_at": "2026-06-25T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9118,
+        "name": "Digital Crusade Super DraculaN Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "opponent": {
+        "hltv_id": 13838,
+        "name": "EAC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630065,
+        "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+        "retrieved_at": "2026-10-11T18:41:22.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. EAC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. EAC picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Betclic picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Overpass",
+          "raw_text": "5. Betclic removed Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. EAC removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630065,
+            "source_url": "https://www.hltv.org/matches/2395388/eac-vs-betclic-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2395384,
+      "hltv_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+      "scheduled_at": "2026-06-24T18:15:00.000Z",
+      "event": {
+        "hltv_id": 9118,
+        "name": "Digital Crusade Super DraculaN Season 1"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "opponent": {
+        "hltv_id": 10503,
+        "name": "OG"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630066,
+        "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+        "retrieved_at": "2026-10-11T18:41:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10503,
+          "actor_team_name": "OG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. OG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10503,
+          "actor_team_name": "OG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Overpass",
+          "raw_text": "3. OG picked Overpass",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Betclic picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Betclic removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10503,
+          "actor_team_name": "OG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. OG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630066,
+            "source_url": "https://www.hltv.org/matches/2395384/betclic-vs-og-digital-crusade-super-draculan-season-1",
+            "retrieved_at": "2026-10-11T18:41:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ],
+        "signature": "ancient|anubis|dust2|inferno|mirage|nuke|overpass"
+      },
+      "target_first_ban": {
+        "step_number": 2,
         "map_name": "Inferno",
         "retrieval_lineage_status": "observed_by_cutoff"
       },

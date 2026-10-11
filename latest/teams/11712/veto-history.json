@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:12:11.457Z",
+    "requested_at": "2026-10-11T18:43:33.156Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 11712
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 11712,
   "coverage": {
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 4,
+    "eligible_bo3_matches": 0,
     "eligible_matches_by_format": {
-      "bo1": 1,
-      "bo3": 4,
+      "bo1": 5,
+      "bo3": 0,
       "bo5": 0
     },
     "with_veto": 5,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 4,
+    "eligible_bo3_matches": 0,
     "eligible_matches_by_format": {
-      "bo1": 1,
-      "bo3": 4,
+      "bo1": 5,
+      "bo3": 0,
       "bo5": 0
     },
     "resolved_first_ban_sample_size": 5,
@@ -55,13 +55,13 @@
     "maps": [
       {
         "map_name": "Dust2",
-        "count": 3,
-        "empirical_share_of_resolved_sample": 0.6
+        "count": 4,
+        "empirical_share_of_resolved_sample": 0.8
       },
       {
         "map_name": "Mirage",
-        "count": 2,
-        "empirical_share_of_resolved_sample": 0.4
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.2
       }
     ],
     "by_map_pool_signature": [
@@ -81,13 +81,13 @@
         "first_bans": [
           {
             "map_name": "Dust2",
-            "count": 3,
-            "empirical_share_of_resolved_pool_sample": 0.6
+            "count": 4,
+            "empirical_share_of_resolved_pool_sample": 0.8
           },
           {
             "map_name": "Mirage",
-            "count": 2,
-            "empirical_share_of_resolved_pool_sample": 0.4
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.2
           }
         ]
       }
@@ -107,7 +107,7 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-09-21T10:00:00.000Z",
+      "from": "2026-10-02T12:00:00.000Z",
       "to": "2026-10-02T16:40:00.000Z"
     }
   ],
@@ -117,7 +117,7 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-09-21T10:00:00.000Z",
+      "from": "2026-10-02T12:00:00.000Z",
       "to": "2026-10-02T16:40:00.000Z"
     }
   ],
@@ -303,14 +303,14 @@
       }
     },
     {
-      "hltv_match_id": 2398681,
-      "hltv_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-      "scheduled_at": "2026-09-26T12:00:00.000Z",
+      "hltv_match_id": 2398959,
+      "hltv_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T15:30:00.000Z",
       "event": {
-        "hltv_id": 9342,
-        "name": "Stake Ranked Episode 5 Closed Qualifier"
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
       },
-      "format": "bo3",
+      "format": "bo1",
       "status": "over",
       "fact_time_status": "eligible_by_final_status_and_scheduled_at",
       "team": {
@@ -318,210 +318,30 @@
         "name": "Sashi"
       },
       "opponent": {
-        "hltv_id": 13355,
-        "name": "Nemesis"
+        "hltv_id": 13499,
+        "name": "Voca"
       },
       "match_source": {
-        "raw_snapshot_id": 3120104,
-        "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-        "retrieved_at": "2026-09-29T11:44:28.000Z",
+        "raw_snapshot_id": 3630077,
+        "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-11T18:41:54.000Z",
         "parser_version": "match_detail.dom.v3",
         "parse_status": "success"
       },
       "ordered_steps": [
         {
           "step_number": 1,
-          "actor_team_hltv_id": 11712,
-          "actor_team_name": "Sashi",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. Sashi removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 13355,
-          "actor_team_name": "Nemesis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. Nemesis removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11712,
-          "actor_team_name": "Sashi",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "3. Sashi picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 13355,
-          "actor_team_name": "Nemesis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. Nemesis picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13355,
-          "actor_team_name": "Nemesis",
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
           "map_name": "Cache",
-          "raw_text": "5. Nemesis removed Cache",
+          "raw_text": "1. Voca removed Cache",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 11712,
-          "actor_team_name": "Sashi",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. Sashi removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Nuke",
-          "raw_text": "7. Nuke was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120104,
-            "source_url": "https://www.hltv.org/matches/2398681/nemesis-vs-sashi-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398678,
-      "hltv_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-      "scheduled_at": "2026-09-25T18:20:00.000Z",
-      "event": {
-        "hltv_id": 9342,
-        "name": "Stake Ranked Episode 5 Closed Qualifier"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 11712,
-        "name": "Sashi"
-      },
-      "opponent": {
-        "hltv_id": 10278,
-        "name": "9INE"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3120105,
-        "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-        "retrieved_at": "2026-09-29T11:44:30.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10278,
-          "actor_team_name": "9INE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. 9INE removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -537,9 +357,9 @@
           "raw_text": "2. Sashi removed Dust2",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -547,17 +367,17 @@
         },
         {
           "step_number": 3,
-          "actor_team_hltv_id": 10278,
-          "actor_team_name": "9INE",
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Anubis",
-          "raw_text": "3. 9INE picked Anubis",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "3. Voca removed Inferno",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -568,14 +388,14 @@
           "actor_team_hltv_id": 11712,
           "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "4. Sashi picked Nuke",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Sashi removed Mirage",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -583,17 +403,17 @@
         },
         {
           "step_number": 5,
-          "actor_team_hltv_id": 11712,
-          "actor_team_name": "Sashi",
+          "actor_team_hltv_id": 13499,
+          "actor_team_name": "Voca",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "5. Sashi removed Ancient",
+          "map_name": "Anubis",
+          "raw_text": "5. Voca removed Anubis",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -601,17 +421,17 @@
         },
         {
           "step_number": 6,
-          "actor_team_hltv_id": 10278,
-          "actor_team_name": "9INE",
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. 9INE removed Mirage",
+          "map_name": "Ancient",
+          "raw_text": "6. Sashi removed Ancient",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -623,13 +443,13 @@
           "actor_team_name": null,
           "actor_identity_status": "not_applicable",
           "action": "left_over",
-          "map_name": "Cache",
-          "raw_text": "7. Cache was left over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120105,
-            "source_url": "https://www.hltv.org/matches/2398678/sashi-vs-9ine-stake-ranked-episode-5-closed-qualifier",
-            "retrieved_at": "2026-09-29T11:44:30.000Z",
+            "raw_snapshot_id": 3630077,
+            "source_url": "https://www.hltv.org/matches/2398959/voca-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -663,14 +483,14 @@
       }
     },
     {
-      "hltv_match_id": 2398057,
-      "hltv_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-      "scheduled_at": "2026-09-21T13:30:00.000Z",
+      "hltv_match_id": 2398957,
+      "hltv_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T14:20:00.000Z",
       "event": {
-        "hltv_id": 9222,
-        "name": "Stake Pulse Beat II"
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
       },
-      "format": "bo3",
+      "format": "bo1",
       "status": "over",
       "fact_time_status": "eligible_by_final_status_and_scheduled_at",
       "team": {
@@ -678,30 +498,30 @@
         "name": "Sashi"
       },
       "opponent": {
-        "hltv_id": 10333,
-        "name": "Sangal"
+        "hltv_id": 14077,
+        "name": "Glitch"
       },
       "match_source": {
-        "raw_snapshot_id": 2940191,
-        "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-        "retrieved_at": "2026-09-25T17:38:30.000Z",
+        "raw_snapshot_id": 3630078,
+        "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-11T18:41:54.000Z",
         "parser_version": "match_detail.dom.v3",
         "parse_status": "success"
       },
       "ordered_steps": [
         {
           "step_number": 1,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
+          "actor_team_hltv_id": 14077,
+          "actor_team_name": "Glitch",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Sangal removed Inferno",
+          "map_name": "Cache",
+          "raw_text": "1. Glitch removed Cache",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -717,9 +537,9 @@
           "raw_text": "2. Sashi removed Mirage",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -727,17 +547,17 @@
         },
         {
           "step_number": 3,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
+          "actor_team_hltv_id": 14077,
+          "actor_team_name": "Glitch",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
+          "action": "removed",
           "map_name": "Nuke",
-          "raw_text": "3. Sangal picked Nuke",
+          "raw_text": "3. Glitch removed Nuke",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -748,14 +568,14 @@
           "actor_team_hltv_id": 11712,
           "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "4. Sashi picked Cache",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "4. Sashi removed Dust2",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -763,17 +583,17 @@
         },
         {
           "step_number": 5,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
+          "actor_team_hltv_id": 14077,
+          "actor_team_name": "Glitch",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "5. Sangal removed Ancient",
+          "map_name": "Anubis",
+          "raw_text": "5. Glitch removed Anubis",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -785,13 +605,13 @@
           "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "6. Sashi removed Anubis",
+          "map_name": "Ancient",
+          "raw_text": "6. Sashi removed Ancient",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -803,13 +623,13 @@
           "actor_team_name": null,
           "actor_identity_status": "not_applicable",
           "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2940191,
-            "source_url": "https://www.hltv.org/matches/2398057/sashi-vs-sangal-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-25T17:38:30.000Z",
+            "raw_snapshot_id": 3630078,
+            "source_url": "https://www.hltv.org/matches/2398957/glitch-vs-sashi-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:54.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -843,14 +663,14 @@
       }
     },
     {
-      "hltv_match_id": 2398011,
-      "hltv_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-      "scheduled_at": "2026-09-21T10:00:00.000Z",
+      "hltv_match_id": 2398954,
+      "hltv_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T13:15:00.000Z",
       "event": {
-        "hltv_id": 9222,
-        "name": "Stake Pulse Beat II"
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
       },
-      "format": "bo3",
+      "format": "bo1",
       "status": "over",
       "fact_time_status": "eligible_by_final_status_and_scheduled_at",
       "team": {
@@ -858,30 +678,30 @@
         "name": "Sashi"
       },
       "opponent": {
-        "hltv_id": 13679,
-        "name": "FOKUS"
+        "hltv_id": 13181,
+        "name": "BASEMENT BOYS"
       },
       "match_source": {
-        "raw_snapshot_id": 3120070,
-        "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-        "retrieved_at": "2026-09-29T11:42:26.000Z",
+        "raw_snapshot_id": 3630079,
+        "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-11T18:41:59.000Z",
         "parser_version": "match_detail.dom.v3",
         "parse_status": "success"
       },
       "ordered_steps": [
         {
           "step_number": 1,
-          "actor_team_hltv_id": 13679,
-          "actor_team_name": "FOKUS",
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
           "map_name": "Inferno",
-          "raw_text": "1. FOKUS removed Inferno",
+          "raw_text": "1. BASEMENT BOYS removed Inferno",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -893,13 +713,13 @@
           "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "2. Sashi removed Mirage",
+          "map_name": "Dust2",
+          "raw_text": "2. Sashi removed Dust2",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -907,17 +727,17 @@
         },
         {
           "step_number": 3,
-          "actor_team_hltv_id": 13679,
-          "actor_team_name": "FOKUS",
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. FOKUS picked Dust2",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "3. BASEMENT BOYS removed Anubis",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -928,14 +748,14 @@
           "actor_team_hltv_id": 11712,
           "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "4. Sashi picked Nuke",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Sashi removed Mirage",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -943,17 +763,17 @@
         },
         {
           "step_number": 5,
-          "actor_team_hltv_id": 13679,
-          "actor_team_name": "FOKUS",
+          "actor_team_hltv_id": 13181,
+          "actor_team_name": "BASEMENT BOYS",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. FOKUS removed Anubis",
+          "map_name": "Nuke",
+          "raw_text": "5. BASEMENT BOYS removed Nuke",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -965,13 +785,13 @@
           "actor_team_name": "Sashi",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. Sashi removed Cache",
+          "map_name": "Ancient",
+          "raw_text": "6. Sashi removed Ancient",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -983,13 +803,13 @@
           "actor_team_name": null,
           "actor_identity_status": "not_applicable",
           "action": "left_over",
-          "map_name": "Ancient",
-          "raw_text": "7. Ancient was left over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 3120070,
-            "source_url": "https://www.hltv.org/matches/2398011/sashi-vs-fokus-stake-pulse-beat-ii",
-            "retrieved_at": "2026-09-29T11:42:26.000Z",
+            "raw_snapshot_id": 3630079,
+            "source_url": "https://www.hltv.org/matches/2398954/sashi-vs-basement-boys-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:59.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -1012,7 +832,187 @@
       },
       "target_first_ban": {
         "step_number": 2,
-        "map_name": "Mirage",
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398950,
+      "hltv_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-02T12:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "opponent": {
+        "hltv_id": 13159,
+        "name": "Prestige"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630080,
+        "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-11T18:42:01.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13159,
+          "actor_team_name": "Prestige",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Prestige removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. Sashi removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13159,
+          "actor_team_name": "Prestige",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Prestige removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "4. Sashi removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13159,
+          "actor_team_name": "Prestige",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Prestige removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Sashi removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630080,
+            "source_url": "https://www.hltv.org/matches/2398950/sashi-vs-prestige-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:42:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:11:47.911Z",
+    "requested_at": "2026-10-11T18:43:09.207Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 6673
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,11 +22,11 @@
   "team_hltv_id": 6673,
   "coverage": {
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 18,
+    "eligible_bo3_matches": 17,
     "eligible_matches_by_format": {
-      "bo1": 0,
-      "bo3": 18,
-      "bo5": 2
+      "bo1": 2,
+      "bo3": 17,
+      "bo5": 1
     },
     "with_veto": 20,
     "complete_seven_map_veto": 20,
@@ -44,11 +44,11 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 18,
+    "eligible_bo3_matches": 17,
     "eligible_matches_by_format": {
-      "bo1": 0,
-      "bo3": 18,
-      "bo5": 2
+      "bo1": 2,
+      "bo3": 17,
+      "bo5": 1
     },
     "resolved_first_ban_sample_size": 20,
     "coverage_ratio": 1,
@@ -107,8 +107,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-07-12T16:15:00.000Z",
-      "to": "2026-09-26T17:00:00.000Z"
+      "from": "2026-07-29T22:00:00.000Z",
+      "to": "2026-10-10T22:50:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +117,551 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-07-12T16:15:00.000Z",
-      "to": "2026-09-26T17:00:00.000Z"
+      "from": "2026-07-29T22:00:00.000Z",
+      "to": "2026-10-10T22:50:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399404,
+      "hltv_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+      "scheduled_at": "2026-10-10T22:50:00.000Z",
+      "event": {
+        "hltv_id": 9413,
+        "name": "FRAG University 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13375,
+        "name": "SportsBetExpert"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630054,
+        "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+        "retrieved_at": "2026-10-11T18:40:37.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. SportsBetExpert removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. SportsBetExpert picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. NRG picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13375,
+          "actor_team_name": "SportsBetExpert",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. SportsBetExpert removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630054,
+            "source_url": "https://www.hltv.org/matches/2399404/sportsbetexpert-vs-nrg-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:37.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399399,
+      "hltv_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+      "scheduled_at": "2026-10-10T20:40:00.000Z",
+      "event": {
+        "hltv_id": 9413,
+        "name": "FRAG University 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 12257,
+        "name": "Wildcard"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630055,
+        "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+        "retrieved_at": "2026-10-11T18:40:40.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Wildcard removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Wildcard removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "4. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12257,
+          "actor_team_name": "Wildcard",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Wildcard removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. NRG removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630055,
+            "source_url": "https://www.hltv.org/matches/2399399/nrg-vs-wildcard-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:40.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399392,
+      "hltv_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+      "scheduled_at": "2026-10-10T16:05:00.000Z",
+      "event": {
+        "hltv_id": 9413,
+        "name": "FRAG University 2026"
+      },
+      "format": "bo1",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6673,
+        "name": "NRG"
+      },
+      "opponent": {
+        "hltv_id": 13995,
+        "name": "Unreal Nightmare"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630056,
+        "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+        "retrieved_at": "2026-10-11T18:40:52.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13995,
+          "actor_team_name": "Unreal Nightmare",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. Unreal Nightmare removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. NRG removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13995,
+          "actor_team_name": "Unreal Nightmare",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "3. Unreal Nightmare removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "4. NRG removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13995,
+          "actor_team_name": "Unreal Nightmare",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. Unreal Nightmare removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6673,
+          "actor_team_name": "NRG",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. NRG removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630056,
+            "source_url": "https://www.hltv.org/matches/2399392/nrg-vs-unreal-nightmare-frag-university-2026",
+            "retrieved_at": "2026-10-11T18:40:52.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398291,
       "hltv_url": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
@@ -3150,546 +3690,6 @@
             "raw_snapshot_id": 2940125,
             "source_url": "https://www.hltv.org/matches/2396243/nrg-vs-marsborne-starladder-starseries-fall-2026-north-america-closed-qualifier",
             "retrieved_at": "2026-09-25T17:34:51.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396239,
-      "hltv_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-      "scheduled_at": "2026-07-28T19:00:00.000Z",
-      "event": {
-        "hltv_id": 9287,
-        "name": "StarLadder StarSeries Fall 2026 North America Closed Qualifier"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6673,
-        "name": "NRG"
-      },
-      "opponent": {
-        "hltv_id": 13857,
-        "name": "Iowa Stormboar"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940126,
-        "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-        "retrieved_at": "2026-09-25T17:34:58.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13857,
-          "actor_team_name": "Iowa Stormboar",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. Iowa Stormboar removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. NRG removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13857,
-          "actor_team_name": "Iowa Stormboar",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. Iowa Stormboar picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. NRG picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. NRG removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13857,
-          "actor_team_name": "Iowa Stormboar",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "6. Iowa Stormboar removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Cache",
-          "raw_text": "7. Cache was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940126,
-            "source_url": "https://www.hltv.org/matches/2396239/nrg-vs-iowa-stormboar-starladder-starseries-fall-2026-north-america-closed-qualifier",
-            "retrieved_at": "2026-09-25T17:34:58.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395888,
-      "hltv_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-      "scheduled_at": "2026-07-12T19:40:00.000Z",
-      "event": {
-        "hltv_id": 9264,
-        "name": "FRAG St. Clair 2026"
-      },
-      "format": "bo5",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6673,
-        "name": "NRG"
-      },
-      "opponent": {
-        "hltv_id": 13375,
-        "name": "SportsBetExpert"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940127,
-        "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-        "retrieved_at": "2026-09-25T17:35:00.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13375,
-          "actor_team_name": "SportsBetExpert",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. SportsBetExpert removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. NRG removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13375,
-          "actor_team_name": "SportsBetExpert",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. SportsBetExpert picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. NRG picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13375,
-          "actor_team_name": "SportsBetExpert",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "5. SportsBetExpert picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "6. NRG picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Nuke",
-          "raw_text": "7. Nuke was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940127,
-            "source_url": "https://www.hltv.org/matches/2395888/nrg-vs-sportsbetexpert-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:00.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395885,
-      "hltv_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-      "scheduled_at": "2026-07-12T16:15:00.000Z",
-      "event": {
-        "hltv_id": 9264,
-        "name": "FRAG St. Clair 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6673,
-        "name": "NRG"
-      },
-      "opponent": {
-        "hltv_id": 12973,
-        "name": "NuTorious"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940128,
-        "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-        "retrieved_at": "2026-09-25T17:35:06.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 12973,
-          "actor_team_name": "NuTorious",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. NuTorious removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. NRG removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 12973,
-          "actor_team_name": "NuTorious",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. NuTorious picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "4. NRG picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 12973,
-          "actor_team_name": "NuTorious",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. NuTorious removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "6. NRG removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940128,
-            "source_url": "https://www.hltv.org/matches/2395885/nutorious-vs-nrg-frag-st-clair-2026",
-            "retrieved_at": "2026-09-25T17:35:06.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },

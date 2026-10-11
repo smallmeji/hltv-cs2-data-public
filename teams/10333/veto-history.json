@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:12:07.021Z",
+    "requested_at": "2026-10-11T18:43:28.726Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 10333
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 10333,
   "coverage": {
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 2,
+    "eligible_bo3_matches": 5,
     "eligible_matches_by_format": {
-      "bo1": 3,
-      "bo3": 2,
+      "bo1": 0,
+      "bo3": 5,
       "bo5": 0
     },
     "with_veto": 5,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 2,
+    "eligible_bo3_matches": 5,
     "eligible_matches_by_format": {
-      "bo1": 3,
-      "bo3": 2,
+      "bo1": 0,
+      "bo3": 5,
       "bo5": 0
     },
     "resolved_first_ban_sample_size": 5,
@@ -55,13 +55,8 @@
     "maps": [
       {
         "map_name": "Inferno",
-        "count": 4,
-        "empirical_share_of_resolved_sample": 0.8
-      },
-      {
-        "map_name": "Ancient",
-        "count": 1,
-        "empirical_share_of_resolved_sample": 0.2
+        "count": 5,
+        "empirical_share_of_resolved_sample": 1
       }
     ],
     "by_map_pool_signature": [
@@ -81,13 +76,8 @@
         "first_bans": [
           {
             "map_name": "Inferno",
-            "count": 4,
-            "empirical_share_of_resolved_pool_sample": 0.8
-          },
-          {
-            "map_name": "Ancient",
-            "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.2
+            "count": 5,
+            "empirical_share_of_resolved_pool_sample": 1
           }
         ]
       }
@@ -107,8 +97,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-10-02T14:25:00.000Z",
-      "to": "2026-10-08T17:00:00.000Z"
+      "from": "2026-10-08T17:00:00.000Z",
+      "to": "2026-10-10T14:40:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +107,731 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-10-02T14:25:00.000Z",
-      "to": "2026-10-08T17:00:00.000Z"
+      "from": "2026-10-08T17:00:00.000Z",
+      "to": "2026-10-10T14:40:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399054,
+      "hltv_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+      "scheduled_at": "2026-10-10T14:40:00.000Z",
+      "event": {
+        "hltv_id": 9318,
+        "name": "Roman Imperium Cup IX"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 10371,
+        "name": "NAVI Junior"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630067,
+        "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+        "retrieved_at": "2026-10-11T18:41:26.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. NAVI Junior removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Sangal picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. NAVI Junior picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. NAVI Junior removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630067,
+            "source_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:26.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399053,
+      "hltv_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+      "scheduled_at": "2026-10-10T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9318,
+        "name": "Roman Imperium Cup IX"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 13777,
+        "name": "PURE"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630068,
+        "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+        "retrieved_at": "2026-10-11T18:41:27.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13777,
+          "actor_team_name": "PURE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. PURE removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13777,
+          "actor_team_name": "PURE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. PURE picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. Sangal picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13777,
+          "actor_team_name": "PURE",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. PURE removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "6. Sangal removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630068,
+            "source_url": "https://www.hltv.org/matches/2399053/sangal-vs-pure-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:27.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399050,
+      "hltv_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+      "scheduled_at": "2026-10-09T17:30:00.000Z",
+      "event": {
+        "hltv_id": 9318,
+        "name": "Roman Imperium Cup IX"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 12889,
+        "name": "G2 Ares"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630069,
+        "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+        "retrieved_at": "2026-10-11T18:41:28.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12889,
+          "actor_team_name": "G2 Ares",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. G2 Ares removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Sangal picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12889,
+          "actor_team_name": "G2 Ares",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. G2 Ares picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. Sangal removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12889,
+          "actor_team_name": "G2 Ares",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. G2 Ares removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630069,
+            "source_url": "https://www.hltv.org/matches/2399050/sangal-vs-g2-ares-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:28.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399046,
+      "hltv_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+      "scheduled_at": "2026-10-09T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9318,
+        "name": "Roman Imperium Cup IX"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 13838,
+        "name": "EAC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630070,
+        "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+        "retrieved_at": "2026-10-11T18:41:33.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. EAC removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Sangal picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. EAC picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13838,
+          "actor_team_name": "EAC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. EAC removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Anubis",
+          "raw_text": "7. Anubis was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630070,
+            "source_url": "https://www.hltv.org/matches/2399046/eac-vs-sangal-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:41:33.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2399044,
       "hltv_url": "https://www.hltv.org/matches/2399044/faze-vs-sangal-roman-imperium-cup-ix",
@@ -293,726 +1003,6 @@
       "target_first_ban": {
         "step_number": 2,
         "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398971,
-      "hltv_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-03T09:00:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 11251,
-        "name": "Eternal Fire"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3360052,
-        "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-05T21:28:50.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11251,
-          "actor_team_name": "Eternal Fire",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. Eternal Fire removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11251,
-          "actor_team_name": "Eternal Fire",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. Eternal Fire picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "4. Sangal picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 11251,
-          "actor_team_name": "Eternal Fire",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. Eternal Fire removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. Sangal removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3360052,
-            "source_url": "https://www.hltv.org/matches/2398971/sangal-vs-eternal-fire-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-05T21:28:50.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398933,
-      "hltv_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T16:25:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 7865,
-        "name": "HAVU"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240091,
-        "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:59:41.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 7865,
-          "actor_team_name": "HAVU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. HAVU removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "3. Sangal removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 7865,
-          "actor_team_name": "HAVU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "4. HAVU removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "5. Sangal removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 7865,
-          "actor_team_name": "HAVU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "6. HAVU removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240091,
-            "source_url": "https://www.hltv.org/matches/2398933/havu-vs-sangal-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:41.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398930,
-      "hltv_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T15:20:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 14076,
-        "name": "XEPT"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240094,
-        "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:59:43.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 14076,
-          "actor_team_name": "XEPT",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. XEPT removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 14076,
-          "actor_team_name": "XEPT",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "3. XEPT removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "4. Sangal removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 14076,
-          "actor_team_name": "XEPT",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. XEPT removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "6. Sangal removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240094,
-            "source_url": "https://www.hltv.org/matches/2398930/sangal-vs-xept-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:43.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398926,
-      "hltv_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T14:25:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 13375,
-        "name": "SportsBetExpert"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240095,
-        "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:59:44.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. Sangal removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 13375,
-          "actor_team_name": "SportsBetExpert",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "2. SportsBetExpert removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "3. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 13375,
-          "actor_team_name": "SportsBetExpert",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "4. SportsBetExpert removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "5. Sangal removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13375,
-          "actor_team_name": "SportsBetExpert",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. SportsBetExpert removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Anubis",
-          "raw_text": "7. Anubis was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240095,
-            "source_url": "https://www.hltv.org/matches/2398926/sangal-vs-sportsbetexpert-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:44.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Ancient",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

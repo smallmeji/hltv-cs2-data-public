@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:12:08.501Z",
+    "requested_at": "2026-10-11T18:43:30.197Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 12916
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -55,13 +55,13 @@
     "maps": [
       {
         "map_name": "Inferno",
-        "count": 3,
-        "empirical_share_of_resolved_sample": 0.6
+        "count": 4,
+        "empirical_share_of_resolved_sample": 0.8
       },
       {
         "map_name": "Dust2",
-        "count": 2,
-        "empirical_share_of_resolved_sample": 0.4
+        "count": 1,
+        "empirical_share_of_resolved_sample": 0.2
       }
     ],
     "by_map_pool_signature": [
@@ -81,13 +81,13 @@
         "first_bans": [
           {
             "map_name": "Inferno",
-            "count": 3,
-            "empirical_share_of_resolved_pool_sample": 0.6
+            "count": 4,
+            "empirical_share_of_resolved_pool_sample": 0.8
           },
           {
             "map_name": "Dust2",
-            "count": 2,
-            "empirical_share_of_resolved_pool_sample": 0.4
+            "count": 1,
+            "empirical_share_of_resolved_pool_sample": 0.2
           }
         ]
       }
@@ -107,7 +107,7 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-09-08T09:00:00.000Z",
+      "from": "2026-09-24T10:00:00.000Z",
       "to": "2026-10-08T15:00:00.000Z"
     }
   ],
@@ -117,7 +117,7 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-09-08T09:00:00.000Z",
+      "from": "2026-09-24T10:00:00.000Z",
       "to": "2026-10-08T15:00:00.000Z"
     }
   ],
@@ -843,12 +843,12 @@
       }
     },
     {
-      "hltv_match_id": 2397643,
-      "hltv_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-      "scheduled_at": "2026-09-08T09:00:00.000Z",
+      "hltv_match_id": 2398016,
+      "hltv_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+      "scheduled_at": "2026-09-24T10:00:00.000Z",
       "event": {
-        "hltv_id": 9360,
-        "name": "1win Private Club Season 1 Closed Qualifier"
+        "hltv_id": 9222,
+        "name": "Stake Pulse Beat II"
       },
       "format": "bo3",
       "status": "over",
@@ -858,103 +858,103 @@
         "name": "Betclic"
       },
       "opponent": {
-        "hltv_id": 11581,
-        "name": "HOTU"
+        "hltv_id": 13333,
+        "name": "ASTRAL"
       },
       "match_source": {
-        "raw_snapshot_id": 2310050,
-        "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-        "retrieved_at": "2026-09-08T17:53:58.000Z",
-        "parser_version": "match_detail.dom.v2",
+        "raw_snapshot_id": 3630061,
+        "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+        "retrieved_at": "2026-10-11T18:41:06.000Z",
+        "parser_version": "match_detail.dom.v3",
         "parse_status": "success"
       },
       "ordered_steps": [
         {
           "step_number": 1,
-          "actor_team_hltv_id": 12916,
-          "actor_team_name": "Betclic",
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. Betclic removed Dust2",
+          "map_name": "Anubis",
+          "raw_text": "1. ASTRAL removed Anubis",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 2,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. HOTU removed Nuke",
+          "map_name": "Inferno",
+          "raw_text": "2. Betclic removed Inferno",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 3,
-          "actor_team_hltv_id": 12916,
-          "actor_team_name": "Betclic",
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
           "actor_identity_status": "stored_match_exact",
           "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. Betclic picked Ancient",
+          "map_name": "Nuke",
+          "raw_text": "3. ASTRAL picked Nuke",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 4,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
           "actor_identity_status": "stored_match_exact",
           "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. HOTU picked Mirage",
+          "map_name": "Ancient",
+          "raw_text": "4. Betclic picked Ancient",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
         },
         {
           "step_number": 5,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
+          "actor_team_hltv_id": 13333,
+          "actor_team_name": "ASTRAL",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. HOTU removed Anubis",
+          "map_name": "Dust2",
+          "raw_text": "5. ASTRAL removed Dust2",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -965,14 +965,14 @@
           "actor_team_name": "Betclic",
           "actor_identity_status": "stored_match_exact",
           "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "6. Betclic removed Inferno",
+          "map_name": "Cache",
+          "raw_text": "6. Betclic removed Cache",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -983,14 +983,14 @@
           "actor_team_name": null,
           "actor_identity_status": "not_applicable",
           "action": "left_over",
-          "map_name": "Cache",
-          "raw_text": "7. Cache was left over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
           "source": "match_page",
           "source_info": {
-            "raw_snapshot_id": 2310050,
-            "source_url": "https://www.hltv.org/matches/2397643/hotu-vs-betclic-1win-private-club-season-1-closed-qualifier",
-            "retrieved_at": "2026-09-08T17:53:58.000Z",
-            "parser_version": "match_detail.dom.v2",
+            "raw_snapshot_id": 3630061,
+            "source_url": "https://www.hltv.org/matches/2398016/betclic-vs-astral-stake-pulse-beat-ii",
+            "retrieved_at": "2026-10-11T18:41:06.000Z",
+            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"
@@ -1011,8 +1011,8 @@
         "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
       },
       "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Dust2",
+        "step_number": 2,
+        "map_name": "Inferno",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

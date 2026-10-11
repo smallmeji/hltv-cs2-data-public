@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:12:05.560Z",
+    "requested_at": "2026-10-11T18:43:27.191Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 13996
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 13996,
   "coverage": {
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 2,
+    "eligible_bo3_matches": 3,
     "eligible_matches_by_format": {
-      "bo1": 3,
-      "bo3": 2,
+      "bo1": 2,
+      "bo3": 3,
       "bo5": 0
     },
     "with_veto": 5,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 2,
+    "eligible_bo3_matches": 3,
     "eligible_matches_by_format": {
-      "bo1": 3,
-      "bo3": 2,
+      "bo1": 2,
+      "bo3": 3,
       "bo5": 0
     },
     "resolved_first_ban_sample_size": 5,
@@ -97,7 +97,7 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-10-02T14:25:00.000Z",
+      "from": "2026-10-02T15:30:00.000Z",
       "to": "2026-10-03T12:35:00.000Z"
     }
   ],
@@ -107,7 +107,7 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-10-02T14:25:00.000Z",
+      "from": "2026-10-02T15:30:00.000Z",
       "to": "2026-10-03T12:35:00.000Z"
     }
   ],
@@ -260,6 +260,186 @@
             "raw_snapshot_id": 3270058,
             "source_url": "https://www.hltv.org/matches/2398972/ninjas-in-pyjamas-vs-bbl-rog-journey-autumn-2026",
             "retrieved_at": "2026-10-03T19:25:51.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2398969,
+      "hltv_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+      "scheduled_at": "2026-10-03T09:00:00.000Z",
+      "event": {
+        "hltv_id": 9253,
+        "name": "ROG JOURNEY Autumn 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 13996,
+        "name": "BBL"
+      },
+      "opponent": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630059,
+        "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+        "retrieved_at": "2026-10-11T18:41:00.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "1. BBL removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "3. BBL picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. BC.Game picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13996,
+          "actor_team_name": "BBL",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. BBL removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630059,
+            "source_url": "https://www.hltv.org/matches/2398969/bcgame-vs-bbl-rog-journey-autumn-2026",
+            "retrieved_at": "2026-10-11T18:41:00.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
@@ -799,186 +979,6 @@
           "source_info": {
             "raw_snapshot_id": 3240084,
             "source_url": "https://www.hltv.org/matches/2398929/havu-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398927,
-      "hltv_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-      "scheduled_at": "2026-10-02T14:25:00.000Z",
-      "event": {
-        "hltv_id": 9253,
-        "name": "ROG JOURNEY Autumn 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 13996,
-        "name": "BBL"
-      },
-      "opponent": {
-        "hltv_id": 14076,
-        "name": "XEPT"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3240085,
-        "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-        "retrieved_at": "2026-10-03T00:59:14.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 14076,
-          "actor_team_name": "XEPT",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. XEPT removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 13996,
-          "actor_team_name": "BBL",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "2. BBL removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 14076,
-          "actor_team_name": "XEPT",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "3. XEPT removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 13996,
-          "actor_team_name": "BBL",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "4. BBL removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 14076,
-          "actor_team_name": "XEPT",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. XEPT removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13996,
-          "actor_team_name": "BBL",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. BBL removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
-            "retrieved_at": "2026-10-03T00:59:14.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Ancient",
-          "raw_text": "7. Ancient was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3240085,
-            "source_url": "https://www.hltv.org/matches/2398927/xept-vs-bbl-rog-journey-autumn-2026",
             "retrieved_at": "2026-10-03T00:59:14.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"

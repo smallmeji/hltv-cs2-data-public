@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:11:24.100Z",
+    "requested_at": "2026-10-11T18:42:45.138Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 6667
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 6667,
   "coverage": {
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 17,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
-      "bo1": 3,
-      "bo3": 17,
+      "bo1": 1,
+      "bo3": 19,
       "bo5": 0
     },
     "with_veto": 20,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 17,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
-      "bo1": 3,
-      "bo3": 17,
+      "bo1": 1,
+      "bo3": 19,
       "bo5": 0
     },
     "resolved_first_ban_sample_size": 20,
@@ -127,8 +127,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-07-01T08:45:00.000Z",
-      "to": "2026-10-09T13:30:00.000Z"
+      "from": "2026-07-03T12:50:00.000Z",
+      "to": "2026-10-10T18:20:00.000Z"
     }
   ],
   "roster_segments": [
@@ -137,11 +137,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-07-01T08:45:00.000Z",
-      "to": "2026-10-09T13:30:00.000Z"
+      "from": "2026-07-03T12:50:00.000Z",
+      "to": "2026-10-10T18:20:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399055,
+      "hltv_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+      "scheduled_at": "2026-10-10T18:20:00.000Z",
+      "event": {
+        "hltv_id": 9318,
+        "name": "Roman Imperium Cup IX"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 10371,
+        "name": "NAVI Junior"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630051,
+        "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+        "retrieved_at": "2026-10-11T18:40:20.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. NAVI Junior removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. NAVI Junior picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FaZe picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. NAVI Junior removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630051,
+            "source_url": "https://www.hltv.org/matches/2399055/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399052,
+      "hltv_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+      "scheduled_at": "2026-10-10T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9318,
+        "name": "Roman Imperium Cup IX"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6667,
+        "name": "FaZe"
+      },
+      "opponent": {
+        "hltv_id": 10371,
+        "name": "NAVI Junior"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630050,
+        "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+        "retrieved_at": "2026-10-11T18:40:20.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "1. NAVI Junior removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "2. FaZe removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. NAVI Junior picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. FaZe picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10371,
+          "actor_team_name": "NAVI Junior",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. NAVI Junior removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6667,
+          "actor_team_name": "FaZe",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. FaZe removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630050,
+            "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Inferno",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2399048,
       "hltv_url": "https://www.hltv.org/matches/2399048/pure-vs-faze-roman-imperium-cup-ix",
@@ -3372,366 +3732,6 @@
       },
       "target_first_ban": {
         "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395465,
-      "hltv_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-      "scheduled_at": "2026-07-02T09:55:00.000Z",
-      "event": {
-        "hltv_id": 8914,
-        "name": "XSE Pro League Guangzhou 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6667,
-        "name": "FaZe"
-      },
-      "opponent": {
-        "hltv_id": 9215,
-        "name": "MIBR"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940077,
-        "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-        "retrieved_at": "2026-09-25T17:31:12.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. MIBR removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. MIBR removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 6667,
-          "actor_team_name": "FaZe",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "3. FaZe removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 6667,
-          "actor_team_name": "FaZe",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "4. FaZe removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 6667,
-          "actor_team_name": "FaZe",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. FaZe removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. MIBR removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Ancient",
-          "raw_text": "7. Ancient was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940077,
-            "source_url": "https://www.hltv.org/matches/2395465/faze-vs-mibr-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:12.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 3,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395218,
-      "hltv_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-      "scheduled_at": "2026-07-01T08:45:00.000Z",
-      "event": {
-        "hltv_id": 8914,
-        "name": "XSE Pro League Guangzhou 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6667,
-        "name": "FaZe"
-      },
-      "opponent": {
-        "hltv_id": 4863,
-        "name": "TYLOO"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940078,
-        "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-        "retrieved_at": "2026-09-25T17:31:15.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 6667,
-          "actor_team_name": "FaZe",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. FaZe removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 6667,
-          "actor_team_name": "FaZe",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "2. FaZe removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 4863,
-          "actor_team_name": "TYLOO",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "3. TYLOO removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 4863,
-          "actor_team_name": "TYLOO",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "4. TYLOO removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4863,
-          "actor_team_name": "TYLOO",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. TYLOO removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 6667,
-          "actor_team_name": "FaZe",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. FaZe removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Anubis",
-          "raw_text": "7. Anubis was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940078,
-            "source_url": "https://www.hltv.org/matches/2395218/faze-vs-tyloo-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:31:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
         "map_name": "Inferno",
         "retrieval_lineage_status": "observed_by_cutoff"
       },

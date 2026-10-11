@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-10T21:11:05.989Z",
+    "requested_at": "2026-10-11T18:42:26.597Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 9565
       }
     ],
-    "data_cutoff": "2026-10-10T21:10:47.218Z",
+    "data_cutoff": "2026-10-11T18:42:07.740Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,11 +22,11 @@
   "team_hltv_id": 9565,
   "coverage": {
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 5,
+    "eligible_bo3_matches": 4,
     "eligible_matches_by_format": {
       "bo1": 0,
-      "bo3": 5,
-      "bo5": 0
+      "bo3": 4,
+      "bo5": 1
     },
     "with_veto": 5,
     "complete_seven_map_veto": 5,
@@ -44,11 +44,11 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 5,
-    "eligible_bo3_matches": 5,
+    "eligible_bo3_matches": 4,
     "eligible_matches_by_format": {
       "bo1": 0,
-      "bo3": 5,
-      "bo5": 0
+      "bo3": 4,
+      "bo5": 1
     },
     "resolved_first_ban_sample_size": 5,
     "coverage_ratio": 1,
@@ -97,8 +97,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-10-03T11:30:00.000Z",
-      "to": "2026-10-10T13:45:00.000Z"
+      "from": "2026-10-04T16:30:00.000Z",
+      "to": "2026-10-11T15:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -107,11 +107,191 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-10-03T11:30:00.000Z",
-      "to": "2026-10-10T13:45:00.000Z"
+      "from": "2026-10-04T16:30:00.000Z",
+      "to": "2026-10-11T15:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2398757,
+      "hltv_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+      "scheduled_at": "2026-10-11T15:00:00.000Z",
+      "event": {
+        "hltv_id": 8244,
+        "name": "ESL Pro League Season 24"
+      },
+      "format": "bo5",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9565,
+        "name": "Vitality"
+      },
+      "opponent": {
+        "hltv_id": 4494,
+        "name": "MOUZ"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3630052,
+        "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+        "retrieved_at": "2026-10-11T18:40:20.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Vitality removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. MOUZ removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Vitality picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. MOUZ picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9565,
+          "actor_team_name": "Vitality",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "5. Vitality picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 4494,
+          "actor_team_name": "MOUZ",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "6. MOUZ picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3630052,
+            "source_url": "https://www.hltv.org/matches/2398757/vitality-vs-mouz-esl-pro-league-season-24",
+            "retrieved_at": "2026-10-11T18:40:20.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398754,
       "hltv_url": "https://www.hltv.org/matches/2398754/aurora-vs-vitality-esl-pro-league-season-24",
@@ -800,186 +980,6 @@
             "raw_snapshot_id": 3330048,
             "source_url": "https://www.hltv.org/matches/2398731/vitality-vs-natus-vincere-esl-pro-league-season-24",
             "retrieved_at": "2026-10-04T20:01:02.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Ancient",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398719,
-      "hltv_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-      "scheduled_at": "2026-10-03T11:30:00.000Z",
-      "event": {
-        "hltv_id": 8244,
-        "name": "ESL Pro League Season 24"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9565,
-        "name": "Vitality"
-      },
-      "opponent": {
-        "hltv_id": 10621,
-        "name": "1win"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3270047,
-        "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-        "retrieved_at": "2026-10-03T19:25:07.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10621,
-          "actor_team_name": "1win",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. 1win removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9565,
-          "actor_team_name": "Vitality",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "2. Vitality removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 10621,
-          "actor_team_name": "1win",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. 1win picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9565,
-          "actor_team_name": "Vitality",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "4. Vitality picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 10621,
-          "actor_team_name": "1win",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. 1win removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 9565,
-          "actor_team_name": "Vitality",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. Vitality removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Inferno",
-          "raw_text": "7. Inferno was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3270047,
-            "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-            "retrieved_at": "2026-10-03T19:25:07.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
