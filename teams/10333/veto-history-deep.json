@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-11T18:43:28.726Z",
+    "requested_at": "2026-10-13T18:08:42.478Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 10333
       }
     ],
-    "data_cutoff": "2026-10-11T18:42:07.740Z",
+    "data_cutoff": "2026-10-13T18:07:19.573Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -55,13 +55,13 @@
     "maps": [
       {
         "map_name": "Inferno",
-        "count": 19,
-        "empirical_share_of_resolved_sample": 0.95
+        "count": 16,
+        "empirical_share_of_resolved_sample": 0.8
       },
       {
         "map_name": "Ancient",
-        "count": 1,
-        "empirical_share_of_resolved_sample": 0.05
+        "count": 4,
+        "empirical_share_of_resolved_sample": 0.2
       }
     ],
     "by_map_pool_signature": [
@@ -81,13 +81,13 @@
         "first_bans": [
           {
             "map_name": "Inferno",
-            "count": 19,
-            "empirical_share_of_resolved_pool_sample": 0.95
+            "count": 16,
+            "empirical_share_of_resolved_pool_sample": 0.8
           },
           {
             "map_name": "Ancient",
-            "count": 1,
-            "empirical_share_of_resolved_pool_sample": 0.05
+            "count": 4,
+            "empirical_share_of_resolved_pool_sample": 0.2
           }
         ]
       }
@@ -107,8 +107,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-09-30T10:00:00.000Z",
-      "to": "2026-10-10T14:40:00.000Z"
+      "from": "2026-10-02T12:00:00.000Z",
+      "to": "2026-10-12T16:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +117,551 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-09-30T10:00:00.000Z",
-      "to": "2026-10-10T14:40:00.000Z"
+      "from": "2026-10-02T12:00:00.000Z",
+      "to": "2026-10-12T16:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399252,
+      "hltv_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-12T16:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3660052,
+        "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-13T18:06:24.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Sangal picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. Inner Circle removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "6. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660052,
+            "source_url": "https://www.hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:24.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399251,
+      "hltv_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-12T13:20:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 12916,
+        "name": "Betclic"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3660064,
+        "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-13T18:07:10.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Betclic removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. Sangal picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "4. Betclic picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12916,
+          "actor_team_name": "Betclic",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Betclic removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Cache",
+          "raw_text": "7. Cache was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660064,
+            "source_url": "https://www.hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:07:10.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399130,
+      "hltv_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-12T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 10333,
+        "name": "Sangal"
+      },
+      "opponent": {
+        "hltv_id": 13117,
+        "name": "Inner Circle"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3660054,
+        "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-13T18:06:38.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Sangal removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "2. Inner Circle removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Sangal picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "4. Inner Circle picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10333,
+          "actor_team_name": "Sangal",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. Sangal removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 13117,
+          "actor_team_name": "Inner Circle",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Inner Circle removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3660054,
+            "source_url": "https://www.hltv.org/matches/2399130/inner-circle-vs-sangal-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-13T18:06:38.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2399054,
       "hltv_url": "https://www.hltv.org/matches/2399054/sangal-vs-navi-junior-roman-imperium-cup-ix",
@@ -3150,546 +3690,6 @@
             "raw_snapshot_id": 3240086,
             "source_url": "https://www.hltv.org/matches/2398920/bbl-vs-sangal-rog-journey-autumn-2026",
             "retrieved_at": "2026-10-03T00:59:26.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398825,
-      "hltv_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-      "scheduled_at": "2026-09-30T16:30:00.000Z",
-      "event": {
-        "hltv_id": 9339,
-        "name": "Urban Riga Open Season 7"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 4869,
-        "name": "ENCE"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3180062,
-        "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-        "retrieved_at": "2026-10-01T17:02:30.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 4869,
-          "actor_team_name": "ENCE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "2. ENCE removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "3. Sangal picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 4869,
-          "actor_team_name": "ENCE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "4. ENCE picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "5. Sangal removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 4869,
-          "actor_team_name": "ENCE",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "6. ENCE removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180062,
-            "source_url": "https://www.hltv.org/matches/2398825/sangal-vs-ence-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:30.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398822,
-      "hltv_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-      "scheduled_at": "2026-09-30T13:00:00.000Z",
-      "event": {
-        "hltv_id": 9339,
-        "name": "Urban Riga Open Season 7"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 13681,
-        "name": "Inner Circle Academy"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3180063,
-        "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-        "retrieved_at": "2026-10-01T17:02:31.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 13681,
-          "actor_team_name": "Inner Circle Academy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "2. Inner Circle Academy removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. Sangal picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 13681,
-          "actor_team_name": "Inner Circle Academy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. Inner Circle Academy picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "5. Sangal removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13681,
-          "actor_team_name": "Inner Circle Academy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "6. Inner Circle Academy removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Anubis",
-          "raw_text": "7. Anubis was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180063,
-            "source_url": "https://www.hltv.org/matches/2398822/inner-circle-academy-vs-sangal-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:31.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Inferno",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398821,
-      "hltv_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-      "scheduled_at": "2026-09-30T10:00:00.000Z",
-      "event": {
-        "hltv_id": 9339,
-        "name": "Urban Riga Open Season 7"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 10333,
-        "name": "Sangal"
-      },
-      "opponent": {
-        "hltv_id": 13745,
-        "name": "KUUSAMO"
-      },
-      "match_source": {
-        "raw_snapshot_id": 3180064,
-        "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-        "retrieved_at": "2026-10-01T17:02:37.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13745,
-          "actor_team_name": "KUUSAMO",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. KUUSAMO removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. Sangal removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13745,
-          "actor_team_name": "KUUSAMO",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. KUUSAMO picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "4. Sangal picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13745,
-          "actor_team_name": "KUUSAMO",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "5. KUUSAMO removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 10333,
-          "actor_team_name": "Sangal",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. Sangal removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 3180064,
-            "source_url": "https://www.hltv.org/matches/2398821/sangal-vs-kuusamo-urban-riga-open-season-7",
-            "retrieved_at": "2026-10-01T17:02:37.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
