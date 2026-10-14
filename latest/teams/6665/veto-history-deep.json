@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-13T18:08:00.415Z",
+    "requested_at": "2026-10-14T18:23:52.459Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 6665
       }
     ],
-    "data_cutoff": "2026-10-13T18:07:19.573Z",
+    "data_cutoff": "2026-10-14T18:23:16.911Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -117,8 +117,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-07-25T14:45:00.000Z",
-      "to": "2026-10-04T16:35:00.000Z"
+      "from": "2026-08-01T14:10:00.000Z",
+      "to": "2026-10-14T13:00:00.000Z"
     }
   ],
   "roster_segments": [
@@ -127,11 +127,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-07-25T14:45:00.000Z",
-      "to": "2026-10-04T16:35:00.000Z"
+      "from": "2026-08-01T14:10:00.000Z",
+      "to": "2026-10-14T13:00:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399256,
+      "hltv_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-14T13:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "opponent": {
+        "hltv_id": 11581,
+        "name": "HOTU"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3690049,
+        "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-14T18:21:16.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. HOTU removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Astralis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Dust2",
+          "raw_text": "3. HOTU picked Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. Astralis picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11581,
+          "actor_team_name": "HOTU",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "5. HOTU removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. Astralis removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690049,
+            "source_url": "https://www.hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:16.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399134,
+      "hltv_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-14T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 6665,
+        "name": "Astralis"
+      },
+      "opponent": {
+        "hltv_id": 11712,
+        "name": "Sashi"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3690050,
+        "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-14T18:21:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. Sashi removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Astralis removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. Sashi picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Astralis picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 11712,
+          "actor_team_name": "Sashi",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "5. Sashi removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 6665,
+          "actor_team_name": "Astralis",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Astralis removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690050,
+            "source_url": "https://www.hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398009,
       "hltv_url": "https://www.hltv.org/matches/2398009/nemiga-vs-astralis-stake-ranked-episode-4",
@@ -3363,366 +3723,6 @@
       "target_first_ban": {
         "step_number": 1,
         "map_name": "Nuke",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396015,
-      "hltv_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-      "scheduled_at": "2026-07-31T16:10:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6665,
-        "name": "Astralis"
-      },
-      "opponent": {
-        "hltv_id": 4773,
-        "name": "paiN"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350087,
-        "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-        "retrieved_at": "2026-08-12T09:59:24.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 4773,
-          "actor_team_name": "paiN",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. paiN removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 6665,
-          "actor_team_name": "Astralis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. Astralis removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 4773,
-          "actor_team_name": "paiN",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. paiN picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 6665,
-          "actor_team_name": "Astralis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. Astralis picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4773,
-          "actor_team_name": "paiN",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. paiN removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 6665,
-          "actor_team_name": "Astralis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "6. Astralis removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350087,
-            "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-            "retrieved_at": "2026-08-12T09:59:24.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396010,
-      "hltv_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-      "scheduled_at": "2026-07-25T14:45:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 6665,
-        "name": "Astralis"
-      },
-      "opponent": {
-        "hltv_id": 11581,
-        "name": "HOTU"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350088,
-        "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-        "retrieved_at": "2026-08-12T09:59:30.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "1. HOTU removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 6665,
-          "actor_team_name": "Astralis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. Astralis removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "3. HOTU picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 6665,
-          "actor_team_name": "Astralis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "4. Astralis picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 11581,
-          "actor_team_name": "HOTU",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. HOTU removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 6665,
-          "actor_team_name": "Astralis",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "6. Astralis removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Ancient",
-          "raw_text": "7. Ancient was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350088,
-            "source_url": "https://www.hltv.org/matches/2396010/hotu-vs-astralis-blast-bounty-2026-season-2",
-            "retrieved_at": "2026-08-12T09:59:30.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
         "retrieval_lineage_status": "observed_by_cutoff"
       },
       "roster": {

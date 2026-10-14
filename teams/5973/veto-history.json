@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-13T18:08:18.527Z",
+    "requested_at": "2026-10-14T18:24:10.312Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 5973
       }
     ],
-    "data_cutoff": "2026-10-13T18:07:19.573Z",
+    "data_cutoff": "2026-10-14T18:23:16.911Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -107,8 +107,8 @@
         "Nuke"
       ],
       "match_count": 5,
-      "from": "2026-09-25T22:45:00.000Z",
-      "to": "2026-10-13T13:20:00.000Z"
+      "from": "2026-09-26T20:30:00.000Z",
+      "to": "2026-10-13T16:45:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +117,191 @@
       "signature": null,
       "members": [],
       "match_count": 5,
-      "from": "2026-09-25T22:45:00.000Z",
-      "to": "2026-10-13T13:20:00.000Z"
+      "from": "2026-09-26T20:30:00.000Z",
+      "to": "2026-10-13T16:45:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399255,
+      "hltv_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-13T16:45:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5973,
+        "name": "Liquid"
+      },
+      "opponent": {
+        "hltv_id": 10245,
+        "name": "JiJieHao"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3690051,
+        "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-14T18:21:49.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "1. JiJieHao removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "2. Liquid removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. JiJieHao picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "4. Liquid picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 10245,
+          "actor_team_name": "JiJieHao",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "5. JiJieHao removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 5973,
+          "actor_team_name": "Liquid",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. Liquid removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3690051,
+            "source_url": "https://www.hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-14T18:21:49.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Ancient",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2399253,
       "hltv_url": "https://www.hltv.org/matches/2399253/100-thieves-vs-liquid-stake-pulse-beat-iii",
@@ -810,186 +990,6 @@
             "raw_snapshot_id": 3000046,
             "source_url": "https://www.hltv.org/matches/2398297/liquid-vs-m80-ibuypower-masters-fml-2026",
             "retrieved_at": "2026-09-27T06:07:28.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Ancient",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2398289,
-      "hltv_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-      "scheduled_at": "2026-09-25T22:45:00.000Z",
-      "event": {
-        "hltv_id": 9187,
-        "name": "iBUYPOWER Masters FML 2026"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 5973,
-        "name": "Liquid"
-      },
-      "opponent": {
-        "hltv_id": 6673,
-        "name": "NRG"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2970044,
-        "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-        "retrieved_at": "2026-09-26T07:48:25.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. NRG removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 5973,
-          "actor_team_name": "Liquid",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "2. Liquid removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Dust2",
-          "raw_text": "3. NRG picked Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 5973,
-          "actor_team_name": "Liquid",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. Liquid picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 6673,
-          "actor_team_name": "NRG",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "5. NRG removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 5973,
-          "actor_team_name": "Liquid",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. Liquid removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Nuke",
-          "raw_text": "7. Nuke was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2970044,
-            "source_url": "https://www.hltv.org/matches/2398289/liquid-vs-nrg-ibuypower-masters-fml-2026",
-            "retrieved_at": "2026-09-26T07:48:25.000Z",
             "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
