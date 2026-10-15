@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-15T06:54:33.020Z",
+    "requested_at": "2026-10-15T20:26:54.100Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 9996
       }
     ],
-    "data_cutoff": "2026-10-15T06:53:52.428Z",
+    "data_cutoff": "2026-10-15T20:26:14.692Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 9996,
   "coverage": {
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 17,
+    "eligible_bo3_matches": 18,
     "eligible_matches_by_format": {
-      "bo1": 2,
-      "bo3": 17,
+      "bo1": 1,
+      "bo3": 18,
       "bo5": 1
     },
     "with_veto": 20,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 17,
+    "eligible_bo3_matches": 18,
     "eligible_matches_by_format": {
-      "bo1": 2,
-      "bo3": 17,
+      "bo1": 1,
+      "bo3": 18,
       "bo5": 1
     },
     "resolved_first_ban_sample_size": 20,
@@ -107,8 +107,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-07-03T10:10:00.000Z",
-      "to": "2026-10-14T08:20:00.000Z"
+      "from": "2026-07-04T10:35:00.000Z",
+      "to": "2026-10-15T11:30:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +117,191 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-07-03T10:10:00.000Z",
-      "to": "2026-10-14T08:20:00.000Z"
+      "from": "2026-07-04T10:35:00.000Z",
+      "to": "2026-10-15T11:30:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399409,
+      "hltv_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+      "scheduled_at": "2026-10-15T11:30:00.000Z",
+      "event": {
+        "hltv_id": 8932,
+        "name": "Thunderpick World Championship 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9996,
+        "name": "9z"
+      },
+      "opponent": {
+        "hltv_id": 11283,
+        "name": "Falcons"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750046,
+        "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+        "retrieved_at": "2026-10-15T20:23:31.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. 9z removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "2. Falcons removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "3. 9z picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "4. Falcons picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 9996,
+          "actor_team_name": "9z",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. 9z removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 11283,
+          "actor_team_name": "Falcons",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "6. Falcons removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Dust2",
+          "raw_text": "7. Dust2 was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750046,
+            "source_url": "https://www.hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-15T20:23:31.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2399384,
       "hltv_url": "https://www.hltv.org/matches/2399384/9z-vs-aurora-thunderpick-world-championship-2026",
@@ -3511,186 +3691,6 @@
             "source_url": "https://www.hltv.org/matches/2395479/alliance-vs-9z-xse-pro-league-guangzhou-2026",
             "retrieved_at": "2026-08-12T09:58:41.000Z",
             "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2395473,
-      "hltv_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-      "scheduled_at": "2026-07-03T10:10:00.000Z",
-      "event": {
-        "hltv_id": 8914,
-        "name": "XSE Pro League Guangzhou 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9996,
-        "name": "9z"
-      },
-      "opponent": {
-        "hltv_id": 4914,
-        "name": "3DMAX"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2940088,
-        "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-        "retrieved_at": "2026-09-25T17:32:15.000Z",
-        "parser_version": "match_detail.dom.v3",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. 9z removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "2. 9z removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "3. 3DMAX removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "4. 3DMAX removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. 3DMAX removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 9996,
-          "actor_team_name": "9z",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "6. 9z removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2940088,
-            "source_url": "https://www.hltv.org/matches/2395473/3dmax-vs-9z-xse-pro-league-guangzhou-2026",
-            "retrieved_at": "2026-09-25T17:32:15.000Z",
-            "parser_version": "match_detail.dom.v3",
             "parse_status": "success"
           },
           "retrieval_lineage_status": "observed_by_cutoff"

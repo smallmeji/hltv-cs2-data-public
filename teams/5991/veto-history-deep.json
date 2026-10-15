@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-15T06:54:37.790Z",
+    "requested_at": "2026-10-15T20:26:58.533Z",
     "source_policy": "roster_continuity_with_exact_historical_match_identity",
     "roster_source_windows": [
       {
@@ -13,7 +13,7 @@
         "before": "2026-09-29T00:00:00.000Z"
       }
     ],
-    "data_cutoff": "2026-10-15T06:53:52.428Z",
+    "data_cutoff": "2026-10-15T20:26:14.692Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -102,8 +102,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-08-31T11:30:00.000Z",
-      "to": "2026-09-27T11:30:00.000Z"
+      "from": "2026-09-02T16:15:00.000Z",
+      "to": "2026-10-15T14:10:00.000Z"
     }
   ],
   "roster_segments": [
@@ -112,11 +112,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-08-31T11:30:00.000Z",
-      "to": "2026-09-27T11:30:00.000Z"
+      "from": "2026-09-02T16:15:00.000Z",
+      "to": "2026-10-15T14:10:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399260,
+      "hltv_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5991,
+        "name": "Envy"
+      },
+      "opponent": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750050,
+        "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:24:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Envy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Envy picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. MIBR picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Envy removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. MIBR removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399137,
+      "hltv_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 5991,
+        "name": "Envy"
+      },
+      "opponent": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750052,
+        "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:25:22.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Envy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Envy picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. HEROIC picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Envy removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. HEROIC removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 1,
+        "map_name": "Mirage",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398240,
       "hltv_url": "https://www.hltv.org/matches/2398240/3dmax-vs-gamerlegion-1win-private-club-season-1",
@@ -3325,366 +3685,6 @@
             "raw_snapshot_id": 2040054,
             "source_url": "https://www.hltv.org/matches/2397317/3dmax-vs-mibr-iem-beijing-2026-closed-qualifier",
             "retrieved_at": "2026-09-03T07:59:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Mirage",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2397308,
-      "hltv_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-      "scheduled_at": "2026-09-02T09:00:00.000Z",
-      "event": {
-        "hltv_id": 9293,
-        "name": "IEM Beijing 2026 Closed Qualifier"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 4914,
-        "name": "3DMAX"
-      },
-      "opponent": {
-        "hltv_id": 7175,
-        "name": "HEROIC"
-      },
-      "match_source": {
-        "raw_snapshot_id": 2010049,
-        "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-        "retrieved_at": "2026-09-02T13:50:08.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "1. 3DMAX removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. HEROIC removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "3. 3DMAX picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. HEROIC picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "5. 3DMAX removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. HEROIC removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 2010049,
-            "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-            "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 1,
-        "map_name": "Mirage",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396735,
-      "hltv_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-      "scheduled_at": "2026-08-31T11:30:00.000Z",
-      "event": {
-        "hltv_id": 9315,
-        "name": "NODWIN Clutch Series 11"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 4914,
-        "name": "3DMAX"
-      },
-      "opponent": {
-        "hltv_id": 13908,
-        "name": "Butterfly"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1920051,
-        "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-        "retrieved_at": "2026-09-01T06:04:10.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "1. 3DMAX removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 13908,
-          "actor_team_name": "Butterfly",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. Butterfly removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "3. 3DMAX picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 13908,
-          "actor_team_name": "Butterfly",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "4. Butterfly picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4914,
-          "actor_team_name": "3DMAX",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "5. 3DMAX removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13908,
-          "actor_team_name": "Butterfly",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. Butterfly removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1920051,
-            "source_url": "https://www.hltv.org/matches/2396735/3dmax-vs-butterfly-nodwin-clutch-series-11",
-            "retrieved_at": "2026-09-01T06:04:10.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },

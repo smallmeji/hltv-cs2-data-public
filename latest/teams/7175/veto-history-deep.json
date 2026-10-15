@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-15T06:54:53.036Z",
+    "requested_at": "2026-10-15T20:27:13.797Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 7175
       }
     ],
-    "data_cutoff": "2026-10-15T06:53:52.428Z",
+    "data_cutoff": "2026-10-15T20:26:14.692Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -97,8 +97,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-08-09T09:00:00.000Z",
-      "to": "2026-09-26T17:10:00.000Z"
+      "from": "2026-09-02T09:00:00.000Z",
+      "to": "2026-10-15T14:10:00.000Z"
     }
   ],
   "roster_segments": [
@@ -107,11 +107,371 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-08-09T09:00:00.000Z",
-      "to": "2026-09-26T17:10:00.000Z"
+      "from": "2026-09-02T09:00:00.000Z",
+      "to": "2026-10-15T14:10:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399259,
+      "hltv_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "opponent": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750053,
+        "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:25:36.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "1. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BC.Game picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Nuke",
+          "raw_text": "4. HEROIC picked Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "5. BC.Game removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. HEROIC removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750053,
+            "source_url": "https://www.hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:36.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399137,
+      "hltv_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 7175,
+        "name": "HEROIC"
+      },
+      "opponent": {
+        "hltv_id": 5991,
+        "name": "Envy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750052,
+        "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:25:22.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Envy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. HEROIC removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. Envy picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. HEROIC picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Envy removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 7175,
+          "actor_team_name": "HEROIC",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "6. HEROIC removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Ancient",
+          "raw_text": "7. Ancient was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750052,
+            "source_url": "https://www.hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:22.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398074,
       "hltv_url": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii",
@@ -3320,366 +3680,6 @@
             "raw_snapshot_id": 2010049,
             "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
             "retrieved_at": "2026-09-02T13:50:08.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396548,
-      "hltv_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-      "scheduled_at": "2026-08-09T11:50:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 7175,
-        "name": "HEROIC"
-      },
-      "opponent": {
-        "hltv_id": 4991,
-        "name": "fnatic"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350157,
-        "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-        "retrieved_at": "2026-08-12T10:05:01.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 4991,
-          "actor_team_name": "fnatic",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "1. fnatic removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. HEROIC removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 4991,
-          "actor_team_name": "fnatic",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. fnatic picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. HEROIC picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4991,
-          "actor_team_name": "fnatic",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "5. fnatic removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "6. HEROIC removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350157,
-            "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396533,
-      "hltv_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-      "scheduled_at": "2026-08-09T09:00:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 7175,
-        "name": "HEROIC"
-      },
-      "opponent": {
-        "hltv_id": 13333,
-        "name": "ASTRAL"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350158,
-        "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-        "retrieved_at": "2026-08-12T10:05:05.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13333,
-          "actor_team_name": "ASTRAL",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "1. ASTRAL removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. HEROIC removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13333,
-          "actor_team_name": "ASTRAL",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Cache",
-          "raw_text": "3. ASTRAL picked Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. HEROIC picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 13333,
-          "actor_team_name": "ASTRAL",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "5. ASTRAL removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 7175,
-          "actor_team_name": "HEROIC",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. HEROIC removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Dust2",
-          "raw_text": "7. Dust2 was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350158,
-            "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-            "retrieved_at": "2026-08-12T10:05:05.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },

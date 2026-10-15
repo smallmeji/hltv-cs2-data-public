@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-15T06:54:24.647Z",
+    "requested_at": "2026-10-15T20:26:46.637Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 9215
       }
     ],
-    "data_cutoff": "2026-10-15T06:53:52.428Z",
+    "data_cutoff": "2026-10-15T20:26:14.692Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -97,8 +97,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-07-28T15:00:00.000Z",
-      "to": "2026-09-19T18:30:00.000Z"
+      "from": "2026-08-02T20:45:00.000Z",
+      "to": "2026-10-15T16:35:00.000Z"
     }
   ],
   "roster_segments": [
@@ -107,11 +107,551 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-07-28T15:00:00.000Z",
-      "to": "2026-09-19T18:30:00.000Z"
+      "from": "2026-08-02T20:45:00.000Z",
+      "to": "2026-10-15T16:35:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399261,
+      "hltv_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T16:35:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "opponent": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750049,
+        "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:24:30.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Mirage",
+          "raw_text": "3. BC.Game picked Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. MIBR picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. BC.Game removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. MIBR removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750049,
+            "source_url": "https://www.hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:30.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399260,
+      "hltv_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T14:10:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "opponent": {
+        "hltv_id": 5991,
+        "name": "Envy"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750050,
+        "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:24:48.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "1. Envy removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Anubis",
+          "raw_text": "3. Envy picked Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. MIBR picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 5991,
+          "actor_team_name": "Envy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "5. Envy removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Cache",
+          "raw_text": "6. MIBR removed Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Inferno",
+          "raw_text": "7. Inferno was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750050,
+            "source_url": "https://www.hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:24:48.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
+    {
+      "hltv_match_id": 2399136,
+      "hltv_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+      "scheduled_at": "2026-10-15T10:00:00.000Z",
+      "event": {
+        "hltv_id": 9223,
+        "name": "Stake Pulse Beat III"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 9215,
+        "name": "MIBR"
+      },
+      "opponent": {
+        "hltv_id": 12878,
+        "name": "BC.Game"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3750051,
+        "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+        "retrieved_at": "2026-10-15T20:25:01.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "1. BC.Game removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "2. MIBR removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. BC.Game picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Ancient",
+          "raw_text": "4. MIBR picked Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 12878,
+          "actor_team_name": "BC.Game",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Inferno",
+          "raw_text": "5. BC.Game removed Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 9215,
+          "actor_team_name": "MIBR",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Mirage",
+          "raw_text": "6. MIBR removed Mirage",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Nuke",
+          "raw_text": "7. Nuke was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3750051,
+            "source_url": "https://www.hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+            "retrieved_at": "2026-10-15T20:25:01.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Dust2",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2398106,
       "hltv_url": "https://www.hltv.org/matches/2398106/mibr-vs-furia-starladder-starseries-fall-2026",
@@ -3140,546 +3680,6 @@
             "raw_snapshot_id": 1350142,
             "source_url": "https://www.hltv.org/matches/2396238/mibr-vs-bestia-starladder-starseries-fall-2026-south-america-closed-qualifier",
             "retrieved_at": "2026-08-12T10:03:40.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396235,
-      "hltv_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-      "scheduled_at": "2026-08-01T18:00:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9215,
-        "name": "MIBR"
-      },
-      "opponent": {
-        "hltv_id": 12959,
-        "name": "ShindeN"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350143,
-        "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-        "retrieved_at": "2026-08-12T10:03:58.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 12959,
-          "actor_team_name": "ShindeN",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. ShindeN removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "2. MIBR removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 12959,
-          "actor_team_name": "ShindeN",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. ShindeN picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. MIBR picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. MIBR removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12959,
-          "actor_team_name": "ShindeN",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. ShindeN removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Inferno",
-          "raw_text": "7. Inferno was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350143,
-            "source_url": "https://www.hltv.org/matches/2396235/mibr-vs-shinden-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:03:58.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396229,
-      "hltv_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-      "scheduled_at": "2026-07-29T18:10:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9215,
-        "name": "MIBR"
-      },
-      "opponent": {
-        "hltv_id": 13304,
-        "name": "LP"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350144,
-        "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-        "retrieved_at": "2026-08-12T10:04:02.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 13304,
-          "actor_team_name": "LP",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "1. LP removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "2. MIBR removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 13304,
-          "actor_team_name": "LP",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Ancient",
-          "raw_text": "3. LP picked Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Mirage",
-          "raw_text": "4. MIBR picked Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. MIBR removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 13304,
-          "actor_team_name": "LP",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "6. LP removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Nuke",
-          "raw_text": "7. Nuke was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350144,
-            "source_url": "https://www.hltv.org/matches/2396229/mibr-vs-lp-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:02.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Dust2",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396225,
-      "hltv_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-      "scheduled_at": "2026-07-28T15:00:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Live\n                  Esports World Cup '26"
-      },
-      "format": "bo3",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 9215,
-        "name": "MIBR"
-      },
-      "opponent": {
-        "hltv_id": 11837,
-        "name": "Fluxo"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1350145,
-        "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-        "retrieved_at": "2026-08-12T10:04:04.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 11837,
-          "actor_team_name": "Fluxo",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "1. Fluxo removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "2. MIBR removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 11837,
-          "actor_team_name": "Fluxo",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Nuke",
-          "raw_text": "3. Fluxo picked Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "picked",
-          "map_name": "Inferno",
-          "raw_text": "4. MIBR picked Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 9215,
-          "actor_team_name": "MIBR",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Cache",
-          "raw_text": "5. MIBR removed Cache",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 11837,
-          "actor_team_name": "Fluxo",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "6. Fluxo removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Mirage",
-          "raw_text": "7. Mirage was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1350145,
-            "source_url": "https://www.hltv.org/matches/2396225/mibr-vs-fluxo-starladder-starseries-fall-2026-south-america-closed-qualifier",
-            "retrieved_at": "2026-08-12T10:04:04.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },
