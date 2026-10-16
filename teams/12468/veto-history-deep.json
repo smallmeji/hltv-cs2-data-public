@@ -1,14 +1,14 @@
 {
   "metadata": {
     "schema_version": "hltv-cs2-data.v1",
-    "requested_at": "2026-10-15T20:26:38.904Z",
+    "requested_at": "2026-10-16T06:20:58.117Z",
     "source_policy": "exact_hltv_match_identity",
     "roster_source_windows": [
       {
         "hltvTeamId": 12468
       }
     ],
-    "data_cutoff": "2026-10-15T20:26:14.692Z",
+    "data_cutoff": "2026-10-16T06:20:25.040Z",
     "fact_time_policy": "final_status_and_scheduled_at_strictly_before",
     "retrieval_lineage_policy": "retrieved_at_is_provenance_only_and_does_not_exclude_historical_facts",
     "fact_time_limitation": "matches has no actual_at; delayed or rescheduled matches can only be approximated with final status plus scheduled_at.",
@@ -22,10 +22,10 @@
   "team_hltv_id": 12468,
   "coverage": {
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 18,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
-      "bo1": 1,
-      "bo3": 18,
+      "bo1": 0,
+      "bo3": 19,
       "bo5": 1
     },
     "with_veto": 20,
@@ -44,10 +44,10 @@
   "first_ban_summary": {
     "status": "available",
     "eligible_completed_matches": 20,
-    "eligible_bo3_matches": 18,
+    "eligible_bo3_matches": 19,
     "eligible_matches_by_format": {
-      "bo1": 1,
-      "bo3": 18,
+      "bo1": 0,
+      "bo3": 19,
       "bo5": 1
     },
     "resolved_first_ban_sample_size": 20,
@@ -107,8 +107,8 @@
         "Nuke"
       ],
       "match_count": 20,
-      "from": "2026-08-12T13:20:00.000Z",
-      "to": "2026-10-14T15:40:00.000Z"
+      "from": "2026-08-13T16:50:00.000Z",
+      "to": "2026-10-15T18:50:00.000Z"
     }
   ],
   "roster_segments": [
@@ -117,11 +117,191 @@
       "signature": null,
       "members": [],
       "match_count": 20,
-      "from": "2026-08-12T13:20:00.000Z",
-      "to": "2026-10-14T15:40:00.000Z"
+      "from": "2026-08-13T16:50:00.000Z",
+      "to": "2026-10-15T18:50:00.000Z"
     }
   ],
   "matches": [
+    {
+      "hltv_match_id": 2399411,
+      "hltv_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+      "scheduled_at": "2026-10-15T18:50:00.000Z",
+      "event": {
+        "hltv_id": 8932,
+        "name": "Thunderpick World Championship 2026"
+      },
+      "format": "bo3",
+      "status": "over",
+      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
+      "team": {
+        "hltv_id": 12468,
+        "name": "Legacy"
+      },
+      "opponent": {
+        "hltv_id": 8297,
+        "name": "FURIA"
+      },
+      "match_source": {
+        "raw_snapshot_id": 3780052,
+        "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+        "retrieved_at": "2026-10-16T06:18:35.000Z",
+        "parser_version": "match_detail.dom.v3",
+        "parse_status": "success"
+      },
+      "ordered_steps": [
+        {
+          "step_number": 1,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Ancient",
+          "raw_text": "1. FURIA removed Ancient",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 2,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Anubis",
+          "raw_text": "2. Legacy removed Anubis",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 3,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Cache",
+          "raw_text": "3. FURIA picked Cache",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 4,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "picked",
+          "map_name": "Inferno",
+          "raw_text": "4. Legacy picked Inferno",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 5,
+          "actor_team_hltv_id": 8297,
+          "actor_team_name": "FURIA",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Dust2",
+          "raw_text": "5. FURIA removed Dust2",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 6,
+          "actor_team_hltv_id": 12468,
+          "actor_team_name": "Legacy",
+          "actor_identity_status": "stored_match_exact",
+          "action": "removed",
+          "map_name": "Nuke",
+          "raw_text": "6. Legacy removed Nuke",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        },
+        {
+          "step_number": 7,
+          "actor_team_hltv_id": null,
+          "actor_team_name": null,
+          "actor_identity_status": "not_applicable",
+          "action": "left_over",
+          "map_name": "Mirage",
+          "raw_text": "7. Mirage was left over",
+          "source": "match_page",
+          "source_info": {
+            "raw_snapshot_id": 3780052,
+            "source_url": "https://www.hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+            "retrieved_at": "2026-10-16T06:18:35.000Z",
+            "parser_version": "match_detail.dom.v3",
+            "parse_status": "success"
+          },
+          "retrieval_lineage_status": "observed_by_cutoff"
+        }
+      ],
+      "veto_completeness": "complete_seven_map",
+      "retrieval_lineage_status": "observed_by_cutoff",
+      "map_pool": {
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Cache",
+          "Dust2",
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ],
+        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
+      },
+      "target_first_ban": {
+        "step_number": 2,
+        "map_name": "Anubis",
+        "retrieval_lineage_status": "observed_by_cutoff"
+      },
+      "roster": {
+        "members": [],
+        "signature": null,
+        "identity_status": "missing",
+        "retrieval_lineage_status": "missing"
+      }
+    },
     {
       "hltv_match_id": 2399386,
       "hltv_url": "https://www.hltv.org/matches/2399386/legacy-vs-parivision-thunderpick-world-championship-2026",
@@ -3510,186 +3690,6 @@
             "raw_snapshot_id": 1620047,
             "source_url": "https://www.hltv.org/matches/2396580/legacy-vs-faze-esports-world-cup-2026",
             "retrieved_at": "2026-08-15T04:21:01.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        }
-      ],
-      "veto_completeness": "complete_seven_map",
-      "retrieval_lineage_status": "observed_by_cutoff",
-      "map_pool": {
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Cache",
-          "Dust2",
-          "Inferno",
-          "Mirage",
-          "Nuke"
-        ],
-        "signature": "ancient|anubis|cache|dust2|inferno|mirage|nuke"
-      },
-      "target_first_ban": {
-        "step_number": 2,
-        "map_name": "Anubis",
-        "retrieval_lineage_status": "observed_by_cutoff"
-      },
-      "roster": {
-        "members": [],
-        "signature": null,
-        "identity_status": "missing",
-        "retrieval_lineage_status": "missing"
-      }
-    },
-    {
-      "hltv_match_id": 2396566,
-      "hltv_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-      "scheduled_at": "2026-08-12T13:20:00.000Z",
-      "event": {
-        "hltv_id": 8261,
-        "name": "Esports World Cup 2026"
-      },
-      "format": "bo1",
-      "status": "over",
-      "fact_time_status": "eligible_by_final_status_and_scheduled_at",
-      "team": {
-        "hltv_id": 12468,
-        "name": "Legacy"
-      },
-      "opponent": {
-        "hltv_id": 4411,
-        "name": "Ninjas in Pyjamas"
-      },
-      "match_source": {
-        "raw_snapshot_id": 1560059,
-        "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-        "retrieved_at": "2026-08-13T08:45:59.000Z",
-        "parser_version": "match_detail.dom.v2",
-        "parse_status": "success"
-      },
-      "ordered_steps": [
-        {
-          "step_number": 1,
-          "actor_team_hltv_id": 4411,
-          "actor_team_name": "Ninjas in Pyjamas",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Dust2",
-          "raw_text": "1. Ninjas in Pyjamas removed Dust2",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 2,
-          "actor_team_hltv_id": 12468,
-          "actor_team_name": "Legacy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Anubis",
-          "raw_text": "2. Legacy removed Anubis",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 3,
-          "actor_team_hltv_id": 12468,
-          "actor_team_name": "Legacy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Nuke",
-          "raw_text": "3. Legacy removed Nuke",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 4,
-          "actor_team_hltv_id": 4411,
-          "actor_team_name": "Ninjas in Pyjamas",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Mirage",
-          "raw_text": "4. Ninjas in Pyjamas removed Mirage",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 5,
-          "actor_team_hltv_id": 4411,
-          "actor_team_name": "Ninjas in Pyjamas",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Inferno",
-          "raw_text": "5. Ninjas in Pyjamas removed Inferno",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 6,
-          "actor_team_hltv_id": 12468,
-          "actor_team_name": "Legacy",
-          "actor_identity_status": "stored_match_exact",
-          "action": "removed",
-          "map_name": "Ancient",
-          "raw_text": "6. Legacy removed Ancient",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
-            "parser_version": "match_detail.dom.v2",
-            "parse_status": "success"
-          },
-          "retrieval_lineage_status": "observed_by_cutoff"
-        },
-        {
-          "step_number": 7,
-          "actor_team_hltv_id": null,
-          "actor_team_name": null,
-          "actor_identity_status": "not_applicable",
-          "action": "left_over",
-          "map_name": "Cache",
-          "raw_text": "7. Cache was left over",
-          "source": "match_page",
-          "source_info": {
-            "raw_snapshot_id": 1560059,
-            "source_url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
-            "retrieved_at": "2026-08-13T08:45:59.000Z",
             "parser_version": "match_detail.dom.v2",
             "parse_status": "success"
           },
